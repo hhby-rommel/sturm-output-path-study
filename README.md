@@ -4,7 +4,7 @@ Reproducibility materials for native output, progressive decoder and parameter-m
 
 ## Recompute saved-count analysis
 
-Install Python and NumPy, then run:
+Download and extract `reproducibility_materials_20261010.zip` into a working directory. Install Python and NumPy, then run from that extracted directory:
 
 ```bash
 python scripts/manuscript_existing_counts_audit_20261010.py
