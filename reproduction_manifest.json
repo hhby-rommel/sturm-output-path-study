@@ -1,0 +1,83 @@
+{
+  "version": "existing-counts-20261010",
+  "evaluation_seed": 12026,
+  "public_repository": "https://github.com/hhby-rommel/sturm-output-path-study",
+  "checkpoint_SHA256": [
+    {
+      "system": "main_only",
+      "seed": 2026,
+      "checkpoint_sha256": "72568a1f8fa587e1b6e190518fd27a5dbe983c50fc1d6b545fd443bb8bf20eca"
+    },
+    {
+      "system": "decoder",
+      "seed": 2026,
+      "checkpoint_sha256": "03e422d80e059a3d4a04ef02f169caba4353d03a74ce5d671520e8b34192ff63"
+    },
+    {
+      "system": "fpn",
+      "seed": 2026,
+      "checkpoint_sha256": "da1e06f3772e2ec9895db3213cde65c750f11a1d789d2fe914db6c0fa413e6d3"
+    },
+    {
+      "system": "main_only",
+      "seed": 2027,
+      "checkpoint_sha256": "21748e6d447d2e817a3a008184222f53615e21bd68e2e73b62d3fbd4b22bf69d"
+    },
+    {
+      "system": "decoder",
+      "seed": 2027,
+      "checkpoint_sha256": "0ddaa2423ebfbcad9d2e296de55e834d75f30664c48c23e9a0237aae8b39c063"
+    },
+    {
+      "system": "fpn",
+      "seed": 2027,
+      "checkpoint_sha256": "95d810b6ee6cac8a82c233e9c421842e008db6d9a17539c8d8ccc49f33d365ed"
+    },
+    {
+      "system": "main_only",
+      "seed": 2028,
+      "checkpoint_sha256": "784a041d6eab1d82c0be07a844bf56a141ec409c91712845991d6c6cd02f38a8"
+    },
+    {
+      "system": "decoder",
+      "seed": 2028,
+      "checkpoint_sha256": "5f3b1f720784946a7f1671a0551fea23875d2fab4f647eb9aea4bccf1bd8bae2"
+    },
+    {
+      "system": "fpn",
+      "seed": 2028,
+      "checkpoint_sha256": "076e59035bcef8a380469761e41dc55039c4495e948b8eb5d519d036a934e6ed"
+    }
+  ],
+  "val_event_inference": "prepared; not executed; old val sensor totals available",
+  "test_reports": "saved fixed-input reevaluation; no new test access in current analysis",
+  "weights_included": false,
+  "dataset_pixels_included": false,
+  "project_license": "not selected; dependency notices provided",
+  "source_files": [
+    {
+      "path": "src/dataset/sturm_flood.py",
+      "sha256": "517c709b3cbf5be15539e02ca03fb0aa25b77eadd6d8ba2a7b3912c95c435eea"
+    },
+    {
+      "path": "src/models/yolo26_fpn_reference.py",
+      "sha256": "7948b7966a38360e9cc527d69e9c2a2886e982571446562959b518ff7a87c57b"
+    },
+    {
+      "path": "src/models/yolo26_main_only_control.py",
+      "sha256": "bb22310671c4a845626041b0ac491e2d271c3fff531760d5cc8ca44ca2aa4fa5"
+    },
+    {
+      "path": "src/models/yolo26_semantic.py",
+      "sha256": "8bfebb8f2d452f07c3155b453e0654c406c1f888badd1927f63d109152b68a7d"
+    },
+    {
+      "path": "src/models/yolo26_unet_decoder.py",
+      "sha256": "5b81f1431152373057c46602e31e4372f3018a3bc1246bb0a44aa81e78def60c"
+    },
+    {
+      "path": "src/training/masked_segmentation.py",
+      "sha256": "9c1e55045e5d0fed8ca1a09a90c21e3a31e352fe1e4d5dd3cf96ec5ee0aba52e"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Author-written code: project-wide license not selected. No new permissive license is asserted. Third-party dependency licenses remain as recorded in third_party_notices/. Dataset pixels and weights are excluded.
