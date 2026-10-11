@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this numerical and code research artifact when using its saved evidence."
+title: "STURM output-path study: numerical and code evidence"
+authors:
+  - name: "hhby-rommel"
+version: "v18-20261011"
+date-released: "2026-10-11"
+url: "https://github.com/hhby-rommel/sturm-output-path-study"
+repository-code: "https://github.com/hhby-rommel/sturm-output-path-study"
+# Public account identity; no paper-author identities or paper DOI are inferred.
+# License scope is documented in LICENSE.author-code and LICENSE_SCOPE.md.
