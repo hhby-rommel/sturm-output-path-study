@@ -4,6 +4,15 @@ License: **AGPL-3.0-or-later** for author-controlled source, except where otherw
 
 This release expands the earlier audit-only snapshot into an ordinary source tree: model integration, training, loaders/losses, evaluation, spatial/extent analysis and forward-cost measurement. Numerical evidence and reported results are unchanged. Historical formal variants remain under prepared_controls/ to preserve their source identity. The former ZIP is an immutable historical snapshot, not the only location of source.
 
+## Quick source map
+
+- **Core paper files:** [output models](src/models/), [training and losses](src/training/), [data loader](src/dataset/), [evaluation](src/evaluation/) and [registered configurations](configs/).
+- **Historical formal variants:** [prepared_controls/](prepared_controls/); the earlier selected-source ZIP remains an immutable snapshot.
+- **Third-party material:** [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), [retained notices](third_party_notices/) and [recorded upstream model YAML](upstream_configs/ultralytics/yolo26-sem.yaml).
+- **Release interfaces:** [train](scripts/train.py), [evaluate](scripts/evaluate.py), [benchmark](scripts/benchmark.py) and [metadata restoration](scripts/prepare_data.py); these interfaces do not execute by default.
+
+Full per-file origins and hashes: [SOURCE_PROVENANCE.md](SOURCE_PROVENANCE.md) / [SOURCE_PROVENANCE.json](SOURCE_PROVENANCE.json).
+
 ## Source and environment
 
 Read SOURCE_PROVENANCE.md, LICENSE_SCOPE.md and THIRD_PARTY_NOTICES.md. Python3.10/PyTorch2.1.0+cu121 and the recorded dependency constraints are documented in environment_record.json/environment.yml. Reconstruction choices are distinct from captured historical versions. A clean installation and full retraining have not been executed for this packaging release. Original guards may require RTX4090D; no backend fallback is inserted.
@@ -41,3 +50,5 @@ python recompute_public_evidence_20261011.py
 ```
 
 This reads the saved JSON only; it does not load images or weights. See source_release_validation.json for exactly what was checked locally. Historical MIT permissions remain available at their earlier commit and are not retroactively withdrawn. No license statement promises full historical numerical reproduction on another platform.
+
+Metadata correction **v1.0.1-paper-release** supersedes v1.0-paper-release for current manifest and citation metadata. The previous source tag remains fixed. No experimental results, source computation, weights or test access changed.

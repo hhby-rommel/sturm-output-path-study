@@ -1,5 +1,5 @@
 {
-  "version": "v18-20261011",
+  "version": "v1.0.1-paper-release",
   "evaluation_seed": 12026,
   "public_repository": "https://github.com/hhby-rommel/sturm-output-path-study",
   "checkpoint_SHA256": [
@@ -53,7 +53,7 @@
   "test_reports": "saved fixed-input reevaluation; no new test access in current analysis",
   "weights_included": false,
   "dataset_pixels_included": false,
-  "project_license": "MIT for independently authored code; third-party and derivative materials retain their original terms",
+  "project_license": "AGPL-3.0-or-later for author-controlled research source; third-party and historical materials retain applicable upstream terms",
   "source_files": [
     {
       "path": "src/dataset/sturm_flood.py",
@@ -101,12 +101,23 @@
     "Otsu": "four predeclared val schemes; frozen AND test once",
     "threshold_transfer": "val selections frozen before one-time test",
     "runtime_arithmetic": "same-session costs, main-operator scope and numerical failures",
-    "source_location": "selected src tree and third-party notices are inside historical ZIP; additional source records embedded in evidence JSON"
+    "source_location": "Normal repository src/, scripts/, configs/ and data/splits/ tree; historical selected-source ZIP retained as immutable archive"
   },
   "environment": {
     "record": "environment_record.json",
     "reconstruction": "environment.yml",
     "dependencies": "requirements.txt",
     "scope": "recorded key versions/constraints plus explicitly identified reconstruction pins; no complete historical pip freeze or reinstall certification"
-  }
+  },
+  "release_tag": "v1.0.1-paper-release",
+  "source_release_commit": "68c54fa655e4ff2656b968a5f9c8ffeb2aa76a93",
+  "release_commit_resolution": "Resolve refs/tags/v1.0.1-paper-release^{commit}; this file does not contain its own commit SHA",
+  "source_location": "Normal repository src/, scripts/, configs/ and data/splits/ tree; historical selected-source ZIP retained as immutable archive",
+  "source_files_role": "Historical ZIP source identities; current source hashes and origin mapping are in SOURCE_PROVENANCE.json",
+  "current_source_manifest": "SOURCE_PROVENANCE.json",
+  "license_scope_documents": [
+    "LICENSE",
+    "LICENSE_SCOPE.md",
+    "THIRD_PARTY_NOTICES.md"
+  ]
 }
