@@ -16,7 +16,7 @@ This command reads saved JSON reports only. It performs no training, model infer
 
 - Nine frozen best checkpoints; training seeds 2026, 2027 and 2028; evaluation seed 12026.
 - Core test reports use one sample-specific perturbation stream for all systems.
-- Validation sensor counts are included. Validation event counts are not available yet; the frozen-val supplementation script is prepared but has not run.
+- Validation sensor and event counts are archived. Validation participated in checkpoint selection; combined val/test event statistics remain descriptive.
 - Combined validation/test pooled statistics contain validation data used for checkpoint selection. They are diagnostics, not an independent 24-event test.
 - Foreground extent errors count water pixels in evaluation tile domains. They are not deduplicated flood-only geographic areas in km².
 - GPU runtime: four systems, three weights, two sensors and five batch sizes in one GPU session; 120 units and 36,000 raw timings. No I/O or H2D timing.
@@ -30,3 +30,19 @@ The dataset is available from [STURM-Flood](https://github.com/STURM-WEO/STURM-F
 ## License status
 
 A project-wide license for author-written code has not been selected. Upstream dependency notices are preserved under `third_party_notices/`; in particular Ultralytics is distributed under its recorded AGPL license. Publishing this repository does not replace upstream terms or assert that dataset or weight redistribution is permitted.
+
+## Evidence update: 11 October 2026
+
+`evidence_20261011_v17.json` contains saved Sen1-FPN and all-BN-frozen decoder results, direct FPN-decoder event pairing, all predeclared Otsu validation schemes and the frozen one-time test result, threshold-transfer statistics, cost and numerical checks, and source records. It includes all archived directions and failures. It contains no manuscript, raw imagery or checkpoint binaries.
+
+Read this UTF-8 JSON with Python:
+
+```python
+import json
+with open("evidence_20261011_v17.json", encoding="utf-8") as f:
+    bundle = json.load(f)
+print(bundle["reports"].keys())
+print(bundle["source_records"].keys())
+```
+
+Source records retain their original environment paths and require the recorded data, weights and dependencies; they are not turnkey retraining instructions. Existing historical archives remain unchanged. Checkpoint SHA identities are supplied; weight download links have not been established. Author-code license selection is still pending; third-party terms remain applicable.
