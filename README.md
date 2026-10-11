@@ -29,7 +29,7 @@ The dataset is available from [STURM-Flood](https://github.com/STURM-WEO/STURM-F
 
 ## License status
 
-A project-wide license for author-written code has not been selected. Upstream dependency notices are preserved under `third_party_notices/`; in particular Ultralytics is distributed under its recorded AGPL license. Publishing this repository does not replace upstream terms or assert that dataset or weight redistribution is permitted.
+The author selected MIT for independently authored code; see LICENSE.author-code and LICENSE_SCOPE.md. Upstream dependency notices are preserved under `third_party_notices/`; in particular Ultralytics is distributed under its recorded AGPL license. Publishing this repository does not replace upstream terms or assert that dataset or weight redistribution is permitted.
 
 ## Evidence update: 11 October 2026
 
@@ -45,4 +45,4 @@ print(bundle["reports"].keys())
 print(bundle["source_records"].keys())
 ```
 
-Source records retain their original environment paths and require the recorded data, weights and dependencies; they are not turnkey retraining instructions. Existing historical archives remain unchanged. Checkpoint SHA identities are supplied; weight download links have not been established. Author-code license selection is still pending; third-party terms remain applicable.
+Source records retain their original environment paths and require the recorded data, weights and dependencies; they are not turnkey retraining instructions. Existing historical archives remain unchanged. Checkpoint SHA identities are supplied; weight download links have not been established. Independently authored code uses MIT; third-party and derivative-code terms remain applicable.
