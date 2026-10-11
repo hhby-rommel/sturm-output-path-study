@@ -1,0 +1,8 @@
+{
+  "origin_sha256": "dcc8b97df07e02edfc373d26e8065c9dc0fbd1ef507715bc23df8b32e890fd45",
+  "local_tensor_asset": "models/pretrained/research_comparators/lwganet_l0_imagenet_tensor_only_v1.pt",
+  "sha256": "3edab5306fb3f183462ee9e936818b2603efda2fa3cb118256ac2cdc1dd94afe",
+  "count": 477,
+  "all_tensors_exact_to_official_model_key": true,
+  "scope": "metadata stripped only; enables weights_only loading without argparse allowlisting"
+}

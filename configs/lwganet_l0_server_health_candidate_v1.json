@@ -1,0 +1,62 @@
+{
+  "version": "lwganet_l0_server_health_candidate_v1",
+  "status": "local_audited_waiting_server_resources_not_authorized",
+  "scope": "bounded train/val health diagnostic, not formal training",
+  "architecture": "LWGANet_L0_UNetFormer_shared_STURM_window4_deterministic_unpool_v2",
+  "source_commit": "a5ba000fa72f224eb4669383d8daf0beea6f85e7",
+  "weight_sha256": "dcc8b97df07e02edfc373d26e8065c9dc0fbd1ef507715bc23df8b32e890fd45",
+  "parameter_count": 1836807,
+  "seed": 10108,
+  "allowed_splits": [
+    "train",
+    "val"
+  ],
+  "test_access": false,
+  "formal_admission": false,
+  "image_size": 128,
+  "input_normalization": "none_v1",
+  "train_count": 14561,
+  "val_count": 4853,
+  "batch_size": 16,
+  "max_epochs": 4,
+  "max_updates": 3644,
+  "wall_seconds_limit": 7200,
+  "training_variant": "m1_degraded",
+  "loss": "masked_ce_plus_dice_v1, aux_weight .4",
+  "optimizer": {
+    "name": "adamw",
+    "lr": 0.0001,
+    "weight_decay": 0.0001,
+    "exclude_norm_bias": true
+  },
+  "scheduler": {
+    "name": "warmup_cosine",
+    "warmup_fraction": 0.05,
+    "minimum_lr_ratio": 0.01
+  },
+  "gradient_clip_norm": 5,
+  "batchnorm_policy": "shared running stats, preserved candidate; paired BN audit required, not silently switched",
+  "selection": "fixed tag1 degraded pooled flood F1; clean tie; earlier epoch tie",
+  "backend": "strict deterministic algorithms; deterministic cuDNN; TF32 off; CUBLAS4096:8; unique-index scatter unpool equivalent; server backend still unaudited",
+  "output_root": "experiments/lwganet_l0_server_health_v1",
+  "server_project_root": "/root/autodl-tmp/sturm_codex_20260919",
+  "entry_requires": [
+    "separate user authorization and available server resources",
+    "local closure summary passed",
+    "frozen source/assets verified",
+    "server environment and backend audit"
+  ],
+  "exit_requires": [
+    "finite losses gradients and real updates",
+    "complete val and selected checkpoint replay",
+    "epoch-boundary resume equivalence",
+    "shared versus calibrated BN diagnosis",
+    "same-machine inference profile"
+  ],
+  "formal_release_requires": [
+    "resolve or explicitly justify BN behavior",
+    "freeze formal optimization and budget independently of test",
+    "three seeds and exclusive test guard",
+    "separate formal authorization"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "historical_lock_sha256": "27092dd1c2a846b93600fb9c4481db2e9b27d62bb415b2bc4fc79c803ebd83c6",
+  "historical_config_sha256": "2cd2b12f4765fb8bc478cca6779ba59f9cd0ddad790ee096833879a642d283ad",
+  "public_lock_sha256": "2a640048f7e40397d39f709bb5b6376bb5a9d60b5bea7b67b6836ee144f5ff09",
+  "public_config_sha256": "8a77f7a94997f6bddee7667eadf091baf9a7ea4ffececee2bf17f41905c878e5",
+  "changed_fields": [
+    "event_split_path",
+    "event_split_sensitivity_paths",
+    "event_stats_path",
+    "manifest_path",
+    "project_root",
+    "raw_data_dir"
+  ],
+  "numeric_config_unchanged": true,
+  "frozen_source_hashes_unchanged": true,
+  "data_and_initialization_hashes_unchanged": true,
+  "scope": "Sanitized derivative, not byte-identical historical config. New scope files must refer to this public lock.",
+  "v4_documentation_revision": {
+    "from_candidate": "decoder_reproduction_release_20261004_v3",
+    "manuscript": "paper_working_20261004_v17",
+    "source_files_unchanged": true,
+    "numeric_configuration_unchanged": true
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "core_sha256": "0874aac3b80ae5064a610fc20cd1be9cf0ecb47fefa6101d49c652e3fe295544",
+  "commit": "8afced654190225e3e08a0e1cc3d8e403e7957d5",
+  "repository": "https://github.com/caglarmert/LALE",
+  "extraction": "AST whitelist of seven original architecture classes; excludes script imports and top-level training/data side effects",
+  "source_modifications": []
+}

@@ -1,0 +1,92 @@
+{
+  "status": "SOURCE_PACKAGE_STATIC_AND_DRY_RUN_PASS_NOT_END_TO_END_RUN_CERTIFIED",
+  "compiled_source_count": 229,
+  "missing_local_imports": {},
+  "dry_runs": [
+    {
+      "phase": "train + historical one-shot test",
+      "command": [
+        "C:\\Users\\hhby\\anaconda3\\python.exe",
+        "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\prepared_controls\\sturm_agpl_release_20261011_v1\\repository\\scripts\\server_main.py",
+        "--model",
+        "yolo26n_native_c16_main_only",
+        "--seed",
+        "2026"
+      ],
+      "execution_requested": false,
+      "may_access_test": true
+    },
+    {
+      "phase": "train + historical one-shot test",
+      "command": [
+        "C:\\Users\\hhby\\anaconda3\\python.exe",
+        "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\prepared_controls\\sturm_agpl_release_20261011_v1\\repository\\scripts\\server_main.py",
+        "--model",
+        "yolo26n_decoder",
+        "--seed",
+        "2026"
+      ],
+      "execution_requested": false,
+      "may_access_test": true
+    },
+    {
+      "phase": "train/val only",
+      "command": [
+        "C:\\Users\\hhby\\anaconda3\\python.exe",
+        "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\prepared_controls\\sturm_agpl_release_20261011_v1\\repository\\scripts\\fpn_reference_task_20261008.py",
+        "--seed",
+        "2026",
+        "--output",
+        "results/reproduction/fpn2026",
+        "--mode",
+        "train",
+        "--execute-authorized"
+      ],
+      "execution_requested": false,
+      "may_access_test": false
+    },
+    {
+      "phase": "train/val only",
+      "command": [
+        "C:\\Users\\hhby\\anaconda3\\python.exe",
+        "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\prepared_controls\\sturm_agpl_release_20261011_v1\\repository\\scripts\\sen1_fpn_task_20261011.py",
+        "--task",
+        "fpn_seed2026",
+        "--output",
+        "results/reproduction/sen1_fpn2026",
+        "--mode",
+        "train"
+      ],
+      "execution_requested": false,
+      "may_access_test": false
+    },
+    {
+      "phase": "frozen three-system test reevaluation",
+      "command": [
+        "C:\\Users\\hhby\\anaconda3\\python.exe",
+        "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\prepared_controls\\sturm_agpl_release_20261011_v1\\repository\\scripts\\server_output_path_followup_20261010.py"
+      ],
+      "execution_requested": false,
+      "may_access_test": true
+    },
+    {
+      "phase": "FP32 forward costs; no dataset access",
+      "command": [
+        "C:\\Users\\hhby\\anaconda3\\python.exe",
+        "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\prepared_controls\\sturm_agpl_release_20261011_v1\\repository\\scripts\\server_runtime_matched_session_20261010.py"
+      ],
+      "execution_requested": false,
+      "may_access_test": false
+    }
+  ],
+  "training": false,
+  "inference": false,
+  "test_access": false,
+  "original_numerical_evidence_changed": false,
+  "environment_reinstalled": false,
+  "full_retraining_executed": false,
+  "metadata_and_header_path_changes_only": true,
+  "saved_evidence_recomputation": "PASS",
+  "upstream_model_yaml_included": true,
+  "compressed_metadata_byte_identity": "PASS"
+}

@@ -1,0 +1,127 @@
+project_root: .
+raw_data_dir: data/raw
+manifest_path: data/manifests/manifest.csv
+event_stats_path: data/manifests/event_statistics.csv
+event_split_path: data/splits/event_split_v1.csv
+event_split_sensitivity_paths:
+  - data/splits/event_split_sensitivity_a.csv
+  - data/splits/event_split_sensitivity_b.csv
+upstream_repo: https://github.com/STURM-WEO/STURM-Flood
+data_source_note: docs/data_source_and_license.md
+
+seed: 2026
+image_size: 128
+pilot_model: yolo26n-sem.pt
+main_model: yolo26n-sem.pt
+supplementary_scale_model: yolo26s-sem.pt
+primary_feature_levels: [P3, P4]
+
+formal_experiments:
+  seeds: [2026, 2027, 2028]
+  batch_size: 16
+  early_stopping_patience: 10
+  fixed_degraded_tag: 1
+  yolo_max_epochs: 50
+  unet_max_epochs: 30
+  freeze_batchnorm_running_stats:
+    yolo: true
+    sturm_unet: false
+  sturm_unet_dropout: 0.30
+  sturm_unet_base_channels: 64
+  decoder:
+    common_channels: 16
+    use_input_skip: true
+  primary_model: yolo26n_decoder
+  matrix:
+    - yolo26n_native
+    - yolo26n_decoder
+    - yolo26n_decoder_dcl
+    - yolo11n_eca
+    - sturm_unet
+  supplementary_model: yolo26s_decoder
+
+optimization_specs:
+  optimizer_v1:
+    optimizer: adamw
+    learning_rate: 0.0003
+    weight_decay: 0.0001
+    scheduler: none
+    warmup_fraction: 0.0
+    minimum_lr_ratio: 1.0
+    exclude_norm_and_bias_from_weight_decay: false
+    track_parameter_update: false
+  unet_optimizer_v2_lr1e4:
+    optimizer: adamw
+    learning_rate: 0.0001
+    weight_decay: 0.0001
+    scheduler: warmup_cosine
+    warmup_fraction: 0.05
+    minimum_lr_ratio: 0.01
+    exclude_norm_and_bias_from_weight_decay: true
+    track_parameter_update: true
+  unet_optimizer_v2_lr3e4:
+    optimizer: adamw
+    learning_rate: 0.0003
+    weight_decay: 0.0001
+    scheduler: warmup_cosine
+    warmup_fraction: 0.05
+    minimum_lr_ratio: 0.01
+    exclude_norm_and_bias_from_weight_decay: true
+    track_parameter_update: true
+  unet_optimizer_v2_lr1e3:
+    optimizer: adamw
+    learning_rate: 0.001
+    weight_decay: 0.0001
+    scheduler: warmup_cosine
+    warmup_fraction: 0.05
+    minimum_lr_ratio: 0.01
+    exclude_norm_and_bias_from_weight_decay: true
+    track_parameter_update: true
+
+formal_unet_v2:
+  version: unet_no_bn_optimizer_v2_v1
+  model_id: sturm_unet
+  sensor_models: independent_native
+  base_channels: 64
+  dropout: 0.30
+  use_batchnorm: false
+  input_normalization: none_v1
+  training_variant: m1_degraded
+  loss: masked_ce_plus_dice_v1
+  optimizer_spec_version: unet_optimizer_v2_lr1e4
+  max_epochs: 30
+  early_stopping_patience: 10
+  checkpoint_selection: pixel_pooled_degraded_f1_clean_tie_earlier_v1
+  seeds: [2026, 2027, 2028]
+
+quality_features:
+  - valid_pixel_ratio
+  - nodata_ratio
+  - saturation_ratio
+  - sensor_specific_noise_index
+
+label_protocol:
+  raw_zero_label: 0
+  raw_positive_label: 1
+  positive_rule: raw_mask_gt_zero
+  valid_pixel_rule: finite_and_not_declared_image_nodata
+  invalid_region: ignore_in_loss_and_metrics
+  authority: external/STURM-Flood/utils/utility.py
+
+split_protocol:
+  unit: event
+  main_seed: 2026
+  event_counts: {train: 36, val: 12, test: 12}
+  target_tile_fraction: {train: 0.60, val: 0.20, test: 0.20}
+  sensitivity_modes: [tile_priority, sensor_priority]
+
+dcl:
+  consistency_weight_max: 0.1
+  route_weight_max: 0.05
+  warmup_fraction: 0.2
+  ramp_fraction: 0.2
+  confidence_floor: 0.1
+  route_margin_min: 0.05
+  route_margin_max: 0.20
+  route_beta: 0.5
+  minimum_retention_rate: 0.70

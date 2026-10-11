@@ -1,0 +1,507 @@
+{
+  "status": "CONFIGURATION_SPLITS_AND_STORAGE_FROZEN_NOT_LAUNCHED",
+  "study": "Sen1Floods11 S1 full-budget second-dataset training",
+  "parent_protocol_sha256": "ddca08c9d31af22f1ad8fb9abcec23bf5554be5c6082a834fe37ca952e4427e3",
+  "seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "tasks": [
+    {
+      "ordinal": 1,
+      "id": "decoder_seed2026",
+      "system": "decoder",
+      "seed": 2026,
+      "max_epochs": 50,
+      "steps_per_epoch": 252,
+      "patience": 10,
+      "new_decoder_BN_train": true,
+      "initialize_from_diagnostic": false,
+      "test_once_after_val_best_frozen": true
+    },
+    {
+      "ordinal": 2,
+      "id": "main_only_seed2026",
+      "system": "main_only",
+      "seed": 2026,
+      "max_epochs": 50,
+      "steps_per_epoch": 252,
+      "patience": 10,
+      "new_decoder_BN_train": false,
+      "initialize_from_diagnostic": false,
+      "test_once_after_val_best_frozen": true
+    },
+    {
+      "ordinal": 3,
+      "id": "unet_seed2026",
+      "system": "unet",
+      "seed": 2026,
+      "max_epochs": 30,
+      "steps_per_epoch": 252,
+      "patience": 10,
+      "new_decoder_BN_train": false,
+      "initialize_from_diagnostic": false,
+      "test_once_after_val_best_frozen": true
+    },
+    {
+      "ordinal": 4,
+      "id": "decoder_seed2027",
+      "system": "decoder",
+      "seed": 2027,
+      "max_epochs": 50,
+      "steps_per_epoch": 252,
+      "patience": 10,
+      "new_decoder_BN_train": true,
+      "initialize_from_diagnostic": false,
+      "test_once_after_val_best_frozen": true
+    },
+    {
+      "ordinal": 5,
+      "id": "main_only_seed2027",
+      "system": "main_only",
+      "seed": 2027,
+      "max_epochs": 50,
+      "steps_per_epoch": 252,
+      "patience": 10,
+      "new_decoder_BN_train": false,
+      "initialize_from_diagnostic": false,
+      "test_once_after_val_best_frozen": true
+    },
+    {
+      "ordinal": 6,
+      "id": "unet_seed2027",
+      "system": "unet",
+      "seed": 2027,
+      "max_epochs": 30,
+      "steps_per_epoch": 252,
+      "patience": 10,
+      "new_decoder_BN_train": false,
+      "initialize_from_diagnostic": false,
+      "test_once_after_val_best_frozen": true
+    },
+    {
+      "ordinal": 7,
+      "id": "decoder_seed2028",
+      "system": "decoder",
+      "seed": 2028,
+      "max_epochs": 50,
+      "steps_per_epoch": 252,
+      "patience": 10,
+      "new_decoder_BN_train": true,
+      "initialize_from_diagnostic": false,
+      "test_once_after_val_best_frozen": true
+    },
+    {
+      "ordinal": 8,
+      "id": "main_only_seed2028",
+      "system": "main_only",
+      "seed": 2028,
+      "max_epochs": 50,
+      "steps_per_epoch": 252,
+      "patience": 10,
+      "new_decoder_BN_train": false,
+      "initialize_from_diagnostic": false,
+      "test_once_after_val_best_frozen": true
+    },
+    {
+      "ordinal": 9,
+      "id": "unet_seed2028",
+      "system": "unet",
+      "seed": 2028,
+      "max_epochs": 30,
+      "steps_per_epoch": 252,
+      "patience": 10,
+      "new_decoder_BN_train": false,
+      "initialize_from_diagnostic": false,
+      "test_once_after_val_best_frozen": true
+    }
+  ],
+  "maximum_training_updates": 98280,
+  "maximum_sample_exposures": 1572480,
+  "steps_per_epoch": 252,
+  "train_chips": 252,
+  "val_chips": 89,
+  "test_chips": 90,
+  "Bolivia_included": false,
+  "not_event_disjoint": true,
+  "model_workspace": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3",
+  "pretrained": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/models/pretrained/yolo26n-sem.pt",
+  "train_val_cache": "results/sen1_full_pool_preparation_20261004_v3",
+  "numeric": {
+    "batch": 16,
+    "clip": 5,
+    "supervision": "clean CE+Dice plus original S1 degraded CE+Dice, summed; no new class weights/aux outputs",
+    "BN": "All frozen vs only6 newly initialized decoder BN train; other BN frozen",
+    "max_epochs": {
+      "decoder": 50,
+      "main_only": 50,
+      "unet": 30
+    },
+    "patience": 10,
+    "selection": "degraded val F1 then exact clean tie then earlier epoch",
+    "sampler": "Uniform replacement over all 4032 official S1 train windows; same predeclared draw rows in three models",
+    "input": "Raw received VV/VH dB float32; no normalization/scaling/clipping or statistics fitted to val/test",
+    "label": "-1 ignored; 0 background; 1 water",
+    "output": "128x128; main_only bilinear logits align_corners=False, label never interpolated",
+    "ignore_index": -1
+  },
+  "optimization": {
+    "decoder": {
+      "lr": 0.0003,
+      "weight_decay": 0.0001,
+      "scheduler": "none",
+      "exclude_norm_bias_decay": false
+    },
+    "main_only": {
+      "lr": 0.0003,
+      "weight_decay": 0.0001,
+      "scheduler": "none",
+      "exclude_norm_bias_decay": false
+    },
+    "unet": {
+      "lr": 0.0001,
+      "weight_decay": 0.0001,
+      "scheduler": "warmup_cosine",
+      "warmup_fraction": 0.05,
+      "minimum_lr_ratio": 0.01,
+      "exclude_norm_bias_decay": true,
+      "total_steps": 7560,
+      "scope": "Schedule sized to full official training windows/30 epochs, not compressed to 64 diagnostic steps"
+    }
+  },
+  "device": {
+    "required_name": "NVIDIA GeForce RTX 4090 D",
+    "index": 0,
+    "dtype": "float32",
+    "AMP": false,
+    "cudnn_allow_tf32": false,
+    "matmul_allow_tf32": false,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "deterministic_algorithms": true,
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+    "scope": "New GPU diagnostic backend, distinct from historical device-forward benchmark and CPU; no silent CPU fallback or nondeterministic fallback"
+  },
+  "new_decoder_BN_names": [
+    "fuse_p2.block.1",
+    "fuse_p2.block.4",
+    "fuse_p1.block.1",
+    "fuse_p1.block.4",
+    "fuse_input.block.1",
+    "fuse_input.block.4"
+  ],
+  "sequence_files": [
+    {
+      "seed": 2026,
+      "path": "prepared_controls/sen1_formal_20261005_v1/sampler_seed2026.npy",
+      "sha256": "fc60191a711ebd6855a37b50915c022afd6b00a1808d97cb3fd3a200728c63ec",
+      "shape": [
+        12600,
+        16
+      ],
+      "unet_uses_first_rows": 7560
+    },
+    {
+      "seed": 2027,
+      "path": "prepared_controls/sen1_formal_20261005_v1/sampler_seed2027.npy",
+      "sha256": "94c6adf7a7bf57958f50015aa1121f0c44002911866bf7a263bf929a8f0295bc",
+      "shape": [
+        12600,
+        16
+      ],
+      "unet_uses_first_rows": 7560
+    },
+    {
+      "seed": 2028,
+      "path": "prepared_controls/sen1_formal_20261005_v1/sampler_seed2028.npy",
+      "sha256": "4d241dd2e699009ae491b0e27ac56fc141b6b5961d410147c92bc19fae79f38a",
+      "shape": [
+        12600,
+        16
+      ],
+      "unet_uses_first_rows": 7560
+    }
+  ],
+  "sampling_sequence_rule": "Uniform replacement over sorted frozen train window index; same seed uses identical draw prefix across all three systems; independent degradation stream per seed/global training update, distinct from model-dropout RNG.",
+  "initialization": "YOLO uses original Cityscapes-compatible checkpoint transfer, same-seed common tensors verified; U-Net native S1 expert base64/dropout.30/noBN random Xavier as original. No STURM-trained best used.",
+  "BN_policy": {
+    "decoder": "Freeze all backbone/neck/other BN; only listed six new decoder BN update clean then degraded; affine gradients retained",
+    "main_only": "All BN running statistics frozen; affine gradients retained",
+    "unet": "Original no-BN architecture"
+  },
+  "recipe_basis": "User approved Sen1-only six-layer BN adaptation based on two CPU diagnostic seeds and GPU validation. STURM historical configuration untouched. Comparison is output paths plus their specified training recipes, not a decoder-only causal ablation.",
+  "checkpoint_selection": {
+    "frequency": "Full clean/degraded validation after every completed epoch, no initial checkpoint candidate",
+    "primary": "degraded pooled foreground F1",
+    "tie": "exact clean pooled F1 then earlier epoch",
+    "patience": 10,
+    "best_model_checkpoint": "model+selection+source identity; no optimizer required",
+    "last_checkpoint": "model+optimizer+scheduler+Python/NumPy/CPU/CUDA RNG+sampler cursor+history+protocol/source SHA",
+    "atomic_save": true,
+    "no_automatic_resume": true
+  },
+  "evaluation_contract": {
+    "raw_input": "VV/VH dB float32, no normalization/scale/clipping",
+    "label": "-1 ignored, 0 background, 1 water; ignore_index=-1",
+    "tiling": "512 chips split non-overlapping 4x4 windows at 128; raster/label alignment audited; label never interpolated",
+    "output": "Bilinear resize logits to128 align_corners=False if needed; argmax then exact placement back to original chip grid",
+    "valid_domain": "Label valid and finite both channels, plus predeclared synthetic drop mask for degraded; retain empty-domain tiles with explicit zero counts",
+    "validation_randomness": "All models/seeds share one frozen evaluation seed12026 and stream1, fixed file/window order and batch16; view RNG scope restores caller state",
+    "test_randomness": "Same fixed evaluation seed12026/stream1, file/window order from test manifest and batch16; independent test partition; clean and degraded evaluated within one claim",
+    "degradation": "Reuse locked original S1 degradation implementation and coefficients; no tuning on external test",
+    "aggregation": "Sum TP/FP/FN/TN before pooled F1; per filename group counts and group-equal macro; zero denominator F1/P/R=0; across training seeds mean and sample SD; same-seed paired deltas; groups not asserted independent events"
+  },
+  "test_contract": {
+    "claim": "Exclusive per-task test_access_claim before reading test image/label pixels; best SHA and selection already frozen",
+    "once": "Exactly one clean and one fixed-degraded full90-chip pass within the task claim; success required before next task",
+    "failure": "Claim with missing/invalid result stops; never re-evaluate automatically",
+    "use": "Final report only, never checkpoint/recipe selection or remaining task changes",
+    "Bolivia": "Excluded now; adding15 chips would require a separate scope/version before access",
+    "download": "Only90 prescribed image/label pairs; bounded attempts and SHA receipts, no Bolivia/S2/STURM downloads"
+  },
+  "execution_guards": {
+    "serial": true,
+    "first_failure_stop": true,
+    "no_retry_resume": true,
+    "new_output_directories": true,
+    "no_overwrite": true,
+    "environment_upgrade": false,
+    "storage_check_before_each_task_and_atomic_save": true,
+    "minimum_future_capacity": "Remaining task checkpoint budget + maximum temporary overlap + retained reserve; fail before write if below threshold",
+    "initialization_and_input_hash_checks": true,
+    "no_other_experiment_auto_launch": true
+  },
+  "authorization_state": {
+    "plan_freeze_authorized": true,
+    "formal_launch_authorized": false,
+    "test_scope_frozen": true,
+    "test_execution_authorized": false
+  },
+  "execution_entry_status": "Not yet implemented/admitted; this file freezes plan only. Requires entry/source lock, bounded non-training interface checks and fresh capacity receipt before launch.",
+  "locked_files": [
+    {
+      "path": "prepared_controls/sen1_training_diagnostic_20261004_v2/selection_before_download.json",
+      "sha256": "86154f2b438f16e50aa6dec54ff9f02b5f073299330c8421b8cdbc8467920858"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/models/pretrained/yolo26n-sem.pt",
+      "sha256": "f3f293cca764de1f93044030d8d5612de9c5ffbf37c9c8ea1b69418b73038999"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/dataset/quality.py",
+      "sha256": "ae7b8c91207ba89e17762958e5d7351e4ab0d77e670b9f57f11cd35c3faaf3af"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/dataset/sturm_flood.py",
+      "sha256": "517c709b3cbf5be15539e02ca03fb0aa25b77eadd6d8ba2a7b3912c95c435eea"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/dataset/__init__.py",
+      "sha256": "8d5ea7e269472ba0001000eee7c46fe535e9b67a833c25b017c8d71c276fa259"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/data_audit/audit_sturm.py",
+      "sha256": "edc0ed2db9e7f5da9cab25fef95d10ce6e8cc160f4ef537c54bb08695230d1c7"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/data_audit/full_audit.py",
+      "sha256": "c9fc2d943f7b66ad375cdd8a2f69f1ef11a2619d8d1c8810e4e6aa23f90ef9ef"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/data_audit/split_events.py",
+      "sha256": "322a1a4f9d9817b8349ed7b90241b208144855db6f73ab853300a148e6ad8a4c"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/data_audit/validate_outputs.py",
+      "sha256": "d18d5b2ed5010315cdc60790debe53917af3eaf5a975d07631c235b14eeadf09"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/evaluation/formal.py",
+      "sha256": "be2bf82729fa57d818210eef3e860e73a9ec655dac547d9fd8e61c5e73406dfb"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/evaluation/s2_pixel_errors.py",
+      "sha256": "14eb8fa51be94a45da0ac4dfcc78af89b9477896ffacab4b013345582fa4f424"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/evaluation/__init__.py",
+      "sha256": "252d8b656ebb8b6c337792d2efa9a68dd9afd3297b08d0fbf926dd7e81efd635"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/decoder_attribution.py",
+      "sha256": "52821e37ecf39268ad78799b48c106ff9b10265a8f451a4cc0d88ad17d9b898a"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/efficientvit_b0_comparator.py",
+      "sha256": "65d18163ee49d36c4d0b468677d356af235e56915c9995078e6ff26eb55afb34"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/eomt_prepared.py",
+      "sha256": "b186e703e4ac12308e5e9924dd7b054bf4eb02a51310393c4be4ce2b47d8bf33"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/eomt_s_comparator.py",
+      "sha256": "ee11665e0d5767be2d83282365c64dc0c2c61e1aefbbf45836df6ee3a6e36ae3"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/lale_comparator.py",
+      "sha256": "f2c2f1950cebccdfa9eecf1bf7d590d21e8089075905b13c18404b57882a8dd7"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/local_multiscale_context_pretest.py",
+      "sha256": "ec4ffde0a7f0ed14cbacbd1b7b8290ab411856fe035f48c70f555e4f59aac0a4"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/lwganet_comparator.py",
+      "sha256": "188fd1bfc04f652501bc2268fba99bd1f95ba9fa083dfaeb3d90a76135cac410"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/lwganet_deterministic.py",
+      "sha256": "ce13e31d7ce275b011b411e6895bbcfec7ebf2de83e2bb651020f854f67fc488"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/optional_comparison.py",
+      "sha256": "7c0835f6d6d7e423df70360421be8830a8ff2feb340f1e5741f62b54f73835e1"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/research_comparators.py",
+      "sha256": "ea3fd66579d647e353fa0107dbfdc7a032f22f07da4ce19ab872f2f175aaf9dc"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/unet_semantic.py",
+      "sha256": "d047de3b8e33a2afc63750ee6236186ac6dccf8642a79017e315c90546f6c6b7"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo11_semantic.py",
+      "sha256": "1b626469d284287694e91b929d6293277884025477330a87550a3a926e5abef9"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo26_control_pretest.py",
+      "sha256": "fc1bff193470fbb7f0cd0fe78d8713b742c93d124344a10b06116fd604487c99"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo26_main_only_control.py",
+      "sha256": "bb22310671c4a845626041b0ac491e2d271c3fff531760d5cc8ca44ca2aa4fa5"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo26_semantic.py",
+      "sha256": "8bfebb8f2d452f07c3155b453e0654c406c1f888badd1927f63d109152b68a7d"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo26_sensor_p2_gate.py",
+      "sha256": "62f26c152bca230167678b13214bfb383299e8c6950aabbee9b7318f25866695"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo26_unet_decoder.py",
+      "sha256": "5b81f1431152373057c46602e31e4372f3018a3bc1246bb0a44aa81e78def60c"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolov12_comparator.py",
+      "sha256": "743fe1b71b7a79c8991585bb9970ca488d67d1a95f6f199eee6b0999fa17d3cb"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolov12_head_control_pretest.py",
+      "sha256": "848522f732aae93df5d2ed8d3ebc65f8735c416220272ddfc316ed7fbde3bfd9"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolov8_ghost_semantic.py",
+      "sha256": "64d8d77832f4b67c4f9fcba24e6ef16a5669f6f5dfcbaf9b4b267ee4316220ab"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/__init__.py",
+      "sha256": "496a12e96ee62e203e38d6891bf6cb6a94dc512a9f4291983f92ab8ba0824d69"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/dcl_losses.py",
+      "sha256": "f250e4cbd163b4b47d86ad2d6f158c90741ae88c41d6b70e507ff258bd779066"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/degradation.py",
+      "sha256": "150b5fca924a319447ebc78d13569d84ca3ed8a7bf2dc1fabda469391418e4f7"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/engine.py",
+      "sha256": "3b442a31b054e2e98ec8ba45740195ec6839665601561098d60cca9c0382cc5b"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/eomt_mask_classification.py",
+      "sha256": "cca9bda2da02baf57b1d585c3350b7315682a5cef164c60ef94a60b2535fd8ed"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/eomt_protocol.py",
+      "sha256": "46175df0db300aae90d35d50ce65534a6dc0a8d5f2a0963da194f85468010d13"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/exposure_matched_decoder_control.py",
+      "sha256": "1e34a5217546c770829903fe32e7736ad4b0f0e06b00d6b6bb71c61a7f8c9526"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/historical_engine_oracle.py",
+      "sha256": "dbb1ce3cef0b3f8b18892b6e594509c68d55b671c16f0b496b2430648836b020"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/independent_decoder_preflight.py",
+      "sha256": "1af7ad966de5c9ba6a3ef3c4ee3db6fc706f5e106776b056f858777b5e54e02d"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/masked_segmentation.py",
+      "sha256": "9c1e55045e5d0fed8ca1a09a90c21e3a31e352fe1e4d5dd3cf96ec5ee0aba52e"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/optimization.py",
+      "sha256": "88bccdd0845780b61cb8b8cca3934b52ac31b73e57665743d2c0b28538956c89"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/single_sensor_decoder_control.py",
+      "sha256": "0af7b8da92630000f236e30b3360e73953d96270fd16d8b6c06870dbe8b23e7a"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/__init__.py",
+      "sha256": "1bd99a731c5a4baee8beebe001ff8c08856e9c1d103f913e983c1f64ad2e168d"
+    },
+    {
+      "path": "results/sen1_full_pool_preparation_20261004_v3/images.npy",
+      "sha256": "2602124a957ffd345cb07f027d761f3cc180c9501838c6136296028273305858"
+    },
+    {
+      "path": "results/sen1_full_pool_preparation_20261004_v3/targets.npy",
+      "sha256": "cd7c704ccfd5586f59936b48b68df50969d43fb1d4b78df4ee351774b3c555aa"
+    },
+    {
+      "path": "results/sen1_full_pool_preparation_20261004_v3/valid.npy",
+      "sha256": "826c888016f27e5a4d5353dbcf38b2b1e6f46947a119a3b9b8be81e2e27e6b85"
+    },
+    {
+      "path": "results/sen1_full_pool_preparation_20261004_v3/tile_index.json",
+      "sha256": "8ddff13dfe2c4c31bb30ed7bcb24f466528fd713a38cc8ff2d4e3bb57984bbc9"
+    },
+    {
+      "path": "results/sen1_full_pool_preparation_20261004_v3/input_label_profiles.json",
+      "sha256": "05b9cc85813284ec06fc8e9848ac655664236da9043164284b35a54de49b2e8b"
+    },
+    {
+      "path": "results/sen1_full_pool_preparation_20261004_v3/asset_receipts.json",
+      "sha256": "16f1d6efcd7f1d2f312ff834de9490af924822fdcce8d1c8f43bf87036e25902"
+    },
+    {
+      "path": "results/sen1_full_pool_preparation_20261004_v3/selection_before_download.json",
+      "sha256": "ddc944a205dcbc1b3407794993e0aab70346cd63e201fbc89048ebeebdf6c760"
+    },
+    {
+      "path": "prepared_controls/sen1_gpu_prevalidation_20261005_v1/sampler_draws.npy",
+      "sha256": "b7648d8e2c61763e695d33aaaa4b0b963e8bf3fe0e1c7e7557535e46228ee66f"
+    },
+    {
+      "path": "scripts/sen1_gpu_prevalidation_20261005.py",
+      "sha256": "20ee02e271f1a6a1482b53370ad293552ab14f2a3b82b86200aae175424802b1"
+    }
+  ],
+  "cost_estimate": {
+    "source": "Completed four-arm GPU diagnostic timings",
+    "upper_training_update_budget": 98280,
+    "rough_pure_update_hours_from_measured_diagnostic_means": 2.7278831305240603,
+    "not_total_duration": true
+  },
+  "storage_budget_file": "storage_budget.json"
+}

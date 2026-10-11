@@ -1,7 +1,7 @@
 # License and asset scope
 
-The author selected the MIT License for independently authored code. See LICENSE.author-code. This is not a blanket relicensing of all repository contents.
+Author-controlled source in this release is licensed under GNU AGPL-3.0-or-later unless an existing upstream notice specifies otherwise. The root LICENSE contains the full AGPL version 3 text. Third-party code, dependencies and derivative portions retain their upstream copyrights and applicable terms. This is not a relicensing of third-party material.
 
-Third-party code, derivative code, dependencies, pretrained assets, datasets and checkpoints retain their respective terms. Existing third_party_notices remain applicable; Ultralytics licensing requirements are not replaced by the author-code MIT permission. A source file that reproduces or adapts upstream code remains subject to the applicable upstream terms.
+Previously published MIT permissions are not revoked. The earlier audit-only commit and immutable ZIP remain historical snapshots; their author-license status is not the declaration for the new source tree. See historical_archive/LICENSE.author-code.previous-MIT.
 
-The numerical/code bundle does not redistribute raw imagery or checkpoint binaries. Checkpoint hashes identify assets but do not provide download access. No permission to redistribute datasets or weights is implied.
+Dataset pixels and pretrained/checkpoint binaries are not redistributed. No new permission for those assets is asserted. Download from the original sources under their terms. Scientific metadata and numerical evidence remain associated with their source/provenance records. This packaging review does not certify third-party ownership or provide a legal opinion.

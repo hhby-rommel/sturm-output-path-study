@@ -1,0 +1,88 @@
+{
+  "version": "eomt_s_formal_prepared_v1",
+  "status": "prepared_pending_separate_formal_authorization",
+  "architecture": "official EoMT-S (CVPR 2025) STURM semantic adaptation, shared core, sensor bridges",
+  "parameter_count": 23335722,
+  "initialization": "pinned official COCO panoptic S 640 2x, DINOv2 backbone; original133-class strict loading then two-class plus no-object head",
+  "weight_sha256": "7365b41a8a129afc74c12e5dd7af534146286d02822e4b89b7bbe8ea613ff74d",
+  "seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "output_root": "results/formal/eomt_s_formal_prepared_v1",
+  "train_count": 14561,
+  "val_count": 4853,
+  "batch_size": 16,
+  "max_epochs": 50,
+  "patience": 10,
+  "max_updates": 45550,
+  "warmup_steps": [
+    500,
+    1000
+  ],
+  "gradient_clip_norm": 5,
+  "optimizer": {
+    "lr": 0.0001,
+    "weight_decay": 0.05,
+    "llrd": 0.8,
+    "all_parameter_weight_decay": true
+  },
+  "attention_start_fractions": [
+    0.1,
+    0.3,
+    0.5
+  ],
+  "attention_end_fractions": [
+    0.3,
+    0.5,
+    0.7
+  ],
+  "selection": "fixed tag1 degraded pooled F1, clean F1 tie, earlier epoch tie",
+  "test_policy": "separate authorized phase; persistent exclusive claim before test construction; no automatic retries",
+  "backend": "math SDPA, deterministic algorithms/cuDNN, TF32 disabled, CUBLAS workspace4096:8; CPU staged epoch-boundary resume",
+  "gate_backend_difference": "full four-epoch health gate used default SDPA; deterministic math backend tested separately by real train-only restore diagnostic",
+  "early_stop_attention_interaction": "early stopping remains enabled from epoch1 with patience10; selected training checkpoint may retain nonzero attention probabilities; evaluation disables masked attention; do not force late selection",
+  "gate_summary": "experiments/eomt_server_gate_finalized_20261001_v2/summary.json",
+  "resume_summary": "experiments/eomt_server_resume_20260930_v1/resume_audit.json",
+  "implementation_hash_policy": "SHA256 after CRLF to LF; official assets checked by raw SHA256",
+  "implementation_sha256": {
+    "scripts/server_eomt_formal_v1.py": "e020a1237a40d07fe8eddbc795bf1df1c1f4e4f08424f3b443eb25cdece1271d",
+    "scripts/eomt_preflight.py": "c3406756a712d9220d8216e19248349cda1d50209a78eca742c29b90dea05357",
+    "src/models/eomt_s_comparator.py": "ee11665e0d5767be2d83282365c64dc0c2c61e1aefbbf45836df6ee3a6e36ae3",
+    "src/models/eomt_prepared.py": "b186e703e4ac12308e5e9924dd7b054bf4eb02a51310393c4be4ce2b47d8bf33",
+    "src/training/eomt_protocol.py": "46175df0db300aae90d35d50ce65534a6dc0a8d5f2a0963da194f85468010d13",
+    "src/training/engine.py": "71b3dc8e7f43ce63ae46e0266e5a2f72bdca8753b3128116e902faf15b82e824",
+    "src/training/degradation.py": "150b5fca924a319447ebc78d13569d84ca3ed8a7bf2dc1fabda469391418e4f7",
+    "src/training/masked_segmentation.py": "9c1e55045e5d0fed8ca1a09a90c21e3a31e352fe1e4d5dd3cf96ec5ee0aba52e",
+    "src/training/dcl_losses.py": "f250e4cbd163b4b47d86ad2d6f158c90741ae88c41d6b70e507ff258bd779066",
+    "src/evaluation/formal.py": "be2bf82729fa57d818210eef3e860e73a9ec655dac547d9fd8e61c5e73406dfb",
+    "src/dataset/sturm_flood.py": "517c709b3cbf5be15539e02ca03fb0aa25b77eadd6d8ba2a7b3912c95c435eea",
+    "src/dataset/quality.py": "ae7b8c91207ba89e17762958e5d7351e4ab0d77e670b9f57f11cd35c3faaf3af",
+    "src/models/optional_comparison.py": "7c0835f6d6d7e423df70360421be8830a8ff2feb340f1e5741f62b54f73835e1",
+    "src/models/yolo26_semantic.py": "8bfebb8f2d452f07c3155b453e0654c406c1f888badd1927f63d109152b68a7d",
+    "scripts/server_main.py": "09916dc7f305c36a208c8849a1387e2434359b8839db0b952513416ba1787a88",
+    "configs/eomt_s_candidate_v2.json": "10257fd6691b69ed348b3fd3f69937cf238e1d6fb43bf5005cf6dd3ab34bab6b",
+    "configs/eomt_official_source_lock.json": "e58dd94569866bd63dc455671276aedcd0b4a189089d0869243eb36ab92c31e0",
+    "scripts/eomt_readable_logging.py": "28b6adce0b36035caf97ad08f8f4eedff7c172de1744e6c9aebac285089a1fa6"
+  },
+  "differences_from_upstream": [
+    "128px native STURM",
+    "learned S1/S2 bridges",
+    "dense valid pixel Hungarian objective instead of uncertain point sampling",
+    "STURM balanced replacement sampler with clean/degraded losses",
+    "STURM 50 epoch max with early stopping",
+    "relative attention annealing"
+  ],
+  "ordered_manifest_rows_sha256": "f2a67f6eebe3a3f8f644a4afc6b765fad7129cff1841f61484c47de3a6655915",
+  "environment": {
+    "python": "3.10.20",
+    "torch": "2.1.0+cu121",
+    "torchvision": "0.16.0+cu121",
+    "timm": "1.0.30",
+    "scipy": "1.15.3",
+    "numpy": "1.26.4",
+    "rasterio": "1.4.4"
+  },
+  "execution_status_policy": "static plan; actual status in per-seed metadata/history and separate authorization ledger"
+}

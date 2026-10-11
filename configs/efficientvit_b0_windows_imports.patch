@@ -1,0 +1,55 @@
+diff --git a/efficientvit/models/efficientvit/__init__.py b/efficientvit/models/efficientvit/__init__.py
+index 5a53088..2af0223 100644
+--- a/efficientvit/models/efficientvit/__init__.py
++++ b/efficientvit/models/efficientvit/__init__.py
+@@ -1,5 +1,9 @@
+ from .backbone import *
+ from .cls import *
+-from .dc_ae import *
+-from .sam import *
++# Autoencoder and SAM dependencies are not needed for B0 segmentation.
++try:
++    from .dc_ae import *
++    from .sam import *
++except ImportError:
++    pass
+ from .seg import *
+diff --git a/efficientvit/models/nn/__init__.py b/efficientvit/models/nn/__init__.py
+index 3328d2e..8c6be54 100644
+--- a/efficientvit/models/nn/__init__.py
++++ b/efficientvit/models/nn/__init__.py
+@@ -2,4 +2,7 @@ from .act import *
+ from .drop import *
+ from .norm import *
+ from .ops import *
+-from .triton_rms_norm import *
++try:
++    from .triton_rms_norm import *
++except ImportError:
++    pass  # Optional Triton kernels are not used by EfficientViT-B0 segmentation.
+diff --git a/efficientvit/models/nn/norm.py b/efficientvit/models/nn/norm.py
+index 103093a..09d45b3 100644
+--- a/efficientvit/models/nn/norm.py
++++ b/efficientvit/models/nn/norm.py
+@@ -4,7 +4,11 @@ import torch
+ import torch.nn as nn
+ from torch.nn.modules.batchnorm import _BatchNorm
+ 
+-from efficientvit.models.nn.triton_rms_norm import TritonRMSNorm2dFunc
++try:
++    from efficientvit.models.nn.triton_rms_norm import TritonRMSNorm2dFunc
++except ImportError:
++    # The B0 segmentation model uses BatchNorm; Triton is optional for it.
++    TritonRMSNorm2dFunc = None
+ from efficientvit.models.utils import build_kwargs_from_config
+ 
+ __all__ = ["LayerNorm2d", "TritonRMSNorm2d", "build_norm", "reset_bn", "set_norm_eps"]
+@@ -21,6 +25,8 @@ class LayerNorm2d(nn.LayerNorm):
+ 
+ class TritonRMSNorm2d(nn.LayerNorm):
+     def forward(self, x: torch.Tensor) -> torch.Tensor:
++        if TritonRMSNorm2dFunc is None:
++            raise ImportError("Triton is required for TritonRMSNorm2d")
+         return TritonRMSNorm2dFunc.apply(x, self.weight, self.bias, self.eps)
+ 
+ 

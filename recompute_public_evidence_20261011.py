@@ -1,3 +1,5 @@
+# Copyright (C) 2026 STURM output-path study contributors
+# SPDX-License-Identifier: AGPL-3.0-or-later
 """Recompute seed means and event pairing from the public saved-evidence bundle only."""
 import json, pathlib, statistics, numpy as np
 

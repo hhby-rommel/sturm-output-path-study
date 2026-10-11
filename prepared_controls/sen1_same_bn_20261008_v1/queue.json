@@ -1,0 +1,21 @@
+{
+  "status": "PREPARED_NOT_LAUNCHED",
+  "first_error_stop": true,
+  "automatic_retry": false,
+  "tasks": [
+    {
+      "id": "decoder_all_bn_frozen_seed2026",
+      "output": "results/sen1_same_bn_20261008_v1/decoder_all_bn_frozen_seed2026"
+    },
+    {
+      "id": "decoder_all_bn_frozen_seed2027",
+      "output": "results/sen1_same_bn_20261008_v1/decoder_all_bn_frozen_seed2027"
+    },
+    {
+      "id": "decoder_all_bn_frozen_seed2028",
+      "output": "results/sen1_same_bn_20261008_v1/decoder_all_bn_frozen_seed2028"
+    }
+  ],
+  "launch_authorized": false,
+  "test_access": false
+}

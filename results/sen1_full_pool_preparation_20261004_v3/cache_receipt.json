@@ -1,0 +1,46 @@
+{
+  "files": [
+    {
+      "path": "images.npy",
+      "bytes": 715128960,
+      "sha256": "2602124a957ffd345cb07f027d761f3cc180c9501838c6136296028273305858"
+    },
+    {
+      "path": "targets.npy",
+      "bytes": 89391232,
+      "sha256": "cd7c704ccfd5586f59936b48b68df50969d43fb1d4b78df4ee351774b3c555aa"
+    },
+    {
+      "path": "valid.npy",
+      "bytes": 89391232,
+      "sha256": "826c888016f27e5a4d5353dbcf38b2b1e6f46947a119a3b9b8be81e2e27e6b85"
+    },
+    {
+      "path": "tile_index.json",
+      "bytes": 711573,
+      "sha256": "8ddff13dfe2c4c31bb30ed7bcb24f466528fd713a38cc8ff2d4e3bb57984bbc9"
+    },
+    {
+      "path": "input_label_profiles.json",
+      "bytes": 130656,
+      "sha256": "05b9cc85813284ec06fc8e9848ac655664236da9043164284b35a54de49b2e8b"
+    },
+    {
+      "path": "asset_receipts.json",
+      "bytes": 235853,
+      "sha256": "16f1d6efcd7f1d2f312ff834de9490af924822fdcce8d1c8f43bf87036e25902"
+    },
+    {
+      "path": "selection_before_download.json",
+      "bytes": 54443,
+      "sha256": "ddc944a205dcbc1b3407794993e0aab70346cd63e201fbc89048ebeebdf6c760"
+    }
+  ],
+  "label_storage": "int8 (-1,0,1), converted to int64 only for batch; no change to label values",
+  "invalid_handling": "same parent rule: invalid image positions zeroed, labels retained",
+  "train_chips": 252,
+  "val_chips": 89,
+  "train_windows": 4032,
+  "val_windows": 1424,
+  "test_access": false
+}

@@ -1,0 +1,1346 @@
+[
+  {
+    "system": "decoder",
+    "sensor": "S1",
+    "batch": 1,
+    "system_parameters": 1713990,
+    "cuda_mean_ms_batch_mean": 5.821535324520535,
+    "cuda_mean_ms_batch_seed_range": [
+      5.760676050186158,
+      5.88779882589976
+    ],
+    "cuda_mean_ms_batch_seed_sample_sd": 0.06373346278641172,
+    "amortized_ms_image_mean": 5.821535324520535,
+    "amortized_ms_image_seed_range": [
+      5.760676050186158,
+      5.88779882589976
+    ],
+    "amortized_ms_image_seed_sample_sd": 0.06373346278641172,
+    "images_per_second_mean": 171.78969934475643,
+    "images_per_second_seed_range": [
+      169.84275950481074,
+      173.5907367968877
+    ],
+    "images_per_second_seed_sample_sd": 1.878243614539555,
+    "peak_allocated_MiB_mean": 145.87158203125,
+    "peak_allocated_MiB_seed_range": [
+      145.87158203125,
+      145.87158203125
+    ],
+    "peak_allocated_MiB_seed_sample_sd": 0.0,
+    "peak_reserved_MiB_mean": 160.0,
+    "peak_reserved_MiB_seed_range": [
+      160.0,
+      160.0
+    ],
+    "peak_reserved_MiB_seed_sample_sd": 0.0,
+    "incremental_peak_allocated_MiB_mean": 130.9375,
+    "incremental_peak_allocated_MiB_seed_range": [
+      130.9375,
+      130.9375
+    ],
+    "incremental_peak_allocated_MiB_seed_sample_sd": 0.0,
+    "synchronized_wall_mean_ms_batch_mean": 5.8443997345036935,
+    "synchronized_wall_mean_ms_batch_seed_range": [
+      5.783379338681698,
+      5.9108491986989975
+    ],
+    "synchronized_wall_mean_ms_batch_seed_sample_sd": 0.0639081167830741
+  },
+  {
+    "system": "decoder",
+    "sensor": "S1",
+    "batch": 16,
+    "system_parameters": 1713990,
+    "cuda_mean_ms_batch_mean": 5.899523525238037,
+    "cuda_mean_ms_batch_seed_range": [
+      5.8031109460194905,
+      6.03585045337677
+    ],
+    "cuda_mean_ms_batch_seed_sample_sd": 0.12139516468343807,
+    "amortized_ms_image_mean": 0.36872022032737733,
+    "amortized_ms_image_seed_range": [
+      0.36269443412621816,
+      0.3772406533360481
+    ],
+    "amortized_ms_image_seed_sample_sd": 0.007587197792714879,
+    "images_per_second_mean": 2712.842382954947,
+    "images_per_second_seed_range": [
+      2650.827770434366,
+      2757.1418414763943
+    ],
+    "images_per_second_seed_sample_sd": 55.326670207885584,
+    "peak_allocated_MiB_mean": 181.55908203125,
+    "peak_allocated_MiB_seed_range": [
+      181.55908203125,
+      181.55908203125
+    ],
+    "peak_allocated_MiB_seed_sample_sd": 0.0,
+    "peak_reserved_MiB_mean": 304.0,
+    "peak_reserved_MiB_seed_range": [
+      304.0,
+      304.0
+    ],
+    "peak_reserved_MiB_seed_sample_sd": 0.0,
+    "incremental_peak_allocated_MiB_mean": 164.0,
+    "incremental_peak_allocated_MiB_seed_range": [
+      164.0,
+      164.0
+    ],
+    "incremental_peak_allocated_MiB_seed_sample_sd": 0.0,
+    "synchronized_wall_mean_ms_batch_mean": 5.930055222577519,
+    "synchronized_wall_mean_ms_batch_seed_range": [
+      5.82573976367712,
+      6.059441802402338
+    ],
+    "synchronized_wall_mean_ms_batch_seed_sample_sd": 0.11885108983255462
+  },
+  {
+    "system": "decoder",
+    "sensor": "S2",
+    "batch": 1,
+    "system_parameters": 1713990,
+    "cuda_mean_ms_batch_mean": 6.006899241871304,
+    "cuda_mean_ms_batch_seed_range": [
+      5.810115834871928,
+      6.152735586166382
+    ],
+    "cuda_mean_ms_batch_seed_sample_sd": 0.17690046888834185,
+    "amortized_ms_image_mean": 6.006899241871304,
+    "amortized_ms_image_seed_range": [
+      5.810115834871928,
+      6.152735586166382
+    ],
+    "amortized_ms_image_seed_sample_sd": 0.17690046888834185,
+    "images_per_second_mean": 166.57270264633058,
+    "images_per_second_seed_range": [
+      162.52933122111872,
+      172.11360813119538
+    ],
+    "images_per_second_seed_sample_sd": 4.9645288967960015,
+    "peak_allocated_MiB_mean": 146.30908203125,
+    "peak_allocated_MiB_seed_range": [
+      146.30908203125,
+      146.30908203125
+    ],
+    "peak_allocated_MiB_seed_sample_sd": 0.0,
+    "peak_reserved_MiB_mean": 160.0,
+    "peak_reserved_MiB_seed_range": [
+      160.0,
+      160.0
+    ],
+    "peak_reserved_MiB_seed_sample_sd": 0.0,
+    "incremental_peak_allocated_MiB_mean": 130.9375,
+    "incremental_peak_allocated_MiB_seed_range": [
+      130.9375,
+      130.9375
+    ],
+    "incremental_peak_allocated_MiB_seed_sample_sd": 0.0,
+    "synchronized_wall_mean_ms_batch_mean": 6.030557602643967,
+    "synchronized_wall_mean_ms_batch_seed_range": [
+      5.8335212369759875,
+      6.176305574675401
+    ],
+    "synchronized_wall_mean_ms_batch_seed_sample_sd": 0.17705408787816568
+  },
+  {
+    "system": "decoder",
+    "sensor": "S2",
+    "batch": 16,
+    "system_parameters": 1713990,
+    "cuda_mean_ms_batch_mean": 5.9851007233725655,
+    "cuda_mean_ms_batch_seed_range": [
+      5.969182507197062,
+      6.016585168838501
+    ],
+    "cuda_mean_ms_batch_seed_sample_sd": 0.027266897575905297,
+    "amortized_ms_image_mean": 0.37406879521078534,
+    "amortized_ms_image_seed_range": [
+      0.3730739066998164,
+      0.3760365730524063
+    ],
+    "amortized_ms_image_seed_sample_sd": 0.001704181098494081,
+    "images_per_second_mean": 2673.341945524818,
+    "images_per_second_seed_range": [
+      2659.3157997443914,
+      2680.4340428038095
+    ],
+    "images_per_second_seed_sample_sd": 12.147255613691614,
+    "peak_allocated_MiB_mean": 188.05908203125,
+    "peak_allocated_MiB_seed_range": [
+      188.05908203125,
+      188.05908203125
+    ],
+    "peak_allocated_MiB_seed_sample_sd": 0.0,
+    "peak_reserved_MiB_mean": 320.0,
+    "peak_reserved_MiB_seed_range": [
+      320.0,
+      320.0
+    ],
+    "peak_reserved_MiB_seed_sample_sd": 0.0,
+    "incremental_peak_allocated_MiB_mean": 163.375,
+    "incremental_peak_allocated_MiB_seed_range": [
+      163.375,
+      163.375
+    ],
+    "incremental_peak_allocated_MiB_seed_sample_sd": 0.0,
+    "synchronized_wall_mean_ms_batch_mean": 6.00831951532099,
+    "synchronized_wall_mean_ms_batch_seed_range": [
+      5.992471339801947,
+      6.0399726529916125
+    ],
+    "synchronized_wall_mean_ms_batch_seed_sample_sd": 0.02741242984752234
+  },
+  {
+    "system": "main_only",
+    "sensor": "S1",
+    "batch": 1,
+    "system_parameters": 1666180,
+    "cuda_mean_ms_batch_mean": 5.066389656596714,
+    "cuda_mean_ms_batch_seed_range": [
+      4.996917869249979,
+      5.189253341356913
+    ],
+    "cuda_mean_ms_batch_seed_sample_sd": 0.10670639385578917,
+    "amortized_ms_image_mean": 5.066389656596714,
+    "amortized_ms_image_seed_range": [
+      4.996917869249979,
+      5.189253341356913
+    ],
+    "amortized_ms_image_seed_sample_sd": 0.10670639385578917,
+    "images_per_second_mean": 197.43691663705346,
+    "images_per_second_seed_range": [
+      192.70595097569753,
+      200.12336127311548
+    ],
+    "images_per_second_seed_sample_sd": 4.109688984243456,
+    "peak_allocated_MiB_mean": 144.26513671875,
+    "peak_allocated_MiB_seed_range": [
+      144.26513671875,
+      144.26513671875
+    ],
+    "peak_allocated_MiB_seed_sample_sd": 0.0,
+    "peak_reserved_MiB_mean": 156.0,
+    "peak_reserved_MiB_seed_range": [
+      156.0,
+      156.0
+    ],
+    "peak_reserved_MiB_seed_sample_sd": 0.0,
+    "incremental_peak_allocated_MiB_mean": 129.53125,
+    "incremental_peak_allocated_MiB_seed_range": [
+      129.53125,
+      129.53125
+    ],
+    "incremental_peak_allocated_MiB_seed_sample_sd": 0.0,
+    "synchronized_wall_mean_ms_batch_mean": 5.088660025762187,
+    "synchronized_wall_mean_ms_batch_seed_range": [
+      5.01905387888352,
+      5.211812220513821
+    ],
+    "synchronized_wall_mean_ms_batch_seed_sample_sd": 0.10695479885973536
+  },
+  {
+    "system": "main_only",
+    "sensor": "S1",
+    "batch": 16,
+    "system_parameters": 1666180,
+    "cuda_mean_ms_batch_mean": 5.223767716089885,
+    "cuda_mean_ms_batch_seed_range": [
+      5.160368655522665,
+      5.2901949787139895
+    ],
+    "cuda_mean_ms_batch_seed_sample_sd": 0.06496611466077969,
+    "amortized_ms_image_mean": 0.3264854822556178,
+    "amortized_ms_image_seed_range": [
+      0.32252304097016654,
+      0.33063718616962434
+    ],
+    "amortized_ms_image_seed_sample_sd": 0.00406038216629873,
+    "images_per_second_mean": 3063.2389314288966,
+    "images_per_second_seed_range": [
+      3024.4631935833663,
+      3100.5536751481277
+    ],
+    "images_per_second_seed_sample_sd": 38.06627410276888,
+    "peak_allocated_MiB_mean": 171.60888671875,
+    "peak_allocated_MiB_seed_range": [
+      171.60888671875,
+      171.60888671875
+    ],
+    "peak_allocated_MiB_seed_sample_sd": 0.0,
+    "peak_reserved_MiB_mean": 304.0,
+    "peak_reserved_MiB_seed_range": [
+      304.0,
+      304.0
+    ],
+    "peak_reserved_MiB_seed_sample_sd": 0.0,
+    "incremental_peak_allocated_MiB_mean": 155.0,
+    "incremental_peak_allocated_MiB_seed_range": [
+      155.0,
+      155.0
+    ],
+    "incremental_peak_allocated_MiB_seed_sample_sd": 0.0,
+    "synchronized_wall_mean_ms_batch_mean": 5.246244288153118,
+    "synchronized_wall_mean_ms_batch_seed_range": [
+      5.182715741296609,
+      5.312768581012885
+    ],
+    "synchronized_wall_mean_ms_batch_seed_sample_sd": 0.06507815416984317
+  },
+  {
+    "system": "main_only",
+    "sensor": "S2",
+    "batch": 1,
+    "system_parameters": 1666180,
+    "cuda_mean_ms_batch_mean": 5.077357799212138,
+    "cuda_mean_ms_batch_seed_range": [
+      5.026662723223368,
+      5.151957335472107
+    ],
+    "cuda_mean_ms_batch_seed_sample_sd": 0.06597918141568204,
+    "amortized_ms_image_mean": 5.077357799212138,
+    "amortized_ms_image_seed_range": [
+      5.026662723223368,
+      5.151957335472107
+    ],
+    "amortized_ms_image_seed_sample_sd": 0.06597918141568204,
+    "images_per_second_mean": 196.97487236958804,
+    "images_per_second_seed_range": [
+      194.10098626299347,
+      198.9391481111241
+    ],
+    "images_per_second_seed_sample_sd": 2.5441100171460884,
+    "peak_allocated_MiB_mean": 144.70263671875,
+    "peak_allocated_MiB_seed_range": [
+      144.70263671875,
+      144.70263671875
+    ],
+    "peak_allocated_MiB_seed_sample_sd": 0.0,
+    "peak_reserved_MiB_mean": 158.0,
+    "peak_reserved_MiB_seed_range": [
+      158.0,
+      158.0
+    ],
+    "peak_reserved_MiB_seed_sample_sd": 0.0,
+    "incremental_peak_allocated_MiB_mean": 129.53125,
+    "incremental_peak_allocated_MiB_seed_range": [
+      129.53125,
+      129.53125
+    ],
+    "incremental_peak_allocated_MiB_seed_sample_sd": 0.0,
+    "synchronized_wall_mean_ms_batch_mean": 5.100188114576869,
+    "synchronized_wall_mean_ms_batch_seed_range": [
+      5.049433633685112,
+      5.1747822885711985
+    ],
+    "synchronized_wall_mean_ms_batch_seed_sample_sd": 0.06598726805874305
+  },
+  {
+    "system": "main_only",
+    "sensor": "S2",
+    "batch": 16,
+    "system_parameters": 1666180,
+    "cuda_mean_ms_batch_mean": 5.315838150978088,
+    "cuda_mean_ms_batch_seed_range": [
+      5.197735886573792,
+      5.400978140830993
+    ],
+    "cuda_mean_ms_batch_seed_sample_sd": 0.10555442736611388,
+    "amortized_ms_image_mean": 0.3322398844361305,
+    "amortized_ms_image_seed_range": [
+      0.324858492910862,
+      0.3375611338019371
+    ],
+    "amortized_ms_image_seed_sample_sd": 0.006597151710382118,
+    "images_per_second_mean": 3010.6715496745783,
+    "images_per_second_seed_range": [
+      2962.426357374267,
+      3078.2633725829364
+    ],
+    "images_per_second_seed_sample_sd": 60.293221924413224,
+    "peak_allocated_MiB_mean": 178.60888671875,
+    "peak_allocated_MiB_seed_range": [
+      178.60888671875,
+      178.60888671875
+    ],
+    "peak_allocated_MiB_seed_sample_sd": 0.0,
+    "peak_reserved_MiB_mean": 320.0,
+    "peak_reserved_MiB_seed_range": [
+      320.0,
+      320.0
+    ],
+    "peak_reserved_MiB_seed_sample_sd": 0.0,
+    "incremental_peak_allocated_MiB_mean": 155.0,
+    "incremental_peak_allocated_MiB_seed_range": [
+      155.0,
+      155.0
+    ],
+    "incremental_peak_allocated_MiB_seed_sample_sd": 0.0,
+    "synchronized_wall_mean_ms_batch_mean": 5.338677101665073,
+    "synchronized_wall_mean_ms_batch_seed_range": [
+      5.220562306543192,
+      5.4237185046076775
+    ],
+    "synchronized_wall_mean_ms_batch_seed_sample_sd": 0.10553907880821829
+  },
+  {
+    "system": "independent",
+    "sensor": "S1",
+    "batch": 1,
+    "system_parameters": 3427980,
+    "cuda_mean_ms_batch_mean": 5.92392881711324,
+    "cuda_mean_ms_batch_seed_range": [
+      5.851100584665934,
+      5.977349217732748
+    ],
+    "cuda_mean_ms_batch_seed_sample_sd": 0.06532363500297454,
+    "amortized_ms_image_mean": 5.92392881711324,
+    "amortized_ms_image_seed_range": [
+      5.851100584665934,
+      5.977349217732748
+    ],
+    "amortized_ms_image_seed_sample_sd": 0.06532363500297454,
+    "images_per_second_mean": 168.8206371714301,
+    "images_per_second_seed_range": [
+      167.29823933213447,
+      170.90801730886577
+    ],
+    "images_per_second_seed_sample_sd": 1.870034226486848,
+    "peak_allocated_MiB_mean": 145.87158203125,
+    "peak_allocated_MiB_seed_range": [
+      145.87158203125,
+      145.87158203125
+    ],
+    "peak_allocated_MiB_seed_sample_sd": 0.0,
+    "peak_reserved_MiB_mean": 160.0,
+    "peak_reserved_MiB_seed_range": [
+      160.0,
+      160.0
+    ],
+    "peak_reserved_MiB_seed_sample_sd": 0.0,
+    "incremental_peak_allocated_MiB_mean": 130.9375,
+    "incremental_peak_allocated_MiB_seed_range": [
+      130.9375,
+      130.9375
+    ],
+    "incremental_peak_allocated_MiB_seed_sample_sd": 0.0,
+    "synchronized_wall_mean_ms_batch_mean": 5.946788783702585,
+    "synchronized_wall_mean_ms_batch_seed_range": [
+      5.8734214678406715,
+      6.000452463825543
+    ],
+    "synchronized_wall_mean_ms_batch_seed_sample_sd": 0.06576772332403805
+  },
+  {
+    "system": "independent",
+    "sensor": "S1",
+    "batch": 16,
+    "system_parameters": 3427980,
+    "cuda_mean_ms_batch_mean": 6.003372828695509,
+    "cuda_mean_ms_batch_seed_range": [
+      5.914304092725118,
+      6.085748586654663
+    ],
+    "cuda_mean_ms_batch_seed_sample_sd": 0.08591798758515976,
+    "amortized_ms_image_mean": 0.37521080179346933,
+    "amortized_ms_image_seed_range": [
+      0.36964400579531986,
+      0.38035928666591645
+    ],
+    "amortized_ms_image_seed_sample_sd": 0.005369874224072485,
+    "images_per_second_mean": 2665.5330777715913,
+    "images_per_second_seed_range": [
+      2629.093162850357,
+      2705.3056030177377
+    ],
+    "images_per_second_seed_sample_sd": 38.21535984064422,
+    "peak_allocated_MiB_mean": 181.55908203125,
+    "peak_allocated_MiB_seed_range": [
+      181.55908203125,
+      181.55908203125
+    ],
+    "peak_allocated_MiB_seed_sample_sd": 0.0,
+    "peak_reserved_MiB_mean": 304.0,
+    "peak_reserved_MiB_seed_range": [
+      304.0,
+      304.0
+    ],
+    "peak_reserved_MiB_seed_sample_sd": 0.0,
+    "incremental_peak_allocated_MiB_mean": 164.0,
+    "incremental_peak_allocated_MiB_seed_range": [
+      164.0,
+      164.0
+    ],
+    "incremental_peak_allocated_MiB_seed_sample_sd": 0.0,
+    "synchronized_wall_mean_ms_batch_mean": 6.0270985008941755,
+    "synchronized_wall_mean_ms_batch_seed_range": [
+      5.937558747828007,
+      6.110178530216217
+    ],
+    "synchronized_wall_mean_ms_batch_seed_sample_sd": 0.08649100150348649
+  },
+  {
+    "system": "independent",
+    "sensor": "S2",
+    "batch": 1,
+    "system_parameters": 3427980,
+    "cuda_mean_ms_batch_mean": 5.884959145122104,
+    "cuda_mean_ms_batch_seed_range": [
+      5.862167687416076,
+      5.902716784477234
+    ],
+    "cuda_mean_ms_batch_seed_sample_sd": 0.020737931755871294,
+    "amortized_ms_image_mean": 5.884959145122104,
+    "amortized_ms_image_seed_range": [
+      5.862167687416076,
+      5.902716784477234
+    ],
+    "amortized_ms_image_seed_sample_sd": 0.020737931755871294,
+    "images_per_second_mean": 169.92612250301838,
+    "images_per_second_seed_range": [
+      169.41351525280126,
+      170.58536250108185
+    ],
+    "images_per_second_seed_sample_sd": 0.5995267845404574,
+    "peak_allocated_MiB_mean": 146.30908203125,
+    "peak_allocated_MiB_seed_range": [
+      146.30908203125,
+      146.30908203125
+    ],
+    "peak_allocated_MiB_seed_sample_sd": 0.0,
+    "peak_reserved_MiB_mean": 160.0,
+    "peak_reserved_MiB_seed_range": [
+      160.0,
+      160.0
+    ],
+    "peak_reserved_MiB_seed_sample_sd": 0.0,
+    "incremental_peak_allocated_MiB_mean": 130.9375,
+    "incremental_peak_allocated_MiB_seed_range": [
+      130.9375,
+      130.9375
+    ],
+    "incremental_peak_allocated_MiB_seed_sample_sd": 0.0,
+    "synchronized_wall_mean_ms_batch_mean": 5.907935839560297,
+    "synchronized_wall_mean_ms_batch_seed_range": [
+      5.884972686568896,
+      5.925808573762576
+    ],
+    "synchronized_wall_mean_ms_batch_seed_sample_sd": 0.020888434438947733
+  },
+  {
+    "system": "independent",
+    "sensor": "S2",
+    "batch": 16,
+    "system_parameters": 3427980,
+    "cuda_mean_ms_batch_mean": 6.017955509821574,
+    "cuda_mean_ms_batch_seed_range": [
+      5.882048726081848,
+      6.1249071931838985
+    ],
+    "cuda_mean_ms_batch_seed_sample_sd": 0.12399135913114445,
+    "amortized_ms_image_mean": 0.3761222193638484,
+    "amortized_ms_image_seed_range": [
+      0.3676280453801155,
+      0.38280669957399366
+    ],
+    "amortized_ms_image_seed_sample_sd": 0.007749459945696528,
+    "images_per_second_mean": 2659.4681352599064,
+    "images_per_second_seed_range": [
+      2612.2844796416825,
+      2720.1406763350506
+    ],
+    "images_per_second_seed_sample_sd": 55.1788212491175,
+    "peak_allocated_MiB_mean": 188.05908203125,
+    "peak_allocated_MiB_seed_range": [
+      188.05908203125,
+      188.05908203125
+    ],
+    "peak_allocated_MiB_seed_sample_sd": 0.0,
+    "peak_reserved_MiB_mean": 320.0,
+    "peak_reserved_MiB_seed_range": [
+      320.0,
+      320.0
+    ],
+    "peak_reserved_MiB_seed_sample_sd": 0.0,
+    "incremental_peak_allocated_MiB_mean": 163.375,
+    "incremental_peak_allocated_MiB_seed_range": [
+      163.375,
+      163.375
+    ],
+    "incremental_peak_allocated_MiB_seed_sample_sd": 0.0,
+    "synchronized_wall_mean_ms_batch_mean": 6.0411543647448225,
+    "synchronized_wall_mean_ms_batch_seed_range": [
+      5.905204688509305,
+      6.1479708179831505
+    ],
+    "synchronized_wall_mean_ms_batch_seed_sample_sd": 0.12397744519299035
+  },
+  {
+    "system": "unet",
+    "sensor": "S1",
+    "batch": 1,
+    "system_parameters": 69029700,
+    "cuda_mean_ms_batch_mean": 1.4516276429759132,
+    "cuda_mean_ms_batch_seed_range": [
+      1.3629960290590921,
+      1.573184620141983
+    ],
+    "cuda_mean_ms_batch_seed_sample_sd": 0.10889385021282848,
+    "amortized_ms_image_mean": 1.4516276429759132,
+    "amortized_ms_image_seed_range": [
+      1.3629960290590921,
+      1.573184620141983
+    ],
+    "amortized_ms_image_seed_sample_sd": 0.10889385021282848,
+    "images_per_second_mean": 691.4002264584353,
+    "images_per_second_seed_range": [
+      635.6533029859827,
+      733.6778528183411
+    ],
+    "images_per_second_seed_sample_sd": 50.38124220370786,
+    "peak_allocated_MiB_mean": 311.58154296875,
+    "peak_allocated_MiB_seed_range": [
+      311.58154296875,
+      311.58154296875
+    ],
+    "peak_allocated_MiB_seed_sample_sd": 0.0,
+    "peak_reserved_MiB_mean": 362.0,
+    "peak_reserved_MiB_seed_range": [
+      362.0,
+      362.0
+    ],
+    "peak_reserved_MiB_seed_sample_sd": 0.0,
+    "incremental_peak_allocated_MiB_mean": 44.62548828125,
+    "incremental_peak_allocated_MiB_seed_range": [
+      44.62548828125,
+      44.62548828125
+    ],
+    "incremental_peak_allocated_MiB_seed_sample_sd": 0.0,
+    "synchronized_wall_mean_ms_batch_mean": 1.4615213829610083,
+    "synchronized_wall_mean_ms_batch_seed_range": [
+      1.3693939770261447,
+      1.586216576397419
+    ],
+    "synchronized_wall_mean_ms_batch_seed_sample_sd": 0.11202011197364725
+  },
+  {
+    "system": "unet",
+    "sensor": "S1",
+    "batch": 16,
+    "system_parameters": 69029700,
+    "cuda_mean_ms_batch_mean": 10.14747351328532,
+    "cuda_mean_ms_batch_seed_range": [
+      10.143165283203125,
+      10.151840864817302
+    ],
+    "cuda_mean_ms_batch_seed_sample_sd": 0.00433809296758753,
+    "amortized_ms_image_mean": 0.6342170945803325,
+    "amortized_ms_image_seed_range": [
+      0.6339478302001953,
+      0.6344900540510814
+    ],
+    "amortized_ms_image_seed_sample_sd": 0.00027113081047422063,
+    "images_per_second_mean": 1576.7473478476104,
+    "images_per_second_seed_range": [
+      1576.068834515556,
+      1577.4168667541753
+    ],
+    "images_per_second_seed_sample_sd": 0.6740611276854654,
+    "peak_allocated_MiB_mean": 772.97216796875,
+    "peak_allocated_MiB_seed_range": [
+      772.97216796875,
+      772.97216796875
+    ],
+    "peak_allocated_MiB_seed_sample_sd": 0.0,
+    "peak_reserved_MiB_mean": 926.0,
+    "peak_reserved_MiB_seed_range": [
+      926.0,
+      926.0
+    ],
+    "peak_reserved_MiB_seed_sample_sd": 0.0,
+    "incremental_peak_allocated_MiB_mean": 504.14111328125,
+    "incremental_peak_allocated_MiB_seed_range": [
+      504.14111328125,
+      504.14111328125
+    ],
+    "incremental_peak_allocated_MiB_seed_sample_sd": 0.0,
+    "synchronized_wall_mean_ms_batch_mean": 10.153990110589397,
+    "synchronized_wall_mean_ms_batch_seed_range": [
+      10.14983132481575,
+      10.158342930177847
+    ],
+    "synchronized_wall_mean_ms_batch_seed_sample_sd": 0.0042591188409087065
+  },
+  {
+    "system": "unet",
+    "sensor": "S2",
+    "batch": 1,
+    "system_parameters": 69029700,
+    "cuda_mean_ms_batch_mean": 1.407820907831192,
+    "cuda_mean_ms_batch_seed_range": [
+      1.3594309322039286,
+      1.4352590950330097
+    ],
+    "cuda_mean_ms_batch_seed_sample_sd": 0.04203225723390176,
+    "amortized_ms_image_mean": 1.407820907831192,
+    "amortized_ms_image_seed_range": [
+      1.3594309322039286,
+      1.4352590950330097
+    ],
+    "amortized_ms_image_seed_sample_sd": 0.04203225723390176,
+    "images_per_second_mean": 710.7472074975474,
+    "images_per_second_seed_range": [
+      696.7383125880842,
+      735.6019171777899
+    ],
+    "images_per_second_seed_sample_sd": 21.582833779598815,
+    "peak_allocated_MiB_mean": 312.01904296875,
+    "peak_allocated_MiB_seed_range": [
+      312.01904296875,
+      312.01904296875
+    ],
+    "peak_allocated_MiB_seed_sample_sd": 0.0,
+    "peak_reserved_MiB_mean": 362.0,
+    "peak_reserved_MiB_seed_range": [
+      362.0,
+      362.0
+    ],
+    "peak_reserved_MiB_seed_sample_sd": 0.0,
+    "incremental_peak_allocated_MiB_mean": 44.62548828125,
+    "incremental_peak_allocated_MiB_seed_range": [
+      44.62548828125,
+      44.62548828125
+    ],
+    "incremental_peak_allocated_MiB_seed_sample_sd": 0.0,
+    "synchronized_wall_mean_ms_batch_mean": 1.4158407267596986,
+    "synchronized_wall_mean_ms_batch_seed_range": [
+      1.3662417481342952,
+      1.4438222845395405
+    ],
+    "synchronized_wall_mean_ms_batch_seed_sample_sd": 0.0430716794453384
+  },
+  {
+    "system": "unet",
+    "sensor": "S2",
+    "batch": 16,
+    "system_parameters": 69029700,
+    "cuda_mean_ms_batch_mean": 10.197108745574951,
+    "cuda_mean_ms_batch_seed_range": [
+      10.196066579818726,
+      10.198404267628987
+    ],
+    "cuda_mean_ms_batch_seed_sample_sd": 0.0011892594900993203,
+    "amortized_ms_image_mean": 0.6373192965984344,
+    "amortized_ms_image_seed_range": [
+      0.6372541612386704,
+      0.6374002667268117
+    ],
+    "amortized_ms_image_seed_sample_sd": 7.432871813120752e-05,
+    "images_per_second_mean": 1569.0722286378334,
+    "images_per_second_seed_range": [
+      1568.8728922804132,
+      1569.2325932501376
+    ],
+    "images_per_second_seed_sample_sd": 0.18298987565765076,
+    "peak_allocated_MiB_mean": 779.97216796875,
+    "peak_allocated_MiB_seed_range": [
+      779.97216796875,
+      779.97216796875
+    ],
+    "peak_allocated_MiB_seed_sample_sd": 0.0,
+    "peak_reserved_MiB_mean": 926.0,
+    "peak_reserved_MiB_seed_range": [
+      926.0,
+      926.0
+    ],
+    "peak_reserved_MiB_seed_sample_sd": 0.0,
+    "incremental_peak_allocated_MiB_mean": 504.14111328125,
+    "incremental_peak_allocated_MiB_seed_range": [
+      504.14111328125,
+      504.14111328125
+    ],
+    "incremental_peak_allocated_MiB_seed_sample_sd": 0.0,
+    "synchronized_wall_mean_ms_batch_mean": 10.20345605081982,
+    "synchronized_wall_mean_ms_batch_seed_range": [
+      10.20239615192016,
+      10.204663115243116
+    ],
+    "synchronized_wall_mean_ms_batch_seed_sample_sd": 0.0011406243664840376
+  },
+  {
+    "system": "yolov12_light",
+    "sensor": "S1",
+    "batch": 1,
+    "system_parameters": 1504834,
+    "cuda_mean_ms_batch_mean": 9.492334111531575,
+    "cuda_mean_ms_batch_seed_range": [
+      9.40007817586263,
+      9.553481601079305
+    ],
+    "cuda_mean_ms_batch_seed_sample_sd": 0.08129547516380871,
+    "amortized_ms_image_mean": 9.492334111531575,
+    "amortized_ms_image_seed_range": [
+      9.40007817586263,
+      9.553481601079305
+    ],
+    "amortized_ms_image_seed_sample_sd": 0.08129547516380871,
+    "images_per_second_mean": 105.35334044623255,
+    "images_per_second_seed_range": [
+      104.6738813928343,
+      106.38209398808874
+    ],
+    "images_per_second_seed_sample_sd": 0.9060919089125573,
+    "peak_allocated_MiB_mean": 168.04736328125,
+    "peak_allocated_MiB_seed_range": [
+      168.04736328125,
+      168.04736328125
+    ],
+    "peak_allocated_MiB_seed_sample_sd": 0.0,
+    "peak_reserved_MiB_mean": 286.0,
+    "peak_reserved_MiB_seed_range": [
+      286.0,
+      286.0
+    ],
+    "peak_reserved_MiB_seed_sample_sd": 0.0,
+    "incremental_peak_allocated_MiB_mean": 130.015625,
+    "incremental_peak_allocated_MiB_seed_range": [
+      130.015625,
+      130.015625
+    ],
+    "incremental_peak_allocated_MiB_seed_sample_sd": 0.0,
+    "synchronized_wall_mean_ms_batch_mean": 9.515962526202202,
+    "synchronized_wall_mean_ms_batch_seed_range": [
+      9.42388309786717,
+      9.57705198476712
+    ],
+    "synchronized_wall_mean_ms_batch_seed_sample_sd": 0.08115085118658248
+  },
+  {
+    "system": "yolov12_light",
+    "sensor": "S1",
+    "batch": 16,
+    "system_parameters": 1504834,
+    "cuda_mean_ms_batch_mean": 9.825376714070638,
+    "cuda_mean_ms_batch_seed_range": [
+      9.695642035802205,
+      9.966671657562255
+    ],
+    "cuda_mean_ms_batch_seed_sample_sd": 0.13588411889132496,
+    "amortized_ms_image_mean": 0.6140860446294149,
+    "amortized_ms_image_seed_range": [
+      0.6059776272376378,
+      0.622916978597641
+    ],
+    "amortized_ms_image_seed_sample_sd": 0.00849275743070781,
+    "images_per_second_mean": 1628.6436089538665,
+    "images_per_second_seed_range": [
+      1605.3503666753113,
+      1650.225940780226
+    ],
+    "images_per_second_seed_sample_sd": 22.486656015134777,
+    "peak_allocated_MiB_mean": 204.03173828125,
+    "peak_allocated_MiB_seed_range": [
+      204.03173828125,
+      204.03173828125
+    ],
+    "peak_allocated_MiB_seed_sample_sd": 0.0,
+    "peak_reserved_MiB_mean": 304.0,
+    "peak_reserved_MiB_seed_range": [
+      304.0,
+      304.0
+    ],
+    "peak_reserved_MiB_seed_sample_sd": 0.0,
+    "incremental_peak_allocated_MiB_mean": 164.125,
+    "incremental_peak_allocated_MiB_seed_range": [
+      164.125,
+      164.125
+    ],
+    "incremental_peak_allocated_MiB_seed_sample_sd": 0.0,
+    "synchronized_wall_mean_ms_batch_mean": 9.84889070606894,
+    "synchronized_wall_mean_ms_batch_seed_range": [
+      9.718701019883156,
+      9.99053624769052
+    ],
+    "synchronized_wall_mean_ms_batch_seed_sample_sd": 0.13627921792076253
+  },
+  {
+    "system": "yolov12_light",
+    "sensor": "S2",
+    "batch": 1,
+    "system_parameters": 1504834,
+    "cuda_mean_ms_batch_mean": 9.564528488583035,
+    "cuda_mean_ms_batch_seed_range": [
+      9.54866644859314,
+      9.581648737589518
+    ],
+    "cuda_mean_ms_batch_seed_sample_sd": 0.016527103929824156,
+    "amortized_ms_image_mean": 9.564528488583035,
+    "amortized_ms_image_seed_range": [
+      9.54866644859314,
+      9.581648737589518
+    ],
+    "amortized_ms_image_seed_sample_sd": 0.016527103929824156,
+    "images_per_second_mean": 104.55319270243639,
+    "images_per_second_seed_range": [
+      104.36617198008166,
+      104.7266658002632
+    ],
+    "images_per_second_seed_sample_sd": 0.18062835379594483,
+    "peak_allocated_MiB_mean": 168.48486328125,
+    "peak_allocated_MiB_seed_range": [
+      168.48486328125,
+      168.48486328125
+    ],
+    "peak_allocated_MiB_seed_sample_sd": 0.0,
+    "peak_reserved_MiB_mean": 286.0,
+    "peak_reserved_MiB_seed_range": [
+      286.0,
+      286.0
+    ],
+    "peak_reserved_MiB_seed_sample_sd": 0.0,
+    "incremental_peak_allocated_MiB_mean": 130.015625,
+    "incremental_peak_allocated_MiB_seed_range": [
+      130.015625,
+      130.015625
+    ],
+    "incremental_peak_allocated_MiB_seed_sample_sd": 0.0,
+    "synchronized_wall_mean_ms_batch_mean": 9.58814134200414,
+    "synchronized_wall_mean_ms_batch_seed_range": [
+      9.572372660040855,
+      9.60519486417373
+    ],
+    "synchronized_wall_mean_ms_batch_seed_sample_sd": 0.01644878055668074
+  },
+  {
+    "system": "yolov12_light",
+    "sensor": "S2",
+    "batch": 16,
+    "system_parameters": 1504834,
+    "cuda_mean_ms_batch_mean": 9.742137815687391,
+    "cuda_mean_ms_batch_seed_range": [
+      9.662576243082682,
+      9.820999237696329
+    ],
+    "cuda_mean_ms_batch_seed_sample_sd": 0.07921381801006329,
+    "amortized_ms_image_mean": 0.6088836134804619,
+    "amortized_ms_image_seed_range": [
+      0.6039110151926677,
+      0.6138124523560206
+    ],
+    "amortized_ms_image_seed_sample_sd": 0.0049508636256289556,
+    "images_per_second_mean": 1642.4223965258188,
+    "images_per_second_seed_range": [
+      1629.1621262515293,
+      1655.8730919669792
+    ],
+    "images_per_second_seed_sample_sd": 13.356500989073387,
+    "peak_allocated_MiB_mean": 210.15673828125,
+    "peak_allocated_MiB_seed_range": [
+      210.15673828125,
+      210.15673828125
+    ],
+    "peak_allocated_MiB_seed_sample_sd": 0.0,
+    "peak_reserved_MiB_mean": 320.0,
+    "peak_reserved_MiB_seed_range": [
+      320.0,
+      320.0
+    ],
+    "peak_reserved_MiB_seed_sample_sd": 0.0,
+    "incremental_peak_allocated_MiB_mean": 163.25,
+    "incremental_peak_allocated_MiB_seed_range": [
+      163.25,
+      163.25
+    ],
+    "incremental_peak_allocated_MiB_seed_sample_sd": 0.0,
+    "synchronized_wall_mean_ms_batch_mean": 9.765887566738657,
+    "synchronized_wall_mean_ms_batch_seed_range": [
+      9.686934600273768,
+      9.844913122554619
+    ],
+    "synchronized_wall_mean_ms_batch_seed_sample_sd": 0.07898928615591347
+  },
+  {
+    "system": "deeplab",
+    "sensor": "S1",
+    "batch": 1,
+    "system_parameters": 11722809,
+    "cuda_mean_ms_batch_mean": 4.632220306396484,
+    "cuda_mean_ms_batch_seed_range": [
+      4.543424215316772,
+      4.735942937533061
+    ],
+    "cuda_mean_ms_batch_seed_sample_sd": 0.09712345648451753,
+    "amortized_ms_image_mean": 4.632220306396484,
+    "amortized_ms_image_seed_range": [
+      4.543424215316772,
+      4.735942937533061
+    ],
+    "amortized_ms_image_seed_sample_sd": 0.09712345648451753,
+    "images_per_second_mean": 215.94219477446148,
+    "images_per_second_seed_range": [
+      211.15119273816615,
+      220.09831189189956
+    ],
+    "images_per_second_seed_sample_sd": 4.5072213649786645,
+    "peak_allocated_MiB_mean": 174.5068359375,
+    "peak_allocated_MiB_seed_range": [
+      174.5068359375,
+      174.5068359375
+    ],
+    "peak_allocated_MiB_seed_sample_sd": 0.0,
+    "peak_reserved_MiB_mean": 188.0,
+    "peak_reserved_MiB_seed_range": [
+      188.0,
+      188.0
+    ],
+    "peak_reserved_MiB_seed_sample_sd": 0.0,
+    "incremental_peak_allocated_MiB_mean": 129.46875,
+    "incremental_peak_allocated_MiB_seed_range": [
+      129.46875,
+      129.46875
+    ],
+    "incremental_peak_allocated_MiB_seed_sample_sd": 0.0,
+    "synchronized_wall_mean_ms_batch_mean": 4.654242429468367,
+    "synchronized_wall_mean_ms_batch_seed_range": [
+      4.5647139723102255,
+      4.758359094460805
+    ],
+    "synchronized_wall_mean_ms_batch_seed_sample_sd": 0.09764333151342537
+  },
+  {
+    "system": "deeplab",
+    "sensor": "S1",
+    "batch": 16,
+    "system_parameters": 11722809,
+    "cuda_mean_ms_batch_mean": 4.649048247337341,
+    "cuda_mean_ms_batch_seed_range": [
+      4.605473815600077,
+      4.672538453737895
+    ],
+    "cuda_mean_ms_batch_seed_sample_sd": 0.037774971908274585,
+    "amortized_ms_image_mean": 0.29056551545858383,
+    "amortized_ms_image_seed_range": [
+      0.2878421134750048,
+      0.2920336533586184
+    ],
+    "amortized_ms_image_seed_sample_sd": 0.0023609357442671616,
+    "images_per_second_mean": 3441.7168181360325,
+    "images_per_second_seed_range": [
+      3424.2628837437314,
+      3474.126797942777
+    ],
+    "images_per_second_seed_sample_sd": 28.095639441764238,
+    "peak_allocated_MiB_mean": 232.5380859375,
+    "peak_allocated_MiB_seed_range": [
+      232.5380859375,
+      232.5380859375
+    ],
+    "peak_allocated_MiB_seed_sample_sd": 0.0,
+    "peak_reserved_MiB_mean": 370.0,
+    "peak_reserved_MiB_seed_range": [
+      370.0,
+      370.0
+    ],
+    "peak_reserved_MiB_seed_sample_sd": 0.0,
+    "incremental_peak_allocated_MiB_mean": 185.625,
+    "incremental_peak_allocated_MiB_seed_range": [
+      185.625,
+      185.625
+    ],
+    "incremental_peak_allocated_MiB_seed_sample_sd": 0.0,
+    "synchronized_wall_mean_ms_batch_mean": 4.655443247821596,
+    "synchronized_wall_mean_ms_batch_seed_range": [
+      4.612151111165683,
+      4.678835943341255
+    ],
+    "synchronized_wall_mean_ms_batch_seed_sample_sd": 0.037532752746401166
+  },
+  {
+    "system": "deeplab",
+    "sensor": "S2",
+    "batch": 1,
+    "system_parameters": 11722809,
+    "cuda_mean_ms_batch_mean": 4.6534641806284585,
+    "cuda_mean_ms_batch_seed_range": [
+      4.486224749883016,
+      4.779223685264587
+    ],
+    "cuda_mean_ms_batch_seed_sample_sd": 0.15083942533770522,
+    "amortized_ms_image_mean": 4.6534641806284585,
+    "amortized_ms_image_seed_range": [
+      4.486224749883016,
+      4.779223685264587
+    ],
+    "amortized_ms_image_seed_sample_sd": 0.15083942533770522,
+    "images_per_second_mean": 215.04621813623493,
+    "images_per_second_seed_range": [
+      209.23900320531618,
+      222.90457026837012
+    ],
+    "images_per_second_seed_sample_sd": 7.059908190080571,
+    "peak_allocated_MiB_mean": 174.9443359375,
+    "peak_allocated_MiB_seed_range": [
+      174.9443359375,
+      174.9443359375
+    ],
+    "peak_allocated_MiB_seed_sample_sd": 0.0,
+    "peak_reserved_MiB_mean": 188.0,
+    "peak_reserved_MiB_seed_range": [
+      188.0,
+      188.0
+    ],
+    "peak_reserved_MiB_seed_sample_sd": 0.0,
+    "incremental_peak_allocated_MiB_mean": 129.46875,
+    "incremental_peak_allocated_MiB_seed_range": [
+      129.46875,
+      129.46875
+    ],
+    "incremental_peak_allocated_MiB_seed_sample_sd": 0.0,
+    "synchronized_wall_mean_ms_batch_mean": 4.678042021890481,
+    "synchronized_wall_mean_ms_batch_seed_range": [
+      4.507358570893605,
+      4.80194286753734
+    ],
+    "synchronized_wall_mean_ms_batch_seed_sample_sd": 0.1527626789493186
+  },
+  {
+    "system": "deeplab",
+    "sensor": "S2",
+    "batch": 16,
+    "system_parameters": 11722809,
+    "cuda_mean_ms_batch_mean": 4.6592441193262735,
+    "cuda_mean_ms_batch_seed_range": [
+      4.6217423963546755,
+      4.691431671778361
+    ],
+    "cuda_mean_ms_batch_seed_sample_sd": 0.03514724859078428,
+    "amortized_ms_image_mean": 0.2912027574578921,
+    "amortized_ms_image_seed_range": [
+      0.2888588997721672,
+      0.29321447948614754
+    ],
+    "amortized_ms_image_seed_sample_sd": 0.0021967030369240176,
+    "images_per_second_mean": 3434.1639175950518,
+    "images_per_second_seed_range": [
+      3410.472776625765,
+      3461.897835894043
+    ],
+    "images_per_second_seed_sample_sd": 25.949801860315855,
+    "peak_allocated_MiB_mean": 239.5537109375,
+    "peak_allocated_MiB_seed_range": [
+      239.5537109375,
+      239.5537109375
+    ],
+    "peak_allocated_MiB_seed_sample_sd": 0.0,
+    "peak_reserved_MiB_mean": 390.0,
+    "peak_reserved_MiB_seed_range": [
+      390.0,
+      390.0
+    ],
+    "peak_reserved_MiB_seed_sample_sd": 0.0,
+    "incremental_peak_allocated_MiB_mean": 185.640625,
+    "incremental_peak_allocated_MiB_seed_range": [
+      185.640625,
+      185.640625
+    ],
+    "incremental_peak_allocated_MiB_seed_sample_sd": 0.0,
+    "synchronized_wall_mean_ms_batch_mean": 4.666651864018705,
+    "synchronized_wall_mean_ms_batch_seed_range": [
+      4.629705461362998,
+      4.699062593281269
+    ],
+    "synchronized_wall_mean_ms_batch_seed_sample_sd": 0.034900317861433126
+  },
+  {
+    "system": "segformer",
+    "sensor": "S1",
+    "batch": 1,
+    "system_parameters": 3714697,
+    "cuda_mean_ms_batch_mean": 4.904135459793938,
+    "cuda_mean_ms_batch_seed_range": [
+      4.8212699778874715,
+      5.041751775741577
+    ],
+    "cuda_mean_ms_batch_seed_sample_sd": 0.12000540057596429,
+    "amortized_ms_image_mean": 4.904135459793938,
+    "amortized_ms_image_seed_range": [
+      4.8212699778874715,
+      5.041751775741577
+    ],
+    "amortized_ms_image_seed_sample_sd": 0.12000540057596429,
+    "images_per_second_mean": 203.9899068573765,
+    "images_per_second_seed_range": [
+      198.34375916948287,
+      207.4142299822356
+    ],
+    "images_per_second_seed_sample_sd": 4.926534124811028,
+    "peak_allocated_MiB_mean": 35.88330078125,
+    "peak_allocated_MiB_seed_range": [
+      35.88330078125,
+      35.88330078125
+    ],
+    "peak_allocated_MiB_seed_sample_sd": 0.0,
+    "peak_reserved_MiB_mean": 40.0,
+    "peak_reserved_MiB_seed_range": [
+      40.0,
+      40.0
+    ],
+    "peak_reserved_MiB_seed_sample_sd": 0.0,
+    "incremental_peak_allocated_MiB_mean": 13.4296875,
+    "incremental_peak_allocated_MiB_seed_range": [
+      13.4296875,
+      13.4296875
+    ],
+    "incremental_peak_allocated_MiB_seed_sample_sd": 0.0,
+    "synchronized_wall_mean_ms_batch_mean": 4.911432878838645,
+    "synchronized_wall_mean_ms_batch_seed_range": [
+      4.828626352051893,
+      5.048826535542806
+    ],
+    "synchronized_wall_mean_ms_batch_seed_sample_sd": 0.11982005786521299
+  },
+  {
+    "system": "segformer",
+    "sensor": "S1",
+    "batch": 16,
+    "system_parameters": 3714697,
+    "cuda_mean_ms_batch_mean": 5.05265244377984,
+    "cuda_mean_ms_batch_seed_range": [
+      4.960549867947896,
+      5.206175365447998
+    ],
+    "cuda_mean_ms_batch_seed_sample_sd": 0.13383689856509445,
+    "amortized_ms_image_mean": 0.31579077773624,
+    "amortized_ms_image_seed_range": [
+      0.3100343667467435,
+      0.3253859603404999
+    ],
+    "amortized_ms_image_seed_sample_sd": 0.008364806160318403,
+    "images_per_second_mean": 3168.1145134678377,
+    "images_per_second_seed_range": [
+      3073.273348836412,
+      3225.4488768236
+    ],
+    "images_per_second_seed_sample_sd": 82.73099743139767,
+    "peak_allocated_MiB_mean": 175.79736328125,
+    "peak_allocated_MiB_seed_range": [
+      175.79736328125,
+      175.79736328125
+    ],
+    "peak_allocated_MiB_seed_sample_sd": 0.0,
+    "peak_reserved_MiB_mean": 208.0,
+    "peak_reserved_MiB_seed_range": [
+      208.0,
+      208.0
+    ],
+    "peak_reserved_MiB_seed_sample_sd": 0.0,
+    "incremental_peak_allocated_MiB_mean": 151.46875,
+    "incremental_peak_allocated_MiB_seed_range": [
+      151.46875,
+      151.46875
+    ],
+    "incremental_peak_allocated_MiB_seed_sample_sd": 0.0,
+    "synchronized_wall_mean_ms_batch_mean": 5.05949143320322,
+    "synchronized_wall_mean_ms_batch_seed_range": [
+      4.967003688216209,
+      5.214065313339233
+    ],
+    "synchronized_wall_mean_ms_batch_seed_sample_sd": 0.13472519358090573
+  },
+  {
+    "system": "segformer",
+    "sensor": "S2",
+    "batch": 1,
+    "system_parameters": 3714697,
+    "cuda_mean_ms_batch_mean": 4.865855967733595,
+    "cuda_mean_ms_batch_seed_range": [
+      4.808790082931519,
+      4.916383360226949
+    ],
+    "cuda_mean_ms_batch_seed_sample_sd": 0.0540938281234216,
+    "amortized_ms_image_mean": 4.865855967733595,
+    "amortized_ms_image_seed_range": [
+      4.808790082931519,
+      4.916383360226949
+    ],
+    "amortized_ms_image_seed_sample_sd": 0.0540938281234216,
+    "images_per_second_mean": 205.5306553696336,
+    "images_per_second_seed_range": [
+      203.4015508411936,
+      207.9525166942582
+    ],
+    "images_per_second_seed_sample_sd": 2.289563813311223,
+    "peak_allocated_MiB_mean": 36.32080078125,
+    "peak_allocated_MiB_seed_range": [
+      36.32080078125,
+      36.32080078125
+    ],
+    "peak_allocated_MiB_seed_sample_sd": 0.0,
+    "peak_reserved_MiB_mean": 42.0,
+    "peak_reserved_MiB_seed_range": [
+      42.0,
+      42.0
+    ],
+    "peak_reserved_MiB_seed_sample_sd": 0.0,
+    "incremental_peak_allocated_MiB_mean": 13.4296875,
+    "incremental_peak_allocated_MiB_seed_range": [
+      13.4296875,
+      13.4296875
+    ],
+    "incremental_peak_allocated_MiB_seed_sample_sd": 0.0,
+    "synchronized_wall_mean_ms_batch_mean": 4.873505214022265,
+    "synchronized_wall_mean_ms_batch_seed_range": [
+      4.815161265432835,
+      4.925980108479658
+    ],
+    "synchronized_wall_mean_ms_batch_seed_sample_sd": 0.05564205550537042
+  },
+  {
+    "system": "segformer",
+    "sensor": "S2",
+    "batch": 16,
+    "system_parameters": 3714697,
+    "cuda_mean_ms_batch_mean": 5.068856740527683,
+    "cuda_mean_ms_batch_seed_range": [
+      5.019767139752706,
+      5.09446228981018
+    ],
+    "cuda_mean_ms_batch_seed_sample_sd": 0.042526072783684074,
+    "amortized_ms_image_mean": 0.3168035462829802,
+    "amortized_ms_image_seed_range": [
+      0.31373544623454414,
+      0.31840389311313627
+    ],
+    "amortized_ms_image_seed_sample_sd": 0.0026578795489802546,
+    "images_per_second_mean": 3156.679166558032,
+    "images_per_second_seed_range": [
+      3140.665116317145,
+      3187.3988483035937
+    ],
+    "images_per_second_seed_sample_sd": 26.61206727799934,
+    "peak_allocated_MiB_mean": 183.20361328125,
+    "peak_allocated_MiB_seed_range": [
+      183.20361328125,
+      183.20361328125
+    ],
+    "peak_allocated_MiB_seed_sample_sd": 0.0,
+    "peak_reserved_MiB_mean": 208.0,
+    "peak_reserved_MiB_seed_range": [
+      208.0,
+      208.0
+    ],
+    "peak_reserved_MiB_seed_sample_sd": 0.0,
+    "incremental_peak_allocated_MiB_mean": 151.875,
+    "incremental_peak_allocated_MiB_seed_range": [
+      151.875,
+      151.875
+    ],
+    "incremental_peak_allocated_MiB_seed_sample_sd": 0.0,
+    "synchronized_wall_mean_ms_batch_mean": 5.077685664097468,
+    "synchronized_wall_mean_ms_batch_seed_range": [
+      5.026612418393293,
+      5.10566836843888
+    ],
+    "synchronized_wall_mean_ms_batch_seed_sample_sd": 0.04429831412956548
+  }
+]

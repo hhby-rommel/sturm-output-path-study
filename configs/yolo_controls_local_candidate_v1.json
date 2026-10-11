@@ -1,0 +1,68 @@
+{
+  "status": "LOCAL_DIAGNOSTIC_IN_PROGRESS_NOT_FORMAL",
+  "eomt_remaining_seeds": "2027/2028 deferred until user explicitly schedules",
+  "server_connection_authorized_this_round": false,
+  "formal_training_authorized_this_round": false,
+  "test_access_authorized_this_round": false,
+  "models": [
+    "native_c16_matched",
+    "decoder_c16_matched",
+    "independent_decoder_two_cores",
+    "yolov12n_turbo_trunk_shared_decoder"
+  ],
+  "common_channels": 16,
+  "native_input_channels": {
+    "S1": 2,
+    "S2": 9
+  },
+  "output_task": "two-class native128 semantic segmentation",
+  "initialization_seeds": [
+    10110
+  ],
+  "sampling_seed": 10111,
+  "training_seed": 10112,
+  "local_budget": {
+    "train_candidates_per_sensor": 64,
+    "val_panel_per_sensor": 32,
+    "batch_size": 8,
+    "initial_epochs": 3,
+    "extended_epochs": 8,
+    "max_updates": 128,
+    "full_val_count": 4853,
+    "per_run_epoch_guard_seconds": 1800
+  },
+  "optimizer": {
+    "name": "AdamW",
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "scheduler": "none",
+    "norm_bias_decay": true,
+    "gradient_clip_norm": 5,
+    "bn_running_stats": "frozen affine trainable"
+  },
+  "independent_control": "two parameter-disjoint cores, common grouped engine and one aggregate mean-of-present-sensors loss/global clip/update; not two separately optimized jobs",
+  "yolo12_identity": "official YOLOv12n-turbo layers0..14 + project-style P2/P1/input semantic decoder, sensor bridges and P3/P4 residual adapters",
+  "weight_sources": {
+    "yolo26": "Cityscapes semantic pretrained",
+    "yolov12": "COCO detection pretrained"
+  },
+  "checks": [
+    "shared initial tensor equality",
+    "independent parameter identity/output/routing parity",
+    "native channels and mask invariance",
+    "finite losses/gradients and both bridge gradients",
+    "same batch traces",
+    "fixed-tag selected panel replay",
+    "model optimizer and train-stat exact resume",
+    "full clean/degraded validation"
+  ],
+  "pending_server_gates": [
+    "server software/CUDA parity",
+    "full-train bounded health run",
+    "epoch-boundary sampler/RNG resume",
+    "full selected validation replay",
+    "same-device efficiency",
+    "formal configuration and guarded runner freeze",
+    "separate user scheduling of formal seeds"
+  ]
+}

@@ -1,0 +1,111 @@
+[
+  {
+    "compressed": "results\\sen1_full_pool_preparation_20261004_v3\\asset_receipts.json.gz",
+    "restored": "results\\sen1_full_pool_preparation_20261004_v3\\asset_receipts.json",
+    "original_sha256": "16f1d6efcd7f1d2f312ff834de9490af924822fdcce8d1c8f43bf87036e25902"
+  },
+  {
+    "compressed": "results\\sen1_full_pool_preparation_20261004_v3\\asset_receipts_partial.json.gz",
+    "restored": "results\\sen1_full_pool_preparation_20261004_v3\\asset_receipts_partial.json",
+    "original_sha256": "16f1d6efcd7f1d2f312ff834de9490af924822fdcce8d1c8f43bf87036e25902"
+  },
+  {
+    "compressed": "results\\sen1_full_pool_preparation_20261004_v3\\tile_index.json.gz",
+    "restored": "results\\sen1_full_pool_preparation_20261004_v3\\tile_index.json",
+    "original_sha256": "8ddff13dfe2c4c31bb30ed7bcb24f466528fd713a38cc8ff2d4e3bb57984bbc9"
+  },
+  {
+    "compressed": "prepared_controls\\decoder_reproduction_release_20261004_v4\\raw_train_val_identity.json.gz",
+    "restored": "prepared_controls\\decoder_reproduction_release_20261004_v4\\raw_train_val_identity.json",
+    "original_sha256": "bde579c613725786729d2b1447e2113e412e5519970827a8a95ea9dcd16599b5",
+    "parts": [
+      "prepared_controls/decoder_reproduction_release_20261004_v4/raw_train_val_identity.json.gz.parts/0000.part",
+      "prepared_controls/decoder_reproduction_release_20261004_v4/raw_train_val_identity.json.gz.parts/0001.part",
+      "prepared_controls/decoder_reproduction_release_20261004_v4/raw_train_val_identity.json.gz.parts/0002.part",
+      "prepared_controls/decoder_reproduction_release_20261004_v4/raw_train_val_identity.json.gz.parts/0003.part",
+      "prepared_controls/decoder_reproduction_release_20261004_v4/raw_train_val_identity.json.gz.parts/0004.part",
+      "prepared_controls/decoder_reproduction_release_20261004_v4/raw_train_val_identity.json.gz.parts/0005.part",
+      "prepared_controls/decoder_reproduction_release_20261004_v4/raw_train_val_identity.json.gz.parts/0006.part",
+      "prepared_controls/decoder_reproduction_release_20261004_v4/raw_train_val_identity.json.gz.parts/0007.part",
+      "prepared_controls/decoder_reproduction_release_20261004_v4/raw_train_val_identity.json.gz.parts/0008.part",
+      "prepared_controls/decoder_reproduction_release_20261004_v4/raw_train_val_identity.json.gz.parts/0009.part",
+      "prepared_controls/decoder_reproduction_release_20261004_v4/raw_train_val_identity.json.gz.parts/0010.part",
+      "prepared_controls/decoder_reproduction_release_20261004_v4/raw_train_val_identity.json.gz.parts/0011.part",
+      "prepared_controls/decoder_reproduction_release_20261004_v4/raw_train_val_identity.json.gz.parts/0012.part",
+      "prepared_controls/decoder_reproduction_release_20261004_v4/raw_train_val_identity.json.gz.parts/0013.part",
+      "prepared_controls/decoder_reproduction_release_20261004_v4/raw_train_val_identity.json.gz.parts/0014.part",
+      "prepared_controls/decoder_reproduction_release_20261004_v4/raw_train_val_identity.json.gz.parts/0015.part",
+      "prepared_controls/decoder_reproduction_release_20261004_v4/raw_train_val_identity.json.gz.parts/0016.part",
+      "prepared_controls/decoder_reproduction_release_20261004_v4/raw_train_val_identity.json.gz.parts/0017.part"
+    ]
+  },
+  {
+    "compressed": "prepared_controls\\sen1_formal_20261005_v1\\sampler_seed2026.npy.gz",
+    "restored": "prepared_controls\\sen1_formal_20261005_v1\\sampler_seed2026.npy",
+    "original_sha256": "fc60191a711ebd6855a37b50915c022afd6b00a1808d97cb3fd3a200728c63ec",
+    "parts": [
+      "prepared_controls/sen1_formal_20261005_v1/sampler_seed2026.npy.gz.parts/0000.part",
+      "prepared_controls/sen1_formal_20261005_v1/sampler_seed2026.npy.gz.parts/0001.part",
+      "prepared_controls/sen1_formal_20261005_v1/sampler_seed2026.npy.gz.parts/0002.part",
+      "prepared_controls/sen1_formal_20261005_v1/sampler_seed2026.npy.gz.parts/0003.part",
+      "prepared_controls/sen1_formal_20261005_v1/sampler_seed2026.npy.gz.parts/0004.part"
+    ]
+  },
+  {
+    "compressed": "prepared_controls\\sen1_formal_20261005_v1\\sampler_seed2027.npy.gz",
+    "restored": "prepared_controls\\sen1_formal_20261005_v1\\sampler_seed2027.npy",
+    "original_sha256": "94c6adf7a7bf57958f50015aa1121f0c44002911866bf7a263bf929a8f0295bc",
+    "parts": [
+      "prepared_controls/sen1_formal_20261005_v1/sampler_seed2027.npy.gz.parts/0000.part",
+      "prepared_controls/sen1_formal_20261005_v1/sampler_seed2027.npy.gz.parts/0001.part",
+      "prepared_controls/sen1_formal_20261005_v1/sampler_seed2027.npy.gz.parts/0002.part",
+      "prepared_controls/sen1_formal_20261005_v1/sampler_seed2027.npy.gz.parts/0003.part",
+      "prepared_controls/sen1_formal_20261005_v1/sampler_seed2027.npy.gz.parts/0004.part"
+    ]
+  },
+  {
+    "compressed": "prepared_controls\\sen1_formal_20261005_v1\\sampler_seed2028.npy.gz",
+    "restored": "prepared_controls\\sen1_formal_20261005_v1\\sampler_seed2028.npy",
+    "original_sha256": "4d241dd2e699009ae491b0e27ac56fc141b6b5961d410147c92bc19fae79f38a",
+    "parts": [
+      "prepared_controls/sen1_formal_20261005_v1/sampler_seed2028.npy.gz.parts/0000.part",
+      "prepared_controls/sen1_formal_20261005_v1/sampler_seed2028.npy.gz.parts/0001.part",
+      "prepared_controls/sen1_formal_20261005_v1/sampler_seed2028.npy.gz.parts/0002.part",
+      "prepared_controls/sen1_formal_20261005_v1/sampler_seed2028.npy.gz.parts/0003.part",
+      "prepared_controls/sen1_formal_20261005_v1/sampler_seed2028.npy.gz.parts/0004.part"
+    ]
+  },
+  {
+    "compressed": "prepared_controls\\sen1_gpu_prevalidation_20261005_v1\\sampler_draws.npy.gz",
+    "restored": "prepared_controls\\sen1_gpu_prevalidation_20261005_v1\\sampler_draws.npy",
+    "original_sha256": "b7648d8e2c61763e695d33aaaa4b0b963e8bf3fe0e1c7e7557535e46228ee66f"
+  },
+  {
+    "compressed": "data/manifests/event_statistics.csv.gz",
+    "restored": "data/manifests/event_statistics.csv",
+    "original_sha256": "d74f6feb89794c12401c78ef0f0814f411d4524fca636684ab9e30fed1ed789b"
+  },
+  {
+    "compressed": "data/manifests/manifest.csv.gz",
+    "restored": "data/manifests/manifest.csv",
+    "original_sha256": "9c1cb8646c2dfc8491fcc79fcfc267afdc39f2a4921a97b158dc0a30db66e164",
+    "parts": [
+      "data/manifests/manifest.csv.gz.parts/0000.part",
+      "data/manifests/manifest.csv.gz.parts/0001.part",
+      "data/manifests/manifest.csv.gz.parts/0002.part",
+      "data/manifests/manifest.csv.gz.parts/0003.part",
+      "data/manifests/manifest.csv.gz.parts/0004.part",
+      "data/manifests/manifest.csv.gz.parts/0005.part"
+    ]
+  },
+  {
+    "compressed": "data/manifests/upstream_repo_checksums.csv.gz",
+    "restored": "data/manifests/upstream_repo_checksums.csv",
+    "original_sha256": "a7d95d01b4dc03009eee341115fe8400a83a8e1ebe47db837120126504b3a91b"
+  },
+  {
+    "compressed": "data/manifests/upstream_repo_manifest.csv.gz",
+    "restored": "data/manifests/upstream_repo_manifest.csv",
+    "original_sha256": "f01a374e9c81e3db89b3a42940c4d6a5447684986a1296e42bf13f196eed6295"
+  }
+]

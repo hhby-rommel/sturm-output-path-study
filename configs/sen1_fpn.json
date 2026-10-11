@@ -1,0 +1,15 @@
+{
+  "phase": "train/val only",
+  "entry": "scripts/sen1_fpn_task_20261011.py",
+  "arguments": [
+    "--task",
+    "fpn_seed2026",
+    "--output",
+    "results/reproduction/sen1_fpn2026",
+    "--mode",
+    "train"
+  ],
+  "may_access_test": false,
+  "required_assets": [],
+  "notes": "Retains historical numerical and backend assertions; external assets and run-specific provenance records must be prepared. This interface is not a claim of clean-install or end-to-end execution validation."
+}

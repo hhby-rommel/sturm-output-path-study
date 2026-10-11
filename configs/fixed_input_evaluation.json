@@ -1,0 +1,8 @@
+{
+  "phase": "frozen three-system test reevaluation",
+  "entry": "scripts/server_output_path_followup_20261010.py",
+  "arguments": [],
+  "may_access_test": true,
+  "required_assets": [],
+  "notes": "Retains historical numerical and backend assertions; external assets and run-specific provenance records must be prepared. This interface is not a claim of clean-install or end-to-end execution validation."
+}

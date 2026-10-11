@@ -1,0 +1,290 @@
+{
+  "status": "LOCAL_DIAGNOSTIC_FROZEN_FORMAL_LAUNCH_DISABLED",
+  "dataset": "Sen1Floods11 v1.1 S1 hand labels",
+  "study": "Training on a second data source, not STURM zero-shot transfer or a sharing-mechanism test",
+  "official_split_scope": {
+    "train": 252,
+    "val": 89,
+    "test": 90,
+    "Bolivia": 15
+  },
+  "not_event_isolated": true,
+  "diagnostic_seed": 12026,
+  "formal_seeds_proposed": [
+    2026,
+    2027,
+    2028
+  ],
+  "diagnostic_budget": {
+    "updates_per_model": 64,
+    "evaluate_at": [
+      0,
+      16,
+      32,
+      64
+    ],
+    "train_chips": 10,
+    "val_chips": 10,
+    "train_windows": 160,
+    "val_windows": 160,
+    "sample_sequence": "Same seeded fixed 64x16 replacement draw sequence in all arms; degradation seeded by update and independent of model dropout",
+    "no_score_based_extension": true
+  },
+  "numeric": {
+    "batch": 16,
+    "clip": 5,
+    "supervision": "clean CE+Dice plus original S1 degraded CE+Dice, summed; no new class weights/aux outputs",
+    "BN": "YOLO running stats frozen; U-Net has no BN",
+    "max_epochs": {
+      "decoder": 50,
+      "main_only": 50,
+      "unet": 30
+    },
+    "patience": 10,
+    "selection": "degraded val F1 then exact clean tie then earlier epoch",
+    "sampler": "Uniform replacement over original-resolution train windows; one sensor only",
+    "input": "Raw received VV/VH dB float32; no normalization/scaling/clipping or statistics fitted to val/test",
+    "label": "-1 ignored; 0 background; 1 water",
+    "output": "128x128; main_only bilinear logits align_corners=False, label never interpolated"
+  },
+  "optimization": {
+    "decoder": {
+      "lr": 0.0003,
+      "weight_decay": 0.0001,
+      "scheduler": "none",
+      "exclude_norm_bias_decay": false
+    },
+    "main_only": {
+      "lr": 0.0003,
+      "weight_decay": 0.0001,
+      "scheduler": "none",
+      "exclude_norm_bias_decay": false
+    },
+    "unet": {
+      "lr": 0.0001,
+      "weight_decay": 0.0001,
+      "scheduler": "warmup_cosine",
+      "warmup_fraction": 0.05,
+      "minimum_lr_ratio": 0.01,
+      "exclude_norm_bias_decay": true,
+      "total_steps": 7560,
+      "scope": "Schedule sized to full official training windows/30 epochs, not compressed to 64 diagnostic steps"
+    }
+  },
+  "initialization": "YOLO uses original Cityscapes-compatible checkpoint transfer, same-seed common tensors verified; U-Net native S1 expert base64/dropout.30/noBN random Xavier as original. No STURM-trained best used.",
+  "model_workspace": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3",
+  "pretrained": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/models/pretrained/yolo26n-sem.pt",
+  "cache": "results/sen1_training_preparation_20261004_v2/train_val_tiles.npz",
+  "tile_index": "results/sen1_training_preparation_20261004_v2/tile_index.json",
+  "formal_budget_proposed": {
+    "train_windows": 4032,
+    "steps_per_epoch": 252,
+    "YOLO_max_steps": 12600,
+    "UNet_max_steps": 7560,
+    "tasks": 9,
+    "early_stopping": "max50/patience10 YOLO; original U-Net max30/patience10; not equal tuning or total optimization budget"
+  },
+  "guards": {
+    "local_only": true,
+    "test": false,
+    "formal_training": false,
+    "empty_domain_chip": "retain with explicit zero-count domain; no replacement",
+    "overwrite": false,
+    "retry_or_resume": false,
+    "any_failure": "stop and record; no silent retuning"
+  },
+  "locked_files": [
+    {
+      "path": "results/sen1_training_preparation_20261004_v2/train_val_tiles.npz",
+      "sha256": "d3bbf6257a1fae89b99e847b911cadf0510464d492c32e16565e7f0430323469"
+    },
+    {
+      "path": "results/sen1_training_preparation_20261004_v2/tile_index.json",
+      "sha256": "9efd8c2416aff427cd646a8624f17692f947dcb23fa44435dce726023d4b354e"
+    },
+    {
+      "path": "prepared_controls/sen1_training_diagnostic_20261004_v2/selection_before_download.json",
+      "sha256": "86154f2b438f16e50aa6dec54ff9f02b5f073299330c8421b8cdbc8467920858"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/models/pretrained/yolo26n-sem.pt",
+      "sha256": "f3f293cca764de1f93044030d8d5612de9c5ffbf37c9c8ea1b69418b73038999"
+    },
+    {
+      "path": "scripts/sen1_training_diagnostic_20261004.py",
+      "sha256": "8bddd8722cde77b3d0ee674c9aea5c3fcc64f5993eb0e8f214bcf7733d8a91b0"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/dataset/quality.py",
+      "sha256": "ae7b8c91207ba89e17762958e5d7351e4ab0d77e670b9f57f11cd35c3faaf3af"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/dataset/sturm_flood.py",
+      "sha256": "517c709b3cbf5be15539e02ca03fb0aa25b77eadd6d8ba2a7b3912c95c435eea"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/dataset/__init__.py",
+      "sha256": "8d5ea7e269472ba0001000eee7c46fe535e9b67a833c25b017c8d71c276fa259"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/data_audit/audit_sturm.py",
+      "sha256": "edc0ed2db9e7f5da9cab25fef95d10ce6e8cc160f4ef537c54bb08695230d1c7"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/data_audit/full_audit.py",
+      "sha256": "c9fc2d943f7b66ad375cdd8a2f69f1ef11a2619d8d1c8810e4e6aa23f90ef9ef"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/data_audit/split_events.py",
+      "sha256": "322a1a4f9d9817b8349ed7b90241b208144855db6f73ab853300a148e6ad8a4c"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/data_audit/validate_outputs.py",
+      "sha256": "d18d5b2ed5010315cdc60790debe53917af3eaf5a975d07631c235b14eeadf09"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/evaluation/formal.py",
+      "sha256": "be2bf82729fa57d818210eef3e860e73a9ec655dac547d9fd8e61c5e73406dfb"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/evaluation/s2_pixel_errors.py",
+      "sha256": "14eb8fa51be94a45da0ac4dfcc78af89b9477896ffacab4b013345582fa4f424"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/evaluation/__init__.py",
+      "sha256": "252d8b656ebb8b6c337792d2efa9a68dd9afd3297b08d0fbf926dd7e81efd635"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/decoder_attribution.py",
+      "sha256": "52821e37ecf39268ad78799b48c106ff9b10265a8f451a4cc0d88ad17d9b898a"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/efficientvit_b0_comparator.py",
+      "sha256": "65d18163ee49d36c4d0b468677d356af235e56915c9995078e6ff26eb55afb34"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/eomt_prepared.py",
+      "sha256": "b186e703e4ac12308e5e9924dd7b054bf4eb02a51310393c4be4ce2b47d8bf33"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/eomt_s_comparator.py",
+      "sha256": "ee11665e0d5767be2d83282365c64dc0c2c61e1aefbbf45836df6ee3a6e36ae3"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/lale_comparator.py",
+      "sha256": "f2c2f1950cebccdfa9eecf1bf7d590d21e8089075905b13c18404b57882a8dd7"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/local_multiscale_context_pretest.py",
+      "sha256": "ec4ffde0a7f0ed14cbacbd1b7b8290ab411856fe035f48c70f555e4f59aac0a4"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/lwganet_comparator.py",
+      "sha256": "188fd1bfc04f652501bc2268fba99bd1f95ba9fa083dfaeb3d90a76135cac410"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/lwganet_deterministic.py",
+      "sha256": "ce13e31d7ce275b011b411e6895bbcfec7ebf2de83e2bb651020f854f67fc488"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/optional_comparison.py",
+      "sha256": "7c0835f6d6d7e423df70360421be8830a8ff2feb340f1e5741f62b54f73835e1"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/research_comparators.py",
+      "sha256": "ea3fd66579d647e353fa0107dbfdc7a032f22f07da4ce19ab872f2f175aaf9dc"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/unet_semantic.py",
+      "sha256": "d047de3b8e33a2afc63750ee6236186ac6dccf8642a79017e315c90546f6c6b7"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo11_semantic.py",
+      "sha256": "1b626469d284287694e91b929d6293277884025477330a87550a3a926e5abef9"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo26_control_pretest.py",
+      "sha256": "fc1bff193470fbb7f0cd0fe78d8713b742c93d124344a10b06116fd604487c99"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo26_main_only_control.py",
+      "sha256": "bb22310671c4a845626041b0ac491e2d271c3fff531760d5cc8ca44ca2aa4fa5"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo26_semantic.py",
+      "sha256": "8bfebb8f2d452f07c3155b453e0654c406c1f888badd1927f63d109152b68a7d"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo26_sensor_p2_gate.py",
+      "sha256": "62f26c152bca230167678b13214bfb383299e8c6950aabbee9b7318f25866695"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo26_unet_decoder.py",
+      "sha256": "5b81f1431152373057c46602e31e4372f3018a3bc1246bb0a44aa81e78def60c"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolov12_comparator.py",
+      "sha256": "743fe1b71b7a79c8991585bb9970ca488d67d1a95f6f199eee6b0999fa17d3cb"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolov12_head_control_pretest.py",
+      "sha256": "848522f732aae93df5d2ed8d3ebc65f8735c416220272ddfc316ed7fbde3bfd9"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolov8_ghost_semantic.py",
+      "sha256": "64d8d77832f4b67c4f9fcba24e6ef16a5669f6f5dfcbaf9b4b267ee4316220ab"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/__init__.py",
+      "sha256": "496a12e96ee62e203e38d6891bf6cb6a94dc512a9f4291983f92ab8ba0824d69"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/dcl_losses.py",
+      "sha256": "f250e4cbd163b4b47d86ad2d6f158c90741ae88c41d6b70e507ff258bd779066"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/degradation.py",
+      "sha256": "150b5fca924a319447ebc78d13569d84ca3ed8a7bf2dc1fabda469391418e4f7"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/engine.py",
+      "sha256": "3b442a31b054e2e98ec8ba45740195ec6839665601561098d60cca9c0382cc5b"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/eomt_mask_classification.py",
+      "sha256": "cca9bda2da02baf57b1d585c3350b7315682a5cef164c60ef94a60b2535fd8ed"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/eomt_protocol.py",
+      "sha256": "46175df0db300aae90d35d50ce65534a6dc0a8d5f2a0963da194f85468010d13"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/exposure_matched_decoder_control.py",
+      "sha256": "1e34a5217546c770829903fe32e7736ad4b0f0e06b00d6b6bb71c61a7f8c9526"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/historical_engine_oracle.py",
+      "sha256": "dbb1ce3cef0b3f8b18892b6e594509c68d55b671c16f0b496b2430648836b020"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/independent_decoder_preflight.py",
+      "sha256": "1af7ad966de5c9ba6a3ef3c4ee3db6fc706f5e106776b056f858777b5e54e02d"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/masked_segmentation.py",
+      "sha256": "9c1e55045e5d0fed8ca1a09a90c21e3a31e352fe1e4d5dd3cf96ec5ee0aba52e"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/optimization.py",
+      "sha256": "88bccdd0845780b61cb8b8cca3934b52ac31b73e57665743d2c0b28538956c89"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/single_sensor_decoder_control.py",
+      "sha256": "0af7b8da92630000f236e30b3360e73953d96270fd16d8b6c06870dbe8b23e7a"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/__init__.py",
+      "sha256": "1bd99a731c5a4baee8beebe001ff8c08856e9c1d103f913e983c1f64ad2e168d"
+    }
+  ]
+}

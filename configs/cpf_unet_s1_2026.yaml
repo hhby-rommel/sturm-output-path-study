@@ -1,0 +1,39 @@
+# Talreja et al. (2026) Cross-Polarization Fusion module with U-Net, S1-only.
+# Different from Sun and Qu's 2024 panoramic-image CPF-UNet.
+version: cpf_unet_s1_2026_v1
+status: frozen_for_s1_diagnostic
+manifest: data/manifests/manifest.csv
+manifest_rows_sha256: f2a67f6eebe3a3f8f644a4afc6b765fad7129cff1841f61484c47de3a6655915
+event_split: data/splits/event_split_v1.csv
+event_split_rows_sha256: 9be0dee563985431b17a78f4ad2620c72ad1349fa215ea9b2fcf9c3ba5d69a2b
+seeds: [2026, 2027, 2028]
+train_sensors: [S1]
+s1_band_order: band1_vv_band2_vh_inferred
+image_size: 128
+batch_size: 16
+max_epochs: 50
+early_stopping_patience: 10
+training_variant: m1_degraded
+loss: masked_ce_plus_dice_v1
+input_normalization: none_v1
+fixed_degraded_tag: 1
+checkpoint_selection: pixel_pooled_degraded_f1_clean_tie_earlier_v1
+gradient_clip_norm: 5.0
+test_policy: once_per_seed_after_best_checkpoint
+optimizer_common:
+  optimizer: adamw
+  weight_decay: 0.0001
+  scheduler: warmup_cosine
+  warmup_fraction: 0.05
+  minimum_lr_ratio: 0.01
+  exclude_norm_and_bias_from_weight_decay: true
+  track_parameter_update: true
+models:
+  cpf_unet_s1:
+    paper_display_name: "Talreja et al. (2026) Cross-Polarization Fusion + U-Net (S1)"
+    architecture: cpf_unet_s1_2026
+    initialization: scratch
+    source_commit: 32bd74124c9d713dad64d5b2ff085d536e766d01
+    base_channels: 64
+    learning_rate: 0.0001
+    freeze_batchnorm_running_stats: false

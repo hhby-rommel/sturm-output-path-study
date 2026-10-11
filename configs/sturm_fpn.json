@@ -1,0 +1,18 @@
+{
+  "phase": "train/val only",
+  "entry": "scripts/fpn_reference_task_20261008.py",
+  "arguments": [
+    "--seed",
+    "2026",
+    "--output",
+    "results/reproduction/fpn2026",
+    "--mode",
+    "train",
+    "--execute-authorized"
+  ],
+  "may_access_test": false,
+  "required_assets": [
+    "models/pretrained/yolo26n-sem.pt"
+  ],
+  "notes": "Retains historical numerical and backend assertions; external assets and run-specific provenance records must be prepared. This interface is not a claim of clean-install or end-to-end execution validation."
+}

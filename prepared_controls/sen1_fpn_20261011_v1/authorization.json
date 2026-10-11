@@ -1,0 +1,8 @@
+{
+  "formal_launch_authorized": true,
+  "once_test_authorized": true,
+  "Bolivia_included": false,
+  "protocol_sha256": "76bad4e922ce8fc30c1bf59408eef4c850a28814297a285304780cce7dddddc4",
+  "execution_lock_sha256": "475897f1d8fd6eff54ba8cd0af87d3cc8f49fdb3426671a42c65d0e678d2dd94",
+  "user_instruction": "恢复Sen1-FPN三个种子，按原协议串行"
+}

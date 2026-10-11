@@ -1,0 +1,12 @@
+{
+  "status": "CONFIGURATION_SPLITS_AND_STORAGE_FROZEN_NOT_LAUNCHED",
+  "protocol_sha256": "b49a19e46b84867067202bf8e3ac557ccd3d257c1abeed77d6a618ca582bc44d",
+  "test_manifest_sha256": "276207dde3c2b74f0f1132328e7336bc413277f6a27e5a262dca847042a4890d",
+  "created_at_UTC": "2026-10-05T05:13:23.781311+00:00",
+  "storage_snapshot_pass": true,
+  "tasks": 9,
+  "formal_training_started": false,
+  "test_downloaded": false,
+  "test_inference": false,
+  "execution_entry_admitted": false
+}

@@ -1,0 +1,23 @@
+{
+  "status": "SANITIZED_UNPUBLISHED_CANDIDATE_LOCALLY_VALIDATED",
+  "source_files_sha_match": true,
+  "numeric_config_unchanged": true,
+  "public_lock_derivative": true,
+  "privacy_scan": {
+    "status": "NO_TARGETED_PERSONAL_PATH_SERVER_OR_CREDENTIAL_PATTERN_FOUND",
+    "patterns_checked": [
+      "personal_path",
+      "server_path",
+      "private_key",
+      "assigned_secret"
+    ],
+    "findings": [],
+    "third_party_notices_excluded": "Retain legitimate upstream copyright/contact attribution",
+    "scope": "Pattern-based local review; not a guarantee against every possible sensitive datum"
+  },
+  "four_arm_cpu_revalidation": true,
+  "author_license_resolved": false,
+  "publicly_released": false,
+  "formal_accuracy_reproduced": false,
+  "GPU_reproduced": false
+}

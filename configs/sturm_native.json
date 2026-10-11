@@ -1,0 +1,15 @@
+{
+  "phase": "train + historical one-shot test",
+  "entry": "scripts/server_main.py",
+  "arguments": [
+    "--model",
+    "yolo26n_native_c16_main_only",
+    "--seed",
+    "2026"
+  ],
+  "may_access_test": true,
+  "required_assets": [
+    "models/pretrained/yolo26n-sem.pt"
+  ],
+  "notes": "Retains historical numerical and backend assertions; external assets and run-specific provenance records must be prepared. This interface is not a claim of clean-install or end-to-end execution validation."
+}

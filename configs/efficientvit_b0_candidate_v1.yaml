@@ -1,0 +1,42 @@
+version: efficientvit_b0_candidate_v1
+status: health_gate_pending
+manifest: data/manifests/manifest.csv
+manifest_rows_sha256: f2a67f6eebe3a3f8f644a4afc6b765fad7129cff1841f61484c47de3a6655915
+event_split: data/splits/event_split_v1.csv
+event_split_rows_sha256: 9be0dee563985431b17a78f4ad2620c72ad1349fa215ea9b2fcf9c3ba5d69a2b
+seeds:
+- 2026
+- 2027
+- 2028
+train_sensors:
+- S1
+- S2
+image_size: 128
+batch_size: 16
+max_epochs: 50
+early_stopping_patience: 10
+training_variant: m1_degraded
+loss: masked_ce_plus_dice_v1
+input_normalization: none_v1
+fixed_degraded_tag: 1
+checkpoint_selection: pixel_pooled_degraded_f1_clean_tie_earlier_v1
+gradient_clip_norm: 5.0
+test_policy: once_per_seed_after_best_checkpoint
+optimizer_common:
+  optimizer: adamw
+  weight_decay: 0.0001
+  scheduler: warmup_cosine
+  warmup_fraction: 0.05
+  minimum_lr_ratio: 0.01
+  exclude_norm_and_bias_from_weight_decay: true
+  track_parameter_update: true
+models:
+  efficientvit_b0:
+    architecture: efficientvit_seg_b0_cityscapes_core_sturm_two_class
+    initialization: cityscapes_core_except_classifier_random_sensor_adapters
+    weights_path: models/pretrained/research_comparators/efficientvit_seg_b0_cityscapes.pt
+    weights_sha256: 923d6fdd5e93640cc0c2f3f213764f34e80b477cd98a6b294d870ea6df5acc50
+    source_commit: de7d7733cc0329f391b33f1f459271562ec27bd5
+    learning_rate: 0.0001
+    freeze_batchnorm_running_stats: false
+formal_release: false

@@ -1,0 +1,6025 @@
+[
+  {
+    "partition": "train",
+    "image": "Ghana_103272_S1Hand.tif",
+    "label": "Ghana_103272_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 259269,
+    "foreground_pixels": 1558,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 2.471789235364809e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_24858_S1Hand.tif",
+    "label": "Ghana_24858_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 262144,
+    "foreground_pixels": 484,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_147015_S1Hand.tif",
+    "label": "Ghana_147015_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 262144,
+    "foreground_pixels": 3530,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 2.471789235364809e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_953791_S1Hand.tif",
+    "label": "Ghana_953791_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 262144,
+    "foreground_pixels": 2772,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 2.471789235364809e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_154838_S1Hand.tif",
+    "label": "Ghana_154838_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 42107,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1,
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.8538419265236065e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_134751_S1Hand.tif",
+    "label": "Ghana_134751_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 37663,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1,
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 2.471789235364809e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_61925_S1Hand.tif",
+    "label": "Ghana_61925_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 262144,
+    "foreground_pixels": 651,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 2.471789235364809e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_156478_S1Hand.tif",
+    "label": "Ghana_156478_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 262144,
+    "foreground_pixels": 0,
+    "label_codes": [
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 2.471789235364809e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_144050_S1Hand.tif",
+    "label": "Ghana_144050_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 23551,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1,
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_49890_S1Hand.tif",
+    "label": "Ghana_49890_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 262144,
+    "foreground_pixels": 0,
+    "label_codes": [
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 2.471789235364809e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_97516_S1Hand.tif",
+    "label": "Ghana_97516_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 187555,
+    "foreground_pixels": 771,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_168875_S1Hand.tif",
+    "label": "Ghana_168875_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 41796,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1,
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_141910_S1Hand.tif",
+    "label": "Ghana_141910_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 262144,
+    "foreground_pixels": 70650,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 2.471789235364809e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_146222_S1Hand.tif",
+    "label": "Ghana_146222_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 181656,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1,
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.8538419265236065e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_11745_S1Hand.tif",
+    "label": "Ghana_11745_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 262144,
+    "foreground_pixels": 0,
+    "label_codes": [
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 2.471789235364809e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_161233_S1Hand.tif",
+    "label": "Ghana_161233_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 1892,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1,
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.8538419265236065e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_7496_S1Hand.tif",
+    "label": "Ghana_7496_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 262144,
+    "foreground_pixels": 0,
+    "label_codes": [
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 2.471789235364809e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_128663_S1Hand.tif",
+    "label": "Ghana_128663_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 168848,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1,
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 2.471789235364809e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_264787_S1Hand.tif",
+    "label": "Ghana_264787_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 181975,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1,
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.8538419265236065e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_597288_S1Hand.tif",
+    "label": "Ghana_597288_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 262144,
+    "foreground_pixels": 5690,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 2.471789235364809e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_8090_S1Hand.tif",
+    "label": "Ghana_8090_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 194666,
+    "foreground_pixels": 4,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_187318_S1Hand.tif",
+    "label": "Ghana_187318_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 262144,
+    "foreground_pixels": 0,
+    "label_codes": [
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 2.471789235364809e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_362274_S1Hand.tif",
+    "label": "Ghana_362274_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 259407,
+    "foreground_pixels": 18364,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 2.471789235364809e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_1089161_S1Hand.tif",
+    "label": "Ghana_1089161_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 236164,
+    "foreground_pixels": 2907,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 2.471789235364809e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_887131_S1Hand.tif",
+    "label": "Ghana_887131_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 262144,
+    "foreground_pixels": 10075,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 2.471789235364809e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_247288_S1Hand.tif",
+    "label": "Ghana_247288_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 40174,
+    "foreground_pixels": 26650,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 2.471789235364809e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_194723_S1Hand.tif",
+    "label": "Ghana_194723_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 47408,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1,
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 2.471789235364809e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_26376_S1Hand.tif",
+    "label": "Ghana_26376_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 0,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_45911_S1Hand.tif",
+    "label": "Ghana_45911_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 29269,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1,
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 2.471789235364809e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_83200_S1Hand.tif",
+    "label": "Ghana_83200_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 98215,
+    "foreground_pixels": 533,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "train",
+    "image": "Ghana_135389_S1Hand.tif",
+    "label": "Ghana_135389_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 24624,
+    "foreground_pixels": 252,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 2.471789235364809e-12
+  },
+  {
+    "partition": "train",
+    "image": "India_285297_S1Hand.tif",
+    "label": "India_285297_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 245042,
+    "foreground_pixels": 36006,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_1072277_S1Hand.tif",
+    "label": "India_1072277_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 262142,
+    "foreground_pixels": 22546,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_324254_S1Hand.tif",
+    "label": "India_324254_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 262144,
+    "foreground_pixels": 3883,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_177319_S1Hand.tif",
+    "label": "India_177319_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 256490,
+    "foreground_pixels": 1578,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_391908_S1Hand.tif",
+    "label": "India_391908_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 211832,
+    "foreground_pixels": 25989,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_166709_S1Hand.tif",
+    "label": "India_166709_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 256894,
+    "foreground_pixels": 8839,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_534470_S1Hand.tif",
+    "label": "India_534470_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 250570,
+    "foreground_pixels": 7434,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_773682_S1Hand.tif",
+    "label": "India_773682_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 252793,
+    "foreground_pixels": 30959,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_956930_S1Hand.tif",
+    "label": "India_956930_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 237130,
+    "foreground_pixels": 40096,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_979278_S1Hand.tif",
+    "label": "India_979278_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 105990,
+    "foreground_pixels": 5437,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_664410_S1Hand.tif",
+    "label": "India_664410_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 262142,
+    "foreground_pixels": 13526,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_747970_S1Hand.tif",
+    "label": "India_747970_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 246517,
+    "foreground_pixels": 5007,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_207862_S1Hand.tif",
+    "label": "India_207862_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 200115,
+    "foreground_pixels": 21028,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_500266_S1Hand.tif",
+    "label": "India_500266_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 262141,
+    "foreground_pixels": 38181,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_179238_S1Hand.tif",
+    "label": "India_179238_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 192482,
+    "foreground_pixels": 11592,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_287642_S1Hand.tif",
+    "label": "India_287642_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 115377,
+    "foreground_pixels": 17914,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_774689_S1Hand.tif",
+    "label": "India_774689_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 237116,
+    "foreground_pixels": 18757,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_383430_S1Hand.tif",
+    "label": "India_383430_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 251271,
+    "foreground_pixels": 39228,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_373039_S1Hand.tif",
+    "label": "India_373039_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 242783,
+    "foreground_pixels": 1509,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_698338_S1Hand.tif",
+    "label": "India_698338_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 227984,
+    "foreground_pixels": 9936,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_1017769_S1Hand.tif",
+    "label": "India_1017769_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 172971,
+    "foreground_pixels": 98143,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_981708_S1Hand.tif",
+    "label": "India_981708_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 219993,
+    "foreground_pixels": 10346,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_91379_S1Hand.tif",
+    "label": "India_91379_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 262133,
+    "foreground_pixels": 29594,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_59460_S1Hand.tif",
+    "label": "India_59460_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 209353,
+    "foreground_pixels": 315,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_624341_S1Hand.tif",
+    "label": "India_624341_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 262142,
+    "foreground_pixels": 3224,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_566697_S1Hand.tif",
+    "label": "India_566697_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 215703,
+    "foreground_pixels": 14719,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_804466_S1Hand.tif",
+    "label": "India_804466_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 262134,
+    "foreground_pixels": 50228,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_103447_S1Hand.tif",
+    "label": "India_103447_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 163567,
+    "foreground_pixels": 26977,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_136196_S1Hand.tif",
+    "label": "India_136196_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 211744,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1,
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_842775_S1Hand.tif",
+    "label": "India_842775_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 246418,
+    "foreground_pixels": 5929,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_25540_S1Hand.tif",
+    "label": "India_25540_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 188625,
+    "foreground_pixels": 11559,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_56450_S1Hand.tif",
+    "label": "India_56450_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 181248,
+    "foreground_pixels": 82,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_135434_S1Hand.tif",
+    "label": "India_135434_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 117150,
+    "foreground_pixels": 10312,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_652725_S1Hand.tif",
+    "label": "India_652725_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 262094,
+    "foreground_pixels": 21795,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_943439_S1Hand.tif",
+    "label": "India_943439_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 250096,
+    "foreground_pixels": 47609,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_73419_S1Hand.tif",
+    "label": "India_73419_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 178934,
+    "foreground_pixels": 6252,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_591549_S1Hand.tif",
+    "label": "India_591549_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 245709,
+    "foreground_pixels": 11054,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_273873_S1Hand.tif",
+    "label": "India_273873_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 155608,
+    "foreground_pixels": 5446,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_707886_S1Hand.tif",
+    "label": "India_707886_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 256881,
+    "foreground_pixels": 5668,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "India_265762_S1Hand.tif",
+    "label": "India_265762_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 147296,
+    "foreground_pixels": 8533,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Mekong_221789_S1Hand.tif",
+    "label": "Mekong_221789_LabelHand.tif",
+    "group": "Mekong",
+    "valid_pixels": 215327,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1,
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Mekong_52610_S1Hand.tif",
+    "label": "Mekong_52610_LabelHand.tif",
+    "group": "Mekong",
+    "valid_pixels": 262144,
+    "foreground_pixels": 210673,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Mekong_596495_S1Hand.tif",
+    "label": "Mekong_596495_LabelHand.tif",
+    "group": "Mekong",
+    "valid_pixels": 229483,
+    "foreground_pixels": 177143,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Mekong_1439641_S1Hand.tif",
+    "label": "Mekong_1439641_LabelHand.tif",
+    "group": "Mekong",
+    "valid_pixels": 262083,
+    "foreground_pixels": 197802,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Mekong_1191208_S1Hand.tif",
+    "label": "Mekong_1191208_LabelHand.tif",
+    "group": "Mekong",
+    "valid_pixels": 202312,
+    "foreground_pixels": 15265,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Mekong_774566_S1Hand.tif",
+    "label": "Mekong_774566_LabelHand.tif",
+    "group": "Mekong",
+    "valid_pixels": 227728,
+    "foreground_pixels": 77043,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Mekong_213094_S1Hand.tif",
+    "label": "Mekong_213094_LabelHand.tif",
+    "group": "Mekong",
+    "valid_pixels": 229843,
+    "foreground_pixels": 111,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Mekong_119477_S1Hand.tif",
+    "label": "Mekong_119477_LabelHand.tif",
+    "group": "Mekong",
+    "valid_pixels": 260952,
+    "foreground_pixels": 2996,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Mekong_269835_S1Hand.tif",
+    "label": "Mekong_269835_LabelHand.tif",
+    "group": "Mekong",
+    "valid_pixels": 212236,
+    "foreground_pixels": 483,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Mekong_846007_S1Hand.tif",
+    "label": "Mekong_846007_LabelHand.tif",
+    "group": "Mekong",
+    "valid_pixels": 164030,
+    "foreground_pixels": 7535,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Mekong_1111068_S1Hand.tif",
+    "label": "Mekong_1111068_LabelHand.tif",
+    "group": "Mekong",
+    "valid_pixels": 262098,
+    "foreground_pixels": 7449,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Mekong_1282475_S1Hand.tif",
+    "label": "Mekong_1282475_LabelHand.tif",
+    "group": "Mekong",
+    "valid_pixels": 262144,
+    "foreground_pixels": 26551,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Mekong_16233_S1Hand.tif",
+    "label": "Mekong_16233_LabelHand.tif",
+    "group": "Mekong",
+    "valid_pixels": 262132,
+    "foreground_pixels": 62211,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Mekong_342411_S1Hand.tif",
+    "label": "Mekong_342411_LabelHand.tif",
+    "group": "Mekong",
+    "valid_pixels": 262141,
+    "foreground_pixels": 28914,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Mekong_1395593_S1Hand.tif",
+    "label": "Mekong_1395593_LabelHand.tif",
+    "group": "Mekong",
+    "valid_pixels": 261728,
+    "foreground_pixels": 18875,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Mekong_922373_S1Hand.tif",
+    "label": "Mekong_922373_LabelHand.tif",
+    "group": "Mekong",
+    "valid_pixels": 262138,
+    "foreground_pixels": 119765,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Mekong_1396181_S1Hand.tif",
+    "label": "Mekong_1396181_LabelHand.tif",
+    "group": "Mekong",
+    "valid_pixels": 243062,
+    "foreground_pixels": 145007,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Mekong_1248200_S1Hand.tif",
+    "label": "Mekong_1248200_LabelHand.tif",
+    "group": "Mekong",
+    "valid_pixels": 260988,
+    "foreground_pixels": 204588,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Nigeria_529525_S1Hand.tif",
+    "label": "Nigeria_529525_LabelHand.tif",
+    "group": "Nigeria",
+    "valid_pixels": 262144,
+    "foreground_pixels": 223651,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Nigeria_143329_S1Hand.tif",
+    "label": "Nigeria_143329_LabelHand.tif",
+    "group": "Nigeria",
+    "valid_pixels": 249500,
+    "foreground_pixels": 2777,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Nigeria_439488_S1Hand.tif",
+    "label": "Nigeria_439488_LabelHand.tif",
+    "group": "Nigeria",
+    "valid_pixels": 229200,
+    "foreground_pixels": 1468,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Nigeria_707067_S1Hand.tif",
+    "label": "Nigeria_707067_LabelHand.tif",
+    "group": "Nigeria",
+    "valid_pixels": 261359,
+    "foreground_pixels": 3756,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Nigeria_81933_S1Hand.tif",
+    "label": "Nigeria_81933_LabelHand.tif",
+    "group": "Nigeria",
+    "valid_pixels": 246268,
+    "foreground_pixels": 177950,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Nigeria_35845_S1Hand.tif",
+    "label": "Nigeria_35845_LabelHand.tif",
+    "group": "Nigeria",
+    "valid_pixels": 213042,
+    "foreground_pixels": 286,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Nigeria_598959_S1Hand.tif",
+    "label": "Nigeria_598959_LabelHand.tif",
+    "group": "Nigeria",
+    "valid_pixels": 211208,
+    "foreground_pixels": 46528,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Nigeria_952958_S1Hand.tif",
+    "label": "Nigeria_952958_LabelHand.tif",
+    "group": "Nigeria",
+    "valid_pixels": 227674,
+    "foreground_pixels": 9735,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Nigeria_78061_S1Hand.tif",
+    "label": "Nigeria_78061_LabelHand.tif",
+    "group": "Nigeria",
+    "valid_pixels": 228886,
+    "foreground_pixels": 5494,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Nigeria_600295_S1Hand.tif",
+    "label": "Nigeria_600295_LabelHand.tif",
+    "group": "Nigeria",
+    "valid_pixels": 181691,
+    "foreground_pixels": 83661,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Pakistan_909806_S1Hand.tif",
+    "label": "Pakistan_909806_LabelHand.tif",
+    "group": "Pakistan",
+    "valid_pixels": 116287,
+    "foreground_pixels": 1414,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Pakistan_132143_S1Hand.tif",
+    "label": "Pakistan_132143_LabelHand.tif",
+    "group": "Pakistan",
+    "valid_pixels": 262144,
+    "foreground_pixels": 0,
+    "label_codes": [
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Pakistan_712873_S1Hand.tif",
+    "label": "Pakistan_712873_LabelHand.tif",
+    "group": "Pakistan",
+    "valid_pixels": 119557,
+    "foreground_pixels": 1316,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Pakistan_35915_S1Hand.tif",
+    "label": "Pakistan_35915_LabelHand.tif",
+    "group": "Pakistan",
+    "valid_pixels": 129233,
+    "foreground_pixels": 52301,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Pakistan_246510_S1Hand.tif",
+    "label": "Pakistan_246510_LabelHand.tif",
+    "group": "Pakistan",
+    "valid_pixels": 258817,
+    "foreground_pixels": 10741,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Pakistan_667363_S1Hand.tif",
+    "label": "Pakistan_667363_LabelHand.tif",
+    "group": "Pakistan",
+    "valid_pixels": 162484,
+    "foreground_pixels": 1219,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Pakistan_366265_S1Hand.tif",
+    "label": "Pakistan_366265_LabelHand.tif",
+    "group": "Pakistan",
+    "valid_pixels": 127291,
+    "foreground_pixels": 2,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "train",
+    "image": "Pakistan_548910_S1Hand.tif",
+    "label": "Pakistan_548910_LabelHand.tif",
+    "group": "Pakistan",
+    "valid_pixels": 235696,
+    "foreground_pixels": 3439,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Pakistan_740461_S1Hand.tif",
+    "label": "Pakistan_740461_LabelHand.tif",
+    "group": "Pakistan",
+    "valid_pixels": 211456,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1,
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Pakistan_211386_S1Hand.tif",
+    "label": "Pakistan_211386_LabelHand.tif",
+    "group": "Pakistan",
+    "valid_pixels": 255405,
+    "foreground_pixels": 6859,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Pakistan_401863_S1Hand.tif",
+    "label": "Pakistan_401863_LabelHand.tif",
+    "group": "Pakistan",
+    "valid_pixels": 258845,
+    "foreground_pixels": 3324,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "train",
+    "image": "Pakistan_246718_S1Hand.tif",
+    "label": "Pakistan_246718_LabelHand.tif",
+    "group": "Pakistan",
+    "valid_pixels": 235278,
+    "foreground_pixels": 13126,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Pakistan_474121_S1Hand.tif",
+    "label": "Pakistan_474121_LabelHand.tif",
+    "group": "Pakistan",
+    "valid_pixels": 180789,
+    "foreground_pixels": 8893,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "train",
+    "image": "Pakistan_65724_S1Hand.tif",
+    "label": "Pakistan_65724_LabelHand.tif",
+    "group": "Pakistan",
+    "valid_pixels": 262143,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1,
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Pakistan_1036366_S1Hand.tif",
+    "label": "Pakistan_1036366_LabelHand.tif",
+    "group": "Pakistan",
+    "valid_pixels": 110380,
+    "foreground_pixels": 22673,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Pakistan_760290_S1Hand.tif",
+    "label": "Pakistan_760290_LabelHand.tif",
+    "group": "Pakistan",
+    "valid_pixels": 233498,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1,
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_721886_S1Hand.tif",
+    "label": "Paraguay_721886_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 261426,
+    "foreground_pixels": 10917,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_62897_S1Hand.tif",
+    "label": "Paraguay_62897_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 41142,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_36015_S1Hand.tif",
+    "label": "Paraguay_36015_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262139,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1,
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_12870_S1Hand.tif",
+    "label": "Paraguay_12870_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 0,
+    "label_codes": [
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_126224_S1Hand.tif",
+    "label": "Paraguay_126224_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 144382,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_215904_S1Hand.tif",
+    "label": "Paraguay_215904_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 226308,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1,
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_54421_S1Hand.tif",
+    "label": "Paraguay_54421_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 40,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_247656_S1Hand.tif",
+    "label": "Paraguay_247656_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 20976,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_179624_S1Hand.tif",
+    "label": "Paraguay_179624_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262109,
+    "foreground_pixels": 42,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_1029042_S1Hand.tif",
+    "label": "Paraguay_1029042_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 223004,
+    "foreground_pixels": 61197,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_246154_S1Hand.tif",
+    "label": "Paraguay_246154_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 36,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_892933_S1Hand.tif",
+    "label": "Paraguay_892933_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 26570,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_11869_S1Hand.tif",
+    "label": "Paraguay_11869_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 257933,
+    "foreground_pixels": 222,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_921838_S1Hand.tif",
+    "label": "Paraguay_921838_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 7350,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_24341_S1Hand.tif",
+    "label": "Paraguay_24341_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 68353,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_605682_S1Hand.tif",
+    "label": "Paraguay_605682_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 75440,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_997480_S1Hand.tif",
+    "label": "Paraguay_997480_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 19947,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_148318_S1Hand.tif",
+    "label": "Paraguay_148318_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 240076,
+    "foreground_pixels": 2229,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_191503_S1Hand.tif",
+    "label": "Paraguay_191503_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 90,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_1076204_S1Hand.tif",
+    "label": "Paraguay_1076204_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 3029,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_198534_S1Hand.tif",
+    "label": "Paraguay_198534_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 195487,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1,
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_470303_S1Hand.tif",
+    "label": "Paraguay_470303_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 10446,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_822142_S1Hand.tif",
+    "label": "Paraguay_822142_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 80190,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_795075_S1Hand.tif",
+    "label": "Paraguay_795075_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262138,
+    "foreground_pixels": 3421,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_339807_S1Hand.tif",
+    "label": "Paraguay_339807_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 214619,
+    "foreground_pixels": 58043,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_1056717_S1Hand.tif",
+    "label": "Paraguay_1056717_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 5046,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_403081_S1Hand.tif",
+    "label": "Paraguay_403081_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 249836,
+    "foreground_pixels": 1202,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_149787_S1Hand.tif",
+    "label": "Paraguay_149787_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 40091,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_36146_S1Hand.tif",
+    "label": "Paraguay_36146_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 0,
+    "label_codes": [
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_792268_S1Hand.tif",
+    "label": "Paraguay_792268_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262120,
+    "foreground_pixels": 1346,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_482517_S1Hand.tif",
+    "label": "Paraguay_482517_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 259600,
+    "foreground_pixels": 47452,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_212687_S1Hand.tif",
+    "label": "Paraguay_212687_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 15308,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_791364_S1Hand.tif",
+    "label": "Paraguay_791364_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 261735,
+    "foreground_pixels": 1206,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_224845_S1Hand.tif",
+    "label": "Paraguay_224845_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 103920,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1,
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_149830_S1Hand.tif",
+    "label": "Paraguay_149830_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 260440,
+    "foreground_pixels": 1907,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_48673_S1Hand.tif",
+    "label": "Paraguay_48673_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 133,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_44682_S1Hand.tif",
+    "label": "Paraguay_44682_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 1309,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_989230_S1Hand.tif",
+    "label": "Paraguay_989230_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 219924,
+    "foreground_pixels": 36591,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Paraguay_225187_S1Hand.tif",
+    "label": "Paraguay_225187_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 47,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Somalia_989553_S1Hand.tif",
+    "label": "Somalia_989553_LabelHand.tif",
+    "group": "Somalia",
+    "valid_pixels": 110303,
+    "foreground_pixels": 2307,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Somalia_93023_S1Hand.tif",
+    "label": "Somalia_93023_LabelHand.tif",
+    "group": "Somalia",
+    "valid_pixels": 187825,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1,
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 4.943578470729618e-12
+  },
+  {
+    "partition": "train",
+    "image": "Somalia_371421_S1Hand.tif",
+    "label": "Somalia_371421_LabelHand.tif",
+    "group": "Somalia",
+    "valid_pixels": 230962,
+    "foreground_pixels": 34678,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Somalia_230192_S1Hand.tif",
+    "label": "Somalia_230192_LabelHand.tif",
+    "group": "Somalia",
+    "valid_pixels": 232522,
+    "foreground_pixels": 58,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 4.943578470729618e-12
+  },
+  {
+    "partition": "train",
+    "image": "Somalia_886726_S1Hand.tif",
+    "label": "Somalia_886726_LabelHand.tif",
+    "group": "Somalia",
+    "valid_pixels": 262036,
+    "foreground_pixels": 82995,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Somalia_992457_S1Hand.tif",
+    "label": "Somalia_992457_LabelHand.tif",
+    "group": "Somalia",
+    "valid_pixels": 181140,
+    "foreground_pixels": 7852,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 4.943578470729618e-12
+  },
+  {
+    "partition": "train",
+    "image": "Somalia_7931_S1Hand.tif",
+    "label": "Somalia_7931_LabelHand.tif",
+    "group": "Somalia",
+    "valid_pixels": 201972,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1,
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 4.943578470729618e-12
+  },
+  {
+    "partition": "train",
+    "image": "Somalia_195014_S1Hand.tif",
+    "label": "Somalia_195014_LabelHand.tif",
+    "group": "Somalia",
+    "valid_pixels": 233650,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1,
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 4.943578470729618e-12
+  },
+  {
+    "partition": "train",
+    "image": "Somalia_32375_S1Hand.tif",
+    "label": "Somalia_32375_LabelHand.tif",
+    "group": "Somalia",
+    "valid_pixels": 133568,
+    "foreground_pixels": 1,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Somalia_1087508_S1Hand.tif",
+    "label": "Somalia_1087508_LabelHand.tif",
+    "group": "Somalia",
+    "valid_pixels": 212943,
+    "foreground_pixels": 10021,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 4.943578470729618e-12
+  },
+  {
+    "partition": "train",
+    "image": "Somalia_295782_S1Hand.tif",
+    "label": "Somalia_295782_LabelHand.tif",
+    "group": "Somalia",
+    "valid_pixels": 203048,
+    "foreground_pixels": 16239,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 4.943578470729618e-12
+  },
+  {
+    "partition": "train",
+    "image": "Somalia_970508_S1Hand.tif",
+    "label": "Somalia_970508_LabelHand.tif",
+    "group": "Somalia",
+    "valid_pixels": 217119,
+    "foreground_pixels": 38112,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Somalia_626316_S1Hand.tif",
+    "label": "Somalia_626316_LabelHand.tif",
+    "group": "Somalia",
+    "valid_pixels": 169085,
+    "foreground_pixels": 21727,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 4.943578470729618e-12
+  },
+  {
+    "partition": "train",
+    "image": "Somalia_1068756_S1Hand.tif",
+    "label": "Somalia_1068756_LabelHand.tif",
+    "group": "Somalia",
+    "valid_pixels": 171193,
+    "foreground_pixels": 6495,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 4.943578470729618e-12
+  },
+  {
+    "partition": "train",
+    "image": "Somalia_205466_S1Hand.tif",
+    "label": "Somalia_205466_LabelHand.tif",
+    "group": "Somalia",
+    "valid_pixels": 240083,
+    "foreground_pixels": 93,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "Spain_5923267_S1Hand.tif",
+    "label": "Spain_5923267_LabelHand.tif",
+    "group": "Spain",
+    "valid_pixels": 218743,
+    "foreground_pixels": 201713,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "train",
+    "image": "Spain_7786924_S1Hand.tif",
+    "label": "Spain_7786924_LabelHand.tif",
+    "group": "Spain",
+    "valid_pixels": 262111,
+    "foreground_pixels": 3768,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "train",
+    "image": "Spain_7856615_S1Hand.tif",
+    "label": "Spain_7856615_LabelHand.tif",
+    "group": "Spain",
+    "valid_pixels": 261930,
+    "foreground_pixels": 9637,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "train",
+    "image": "Spain_4915752_S1Hand.tif",
+    "label": "Spain_4915752_LabelHand.tif",
+    "group": "Spain",
+    "valid_pixels": 262128,
+    "foreground_pixels": 7664,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "train",
+    "image": "Spain_2472849_S1Hand.tif",
+    "label": "Spain_2472849_LabelHand.tif",
+    "group": "Spain",
+    "valid_pixels": 261759,
+    "foreground_pixels": 20,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "train",
+    "image": "Spain_8104659_S1Hand.tif",
+    "label": "Spain_8104659_LabelHand.tif",
+    "group": "Spain",
+    "valid_pixels": 262128,
+    "foreground_pixels": 3484,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "train",
+    "image": "Spain_5816638_S1Hand.tif",
+    "label": "Spain_5816638_LabelHand.tif",
+    "group": "Spain",
+    "valid_pixels": 262052,
+    "foreground_pixels": 379,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "train",
+    "image": "Spain_2523247_S1Hand.tif",
+    "label": "Spain_2523247_LabelHand.tif",
+    "group": "Spain",
+    "valid_pixels": 262039,
+    "foreground_pixels": 2429,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "train",
+    "image": "Spain_6199994_S1Hand.tif",
+    "label": "Spain_6199994_LabelHand.tif",
+    "group": "Spain",
+    "valid_pixels": 261902,
+    "foreground_pixels": 783,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "train",
+    "image": "Spain_8154154_S1Hand.tif",
+    "label": "Spain_8154154_LabelHand.tif",
+    "group": "Spain",
+    "valid_pixels": 262118,
+    "foreground_pixels": 4582,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "train",
+    "image": "Spain_1167260_S1Hand.tif",
+    "label": "Spain_1167260_LabelHand.tif",
+    "group": "Spain",
+    "valid_pixels": 262119,
+    "foreground_pixels": 42519,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "train",
+    "image": "Spain_2938657_S1Hand.tif",
+    "label": "Spain_2938657_LabelHand.tif",
+    "group": "Spain",
+    "valid_pixels": 262074,
+    "foreground_pixels": 9772,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "train",
+    "image": "Spain_5678382_S1Hand.tif",
+    "label": "Spain_5678382_LabelHand.tif",
+    "group": "Spain",
+    "valid_pixels": 262117,
+    "foreground_pixels": 3570,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "train",
+    "image": "Spain_716716_S1Hand.tif",
+    "label": "Spain_716716_LabelHand.tif",
+    "group": "Spain",
+    "valid_pixels": 262067,
+    "foreground_pixels": 2644,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "train",
+    "image": "Spain_3285448_S1Hand.tif",
+    "label": "Spain_3285448_LabelHand.tif",
+    "group": "Spain",
+    "valid_pixels": 262136,
+    "foreground_pixels": 56389,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "train",
+    "image": "Spain_8199661_S1Hand.tif",
+    "label": "Spain_8199661_LabelHand.tif",
+    "group": "Spain",
+    "valid_pixels": 262036,
+    "foreground_pixels": 8182,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "train",
+    "image": "Spain_337094_S1Hand.tif",
+    "label": "Spain_337094_LabelHand.tif",
+    "group": "Spain",
+    "valid_pixels": 262056,
+    "foreground_pixels": 26075,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "train",
+    "image": "Spain_2594119_S1Hand.tif",
+    "label": "Spain_2594119_LabelHand.tif",
+    "group": "Spain",
+    "valid_pixels": 262009,
+    "foreground_pixels": 2877,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "train",
+    "image": "Sri-Lanka_152185_S1Hand.tif",
+    "label": "Sri-Lanka_152185_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 262144,
+    "foreground_pixels": 2198,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Sri-Lanka_55568_S1Hand.tif",
+    "label": "Sri-Lanka_55568_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 212858,
+    "foreground_pixels": 15268,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Sri-Lanka_92824_S1Hand.tif",
+    "label": "Sri-Lanka_92824_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 246506,
+    "foreground_pixels": 55390,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Sri-Lanka_847275_S1Hand.tif",
+    "label": "Sri-Lanka_847275_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 231361,
+    "foreground_pixels": 50464,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Sri-Lanka_845821_S1Hand.tif",
+    "label": "Sri-Lanka_845821_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 240758,
+    "foreground_pixels": 234546,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Sri-Lanka_14484_S1Hand.tif",
+    "label": "Sri-Lanka_14484_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 232015,
+    "foreground_pixels": 38866,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Sri-Lanka_1038087_S1Hand.tif",
+    "label": "Sri-Lanka_1038087_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 262143,
+    "foreground_pixels": 18112,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Sri-Lanka_178753_S1Hand.tif",
+    "label": "Sri-Lanka_178753_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 253873,
+    "foreground_pixels": 645,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Sri-Lanka_163406_S1Hand.tif",
+    "label": "Sri-Lanka_163406_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 262144,
+    "foreground_pixels": 5070,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Sri-Lanka_233609_S1Hand.tif",
+    "label": "Sri-Lanka_233609_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 257120,
+    "foreground_pixels": 6877,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Sri-Lanka_135713_S1Hand.tif",
+    "label": "Sri-Lanka_135713_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 134330,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1,
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Sri-Lanka_748447_S1Hand.tif",
+    "label": "Sri-Lanka_748447_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 249187,
+    "foreground_pixels": 1219,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Sri-Lanka_579082_S1Hand.tif",
+    "label": "Sri-Lanka_579082_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 208263,
+    "foreground_pixels": 14466,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Sri-Lanka_916628_S1Hand.tif",
+    "label": "Sri-Lanka_916628_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 259961,
+    "foreground_pixels": 81524,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Sri-Lanka_883641_S1Hand.tif",
+    "label": "Sri-Lanka_883641_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 262144,
+    "foreground_pixels": 13500,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Sri-Lanka_52223_S1Hand.tif",
+    "label": "Sri-Lanka_52223_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 262144,
+    "foreground_pixels": 0,
+    "label_codes": [
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Sri-Lanka_400518_S1Hand.tif",
+    "label": "Sri-Lanka_400518_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 262144,
+    "foreground_pixels": 2380,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Sri-Lanka_523539_S1Hand.tif",
+    "label": "Sri-Lanka_523539_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 218481,
+    "foreground_pixels": 24669,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Sri-Lanka_49764_S1Hand.tif",
+    "label": "Sri-Lanka_49764_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 243327,
+    "foreground_pixels": 2486,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Sri-Lanka_653336_S1Hand.tif",
+    "label": "Sri-Lanka_653336_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 262141,
+    "foreground_pixels": 17982,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Sri-Lanka_956740_S1Hand.tif",
+    "label": "Sri-Lanka_956740_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 202069,
+    "foreground_pixels": 7918,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Sri-Lanka_249079_S1Hand.tif",
+    "label": "Sri-Lanka_249079_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 164775,
+    "foreground_pixels": 11,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Sri-Lanka_120804_S1Hand.tif",
+    "label": "Sri-Lanka_120804_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 262144,
+    "foreground_pixels": 6958,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "Sri-Lanka_551926_S1Hand.tif",
+    "label": "Sri-Lanka_551926_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 262144,
+    "foreground_pixels": 19600,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "train",
+    "image": "USA_994009_S1Hand.tif",
+    "label": "USA_994009_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262018,
+    "foreground_pixels": 1897,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "train",
+    "image": "USA_66026_S1Hand.tif",
+    "label": "USA_66026_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262141,
+    "foreground_pixels": 987,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "train",
+    "image": "USA_11422_S1Hand.tif",
+    "label": "USA_11422_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262142,
+    "foreground_pixels": 36020,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "train",
+    "image": "USA_955053_S1Hand.tif",
+    "label": "USA_955053_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262140,
+    "foreground_pixels": 35838,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "USA_114964_S1Hand.tif",
+    "label": "USA_114964_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262125,
+    "foreground_pixels": 354,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "train",
+    "image": "USA_693819_S1Hand.tif",
+    "label": "USA_693819_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262104,
+    "foreground_pixels": 2454,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "USA_86502_S1Hand.tif",
+    "label": "USA_86502_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262132,
+    "foreground_pixels": 66362,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "train",
+    "image": "USA_438959_S1Hand.tif",
+    "label": "USA_438959_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 253900,
+    "foreground_pixels": 6303,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "train",
+    "image": "USA_181263_S1Hand.tif",
+    "label": "USA_181263_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 207499,
+    "foreground_pixels": 1065,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "USA_605492_S1Hand.tif",
+    "label": "USA_605492_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262125,
+    "foreground_pixels": 3031,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "train",
+    "image": "USA_115033_S1Hand.tif",
+    "label": "USA_115033_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262109,
+    "foreground_pixels": 2359,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "USA_375183_S1Hand.tif",
+    "label": "USA_375183_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262065,
+    "foreground_pixels": 6518,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "train",
+    "image": "USA_347609_S1Hand.tif",
+    "label": "USA_347609_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 204416,
+    "foreground_pixels": 1642,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "train",
+    "image": "USA_908474_S1Hand.tif",
+    "label": "USA_908474_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262071,
+    "foreground_pixels": 1846,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "USA_211406_S1Hand.tif",
+    "label": "USA_211406_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262101,
+    "foreground_pixels": 1130,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "USA_831672_S1Hand.tif",
+    "label": "USA_831672_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262116,
+    "foreground_pixels": 20957,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "USA_664261_S1Hand.tif",
+    "label": "USA_664261_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262087,
+    "foreground_pixels": 4815,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "USA_770353_S1Hand.tif",
+    "label": "USA_770353_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262141,
+    "foreground_pixels": 34427,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "USA_217598_S1Hand.tif",
+    "label": "USA_217598_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 257297,
+    "foreground_pixels": 45251,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "train",
+    "image": "USA_638521_S1Hand.tif",
+    "label": "USA_638521_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262141,
+    "foreground_pixels": 5164,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "train",
+    "image": "USA_387945_S1Hand.tif",
+    "label": "USA_387945_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262139,
+    "foreground_pixels": 13453,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "train",
+    "image": "USA_224165_S1Hand.tif",
+    "label": "USA_224165_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262126,
+    "foreground_pixels": 161,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "USA_231124_S1Hand.tif",
+    "label": "USA_231124_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 129409,
+    "foreground_pixels": 3839,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "USA_170264_S1Hand.tif",
+    "label": "USA_170264_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 261982,
+    "foreground_pixels": 43535,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "USA_58086_S1Hand.tif",
+    "label": "USA_58086_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262112,
+    "foreground_pixels": 15894,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "train",
+    "image": "USA_1010394_S1Hand.tif",
+    "label": "USA_1010394_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262131,
+    "foreground_pixels": 1481,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "USA_198411_S1Hand.tif",
+    "label": "USA_198411_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 84222,
+    "foreground_pixels": 8737,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "USA_486103_S1Hand.tif",
+    "label": "USA_486103_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262060,
+    "foreground_pixels": 7242,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "USA_260929_S1Hand.tif",
+    "label": "USA_260929_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262134,
+    "foreground_pixels": 5020,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "USA_179917_S1Hand.tif",
+    "label": "USA_179917_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262094,
+    "foreground_pixels": 511,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "USA_84195_S1Hand.tif",
+    "label": "USA_84195_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262137,
+    "foreground_pixels": 3811,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "train",
+    "image": "USA_604222_S1Hand.tif",
+    "label": "USA_604222_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262123,
+    "foreground_pixels": 6641,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "train",
+    "image": "USA_354981_S1Hand.tif",
+    "label": "USA_354981_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262011,
+    "foreground_pixels": 1724,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "USA_232060_S1Hand.tif",
+    "label": "USA_232060_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262127,
+    "foreground_pixels": 1713,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "train",
+    "image": "USA_655230_S1Hand.tif",
+    "label": "USA_655230_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262129,
+    "foreground_pixels": 1145,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "train",
+    "image": "USA_652955_S1Hand.tif",
+    "label": "USA_652955_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262141,
+    "foreground_pixels": 8527,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "USA_1068362_S1Hand.tif",
+    "label": "USA_1068362_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262124,
+    "foreground_pixels": 31182,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "USA_806273_S1Hand.tif",
+    "label": "USA_806273_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262131,
+    "foreground_pixels": 5787,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "train",
+    "image": "USA_788696_S1Hand.tif",
+    "label": "USA_788696_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262126,
+    "foreground_pixels": 111448,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "train",
+    "image": "USA_348639_S1Hand.tif",
+    "label": "USA_348639_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262118,
+    "foreground_pixels": 27154,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "train",
+    "image": "USA_181503_S1Hand.tif",
+    "label": "USA_181503_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262115,
+    "foreground_pixels": 1194,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "val",
+    "image": "Ghana_5079_S1Hand.tif",
+    "label": "Ghana_5079_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 0,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 2.471789235364809e-12
+  },
+  {
+    "partition": "val",
+    "image": "Ghana_895194_S1Hand.tif",
+    "label": "Ghana_895194_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 252706,
+    "foreground_pixels": 8697,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 2.471789235364809e-12
+  },
+  {
+    "partition": "val",
+    "image": "Ghana_868803_S1Hand.tif",
+    "label": "Ghana_868803_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 262144,
+    "foreground_pixels": 144051,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "val",
+    "image": "Ghana_142312_S1Hand.tif",
+    "label": "Ghana_142312_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 262144,
+    "foreground_pixels": 0,
+    "label_codes": [
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 2.471789235364809e-12
+  },
+  {
+    "partition": "val",
+    "image": "Ghana_234935_S1Hand.tif",
+    "label": "Ghana_234935_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 0,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 2.471789235364809e-12
+  },
+  {
+    "partition": "val",
+    "image": "Ghana_132163_S1Hand.tif",
+    "label": "Ghana_132163_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 55761,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1,
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "val",
+    "image": "Ghana_495107_S1Hand.tif",
+    "label": "Ghana_495107_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 262144,
+    "foreground_pixels": 3959,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 2.471789235364809e-12
+  },
+  {
+    "partition": "val",
+    "image": "Ghana_124834_S1Hand.tif",
+    "label": "Ghana_124834_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 262144,
+    "foreground_pixels": 0,
+    "label_codes": [
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 2.471789235364809e-12
+  },
+  {
+    "partition": "val",
+    "image": "Ghana_1033830_S1Hand.tif",
+    "label": "Ghana_1033830_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 233229,
+    "foreground_pixels": 96811,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 2.471789235364809e-12
+  },
+  {
+    "partition": "val",
+    "image": "Ghana_277_S1Hand.tif",
+    "label": "Ghana_277_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 0,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 2.471789235364809e-12
+  },
+  {
+    "partition": "val",
+    "image": "Ghana_308249_S1Hand.tif",
+    "label": "Ghana_308249_LabelHand.tif",
+    "group": "Ghana",
+    "valid_pixels": 262144,
+    "foreground_pixels": 8030,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "val",
+    "image": "India_1050276_S1Hand.tif",
+    "label": "India_1050276_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 255185,
+    "foreground_pixels": 49005,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "India_764946_S1Hand.tif",
+    "label": "India_764946_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 242502,
+    "foreground_pixels": 3146,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "India_118868_S1Hand.tif",
+    "label": "India_118868_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 159275,
+    "foreground_pixels": 10685,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "India_533192_S1Hand.tif",
+    "label": "India_533192_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 120661,
+    "foreground_pixels": 43244,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "India_180633_S1Hand.tif",
+    "label": "India_180633_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 164555,
+    "foreground_pixels": 75763,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "India_244057_S1Hand.tif",
+    "label": "India_244057_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 160537,
+    "foreground_pixels": 5,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "India_691027_S1Hand.tif",
+    "label": "India_691027_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 254034,
+    "foreground_pixels": 8394,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "India_769408_S1Hand.tif",
+    "label": "India_769408_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 175907,
+    "foreground_pixels": 8582,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "India_1018317_S1Hand.tif",
+    "label": "India_1018317_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 196977,
+    "foreground_pixels": 150710,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "India_869358_S1Hand.tif",
+    "label": "India_869358_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 262144,
+    "foreground_pixels": 5050,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "India_164336_S1Hand.tif",
+    "label": "India_164336_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 259101,
+    "foreground_pixels": 1881,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "India_70352_S1Hand.tif",
+    "label": "India_70352_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 239229,
+    "foreground_pixels": 13188,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "India_833266_S1Hand.tif",
+    "label": "India_833266_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 219674,
+    "foreground_pixels": 18262,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "India_1068117_S1Hand.tif",
+    "label": "India_1068117_LabelHand.tif",
+    "group": "India",
+    "valid_pixels": 229712,
+    "foreground_pixels": 47960,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "Mekong_1149855_S1Hand.tif",
+    "label": "Mekong_1149855_LabelHand.tif",
+    "group": "Mekong",
+    "valid_pixels": 224775,
+    "foreground_pixels": 17260,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "Mekong_977338_S1Hand.tif",
+    "label": "Mekong_977338_LabelHand.tif",
+    "group": "Mekong",
+    "valid_pixels": 176958,
+    "foreground_pixels": 65567,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "Mekong_474783_S1Hand.tif",
+    "label": "Mekong_474783_LabelHand.tif",
+    "group": "Mekong",
+    "valid_pixels": 262119,
+    "foreground_pixels": 5780,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "Mekong_293769_S1Hand.tif",
+    "label": "Mekong_293769_LabelHand.tif",
+    "group": "Mekong",
+    "valid_pixels": 230540,
+    "foreground_pixels": 30420,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "Mekong_1413877_S1Hand.tif",
+    "label": "Mekong_1413877_LabelHand.tif",
+    "group": "Mekong",
+    "valid_pixels": 256968,
+    "foreground_pixels": 2512,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "Mekong_98310_S1Hand.tif",
+    "label": "Mekong_98310_LabelHand.tif",
+    "group": "Mekong",
+    "valid_pixels": 182771,
+    "foreground_pixels": 85667,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "Nigeria_31096_S1Hand.tif",
+    "label": "Nigeria_31096_LabelHand.tif",
+    "group": "Nigeria",
+    "valid_pixels": 217487,
+    "foreground_pixels": 816,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "val",
+    "image": "Nigeria_984831_S1Hand.tif",
+    "label": "Nigeria_984831_LabelHand.tif",
+    "group": "Nigeria",
+    "valid_pixels": 240158,
+    "foreground_pixels": 221680,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "val",
+    "image": "Nigeria_1095404_S1Hand.tif",
+    "label": "Nigeria_1095404_LabelHand.tif",
+    "group": "Nigeria",
+    "valid_pixels": 252283,
+    "foreground_pixels": 46091,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "val",
+    "image": "Nigeria_820924_S1Hand.tif",
+    "label": "Nigeria_820924_LabelHand.tif",
+    "group": "Nigeria",
+    "valid_pixels": 262143,
+    "foreground_pixels": 1176,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "val",
+    "image": "Pakistan_43105_S1Hand.tif",
+    "label": "Pakistan_43105_LabelHand.tif",
+    "group": "Pakistan",
+    "valid_pixels": 260942,
+    "foreground_pixels": 271,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "val",
+    "image": "Pakistan_94095_S1Hand.tif",
+    "label": "Pakistan_94095_LabelHand.tif",
+    "group": "Pakistan",
+    "valid_pixels": 180570,
+    "foreground_pixels": 53566,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "Pakistan_210595_S1Hand.tif",
+    "label": "Pakistan_210595_LabelHand.tif",
+    "group": "Pakistan",
+    "valid_pixels": 262144,
+    "foreground_pixels": 0,
+    "label_codes": [
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "val",
+    "image": "Pakistan_1027214_S1Hand.tif",
+    "label": "Pakistan_1027214_LabelHand.tif",
+    "group": "Pakistan",
+    "valid_pixels": 158958,
+    "foreground_pixels": 23870,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "Pakistan_336228_S1Hand.tif",
+    "label": "Pakistan_336228_LabelHand.tif",
+    "group": "Pakistan",
+    "valid_pixels": 132471,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1,
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "Pakistan_9684_S1Hand.tif",
+    "label": "Pakistan_9684_LabelHand.tif",
+    "group": "Pakistan",
+    "valid_pixels": 113550,
+    "foreground_pixels": 1196,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "Paraguay_305760_S1Hand.tif",
+    "label": "Paraguay_305760_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 43791,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "val",
+    "image": "Paraguay_648632_S1Hand.tif",
+    "label": "Paraguay_648632_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 18394,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "val",
+    "image": "Paraguay_172476_S1Hand.tif",
+    "label": "Paraguay_172476_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262143,
+    "foreground_pixels": 2815,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "val",
+    "image": "Paraguay_581976_S1Hand.tif",
+    "label": "Paraguay_581976_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 261748,
+    "foreground_pixels": 148589,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "val",
+    "image": "Paraguay_284928_S1Hand.tif",
+    "label": "Paraguay_284928_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 261368,
+    "foreground_pixels": 0,
+    "label_codes": [
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "val",
+    "image": "Paraguay_1019808_S1Hand.tif",
+    "label": "Paraguay_1019808_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 5170,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "val",
+    "image": "Paraguay_76868_S1Hand.tif",
+    "label": "Paraguay_76868_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262121,
+    "foreground_pixels": 17683,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "val",
+    "image": "Paraguay_252217_S1Hand.tif",
+    "label": "Paraguay_252217_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 255778,
+    "foreground_pixels": 300,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "val",
+    "image": "Paraguay_205585_S1Hand.tif",
+    "label": "Paraguay_205585_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 0,
+    "label_codes": [
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "val",
+    "image": "Paraguay_7894_S1Hand.tif",
+    "label": "Paraguay_7894_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 202187,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1,
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "val",
+    "image": "Paraguay_896458_S1Hand.tif",
+    "label": "Paraguay_896458_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 240678,
+    "foreground_pixels": 49299,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "val",
+    "image": "Paraguay_657443_S1Hand.tif",
+    "label": "Paraguay_657443_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 64974,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "val",
+    "image": "Paraguay_934240_S1Hand.tif",
+    "label": "Paraguay_934240_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 20358,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "val",
+    "image": "Paraguay_153941_S1Hand.tif",
+    "label": "Paraguay_153941_LabelHand.tif",
+    "group": "Paraguay",
+    "valid_pixels": 262144,
+    "foreground_pixels": 641,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "val",
+    "image": "Somalia_12849_S1Hand.tif",
+    "label": "Somalia_12849_LabelHand.tif",
+    "group": "Somalia",
+    "valid_pixels": 191302,
+    "foreground_pixels": 37192,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 4.943578470729618e-12
+  },
+  {
+    "partition": "val",
+    "image": "Somalia_256539_S1Hand.tif",
+    "label": "Somalia_256539_LabelHand.tif",
+    "group": "Somalia",
+    "valid_pixels": 221259,
+    "foreground_pixels": 23,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 4.943578470729618e-12
+  },
+  {
+    "partition": "val",
+    "image": "Somalia_61368_S1Hand.tif",
+    "label": "Somalia_61368_LabelHand.tif",
+    "group": "Somalia",
+    "valid_pixels": 212969,
+    "foreground_pixels": 0,
+    "label_codes": [
+      -1,
+      0
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "val",
+    "image": "Somalia_649376_S1Hand.tif",
+    "label": "Somalia_649376_LabelHand.tif",
+    "group": "Somalia",
+    "valid_pixels": 213929,
+    "foreground_pixels": 5187,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 4.943578470729618e-12
+  },
+  {
+    "partition": "val",
+    "image": "Somalia_167787_S1Hand.tif",
+    "label": "Somalia_167787_LabelHand.tif",
+    "group": "Somalia",
+    "valid_pixels": 220505,
+    "foreground_pixels": 225,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 4.943578470729618e-12
+  },
+  {
+    "partition": "val",
+    "image": "Spain_1199913_S1Hand.tif",
+    "label": "Spain_1199913_LabelHand.tif",
+    "group": "Spain",
+    "valid_pixels": 262143,
+    "foreground_pixels": 10090,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "val",
+    "image": "Spain_8372658_S1Hand.tif",
+    "label": "Spain_8372658_LabelHand.tif",
+    "group": "Spain",
+    "valid_pixels": 262029,
+    "foreground_pixels": 93104,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "val",
+    "image": "Spain_7604243_S1Hand.tif",
+    "label": "Spain_7604243_LabelHand.tif",
+    "group": "Spain",
+    "valid_pixels": 262080,
+    "foreground_pixels": 20919,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "val",
+    "image": "Spain_6537196_S1Hand.tif",
+    "label": "Spain_6537196_LabelHand.tif",
+    "group": "Spain",
+    "valid_pixels": 262106,
+    "foreground_pixels": 3046,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "val",
+    "image": "Spain_4282030_S1Hand.tif",
+    "label": "Spain_4282030_LabelHand.tif",
+    "group": "Spain",
+    "valid_pixels": 262123,
+    "foreground_pixels": 98131,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "val",
+    "image": "Spain_8565131_S1Hand.tif",
+    "label": "Spain_8565131_LabelHand.tif",
+    "group": "Spain",
+    "valid_pixels": 262084,
+    "foreground_pixels": 52356,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 1.2358946176824044e-12
+  },
+  {
+    "partition": "val",
+    "image": "Sri-Lanka_85652_S1Hand.tif",
+    "label": "Sri-Lanka_85652_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 197368,
+    "foreground_pixels": 1941,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "Sri-Lanka_63307_S1Hand.tif",
+    "label": "Sri-Lanka_63307_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 262144,
+    "foreground_pixels": 7005,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "Sri-Lanka_612594_S1Hand.tif",
+    "label": "Sri-Lanka_612594_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 262144,
+    "foreground_pixels": 43125,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "Sri-Lanka_132922_S1Hand.tif",
+    "label": "Sri-Lanka_132922_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 262144,
+    "foreground_pixels": 17843,
+    "label_codes": [
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "Sri-Lanka_236030_S1Hand.tif",
+    "label": "Sri-Lanka_236030_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 206088,
+    "foreground_pixels": 1713,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "Sri-Lanka_31559_S1Hand.tif",
+    "label": "Sri-Lanka_31559_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 218795,
+    "foreground_pixels": 464,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "Sri-Lanka_236628_S1Hand.tif",
+    "label": "Sri-Lanka_236628_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 262142,
+    "foreground_pixels": 3081,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "Sri-Lanka_101973_S1Hand.tif",
+    "label": "Sri-Lanka_101973_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 262143,
+    "foreground_pixels": 2958,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "Sri-Lanka_321316_S1Hand.tif",
+    "label": "Sri-Lanka_321316_LabelHand.tif",
+    "group": "Sri-Lanka",
+    "valid_pixels": 262133,
+    "foreground_pixels": 96905,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 3.954862776583694e-11
+  },
+  {
+    "partition": "val",
+    "image": "USA_826217_S1Hand.tif",
+    "label": "USA_826217_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262126,
+    "foreground_pixels": 4498,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "val",
+    "image": "USA_741073_S1Hand.tif",
+    "label": "USA_741073_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262115,
+    "foreground_pixels": 3375,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "val",
+    "image": "USA_275372_S1Hand.tif",
+    "label": "USA_275372_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262138,
+    "foreground_pixels": 2722,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "val",
+    "image": "USA_19225_S1Hand.tif",
+    "label": "USA_19225_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262122,
+    "foreground_pixels": 1391,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "val",
+    "image": "USA_366607_S1Hand.tif",
+    "label": "USA_366607_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262139,
+    "foreground_pixels": 49325,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "val",
+    "image": "USA_308150_S1Hand.tif",
+    "label": "USA_308150_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262027,
+    "foreground_pixels": 2907,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "val",
+    "image": "USA_1039203_S1Hand.tif",
+    "label": "USA_1039203_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262112,
+    "foreground_pixels": 1611,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "val",
+    "image": "USA_251323_S1Hand.tif",
+    "label": "USA_251323_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 261038,
+    "foreground_pixels": 695,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "val",
+    "image": "USA_1082482_S1Hand.tif",
+    "label": "USA_1082482_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262130,
+    "foreground_pixels": 2206,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "val",
+    "image": "USA_225017_S1Hand.tif",
+    "label": "USA_225017_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262138,
+    "foreground_pixels": 16780,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "val",
+    "image": "USA_986268_S1Hand.tif",
+    "label": "USA_986268_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262123,
+    "foreground_pixels": 9092,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "val",
+    "image": "USA_646878_S1Hand.tif",
+    "label": "USA_646878_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 252297,
+    "foreground_pixels": 2424,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  },
+  {
+    "partition": "val",
+    "image": "USA_761032_S1Hand.tif",
+    "label": "USA_761032_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262125,
+    "foreground_pixels": 12117,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 0.0
+  },
+  {
+    "partition": "val",
+    "image": "USA_741178_S1Hand.tif",
+    "label": "USA_741178_LabelHand.tif",
+    "group": "USA",
+    "valid_pixels": 262117,
+    "foreground_pixels": 1446,
+    "label_codes": [
+      -1,
+      0,
+      1
+    ],
+    "channel_descriptions": [
+      "VV",
+      "VH"
+    ],
+    "grid_max_corner_error_pixels": 7.909725553167388e-11
+  }
+]

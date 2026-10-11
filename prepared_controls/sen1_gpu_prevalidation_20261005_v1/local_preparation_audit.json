@@ -1,0 +1,356 @@
+{
+  "source_checks": [
+    {
+      "path": "prepared_controls/sen1_training_diagnostic_20261004_v2/selection_before_download.json",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 41396
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/models/pretrained/yolo26n-sem.pt",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 3487283
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/dataset/quality.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 6990
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/dataset/sturm_flood.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 10046
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/dataset/__init__.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 431
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/data_audit/audit_sturm.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 4829
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/data_audit/full_audit.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 25292
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/data_audit/split_events.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 3127
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/data_audit/validate_outputs.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 3783
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/evaluation/formal.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 5734
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/evaluation/s2_pixel_errors.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 3453
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/evaluation/__init__.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 225
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/decoder_attribution.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 4676
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/efficientvit_b0_comparator.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 4626
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/eomt_prepared.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 680
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/eomt_s_comparator.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 5355
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/lale_comparator.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 1962
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/local_multiscale_context_pretest.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 1652
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/lwganet_comparator.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 5993
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/lwganet_deterministic.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 2021
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/optional_comparison.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 6753
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/research_comparators.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 17665
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/unet_semantic.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 15007
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo11_semantic.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 8568
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo26_control_pretest.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 2257
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo26_main_only_control.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 1055
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo26_semantic.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 23022
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo26_sensor_p2_gate.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 1367
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo26_unet_decoder.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 6503
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolov12_comparator.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 5126
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolov12_head_control_pretest.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 1558
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolov8_ghost_semantic.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 7848
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/__init__.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 1016
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/dcl_losses.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 4287
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/degradation.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 4691
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/engine.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 24039
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/eomt_mask_classification.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 3027
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/eomt_protocol.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 7666
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/exposure_matched_decoder_control.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 4306
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/historical_engine_oracle.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 18486
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/independent_decoder_preflight.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 3949
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/masked_segmentation.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 12214
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/optimization.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 3900
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/single_sensor_decoder_control.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 3268
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/__init__.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 451
+    },
+    {
+      "path": "results/sen1_full_pool_preparation_20261004_v3/images.npy",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 715128960
+    },
+    {
+      "path": "results/sen1_full_pool_preparation_20261004_v3/targets.npy",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 89391232
+    },
+    {
+      "path": "results/sen1_full_pool_preparation_20261004_v3/valid.npy",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 89391232
+    },
+    {
+      "path": "results/sen1_full_pool_preparation_20261004_v3/tile_index.json",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 711573
+    },
+    {
+      "path": "results/sen1_full_pool_preparation_20261004_v3/input_label_profiles.json",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 130656
+    },
+    {
+      "path": "results/sen1_full_pool_preparation_20261004_v3/asset_receipts.json",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 235853
+    },
+    {
+      "path": "results/sen1_full_pool_preparation_20261004_v3/selection_before_download.json",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 54443
+    },
+    {
+      "path": "prepared_controls/sen1_gpu_prevalidation_20261005_v1/sampler_draws.npy",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 131328
+    },
+    {
+      "path": "scripts/sen1_gpu_prevalidation_20261005.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 20309
+    },
+    {
+      "path": "scripts/serial_sen1_gpu_prevalidation_20261005.py",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 4483
+    },
+    {
+      "path": "prepared_controls/sen1_gpu_prevalidation_20261005_v1/protocol.json",
+      "exists": true,
+      "sha_match": true,
+      "bytes": 22640
+    }
+  ],
+  "syntax_pass": true,
+  "CLI_help_checks": [
+    {
+      "script": "scripts\\sen1_gpu_prevalidation_20261005.py",
+      "returncode": 0
+    },
+    {
+      "script": "scripts\\serial_sen1_gpu_prevalidation_20261005.py",
+      "returncode": 0
+    }
+  ],
+  "GPU_checked": false,
+  "GPU_training_started": false,
+  "source_cache_identity_only": true,
+  "server_connected": false,
+  "test_access": false
+}

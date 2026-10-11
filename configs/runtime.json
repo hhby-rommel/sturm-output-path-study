@@ -1,0 +1,8 @@
+{
+  "phase": "FP32 forward costs; no dataset access",
+  "entry": "scripts/server_runtime_matched_session_20261010.py",
+  "arguments": [],
+  "may_access_test": false,
+  "required_assets": [],
+  "notes": "Retains historical numerical and backend assertions; external assets and run-specific provenance records must be prepared. This interface is not a claim of clean-install or end-to-end execution validation."
+}

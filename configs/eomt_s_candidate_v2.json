@@ -1,0 +1,20 @@
+{
+  "version": "eomt_s_candidate_v2",
+  "formal_release_ready": false,
+  "architecture": "official EoMT-S, shared S1/S2 core, 200 queries, 3 query blocks",
+  "source_commit": "0f1e1ccbc0e105f1a100e885174e1d716ad02990",
+  "initialization": "official COCO panoptic S 640 2x; replace 133-class head; resample position grid 40x40 to 8x8",
+  "input_normalization": "none_v1; train-only paired zscore audit showed no uniform gradient improvement, not selected by val",
+  "training_variant": "m1_degraded",
+  "query_loss": "dense valid pixel Hungarian class/BCE/Dice=2/5/5, no_object=.1, batch matched-mask normalization, all auxiliary layers summed",
+  "optimizer": {"lr": 0.0001, "weight_decay": 0.05, "llrd": 0.8, "norm_bias_decay": true},
+  "scheduler": "official TwoStageWarmupPolySchedule power .9",
+  "formal_candidate_warmup_steps": [500, 1000],
+  "attention_start_fractions": [0.1, 0.3, 0.5],
+  "attention_end_fractions": [0.3, 0.5, 0.7],
+  "formal_candidate_budget": {"batch_size": 16, "max_epochs": 50, "early_stopping_patience": 10, "gradient_clip_norm": 5.0},
+  "selection": "fixed degraded pooled F1, then clean pooled F1, then earlier epoch",
+  "test_policy": "disabled in local runner; future formal runner requires separate authorization and one-test guard",
+  "local_diagnostic": {"seed": 93011, "train_per_sensor": 64, "full_val": true, "batch_size": 16, "epochs": 6, "max_steps": 48, "warmup_steps": [2, 4], "wall_seconds_limit": 900},
+  "official_training_differences": ["native 128px STURM inputs", "learned sensor bridges", "dense valid pixels instead of uncertain point sampling", "declared relative attention schedule", "STURM balanced replacement sampler and clean/degraded supervision", "local budget and warmup compressed; formal budget not run"]
+}

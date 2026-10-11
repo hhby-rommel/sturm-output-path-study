@@ -1,0 +1,15 @@
+{
+  "status": "LOCAL_GPU_PREVALIDATION_PLAN_AND_ENTRY_FROZEN",
+  "arms": 4,
+  "learning_updates": 2560,
+  "preflight_updates": 8,
+  "recovery_probe_executions": 16,
+  "common_initialization_exact": true,
+  "source_SHA_checks": 56,
+  "server_connected": false,
+  "GPU_recovery_verified": false,
+  "GPU_learning_started": false,
+  "test_access": false,
+  "formal_training_started": false,
+  "active_launch_authorization_exists": false
+}

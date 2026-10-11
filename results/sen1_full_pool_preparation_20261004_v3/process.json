@@ -1,0 +1,6 @@
+{
+  "pid": 31408,
+  "script": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\scripts\\prepare_sen1_full_pool_v3_20261004.py",
+  "started_at": "2026-10-04T12:19:22.165940+00:00",
+  "scope": "official S1 train/val assets only; no training/test"
+}

@@ -1,0 +1,1485 @@
+{
+  "rule": "One chip per filename flood-group per official train/val, smallest SHA256(filename), no label/performance selection",
+  "chips": [
+    {
+      "partition": "train",
+      "group": "Ghana",
+      "image": "Ghana_187318_S1Hand.tif",
+      "label": "Ghana_187318_LabelHand.tif",
+      "source": {
+        "type": "Feature",
+        "stac_version": "1.0.0-beta.2",
+        "id": "Ghana_187318",
+        "properties": {
+          "country": "Ghana",
+          "chip_id": "187318",
+          "datetime": "2018-09-18T00:00:00Z"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -1.5177935040483435,
+                9.842660905040773
+              ],
+              [
+                -1.5177935040483435,
+                9.888654647587693
+              ],
+              [
+                -1.563787246595263,
+                9.888654647587693
+              ],
+              [
+                -1.563787246595263,
+                9.842660905040773
+              ],
+              [
+                -1.5177935040483435,
+                9.842660905040773
+              ]
+            ]
+          ]
+        },
+        "links": [
+          {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "collection",
+            "href": "../collection.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+          }
+        ],
+        "assets": {
+          "S1Hand": {
+            "href": "https://storage.googleapis.com/sen1floods11/v1.1/data/flood_events/HandLabeled/S1Hand/Ghana_187318_S1Hand.tif",
+            "type": "image/tiff; application=geotiff",
+            "title": "GeoTiff"
+          }
+        },
+        "bbox": [
+          -1.563787246595263,
+          9.842660905040773,
+          -1.5177935040483435,
+          9.888654647587693
+        ],
+        "collection": "sen1floods11_hand_labeled_source"
+      }
+    },
+    {
+      "partition": "train",
+      "group": "India",
+      "image": "India_591549_S1Hand.tif",
+      "label": "India_591549_LabelHand.tif",
+      "source": {
+        "type": "Feature",
+        "stac_version": "1.0.0-beta.2",
+        "id": "India_591549",
+        "properties": {
+          "country": "India",
+          "chip_id": "591549",
+          "datetime": "2016-08-12T00:00:00Z"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                93.6432598255281,
+                26.860345647400987
+              ],
+              [
+                93.6432598255281,
+                26.906339389947906
+              ],
+              [
+                93.59726608298118,
+                26.906339389947906
+              ],
+              [
+                93.59726608298118,
+                26.860345647400987
+              ],
+              [
+                93.6432598255281,
+                26.860345647400987
+              ]
+            ]
+          ]
+        },
+        "links": [
+          {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "collection",
+            "href": "../collection.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+          }
+        ],
+        "assets": {
+          "S1Hand": {
+            "href": "https://storage.googleapis.com/sen1floods11/v1.1/data/flood_events/HandLabeled/S1Hand/India_591549_S1Hand.tif",
+            "type": "image/tiff; application=geotiff",
+            "title": "GeoTiff"
+          }
+        },
+        "bbox": [
+          93.59726608298118,
+          26.860345647400987,
+          93.6432598255281,
+          26.906339389947906
+        ],
+        "collection": "sen1floods11_hand_labeled_source"
+      }
+    },
+    {
+      "partition": "train",
+      "group": "Mekong",
+      "image": "Mekong_922373_S1Hand.tif",
+      "label": "Mekong_922373_LabelHand.tif",
+      "source": {
+        "type": "Feature",
+        "stac_version": "1.0.0-beta.2",
+        "id": "Mekong_922373",
+        "properties": {
+          "country": "Mekong",
+          "chip_id": "922373",
+          "datetime": "2018-08-05T00:00:00Z"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                106.01557657064946,
+                12.188341774933667
+              ],
+              [
+                106.01557657064946,
+                12.234335517480586
+              ],
+              [
+                105.96958282810253,
+                12.234335517480586
+              ],
+              [
+                105.96958282810253,
+                12.188341774933667
+              ],
+              [
+                106.01557657064946,
+                12.188341774933667
+              ]
+            ]
+          ]
+        },
+        "links": [
+          {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "collection",
+            "href": "../collection.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+          }
+        ],
+        "assets": {
+          "S1Hand": {
+            "href": "https://storage.googleapis.com/sen1floods11/v1.1/data/flood_events/HandLabeled/S1Hand/Mekong_922373_S1Hand.tif",
+            "type": "image/tiff; application=geotiff",
+            "title": "GeoTiff"
+          }
+        },
+        "bbox": [
+          105.96958282810253,
+          12.188341774933667,
+          106.01557657064946,
+          12.234335517480586
+        ],
+        "collection": "sen1floods11_hand_labeled_source"
+      }
+    },
+    {
+      "partition": "train",
+      "group": "Nigeria",
+      "image": "Nigeria_529525_S1Hand.tif",
+      "label": "Nigeria_529525_LabelHand.tif",
+      "source": {
+        "type": "Feature",
+        "stac_version": "1.0.0-beta.2",
+        "id": "Nigeria_529525",
+        "properties": {
+          "country": "Nigeria",
+          "chip_id": "529525",
+          "datetime": "2018-09-21T00:00:00Z"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                5.611236590724179,
+                8.922786054102383
+              ],
+              [
+                5.611236590724179,
+                8.968779796649303
+              ],
+              [
+                5.56524284817726,
+                8.968779796649303
+              ],
+              [
+                5.56524284817726,
+                8.922786054102383
+              ],
+              [
+                5.611236590724179,
+                8.922786054102383
+              ]
+            ]
+          ]
+        },
+        "links": [
+          {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "collection",
+            "href": "../collection.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+          }
+        ],
+        "assets": {
+          "S1Hand": {
+            "href": "https://storage.googleapis.com/sen1floods11/v1.1/data/flood_events/HandLabeled/S1Hand/Nigeria_529525_S1Hand.tif",
+            "type": "image/tiff; application=geotiff",
+            "title": "GeoTiff"
+          }
+        },
+        "bbox": [
+          5.56524284817726,
+          8.922786054102383,
+          5.611236590724179,
+          8.968779796649303
+        ],
+        "collection": "sen1floods11_hand_labeled_source"
+      }
+    },
+    {
+      "partition": "train",
+      "group": "Pakistan",
+      "image": "Pakistan_211386_S1Hand.tif",
+      "label": "Pakistan_211386_LabelHand.tif",
+      "source": {
+        "type": "Feature",
+        "stac_version": "1.0.0-beta.2",
+        "id": "Pakistan_211386",
+        "properties": {
+          "country": "Pakistan",
+          "chip_id": "211386",
+          "datetime": "2017-06-28T00:00:00Z"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                70.55440106697452,
+                30.539845051154547
+              ],
+              [
+                70.55440106697452,
+                30.585838793701466
+              ],
+              [
+                70.5084073244276,
+                30.585838793701466
+              ],
+              [
+                70.5084073244276,
+                30.539845051154547
+              ],
+              [
+                70.55440106697452,
+                30.539845051154547
+              ]
+            ]
+          ]
+        },
+        "links": [
+          {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "collection",
+            "href": "../collection.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+          }
+        ],
+        "assets": {
+          "S1Hand": {
+            "href": "https://storage.googleapis.com/sen1floods11/v1.1/data/flood_events/HandLabeled/S1Hand/Pakistan_211386_S1Hand.tif",
+            "type": "image/tiff; application=geotiff",
+            "title": "GeoTiff"
+          }
+        },
+        "bbox": [
+          70.5084073244276,
+          30.539845051154547,
+          70.55440106697452,
+          30.585838793701466
+        ],
+        "collection": "sen1floods11_hand_labeled_source"
+      }
+    },
+    {
+      "partition": "train",
+      "group": "Paraguay",
+      "image": "Paraguay_48673_S1Hand.tif",
+      "label": "Paraguay_48673_LabelHand.tif",
+      "source": {
+        "type": "Feature",
+        "stac_version": "1.0.0-beta.2",
+        "id": "Paraguay_48673",
+        "properties": {
+          "country": "Paraguay",
+          "chip_id": "48673",
+          "datetime": "2018-10-31T00:00:00Z"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -56.664290817804826,
+                -23.180846243647427
+              ],
+              [
+                -56.664290817804826,
+                -23.134852501100507
+              ],
+              [
+                -56.710284560351745,
+                -23.134852501100507
+              ],
+              [
+                -56.710284560351745,
+                -23.180846243647427
+              ],
+              [
+                -56.664290817804826,
+                -23.180846243647427
+              ]
+            ]
+          ]
+        },
+        "links": [
+          {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "collection",
+            "href": "../collection.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+          }
+        ],
+        "assets": {
+          "S1Hand": {
+            "href": "https://storage.googleapis.com/sen1floods11/v1.1/data/flood_events/HandLabeled/S1Hand/Paraguay_48673_S1Hand.tif",
+            "type": "image/tiff; application=geotiff",
+            "title": "GeoTiff"
+          }
+        },
+        "bbox": [
+          -56.710284560351745,
+          -23.180846243647427,
+          -56.664290817804826,
+          -23.134852501100507
+        ],
+        "collection": "sen1floods11_hand_labeled_source"
+      }
+    },
+    {
+      "partition": "train",
+      "group": "Somalia",
+      "image": "Somalia_93023_S1Hand.tif",
+      "label": "Somalia_93023_LabelHand.tif",
+      "source": {
+        "type": "Feature",
+        "stac_version": "1.0.0-beta.2",
+        "id": "Somalia_93023",
+        "properties": {
+          "country": "Somalia",
+          "chip_id": "93023",
+          "datetime": "2018-05-07T00:00:00Z"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                45.7637738341849,
+                2.9895932655497672
+              ],
+              [
+                45.7637738341849,
+                3.035587008096687
+              ],
+              [
+                45.717780091637984,
+                3.035587008096687
+              ],
+              [
+                45.717780091637984,
+                2.9895932655497672
+              ],
+              [
+                45.7637738341849,
+                2.9895932655497672
+              ]
+            ]
+          ]
+        },
+        "links": [
+          {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "collection",
+            "href": "../collection.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+          }
+        ],
+        "assets": {
+          "S1Hand": {
+            "href": "https://storage.googleapis.com/sen1floods11/v1.1/data/flood_events/HandLabeled/S1Hand/Somalia_93023_S1Hand.tif",
+            "type": "image/tiff; application=geotiff",
+            "title": "GeoTiff"
+          }
+        },
+        "bbox": [
+          45.717780091637984,
+          2.9895932655497672,
+          45.7637738341849,
+          3.035587008096687
+        ],
+        "collection": "sen1floods11_hand_labeled_source"
+      }
+    },
+    {
+      "partition": "train",
+      "group": "Spain",
+      "image": "Spain_2938657_S1Hand.tif",
+      "label": "Spain_2938657_LabelHand.tif",
+      "source": {
+        "type": "Feature",
+        "stac_version": "1.0.0-beta.2",
+        "id": "Spain_2938657",
+        "properties": {
+          "country": "Spain",
+          "chip_id": "2938657",
+          "datetime": "2019-09-17T00:00:00Z"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.7818936232976316,
+                38.220800056490106
+              ],
+              [
+                -0.7818936232976316,
+                38.266793799037025
+              ],
+              [
+                -0.827887365844551,
+                38.266793799037025
+              ],
+              [
+                -0.827887365844551,
+                38.220800056490106
+              ],
+              [
+                -0.7818936232976316,
+                38.220800056490106
+              ]
+            ]
+          ]
+        },
+        "links": [
+          {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "collection",
+            "href": "../collection.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+          }
+        ],
+        "assets": {
+          "S1Hand": {
+            "href": "https://storage.googleapis.com/sen1floods11/v1.1/data/flood_events/HandLabeled/S1Hand/Spain_2938657_S1Hand.tif",
+            "type": "image/tiff; application=geotiff",
+            "title": "GeoTiff"
+          }
+        },
+        "bbox": [
+          -0.827887365844551,
+          38.220800056490106,
+          -0.7818936232976316,
+          38.266793799037025
+        ],
+        "collection": "sen1floods11_hand_labeled_source"
+      }
+    },
+    {
+      "partition": "train",
+      "group": "Sri-Lanka",
+      "image": "Sri-Lanka_233609_S1Hand.tif",
+      "label": "Sri-Lanka_233609_LabelHand.tif",
+      "source": {
+        "type": "Feature",
+        "stac_version": "1.0.0-beta.2",
+        "id": "Sri-Lanka_233609",
+        "properties": {
+          "country": "Sri-Lanka",
+          "chip_id": "233609",
+          "datetime": "2017-05-30T00:00:00Z"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                81.132961852766,
+                7.8189362329763155
+              ],
+              [
+                81.132961852766,
+                7.864929975523235
+              ],
+              [
+                81.08696811021908,
+                7.864929975523235
+              ],
+              [
+                81.08696811021908,
+                7.8189362329763155
+              ],
+              [
+                81.132961852766,
+                7.8189362329763155
+              ]
+            ]
+          ]
+        },
+        "links": [
+          {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "collection",
+            "href": "../collection.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+          }
+        ],
+        "assets": {
+          "S1Hand": {
+            "href": "https://storage.googleapis.com/sen1floods11/v1.1/data/flood_events/HandLabeled/S1Hand/Sri-Lanka_233609_S1Hand.tif",
+            "type": "image/tiff; application=geotiff",
+            "title": "GeoTiff"
+          }
+        },
+        "bbox": [
+          81.08696811021908,
+          7.8189362329763155,
+          81.132961852766,
+          7.864929975523235
+        ],
+        "collection": "sen1floods11_hand_labeled_source"
+      }
+    },
+    {
+      "partition": "train",
+      "group": "USA",
+      "image": "USA_354981_S1Hand.tif",
+      "label": "USA_354981_LabelHand.tif",
+      "source": {
+        "type": "Feature",
+        "stac_version": "1.0.0-beta.2",
+        "id": "USA_354981",
+        "properties": {
+          "country": "USA",
+          "chip_id": "354981",
+          "datetime": "2019-05-22T00:00:00Z"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -94.839097131748,
+                39.09468116488158
+              ],
+              [
+                -94.839097131748,
+                39.1406749074285
+              ],
+              [
+                -94.88509087429493,
+                39.1406749074285
+              ],
+              [
+                -94.88509087429493,
+                39.09468116488158
+              ],
+              [
+                -94.839097131748,
+                39.09468116488158
+              ]
+            ]
+          ]
+        },
+        "links": [
+          {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "collection",
+            "href": "../collection.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+          }
+        ],
+        "assets": {
+          "S1Hand": {
+            "href": "https://storage.googleapis.com/sen1floods11/v1.1/data/flood_events/HandLabeled/S1Hand/USA_354981_S1Hand.tif",
+            "type": "image/tiff; application=geotiff",
+            "title": "GeoTiff"
+          }
+        },
+        "bbox": [
+          -94.88509087429493,
+          39.09468116488158,
+          -94.839097131748,
+          39.1406749074285
+        ],
+        "collection": "sen1floods11_hand_labeled_source"
+      }
+    },
+    {
+      "partition": "val",
+      "group": "Ghana",
+      "image": "Ghana_277_S1Hand.tif",
+      "label": "Ghana_277_LabelHand.tif",
+      "source": {
+        "type": "Feature",
+        "stac_version": "1.0.0-beta.2",
+        "id": "Ghana_277",
+        "properties": {
+          "country": "Ghana",
+          "chip_id": "277",
+          "datetime": "2018-09-18T00:00:00Z"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -1.3338185338606656,
+                9.428717222118498
+              ],
+              [
+                -1.3338185338606656,
+                9.474710964665418
+              ],
+              [
+                -1.379812276407585,
+                9.474710964665418
+              ],
+              [
+                -1.379812276407585,
+                9.428717222118498
+              ],
+              [
+                -1.3338185338606656,
+                9.428717222118498
+              ]
+            ]
+          ]
+        },
+        "links": [
+          {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "collection",
+            "href": "../collection.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+          }
+        ],
+        "assets": {
+          "S1Hand": {
+            "href": "https://storage.googleapis.com/sen1floods11/v1.1/data/flood_events/HandLabeled/S1Hand/Ghana_277_S1Hand.tif",
+            "type": "image/tiff; application=geotiff",
+            "title": "GeoTiff"
+          }
+        },
+        "bbox": [
+          -1.379812276407585,
+          9.428717222118498,
+          -1.3338185338606656,
+          9.474710964665418
+        ],
+        "collection": "sen1floods11_hand_labeled_source"
+      }
+    },
+    {
+      "partition": "val",
+      "group": "India",
+      "image": "India_164336_S1Hand.tif",
+      "label": "India_164336_LabelHand.tif",
+      "source": {
+        "type": "Feature",
+        "stac_version": "1.0.0-beta.2",
+        "id": "India_164336",
+        "properties": {
+          "country": "India",
+          "chip_id": "164336",
+          "datetime": "2016-08-12T00:00:00Z"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                93.137328657512,
+                26.262426994291033
+              ],
+              [
+                93.137328657512,
+                26.308420736837952
+              ],
+              [
+                93.09133491496507,
+                26.308420736837952
+              ],
+              [
+                93.09133491496507,
+                26.262426994291033
+              ],
+              [
+                93.137328657512,
+                26.262426994291033
+              ]
+            ]
+          ]
+        },
+        "links": [
+          {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "collection",
+            "href": "../collection.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+          }
+        ],
+        "assets": {
+          "S1Hand": {
+            "href": "https://storage.googleapis.com/sen1floods11/v1.1/data/flood_events/HandLabeled/S1Hand/India_164336_S1Hand.tif",
+            "type": "image/tiff; application=geotiff",
+            "title": "GeoTiff"
+          }
+        },
+        "bbox": [
+          93.09133491496507,
+          26.262426994291033,
+          93.137328657512,
+          26.308420736837952
+        ],
+        "collection": "sen1floods11_hand_labeled_source"
+      }
+    },
+    {
+      "partition": "val",
+      "group": "Mekong",
+      "image": "Mekong_977338_S1Hand.tif",
+      "label": "Mekong_977338_LabelHand.tif",
+      "source": {
+        "type": "Feature",
+        "stac_version": "1.0.0-beta.2",
+        "id": "Mekong_977338",
+        "properties": {
+          "country": "Mekong",
+          "chip_id": "977338",
+          "datetime": "2018-08-05T00:00:00Z"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                106.01557657064946,
+                12.9702353982313
+              ],
+              [
+                106.01557657064946,
+                13.016229140778218
+              ],
+              [
+                105.96958282810253,
+                13.016229140778218
+              ],
+              [
+                105.96958282810253,
+                12.9702353982313
+              ],
+              [
+                106.01557657064946,
+                12.9702353982313
+              ]
+            ]
+          ]
+        },
+        "links": [
+          {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "collection",
+            "href": "../collection.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+          }
+        ],
+        "assets": {
+          "S1Hand": {
+            "href": "https://storage.googleapis.com/sen1floods11/v1.1/data/flood_events/HandLabeled/S1Hand/Mekong_977338_S1Hand.tif",
+            "type": "image/tiff; application=geotiff",
+            "title": "GeoTiff"
+          }
+        },
+        "bbox": [
+          105.96958282810253,
+          12.9702353982313,
+          106.01557657064946,
+          13.016229140778218
+        ],
+        "collection": "sen1floods11_hand_labeled_source"
+      }
+    },
+    {
+      "partition": "val",
+      "group": "Nigeria",
+      "image": "Nigeria_820924_S1Hand.tif",
+      "label": "Nigeria_820924_LabelHand.tif",
+      "source": {
+        "type": "Feature",
+        "stac_version": "1.0.0-beta.2",
+        "id": "Nigeria_820924",
+        "properties": {
+          "country": "Nigeria",
+          "chip_id": "820924",
+          "datetime": "2018-09-21T00:00:00Z"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                5.703224075818018,
+                9.474710964665418
+              ],
+              [
+                5.703224075818018,
+                9.520704707212337
+              ],
+              [
+                5.657230333271099,
+                9.520704707212337
+              ],
+              [
+                5.657230333271099,
+                9.474710964665418
+              ],
+              [
+                5.703224075818018,
+                9.474710964665418
+              ]
+            ]
+          ]
+        },
+        "links": [
+          {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "collection",
+            "href": "../collection.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+          }
+        ],
+        "assets": {
+          "S1Hand": {
+            "href": "https://storage.googleapis.com/sen1floods11/v1.1/data/flood_events/HandLabeled/S1Hand/Nigeria_820924_S1Hand.tif",
+            "type": "image/tiff; application=geotiff",
+            "title": "GeoTiff"
+          }
+        },
+        "bbox": [
+          5.657230333271099,
+          9.474710964665418,
+          5.703224075818018,
+          9.520704707212337
+        ],
+        "collection": "sen1floods11_hand_labeled_source"
+      }
+    },
+    {
+      "partition": "val",
+      "group": "Pakistan",
+      "image": "Pakistan_94095_S1Hand.tif",
+      "label": "Pakistan_94095_LabelHand.tif",
+      "source": {
+        "type": "Feature",
+        "stac_version": "1.0.0-beta.2",
+        "id": "Pakistan_94095",
+        "properties": {
+          "country": "Pakistan",
+          "chip_id": "94095",
+          "datetime": "2017-06-28T00:00:00Z"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                70.83036352225604,
+                30.171895110779193
+              ],
+              [
+                70.83036352225604,
+                30.217888853326112
+              ],
+              [
+                70.78436977970911,
+                30.217888853326112
+              ],
+              [
+                70.78436977970911,
+                30.171895110779193
+              ],
+              [
+                70.83036352225604,
+                30.171895110779193
+              ]
+            ]
+          ]
+        },
+        "links": [
+          {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "collection",
+            "href": "../collection.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+          }
+        ],
+        "assets": {
+          "S1Hand": {
+            "href": "https://storage.googleapis.com/sen1floods11/v1.1/data/flood_events/HandLabeled/S1Hand/Pakistan_94095_S1Hand.tif",
+            "type": "image/tiff; application=geotiff",
+            "title": "GeoTiff"
+          }
+        },
+        "bbox": [
+          70.78436977970911,
+          30.171895110779193,
+          70.83036352225604,
+          30.217888853326112
+        ],
+        "collection": "sen1floods11_hand_labeled_source"
+      }
+    },
+    {
+      "partition": "val",
+      "group": "Paraguay",
+      "image": "Paraguay_76868_S1Hand.tif",
+      "label": "Paraguay_76868_LabelHand.tif",
+      "source": {
+        "type": "Feature",
+        "stac_version": "1.0.0-beta.2",
+        "id": "Paraguay_76868",
+        "properties": {
+          "country": "Paraguay",
+          "chip_id": "76868",
+          "datetime": "2018-10-31T00:00:00Z"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -57.12422824327402,
+                -24.698639747695772
+              ],
+              [
+                -57.12422824327402,
+                -24.652646005148853
+              ],
+              [
+                -57.17022198582094,
+                -24.652646005148853
+              ],
+              [
+                -57.17022198582094,
+                -24.698639747695772
+              ],
+              [
+                -57.12422824327402,
+                -24.698639747695772
+              ]
+            ]
+          ]
+        },
+        "links": [
+          {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "collection",
+            "href": "../collection.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+          }
+        ],
+        "assets": {
+          "S1Hand": {
+            "href": "https://storage.googleapis.com/sen1floods11/v1.1/data/flood_events/HandLabeled/S1Hand/Paraguay_76868_S1Hand.tif",
+            "type": "image/tiff; application=geotiff",
+            "title": "GeoTiff"
+          }
+        },
+        "bbox": [
+          -57.17022198582094,
+          -24.698639747695772,
+          -57.12422824327402,
+          -24.652646005148853
+        ],
+        "collection": "sen1floods11_hand_labeled_source"
+      }
+    },
+    {
+      "partition": "val",
+      "group": "Somalia",
+      "image": "Somalia_61368_S1Hand.tif",
+      "label": "Somalia_61368_LabelHand.tif",
+      "source": {
+        "type": "Feature",
+        "stac_version": "1.0.0-beta.2",
+        "id": "Somalia_61368",
+        "properties": {
+          "country": "Somalia",
+          "chip_id": "61368",
+          "datetime": "2018-05-07T00:00:00Z"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                45.257842666168784,
+                4.139436829222755
+              ],
+              [
+                45.257842666168784,
+                4.1854305717696745
+              ],
+              [
+                45.211848923621865,
+                4.1854305717696745
+              ],
+              [
+                45.211848923621865,
+                4.139436829222755
+              ],
+              [
+                45.257842666168784,
+                4.139436829222755
+              ]
+            ]
+          ]
+        },
+        "links": [
+          {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "collection",
+            "href": "../collection.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+          }
+        ],
+        "assets": {
+          "S1Hand": {
+            "href": "https://storage.googleapis.com/sen1floods11/v1.1/data/flood_events/HandLabeled/S1Hand/Somalia_61368_S1Hand.tif",
+            "type": "image/tiff; application=geotiff",
+            "title": "GeoTiff"
+          }
+        },
+        "bbox": [
+          45.211848923621865,
+          4.139436829222755,
+          45.257842666168784,
+          4.1854305717696745
+        ],
+        "collection": "sen1floods11_hand_labeled_source"
+      }
+    },
+    {
+      "partition": "val",
+      "group": "Spain",
+      "image": "Spain_8565131_S1Hand.tif",
+      "label": "Spain_8565131_LabelHand.tif",
+      "source": {
+        "type": "Feature",
+        "stac_version": "1.0.0-beta.2",
+        "id": "Spain_8565131",
+        "properties": {
+          "country": "Spain",
+          "chip_id": "8565131",
+          "datetime": "2019-09-17T00:00:00Z"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.7818936232976316,
+                38.174806313943186
+              ],
+              [
+                -0.7818936232976316,
+                38.220800056490106
+              ],
+              [
+                -0.827887365844551,
+                38.220800056490106
+              ],
+              [
+                -0.827887365844551,
+                38.174806313943186
+              ],
+              [
+                -0.7818936232976316,
+                38.174806313943186
+              ]
+            ]
+          ]
+        },
+        "links": [
+          {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "collection",
+            "href": "../collection.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+          }
+        ],
+        "assets": {
+          "S1Hand": {
+            "href": "https://storage.googleapis.com/sen1floods11/v1.1/data/flood_events/HandLabeled/S1Hand/Spain_8565131_S1Hand.tif",
+            "type": "image/tiff; application=geotiff",
+            "title": "GeoTiff"
+          }
+        },
+        "bbox": [
+          -0.827887365844551,
+          38.174806313943186,
+          -0.7818936232976316,
+          38.220800056490106
+        ],
+        "collection": "sen1floods11_hand_labeled_source"
+      }
+    },
+    {
+      "partition": "val",
+      "group": "Sri-Lanka",
+      "image": "Sri-Lanka_321316_S1Hand.tif",
+      "label": "Sri-Lanka_321316_LabelHand.tif",
+      "source": {
+        "type": "Feature",
+        "stac_version": "1.0.0-beta.2",
+        "id": "Sri-Lanka_321316",
+        "properties": {
+          "country": "Sri-Lanka",
+          "chip_id": "321316",
+          "datetime": "2017-05-30T00:00:00Z"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                81.54690553568828,
+                7.956917460617074
+              ],
+              [
+                81.54690553568828,
+                8.002911203163993
+              ],
+              [
+                81.50091179314136,
+                8.002911203163993
+              ],
+              [
+                81.50091179314136,
+                7.956917460617074
+              ],
+              [
+                81.54690553568828,
+                7.956917460617074
+              ]
+            ]
+          ]
+        },
+        "links": [
+          {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "collection",
+            "href": "../collection.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+          }
+        ],
+        "assets": {
+          "S1Hand": {
+            "href": "https://storage.googleapis.com/sen1floods11/v1.1/data/flood_events/HandLabeled/S1Hand/Sri-Lanka_321316_S1Hand.tif",
+            "type": "image/tiff; application=geotiff",
+            "title": "GeoTiff"
+          }
+        },
+        "bbox": [
+          81.50091179314136,
+          7.956917460617074,
+          81.54690553568828,
+          8.002911203163993
+        ],
+        "collection": "sen1floods11_hand_labeled_source"
+      }
+    },
+    {
+      "partition": "val",
+      "group": "USA",
+      "image": "USA_366607_S1Hand.tif",
+      "label": "USA_366607_LabelHand.tif",
+      "source": {
+        "type": "Feature",
+        "stac_version": "1.0.0-beta.2",
+        "id": "USA_366607",
+        "properties": {
+          "country": "USA",
+          "chip_id": "366607",
+          "datetime": "2019-05-22T00:00:00Z"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -95.39102204231104,
+                38.864712452146975
+              ],
+              [
+                -95.39102204231104,
+                38.910706194693894
+              ],
+              [
+                -95.43701578485796,
+                38.910706194693894
+              ],
+              [
+                -95.43701578485796,
+                38.864712452146975
+              ],
+              [
+                -95.39102204231104,
+                38.864712452146975
+              ]
+            ]
+          ]
+        },
+        "links": [
+          {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "collection",
+            "href": "../collection.json",
+            "type": "application/json"
+          },
+          {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+          }
+        ],
+        "assets": {
+          "S1Hand": {
+            "href": "https://storage.googleapis.com/sen1floods11/v1.1/data/flood_events/HandLabeled/S1Hand/USA_366607_S1Hand.tif",
+            "type": "image/tiff; application=geotiff",
+            "title": "GeoTiff"
+          }
+        },
+        "bbox": [
+          -95.43701578485796,
+          38.864712452146975,
+          -95.39102204231104,
+          38.910706194693894
+        ],
+        "collection": "sen1floods11_hand_labeled_source"
+      }
+    }
+  ]
+}

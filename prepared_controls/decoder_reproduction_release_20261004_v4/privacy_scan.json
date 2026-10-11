@@ -1,0 +1,12 @@
+{
+  "status": "NO_TARGETED_PERSONAL_PATH_SERVER_OR_CREDENTIAL_PATTERN_FOUND",
+  "patterns_checked": [
+    "personal_path",
+    "server_path",
+    "private_key",
+    "assigned_secret"
+  ],
+  "findings": [],
+  "third_party_notices_excluded": "Retain legitimate upstream copyright/contact attribution",
+  "scope": "Pattern-based local review; not a guarantee against every possible sensitive datum"
+}

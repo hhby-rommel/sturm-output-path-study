@@ -1,0 +1,20 @@
+{
+  "stage": "CPU construction only; no forward/training/test/GPU",
+  "common_initialization_tensors": 384,
+  "common_initialization_exact": true,
+  "six_BN_names_exist": true,
+  "source_loading": {
+    "decoder": {
+      "matched_keys": 359,
+      "skipped_shape_keys": 5,
+      "skipped_name_keys": 0,
+      "target_keys": 364
+    },
+    "main_only": {
+      "matched_keys": 359,
+      "skipped_shape_keys": 5,
+      "skipped_name_keys": 0,
+      "target_keys": 364
+    }
+  }
+}

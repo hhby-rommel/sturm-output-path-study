@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/AeroVILab-AHU/LWGANet",
+  "commit": "a5ba000fa72f224eb4669383d8daf0beea6f85e7",
+  "scope": "five pinned raw files, not a complete Git checkout",
+  "source_modifications": [],
+  "files": {
+    "classification/models/__pycache__/LWGANet.cpython-310.pyc": "1a7b974b6b5c10fd0ff752b5be6568edf3b1ca533e3b34cee92235682cf1abf6",
+    "classification/models/LWGANet.py": "66f9634f101b1565c5f674f722d6a6713e3db1f71d89fa1b8af475bb1dc0eb23",
+    "segmentation/config/loveda/unetformer_lwganet_l2_e30.py": "46597dee676a9d95aa3773e0214a7071dc13d871ce00a8983d6b2599061cb002",
+    "segmentation/geoseg/models/lwganet.py": "d75484ecba7802f3c7cbe27d195be9e382c884d8c50ab83680d688cf53a76d30",
+    "segmentation/geoseg/models/UNetFormer_lwganet.py": "00337fb76742ed37576d42fdecf276d1d8d0555dda1157c0919142af36e0ebfd",
+    "segmentation/README.md": "678312fc31624dabad7ce65e1f2b63f814e5c224f5e3c550585ac058e2590d46"
+  }
+}

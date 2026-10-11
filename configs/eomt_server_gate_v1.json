@@ -1,0 +1,63 @@
+{
+  "purpose": "authorized_server_train_val_health_gate_not_formal",
+  "status": "authorized_preformal_server_train_val_gate_20260930",
+  "server_project_root": "/root/autodl-tmp/sturm_codex_20260919",
+  "seed": 93013,
+  "model": "EoMTPreparedSTURM",
+  "candidate_config": "configs/eomt_s_candidate_v2.json",
+  "initialization": "original pinned COCO panoptic S weights; not local pilot checkpoint",
+  "train_scope": "full existing event-disjoint train split",
+  "train_tiles_expected_local_manifest": 14561,
+  "val_scope": "full existing val split, 4853 tiles; fixed degraded tag1",
+  "sampler": "balanced WeightedRandomSampler replacement=True",
+  "batch_size": 16,
+  "max_epochs": 4,
+  "max_optimizer_updates_expected": 3644,
+  "optimizer": {
+    "lr": 0.0001,
+    "weight_decay": 0.05,
+    "llrd": 0.8
+  },
+  "warmup_steps": [
+    500,
+    1000
+  ],
+  "scheduler_total_steps": 3644,
+  "gradient_clip_norm": 5.0,
+  "attention_start_fractions": [
+    0.1,
+    0.3,
+    0.5
+  ],
+  "attention_end_fractions": [
+    0.3,
+    0.5,
+    0.7
+  ],
+  "stop_on": [
+    "nonfinite loss/gradient",
+    "persistent absent sensor/core update",
+    "environment or provenance mismatch",
+    "output collision"
+  ],
+  "checkpoint_restore": "CPU staging; save model/optimizer/scheduler/RNG/sampler state; epoch boundary",
+  "save": [
+    "best.pt",
+    "last.pt",
+    "history",
+    "metadata",
+    "full_val_recheck",
+    "per_sensor_update_and_gradient_diagnostics"
+  ],
+  "formal_release_ready": false,
+  "test_dataset_allowed": false,
+  "formal_seeds_allowed": false,
+  "preflight": [
+    "verify environment supports pinned official EoMT core",
+    "verify weights/source/config hashes",
+    "verify dataset split identity",
+    "verify target batch16 memory and a serial GPU slot",
+    "preserve existing formal artifacts"
+  ],
+  "scope_limit": "compressed four-epoch health gate; not a 50-epoch formal schedule or paper main-table result"
+}

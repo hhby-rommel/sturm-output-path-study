@@ -1,0 +1,1785 @@
+{
+  "packaging_date": "2026-10-11",
+  "files": [
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/historical_archive/decoder_attribution_train_test_serial_v1.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/historical_archive/decoder_attribution_train_test_serial_v1.py",
+      "original_sha256": "46265033147ff30bf5d7e5eddb814d72df65d4c7a505a8537db2a8e7dd624946",
+      "release_sha256": "66ab18b69cfb8151800fa1809f3a8c7cfa42c0cfa626a772a6a6802eac8dde71",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/scripts/check_decoder_attribution_entry_20261003_v1.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/scripts/check_decoder_attribution_entry_20261003_v1.py",
+      "original_sha256": "d9099caa41209c1c834acc9fa0d6b831b4518db631864456ef968140a26e462d",
+      "release_sha256": "82e18a05ad358a884dc962f433ea981f0e8d542e8a25be59928da9bf03e7d92b",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/scripts/decoder_attribution_gpu_preflight_20261003_v1.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/scripts/decoder_attribution_gpu_preflight_20261003_v1.py",
+      "original_sha256": "70f49d586b23338da32a5094639f34f96ad1a64fbaaee1c9dfe51404a66592cd",
+      "release_sha256": "b1a5d9384df7c38bd8a9fec49e3f88927d0a3dd9192dbc37b1b868988416d18a",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/scripts/decoder_attribution_health_20261003_v1.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/scripts/decoder_attribution_health_20261003_v1.py",
+      "original_sha256": "20713c07e94423e80d3584a257808288c041691bab999fa673af36c78617c444",
+      "release_sha256": "8bdd46aa0e39d593202ac092bc7be51352124ed54fb6318d89703118f2ea3256",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/scripts/decoder_attribution_serial_20261003_v1.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/scripts/decoder_attribution_serial_20261003_v1.py",
+      "original_sha256": "ab6908291b872e3f604dcee791532d0f3888a2acea85649dcec1b6380006c9ef",
+      "release_sha256": "ea2b7276c2cdee7e144a4ba5d184220e757e82924b30c4de5b5f937e37bdfbf5",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/scripts/decoder_attribution_test_once_v1.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/scripts/decoder_attribution_test_once_v1.py",
+      "original_sha256": "20bf0a1b81a86829145e676aaf0e482a064c6bdcc4db1d096ae44a4507de6c1e",
+      "release_sha256": "5a549cfd3cfc5244bf6c3b140769e948bf5f0f338f5bbe2a33325f627323e88a",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/scripts/decoder_attribution_train_val_20261003_v1.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/scripts/decoder_attribution_train_val_20261003_v1.py",
+      "original_sha256": "4ab570bd5ccfe9a3406dc7b565b1c0dc64c591c0f131d4ac3c9171c71b4f962f",
+      "release_sha256": "a073147dc0a3a8426b8ca494de915c89b32f1acd67d8e8d0f9a760410f5dbbd4",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/scripts/prepare_reproduction_scope.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/scripts/prepare_reproduction_scope.py",
+      "original_sha256": "bdaf3a320cbb1fde8b98f0704d3590ba7f015eb8ec5a1898506746d0fa236c54",
+      "release_sha256": "5c235a4a6184a3d97f34bed2996ddd0a33b09fb8336269a7acbbecf7c24d7cde",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/scripts/server_main.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/scripts/server_main.py",
+      "original_sha256": "e25f3f94eff656cd3fe3d8245f9659172e388ab270c1063e5b64dab25046a1aa",
+      "release_sha256": "17d3e41e29bf567962a15c1d2c578c593b8a067bae650714dc34a4f761116cf8",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/data_audit/audit_sturm.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/data_audit/audit_sturm.py",
+      "original_sha256": "edc0ed2db9e7f5da9cab25fef95d10ce6e8cc160f4ef537c54bb08695230d1c7",
+      "release_sha256": "c3fef202ac7e7a8eb9b44896671a79984924f952de3baa79fbc88d730458fdbc",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/data_audit/full_audit.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/data_audit/full_audit.py",
+      "original_sha256": "c9fc2d943f7b66ad375cdd8a2f69f1ef11a2619d8d1c8810e4e6aa23f90ef9ef",
+      "release_sha256": "f705004db8740972ffd281dfb4234f0d876e0f422e700fe55650442da0e7e085",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/data_audit/split_events.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/data_audit/split_events.py",
+      "original_sha256": "322a1a4f9d9817b8349ed7b90241b208144855db6f73ab853300a148e6ad8a4c",
+      "release_sha256": "93d5af4b9de0090dc2917647fb31d285a9259822c400d07b5b20c7f7bea78c93",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/data_audit/validate_outputs.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/data_audit/validate_outputs.py",
+      "original_sha256": "d18d5b2ed5010315cdc60790debe53917af3eaf5a975d07631c235b14eeadf09",
+      "release_sha256": "f1d88a8cafc04fdffe028010166dd3d1a4624b87a3629625e7fb6b7dc077899f",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/dataset/__init__.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/dataset/__init__.py",
+      "original_sha256": "8d5ea7e269472ba0001000eee7c46fe535e9b67a833c25b017c8d71c276fa259",
+      "release_sha256": "b60ac78fc902e7bfb4c419abb542a2ce0db62b1878fb647b70395d0e05e892ea",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/dataset/quality.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/dataset/quality.py",
+      "original_sha256": "ae7b8c91207ba89e17762958e5d7351e4ab0d77e670b9f57f11cd35c3faaf3af",
+      "release_sha256": "a1db28e136307fc1c6663595ec45cb803635c7ad61f4086fb508f8d8f79b8c81",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/dataset/sturm_flood.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/dataset/sturm_flood.py",
+      "original_sha256": "517c709b3cbf5be15539e02ca03fb0aa25b77eadd6d8ba2a7b3912c95c435eea",
+      "release_sha256": "aeb531b21b9533f383dab60d84b9a105b03e5802d1081230dd2717f96829caf9",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/evaluation/__init__.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/evaluation/__init__.py",
+      "original_sha256": "252d8b656ebb8b6c337792d2efa9a68dd9afd3297b08d0fbf926dd7e81efd635",
+      "release_sha256": "6a1ccd11f350d6a3e48e8208827ad1b66035cbf3e2681192e6abc6004faa48c3",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/evaluation/formal.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/evaluation/formal.py",
+      "original_sha256": "be2bf82729fa57d818210eef3e860e73a9ec655dac547d9fd8e61c5e73406dfb",
+      "release_sha256": "df71160933163f7a463dec51d7c5bd15c1311fdd89c8a00c035b531427271ff8",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/evaluation/s2_pixel_errors.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/evaluation/s2_pixel_errors.py",
+      "original_sha256": "14eb8fa51be94a45da0ac4dfcc78af89b9477896ffacab4b013345582fa4f424",
+      "release_sha256": "450cddbeb0b745c6a9a364b7acffb913edb94067135b14023fe26e327bf55764",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/__init__.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/__init__.py",
+      "original_sha256": "496a12e96ee62e203e38d6891bf6cb6a94dc512a9f4291983f92ab8ba0824d69",
+      "release_sha256": "821e1de0c26ec38441028c4db808eaaff25ce08f38761b8ab0c096fbe35ac108",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/decoder_attribution.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/decoder_attribution.py",
+      "original_sha256": "52821e37ecf39268ad78799b48c106ff9b10265a8f451a4cc0d88ad17d9b898a",
+      "release_sha256": "35e543a002e21d6595ee72457494f36a373a7752251d13581af3a54dbda9c2fc",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/efficientvit_b0_comparator.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/efficientvit_b0_comparator.py",
+      "original_sha256": "65d18163ee49d36c4d0b468677d356af235e56915c9995078e6ff26eb55afb34",
+      "release_sha256": "c6c4b050687d2cce1e2cb42743a13bebbddf40e3f0f90c27f1025b13c2178134",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/eomt_prepared.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/eomt_prepared.py",
+      "original_sha256": "b186e703e4ac12308e5e9924dd7b054bf4eb02a51310393c4be4ce2b47d8bf33",
+      "release_sha256": "f71fd4f9776d8a7597d8c0891db111404ba67d5cf924b76f45dab3895240f050",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/eomt_s_comparator.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/eomt_s_comparator.py",
+      "original_sha256": "ee11665e0d5767be2d83282365c64dc0c2c61e1aefbbf45836df6ee3a6e36ae3",
+      "release_sha256": "a632906d9d74203da7c3a644055cab0892b6171fc5892dc4b20c15a12e86176b",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/lale_comparator.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/lale_comparator.py",
+      "original_sha256": "f2c2f1950cebccdfa9eecf1bf7d590d21e8089075905b13c18404b57882a8dd7",
+      "release_sha256": "89199aca56e9c400379ac846e8949c55884471e5cae05e31bcc7a2cfa78a9a20",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/local_multiscale_context_pretest.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/local_multiscale_context_pretest.py",
+      "original_sha256": "ec4ffde0a7f0ed14cbacbd1b7b8290ab411856fe035f48c70f555e4f59aac0a4",
+      "release_sha256": "7ea8a541ce2ed16805759a9ff7aac77a4dabba336d7b35b556b3b656253cc6e8",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/lwganet_comparator.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/lwganet_comparator.py",
+      "original_sha256": "188fd1bfc04f652501bc2268fba99bd1f95ba9fa083dfaeb3d90a76135cac410",
+      "release_sha256": "1cf3c5a931bf0c448771d39e896cfe761a83b65838539540627fc4bae32266f7",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/lwganet_deterministic.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/lwganet_deterministic.py",
+      "original_sha256": "ce13e31d7ce275b011b411e6895bbcfec7ebf2de83e2bb651020f854f67fc488",
+      "release_sha256": "1db62a8d3c25c35d54e5d1a74bf39d3cd9eaf42fe1d433e0814e1744c9eb833f",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/optional_comparison.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/optional_comparison.py",
+      "original_sha256": "7c0835f6d6d7e423df70360421be8830a8ff2feb340f1e5741f62b54f73835e1",
+      "release_sha256": "4a5c9f350089bb3befa81ca5e8609321e3275203e2a734f2b76d94967c9434ca",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/research_comparators.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/research_comparators.py",
+      "original_sha256": "ea3fd66579d647e353fa0107dbfdc7a032f22f07da4ce19ab872f2f175aaf9dc",
+      "release_sha256": "df3ba38368d6d5d1ce36328e6f5bc72cfca4da04ffd16e292eb582c4625911f3",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/unet_semantic.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/unet_semantic.py",
+      "original_sha256": "d047de3b8e33a2afc63750ee6236186ac6dccf8642a79017e315c90546f6c6b7",
+      "release_sha256": "fae4a2f9a26955932f9e0f046bed173623d596600cbfc780d362bda33611adeb",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/yolo11_semantic.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/yolo11_semantic.py",
+      "original_sha256": "1b626469d284287694e91b929d6293277884025477330a87550a3a926e5abef9",
+      "release_sha256": "7904f817cd6f2716ee1fd9ac75b05f58cec6ea62fc0ea86f4aad6d3b933b25ab",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/yolo26_control_pretest.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/yolo26_control_pretest.py",
+      "original_sha256": "fc1bff193470fbb7f0cd0fe78d8713b742c93d124344a10b06116fd604487c99",
+      "release_sha256": "fb521d7b5c5ffd2b87e3a95ac00cac3c35f57bea3bfaaab404d3e245dd439092",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/yolo26_main_only_control.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/yolo26_main_only_control.py",
+      "original_sha256": "bb22310671c4a845626041b0ac491e2d271c3fff531760d5cc8ca44ca2aa4fa5",
+      "release_sha256": "2e174bd98044d348c1d6ffb609d2cb0a400e21f2fc46752afd403953f71c9ec8",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/yolo26_semantic.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/yolo26_semantic.py",
+      "original_sha256": "8bfebb8f2d452f07c3155b453e0654c406c1f888badd1927f63d109152b68a7d",
+      "release_sha256": "5b1b9ceec1de47c9f122c7e723502ab5291d9f813d6dc0e10263fbd3880243cf",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/yolo26_sensor_p2_gate.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/yolo26_sensor_p2_gate.py",
+      "original_sha256": "62f26c152bca230167678b13214bfb383299e8c6950aabbee9b7318f25866695",
+      "release_sha256": "3f5fca4c331cfd508c151ccfca9adb2b1ef97b6a564bba90d23fbb6c1d458a2f",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/yolo26_unet_decoder.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/yolo26_unet_decoder.py",
+      "original_sha256": "5b81f1431152373057c46602e31e4372f3018a3bc1246bb0a44aa81e78def60c",
+      "release_sha256": "0978757b3640fe4bff1acbe23bb82155acb8da7849ca9c3dd3b1f3810c28cc38",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/yolov12_comparator.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/yolov12_comparator.py",
+      "original_sha256": "743fe1b71b7a79c8991585bb9970ca488d67d1a95f6f199eee6b0999fa17d3cb",
+      "release_sha256": "f6fbde1dacb8c52ee107dbfe36b825b423c25e76a41183fa20da73d396a30bea",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/yolov12_head_control_pretest.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/yolov12_head_control_pretest.py",
+      "original_sha256": "848522f732aae93df5d2ed8d3ebc65f8735c416220272ddfc316ed7fbde3bfd9",
+      "release_sha256": "7c108eb5ba50d6cc8c069ccd43fa0641b2b899595ae98e86392702f322b7d691",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/yolov8_ghost_semantic.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/models/yolov8_ghost_semantic.py",
+      "original_sha256": "64d8d77832f4b67c4f9fcba24e6ef16a5669f6f5dfcbaf9b4b267ee4316220ab",
+      "release_sha256": "2c2b82c0b389d00707aab54256b7238a71bfe0efd226741eb29f2d4c947bdc32",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/training/__init__.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/training/__init__.py",
+      "original_sha256": "1bd99a731c5a4baee8beebe001ff8c08856e9c1d103f913e983c1f64ad2e168d",
+      "release_sha256": "f3eb540d9b80c8986ad9ea0e15c839507d02bb922f6f9ec4ecba5a6fe3504c3b",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/training/dcl_losses.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/training/dcl_losses.py",
+      "original_sha256": "f250e4cbd163b4b47d86ad2d6f158c90741ae88c41d6b70e507ff258bd779066",
+      "release_sha256": "41afc9ee42c6fefa8c118367c54643e3d749334f52cb70db1cada07f144ce173",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/training/degradation.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/training/degradation.py",
+      "original_sha256": "150b5fca924a319447ebc78d13569d84ca3ed8a7bf2dc1fabda469391418e4f7",
+      "release_sha256": "520b6124199db9d87b92eca27b4f4379edbe7e1c4f42bfc64d0ba8a877fe5365",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/training/engine.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/training/engine.py",
+      "original_sha256": "3b442a31b054e2e98ec8ba45740195ec6839665601561098d60cca9c0382cc5b",
+      "release_sha256": "d0c4ca540b9254f3d9558142a7296a5dd764e84be0f9ba5ae0bd44ca92a2b08d",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/training/eomt_mask_classification.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/training/eomt_mask_classification.py",
+      "original_sha256": "cca9bda2da02baf57b1d585c3350b7315682a5cef164c60ef94a60b2535fd8ed",
+      "release_sha256": "4e43cea0fbad9d9a7a90b653cc561c4cd46a79dc01ac891d7953e7d637ff7cb1",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/training/eomt_protocol.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/training/eomt_protocol.py",
+      "original_sha256": "46175df0db300aae90d35d50ce65534a6dc0a8d5f2a0963da194f85468010d13",
+      "release_sha256": "4e77943e4f6801cb3aa8189b21ce952ad4f5fd9dcecc9d1fef8b18dc16c5c5bf",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/training/exposure_matched_decoder_control.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/training/exposure_matched_decoder_control.py",
+      "original_sha256": "1e34a5217546c770829903fe32e7736ad4b0f0e06b00d6b6bb71c61a7f8c9526",
+      "release_sha256": "8f427c00e35757d638beb7409ee059e6fdaae46d659453005d061417573e1991",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/training/historical_engine_oracle.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/training/historical_engine_oracle.py",
+      "original_sha256": "dbb1ce3cef0b3f8b18892b6e594509c68d55b671c16f0b496b2430648836b020",
+      "release_sha256": "84cace07ae5cb90b226e8d4e6e4b95dfff85642c9339ac9997dc265e2a2a1b8c",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/training/independent_decoder_preflight.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/training/independent_decoder_preflight.py",
+      "original_sha256": "1af7ad966de5c9ba6a3ef3c4ee3db6fc706f5e106776b056f858777b5e54e02d",
+      "release_sha256": "c6d6f38851f6e627246c8f8ee0d958f64f70dc436e818afb3303a928a1c14506",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/training/masked_segmentation.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/training/masked_segmentation.py",
+      "original_sha256": "9c1e55045e5d0fed8ca1a09a90c21e3a31e352fe1e4d5dd3cf96ec5ee0aba52e",
+      "release_sha256": "fe313a485e9fa276e0497e3d0ed1cb1f8be2d3d357f6131563cb1d452792d075",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/training/optimization.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/training/optimization.py",
+      "original_sha256": "88bccdd0845780b61cb8b8cca3934b52ac31b73e57665743d2c0b28538956c89",
+      "release_sha256": "32d794d8908b7b6ace5e45786d51b60a482c8faacdc670b6a178452e8b32a811",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_release_20261004_v4/src/training/single_sensor_decoder_control.py",
+      "origin": "prepared_controls/decoder_reproduction_release_20261004_v4/src/training/single_sensor_decoder_control.py",
+      "original_sha256": "0af7b8da92630000f236e30b3360e73953d96270fd16d8b6c06870dbe8b23e7a",
+      "release_sha256": "f359ba1a6f6ddb959ab2b9059e3da8c778352de71f5e1e39b9d181fd4a9fcc4b",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/data_audit/audit_sturm.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/data_audit/audit_sturm.py",
+      "original_sha256": "edc0ed2db9e7f5da9cab25fef95d10ce6e8cc160f4ef537c54bb08695230d1c7",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "1dfbf4c149dd8bcbef38fd3ef57c5a2261b82de8a15b95f1233c779039ff974a"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/data_audit/full_audit.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/data_audit/full_audit.py",
+      "original_sha256": "c9fc2d943f7b66ad375cdd8a2f69f1ef11a2619d8d1c8810e4e6aa23f90ef9ef",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "07ef42366bcfb8b120a41b60d19b5eb80fe41212db0f6e9babe5729a2779a805"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/data_audit/split_events.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/data_audit/split_events.py",
+      "original_sha256": "322a1a4f9d9817b8349ed7b90241b208144855db6f73ab853300a148e6ad8a4c",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "8211fa357be525b5a2f2e6e5cbdff174229a970c04d0602364a6f240be3f7689"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/data_audit/validate_outputs.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/data_audit/validate_outputs.py",
+      "original_sha256": "d18d5b2ed5010315cdc60790debe53917af3eaf5a975d07631c235b14eeadf09",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "58c8aa9f41ebd48aef24f08424e87ac041f1fdfde6912457cb2626bf210f8787"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/dataset/__init__.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/dataset/__init__.py",
+      "original_sha256": "8d5ea7e269472ba0001000eee7c46fe535e9b67a833c25b017c8d71c276fa259",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "b33177b05a1329162ae8bf4206dce0873d510ceefdf5e7353f13827890318ab3"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/dataset/quality.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/dataset/quality.py",
+      "original_sha256": "ae7b8c91207ba89e17762958e5d7351e4ab0d77e670b9f57f11cd35c3faaf3af",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "a1da8d9e68d275b5bc784b56b9b1ff0c19d9f3e70c953fa6380d44ada6af7752"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/dataset/sturm_flood.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/dataset/sturm_flood.py",
+      "original_sha256": "517c709b3cbf5be15539e02ca03fb0aa25b77eadd6d8ba2a7b3912c95c435eea",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "05db8202f4db87d3af16f8f1f3cc949bcb46776a8aab46f15c6bb14950b8969f"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/evaluation/__init__.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/evaluation/__init__.py",
+      "original_sha256": "252d8b656ebb8b6c337792d2efa9a68dd9afd3297b08d0fbf926dd7e81efd635",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "10f9f308501807aa3998d50d1ab2df4cd484bd4d3980ff36f6680ab0391918ec"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/evaluation/formal.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/evaluation/formal.py",
+      "original_sha256": "be2bf82729fa57d818210eef3e860e73a9ec655dac547d9fd8e61c5e73406dfb",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "6a5d4fc239e7c9ada4221d8c520b605fb7befb368ef57b4c48a6bf36378f0923"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/evaluation/s2_pixel_errors.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/evaluation/s2_pixel_errors.py",
+      "original_sha256": "14eb8fa51be94a45da0ac4dfcc78af89b9477896ffacab4b013345582fa4f424",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "4ccb93682376b0da891404feca58d63787ce71eb663a2b314b0c025b2a083cfe"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/__init__.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/__init__.py",
+      "original_sha256": "496a12e96ee62e203e38d6891bf6cb6a94dc512a9f4291983f92ab8ba0824d69",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "906927fa774d5f37dda835545a963b63858092fb12a3622a65148ab6d56481ea"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/decoder_attribution.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/decoder_attribution.py",
+      "original_sha256": "52821e37ecf39268ad78799b48c106ff9b10265a8f451a4cc0d88ad17d9b898a",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "7f5d50497bd8ad8a563892794ed44921ebe1192b3cf604574b674228c9452f88"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/efficientvit_b0_comparator.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/efficientvit_b0_comparator.py",
+      "original_sha256": "65d18163ee49d36c4d0b468677d356af235e56915c9995078e6ff26eb55afb34",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "cab482c006c21c647f3593a7d6dc4e695c6ff1ec2ffaddb4d440cfcdcc4998c3"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/eomt_prepared.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/eomt_prepared.py",
+      "original_sha256": "b186e703e4ac12308e5e9924dd7b054bf4eb02a51310393c4be4ce2b47d8bf33",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "fbae97e84f4bc51f802068a81ecf48bef225867692482c051c14728336518314"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/eomt_s_comparator.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/eomt_s_comparator.py",
+      "original_sha256": "ee11665e0d5767be2d83282365c64dc0c2c61e1aefbbf45836df6ee3a6e36ae3",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "32474e318df79b3fe32b6915d01a04a0f13f227f4c12cc5185ec274ff76881b2"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/lale_comparator.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/lale_comparator.py",
+      "original_sha256": "f2c2f1950cebccdfa9eecf1bf7d590d21e8089075905b13c18404b57882a8dd7",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "4d9c66243113c031b6ac2c32fa650239f3b7a5d1ce638f0b06a55f98569e611e"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/local_multiscale_context_pretest.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/local_multiscale_context_pretest.py",
+      "original_sha256": "ec4ffde0a7f0ed14cbacbd1b7b8290ab411856fe035f48c70f555e4f59aac0a4",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "a1658cae1ff54d024b7ba67ccea165ce7824ff1a4ef9ff1f52b3fa989c3ee509"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/lwganet_comparator.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/lwganet_comparator.py",
+      "original_sha256": "188fd1bfc04f652501bc2268fba99bd1f95ba9fa083dfaeb3d90a76135cac410",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "e8c97b468886e02863c4e1a75ef7d6ca2e5c6b8c7d7ccb944a9c52e0329058d7"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/lwganet_deterministic.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/lwganet_deterministic.py",
+      "original_sha256": "ce13e31d7ce275b011b411e6895bbcfec7ebf2de83e2bb651020f854f67fc488",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "d890295b5e94c882a07706005c6d3685ad0c4e066e26f6e5e9acfc48a8eed753"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/optional_comparison.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/optional_comparison.py",
+      "original_sha256": "7c0835f6d6d7e423df70360421be8830a8ff2feb340f1e5741f62b54f73835e1",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "85634525ef4148c47a92092c20fd0932821a7fa6ccd649855758e60b0f7bb80e"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/research_comparators.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/research_comparators.py",
+      "original_sha256": "ea3fd66579d647e353fa0107dbfdc7a032f22f07da4ce19ab872f2f175aaf9dc",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "1b6af08b702732e736fcbcfce273b0a1c51ddce87a41a9b8bae162de91d4b3bc"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/unet_semantic.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/unet_semantic.py",
+      "original_sha256": "d047de3b8e33a2afc63750ee6236186ac6dccf8642a79017e315c90546f6c6b7",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "5f21e9e333d4ab1ac6233903db79fdbebd06c918bff67077f442ab8075108bca"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo11_semantic.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo11_semantic.py",
+      "original_sha256": "1b626469d284287694e91b929d6293277884025477330a87550a3a926e5abef9",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "8ad2578e9cba60b79beaacd1d37cc20f218e7b2e3d48a1f367e4c2679bbe9ff0"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo26_control_pretest.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo26_control_pretest.py",
+      "original_sha256": "fc1bff193470fbb7f0cd0fe78d8713b742c93d124344a10b06116fd604487c99",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "3e77f6721c7261c956f0f0f8174ca942d02f53b616d2c4133be025381e3c6e90"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo26_main_only_control.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo26_main_only_control.py",
+      "original_sha256": "bb22310671c4a845626041b0ac491e2d271c3fff531760d5cc8ca44ca2aa4fa5",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "5dae0be5ddb253ed4af3c0c4f2318dd0646b17ae9aad47103dd9b36cd437a68e"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo26_semantic.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo26_semantic.py",
+      "original_sha256": "8bfebb8f2d452f07c3155b453e0654c406c1f888badd1927f63d109152b68a7d",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "aa3c6b339fde19178d997ac5009c98e69fccbb8f6c9923268c9c7f40c1b8359a"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo26_sensor_p2_gate.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo26_sensor_p2_gate.py",
+      "original_sha256": "62f26c152bca230167678b13214bfb383299e8c6950aabbee9b7318f25866695",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "c621611b595560cbc23714abcf6e12e39726b2caf3ca9c5c0c8955e847ba2619"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo26_unet_decoder.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolo26_unet_decoder.py",
+      "original_sha256": "5b81f1431152373057c46602e31e4372f3018a3bc1246bb0a44aa81e78def60c",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "1ad959b90672d237b014c8032bb93949a51d094a818a62759a07eec805ef4ef9"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolov12_comparator.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolov12_comparator.py",
+      "original_sha256": "743fe1b71b7a79c8991585bb9970ca488d67d1a95f6f199eee6b0999fa17d3cb",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "de8755dfa201b50c64357928dabe0169a15f117b25a2239c375d457afa875510"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolov12_head_control_pretest.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolov12_head_control_pretest.py",
+      "original_sha256": "848522f732aae93df5d2ed8d3ebc65f8735c416220272ddfc316ed7fbde3bfd9",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "94ff1fa286c786a45bb0fb8714e382b4b5ce6e091eb47c06de69bac515d6dd9f"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolov8_ghost_semantic.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/models/yolov8_ghost_semantic.py",
+      "original_sha256": "64d8d77832f4b67c4f9fcba24e6ef16a5669f6f5dfcbaf9b4b267ee4316220ab",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "c9d2a02782a09e0c9e1e11ac73976c528a2f6087e2e32a967e3147690e56c529"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/__init__.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/__init__.py",
+      "original_sha256": "1bd99a731c5a4baee8beebe001ff8c08856e9c1d103f913e983c1f64ad2e168d",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "d40d5fb314dbc6bb2f8057d91811f7ce40207a780d6ce3108cff5c3c3d1fceaa"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/dcl_losses.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/dcl_losses.py",
+      "original_sha256": "f250e4cbd163b4b47d86ad2d6f158c90741ae88c41d6b70e507ff258bd779066",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "3040fc5b39786dfdd16e93f675d8614d5d9f070432f3d8b43bf7e98ad13a29a5"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/degradation.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/degradation.py",
+      "original_sha256": "150b5fca924a319447ebc78d13569d84ca3ed8a7bf2dc1fabda469391418e4f7",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "4125efd652c230cc118514b43b5e7a7d40f59c1f7c14228867b3b03301603bfb"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/engine.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/engine.py",
+      "original_sha256": "3b442a31b054e2e98ec8ba45740195ec6839665601561098d60cca9c0382cc5b",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "bcd6cad36976932cf83d71ce0239bc27e10c59121f48891b96ae01b84c0b1a42"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/eomt_mask_classification.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/eomt_mask_classification.py",
+      "original_sha256": "cca9bda2da02baf57b1d585c3350b7315682a5cef164c60ef94a60b2535fd8ed",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "5e78569dea256543f3e911c178f9d4e5d434db37437518a813e62e494230feb2"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/eomt_protocol.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/eomt_protocol.py",
+      "original_sha256": "46175df0db300aae90d35d50ce65534a6dc0a8d5f2a0963da194f85468010d13",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "39b89896bf9d404f5c68e8280bd250fb4e3ff7374b916a326d549e68b48bdfb5"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/exposure_matched_decoder_control.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/exposure_matched_decoder_control.py",
+      "original_sha256": "1e34a5217546c770829903fe32e7736ad4b0f0e06b00d6b6bb71c61a7f8c9526",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "ad3d26001e9f594a7f4af3add21fa56e63fe41f53ae0727e0da764b7a212a2c0"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/historical_engine_oracle.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/historical_engine_oracle.py",
+      "original_sha256": "dbb1ce3cef0b3f8b18892b6e594509c68d55b671c16f0b496b2430648836b020",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "29b732b1efaa9b385461e6b9e9a77dce4111acca437de94f74c52f100077d52f"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/independent_decoder_preflight.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/independent_decoder_preflight.py",
+      "original_sha256": "1af7ad966de5c9ba6a3ef3c4ee3db6fc706f5e106776b056f858777b5e54e02d",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "76fe44b8442d75515e0b6ffadd97d33f380455efa2a1658ddd2617cb524c867a"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/masked_segmentation.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/masked_segmentation.py",
+      "original_sha256": "9c1e55045e5d0fed8ca1a09a90c21e3a31e352fe1e4d5dd3cf96ec5ee0aba52e",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "1fec03acc3f575b9e476768fc740c3b874a53278a37378f5d9753296757005f8"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/optimization.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/optimization.py",
+      "original_sha256": "88bccdd0845780b61cb8b8cca3934b52ac31b73e57665743d2c0b28538956c89",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "933a691ea8acd4b207b25b636ad1b8d2e05b7cc2d55316ecd376fdc5b04d897b"
+    },
+    {
+      "path": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/single_sensor_decoder_control.py",
+      "origin": "prepared_controls/decoder_reproduction_validation_20261004_v1/workspace_public_v3/src/training/single_sensor_decoder_control.py",
+      "original_sha256": "0af7b8da92630000f236e30b3360e73953d96270fd16d8b6c06870dbe8b23e7a",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "9ef71631a885450496c1b33aa98c4a38860046325bd81e8bcf7394cc47c3c506"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/data_audit/audit_sturm.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/data_audit/audit_sturm.py",
+      "original_sha256": "edc0ed2db9e7f5da9cab25fef95d10ce6e8cc160f4ef537c54bb08695230d1c7",
+      "release_sha256": "c3fef202ac7e7a8eb9b44896671a79984924f952de3baa79fbc88d730458fdbc",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/data_audit/full_audit.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/data_audit/full_audit.py",
+      "original_sha256": "c9fc2d943f7b66ad375cdd8a2f69f1ef11a2619d8d1c8810e4e6aa23f90ef9ef",
+      "release_sha256": "f705004db8740972ffd281dfb4234f0d876e0f422e700fe55650442da0e7e085",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/data_audit/split_events.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/data_audit/split_events.py",
+      "original_sha256": "322a1a4f9d9817b8349ed7b90241b208144855db6f73ab853300a148e6ad8a4c",
+      "release_sha256": "93d5af4b9de0090dc2917647fb31d285a9259822c400d07b5b20c7f7bea78c93",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/data_audit/validate_outputs.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/data_audit/validate_outputs.py",
+      "original_sha256": "d18d5b2ed5010315cdc60790debe53917af3eaf5a975d07631c235b14eeadf09",
+      "release_sha256": "f1d88a8cafc04fdffe028010166dd3d1a4624b87a3629625e7fb6b7dc077899f",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/dataset/__init__.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/dataset/__init__.py",
+      "original_sha256": "8d5ea7e269472ba0001000eee7c46fe535e9b67a833c25b017c8d71c276fa259",
+      "release_sha256": "b60ac78fc902e7bfb4c419abb542a2ce0db62b1878fb647b70395d0e05e892ea",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/dataset/quality.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/dataset/quality.py",
+      "original_sha256": "ae7b8c91207ba89e17762958e5d7351e4ab0d77e670b9f57f11cd35c3faaf3af",
+      "release_sha256": "a1db28e136307fc1c6663595ec45cb803635c7ad61f4086fb508f8d8f79b8c81",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/dataset/sturm_flood.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/dataset/sturm_flood.py",
+      "original_sha256": "517c709b3cbf5be15539e02ca03fb0aa25b77eadd6d8ba2a7b3912c95c435eea",
+      "release_sha256": "aeb531b21b9533f383dab60d84b9a105b03e5802d1081230dd2717f96829caf9",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/evaluation/__init__.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/evaluation/__init__.py",
+      "original_sha256": "252d8b656ebb8b6c337792d2efa9a68dd9afd3297b08d0fbf926dd7e81efd635",
+      "release_sha256": "6a1ccd11f350d6a3e48e8208827ad1b66035cbf3e2681192e6abc6004faa48c3",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/evaluation/formal.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/evaluation/formal.py",
+      "original_sha256": "be2bf82729fa57d818210eef3e860e73a9ec655dac547d9fd8e61c5e73406dfb",
+      "release_sha256": "df71160933163f7a463dec51d7c5bd15c1311fdd89c8a00c035b531427271ff8",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/evaluation/s2_pixel_errors.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/evaluation/s2_pixel_errors.py",
+      "original_sha256": "14eb8fa51be94a45da0ac4dfcc78af89b9477896ffacab4b013345582fa4f424",
+      "release_sha256": "450cddbeb0b745c6a9a364b7acffb913edb94067135b14023fe26e327bf55764",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/__init__.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/__init__.py",
+      "original_sha256": "496a12e96ee62e203e38d6891bf6cb6a94dc512a9f4291983f92ab8ba0824d69",
+      "release_sha256": "821e1de0c26ec38441028c4db808eaaff25ce08f38761b8ab0c096fbe35ac108",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/decoder_attribution.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/decoder_attribution.py",
+      "original_sha256": "52821e37ecf39268ad78799b48c106ff9b10265a8f451a4cc0d88ad17d9b898a",
+      "release_sha256": "35e543a002e21d6595ee72457494f36a373a7752251d13581af3a54dbda9c2fc",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/efficientvit_b0_comparator.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/efficientvit_b0_comparator.py",
+      "original_sha256": "65d18163ee49d36c4d0b468677d356af235e56915c9995078e6ff26eb55afb34",
+      "release_sha256": "c6c4b050687d2cce1e2cb42743a13bebbddf40e3f0f90c27f1025b13c2178134",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/eomt_prepared.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/eomt_prepared.py",
+      "original_sha256": "b186e703e4ac12308e5e9924dd7b054bf4eb02a51310393c4be4ce2b47d8bf33",
+      "release_sha256": "f71fd4f9776d8a7597d8c0891db111404ba67d5cf924b76f45dab3895240f050",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/eomt_s_comparator.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/eomt_s_comparator.py",
+      "original_sha256": "ee11665e0d5767be2d83282365c64dc0c2c61e1aefbbf45836df6ee3a6e36ae3",
+      "release_sha256": "a632906d9d74203da7c3a644055cab0892b6171fc5892dc4b20c15a12e86176b",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/lale_comparator.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/lale_comparator.py",
+      "original_sha256": "f2c2f1950cebccdfa9eecf1bf7d590d21e8089075905b13c18404b57882a8dd7",
+      "release_sha256": "89199aca56e9c400379ac846e8949c55884471e5cae05e31bcc7a2cfa78a9a20",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/local_multiscale_context_pretest.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/local_multiscale_context_pretest.py",
+      "original_sha256": "ec4ffde0a7f0ed14cbacbd1b7b8290ab411856fe035f48c70f555e4f59aac0a4",
+      "release_sha256": "7ea8a541ce2ed16805759a9ff7aac77a4dabba336d7b35b556b3b656253cc6e8",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/lwganet_comparator.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/lwganet_comparator.py",
+      "original_sha256": "188fd1bfc04f652501bc2268fba99bd1f95ba9fa083dfaeb3d90a76135cac410",
+      "release_sha256": "1cf3c5a931bf0c448771d39e896cfe761a83b65838539540627fc4bae32266f7",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/lwganet_deterministic.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/lwganet_deterministic.py",
+      "original_sha256": "ce13e31d7ce275b011b411e6895bbcfec7ebf2de83e2bb651020f854f67fc488",
+      "release_sha256": "1db62a8d3c25c35d54e5d1a74bf39d3cd9eaf42fe1d433e0814e1744c9eb833f",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/optional_comparison.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/optional_comparison.py",
+      "original_sha256": "7c0835f6d6d7e423df70360421be8830a8ff2feb340f1e5741f62b54f73835e1",
+      "release_sha256": "4a5c9f350089bb3befa81ca5e8609321e3275203e2a734f2b76d94967c9434ca",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/research_comparators.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/research_comparators.py",
+      "original_sha256": "ea3fd66579d647e353fa0107dbfdc7a032f22f07da4ce19ab872f2f175aaf9dc",
+      "release_sha256": "df3ba38368d6d5d1ce36328e6f5bc72cfca4da04ffd16e292eb582c4625911f3",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/unet_semantic.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/unet_semantic.py",
+      "original_sha256": "d047de3b8e33a2afc63750ee6236186ac6dccf8642a79017e315c90546f6c6b7",
+      "release_sha256": "fae4a2f9a26955932f9e0f046bed173623d596600cbfc780d362bda33611adeb",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/yolo11_semantic.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/yolo11_semantic.py",
+      "original_sha256": "1b626469d284287694e91b929d6293277884025477330a87550a3a926e5abef9",
+      "release_sha256": "7904f817cd6f2716ee1fd9ac75b05f58cec6ea62fc0ea86f4aad6d3b933b25ab",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/yolo26_control_pretest.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/yolo26_control_pretest.py",
+      "original_sha256": "fc1bff193470fbb7f0cd0fe78d8713b742c93d124344a10b06116fd604487c99",
+      "release_sha256": "fb521d7b5c5ffd2b87e3a95ac00cac3c35f57bea3bfaaab404d3e245dd439092",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/yolo26_fpn_reference.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/yolo26_fpn_reference.py",
+      "original_sha256": "7948b7966a38360e9cc527d69e9c2a2886e982571446562959b518ff7a87c57b",
+      "release_sha256": "3990540c70861d59ba433919847922c229f549d4d0d6de696fd4726e0c519cee",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/yolo26_main_only_control.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/yolo26_main_only_control.py",
+      "original_sha256": "bb22310671c4a845626041b0ac491e2d271c3fff531760d5cc8ca44ca2aa4fa5",
+      "release_sha256": "2e174bd98044d348c1d6ffb609d2cb0a400e21f2fc46752afd403953f71c9ec8",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/yolo26_semantic.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/yolo26_semantic.py",
+      "original_sha256": "8bfebb8f2d452f07c3155b453e0654c406c1f888badd1927f63d109152b68a7d",
+      "release_sha256": "5b1b9ceec1de47c9f122c7e723502ab5291d9f813d6dc0e10263fbd3880243cf",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/yolo26_sensor_p2_gate.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/yolo26_sensor_p2_gate.py",
+      "original_sha256": "62f26c152bca230167678b13214bfb383299e8c6950aabbee9b7318f25866695",
+      "release_sha256": "3f5fca4c331cfd508c151ccfca9adb2b1ef97b6a564bba90d23fbb6c1d458a2f",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/yolo26_unet_decoder.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/yolo26_unet_decoder.py",
+      "original_sha256": "5b81f1431152373057c46602e31e4372f3018a3bc1246bb0a44aa81e78def60c",
+      "release_sha256": "0978757b3640fe4bff1acbe23bb82155acb8da7849ca9c3dd3b1f3810c28cc38",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/yolov12_comparator.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/yolov12_comparator.py",
+      "original_sha256": "743fe1b71b7a79c8991585bb9970ca488d67d1a95f6f199eee6b0999fa17d3cb",
+      "release_sha256": "f6fbde1dacb8c52ee107dbfe36b825b423c25e76a41183fa20da73d396a30bea",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/yolov12_head_control_pretest.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/yolov12_head_control_pretest.py",
+      "original_sha256": "848522f732aae93df5d2ed8d3ebc65f8735c416220272ddfc316ed7fbde3bfd9",
+      "release_sha256": "7c108eb5ba50d6cc8c069ccd43fa0641b2b899595ae98e86392702f322b7d691",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/yolov8_ghost_semantic.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/models/yolov8_ghost_semantic.py",
+      "original_sha256": "64d8d77832f4b67c4f9fcba24e6ef16a5669f6f5dfcbaf9b4b267ee4316220ab",
+      "release_sha256": "2c2b82c0b389d00707aab54256b7238a71bfe0efd226741eb29f2d4c947bdc32",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/training/__init__.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/training/__init__.py",
+      "original_sha256": "1bd99a731c5a4baee8beebe001ff8c08856e9c1d103f913e983c1f64ad2e168d",
+      "release_sha256": "f3eb540d9b80c8986ad9ea0e15c839507d02bb922f6f9ec4ecba5a6fe3504c3b",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/training/dcl_losses.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/training/dcl_losses.py",
+      "original_sha256": "f250e4cbd163b4b47d86ad2d6f158c90741ae88c41d6b70e507ff258bd779066",
+      "release_sha256": "41afc9ee42c6fefa8c118367c54643e3d749334f52cb70db1cada07f144ce173",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/training/degradation.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/training/degradation.py",
+      "original_sha256": "150b5fca924a319447ebc78d13569d84ca3ed8a7bf2dc1fabda469391418e4f7",
+      "release_sha256": "520b6124199db9d87b92eca27b4f4379edbe7e1c4f42bfc64d0ba8a877fe5365",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/training/engine.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/training/engine.py",
+      "original_sha256": "3b442a31b054e2e98ec8ba45740195ec6839665601561098d60cca9c0382cc5b",
+      "release_sha256": "d0c4ca540b9254f3d9558142a7296a5dd764e84be0f9ba5ae0bd44ca92a2b08d",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/training/eomt_mask_classification.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/training/eomt_mask_classification.py",
+      "original_sha256": "cca9bda2da02baf57b1d585c3350b7315682a5cef164c60ef94a60b2535fd8ed",
+      "release_sha256": "4e43cea0fbad9d9a7a90b653cc561c4cd46a79dc01ac891d7953e7d637ff7cb1",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/training/eomt_protocol.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/training/eomt_protocol.py",
+      "original_sha256": "46175df0db300aae90d35d50ce65534a6dc0a8d5f2a0963da194f85468010d13",
+      "release_sha256": "4e77943e4f6801cb3aa8189b21ce952ad4f5fd9dcecc9d1fef8b18dc16c5c5bf",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/training/exposure_matched_decoder_control.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/training/exposure_matched_decoder_control.py",
+      "original_sha256": "1e34a5217546c770829903fe32e7736ad4b0f0e06b00d6b6bb71c61a7f8c9526",
+      "release_sha256": "8f427c00e35757d638beb7409ee059e6fdaae46d659453005d061417573e1991",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/training/historical_engine_oracle.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/training/historical_engine_oracle.py",
+      "original_sha256": "dbb1ce3cef0b3f8b18892b6e594509c68d55b671c16f0b496b2430648836b020",
+      "release_sha256": "84cace07ae5cb90b226e8d4e6e4b95dfff85642c9339ac9997dc265e2a2a1b8c",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/training/independent_decoder_preflight.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/training/independent_decoder_preflight.py",
+      "original_sha256": "1af7ad966de5c9ba6a3ef3c4ee3db6fc706f5e106776b056f858777b5e54e02d",
+      "release_sha256": "c6d6f38851f6e627246c8f8ee0d958f64f70dc436e818afb3303a928a1c14506",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/training/masked_segmentation.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/training/masked_segmentation.py",
+      "original_sha256": "9c1e55045e5d0fed8ca1a09a90c21e3a31e352fe1e4d5dd3cf96ec5ee0aba52e",
+      "release_sha256": "fe313a485e9fa276e0497e3d0ed1cb1f8be2d3d357f6131563cb1d452792d075",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/training/optimization.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/training/optimization.py",
+      "original_sha256": "88bccdd0845780b61cb8b8cca3934b52ac31b73e57665743d2c0b28538956c89",
+      "release_sha256": "32d794d8908b7b6ace5e45786d51b60a482c8faacdc670b6a178452e8b32a811",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/training/single_sensor_decoder_control.py",
+      "origin": "prepared_controls/sen1_fpn_20261011_v1/workspace/src/training/single_sensor_decoder_control.py",
+      "original_sha256": "0af7b8da92630000f236e30b3360e73953d96270fd16d8b6c06870dbe8b23e7a",
+      "release_sha256": "f359ba1a6f6ddb959ab2b9059e3da8c778352de71f5e1e39b9d181fd4a9fcc4b",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "recompute_public_evidence_20261011.py",
+      "origin": "New release interface or preserved public numerical utility",
+      "original_sha256": null,
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "7111453e41f5ce8fca902ec66d0be2d05c5e7bcc49c277ad21196afe9c6ab2b2"
+    },
+    {
+      "path": "scripts/__init__.py",
+      "origin": "New release interface or preserved public numerical utility",
+      "original_sha256": null,
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "928a1006c0653cd0e8a6c4facfddae6623807cb298fdf148eb1be16b8e934844"
+    },
+    {
+      "path": "scripts/analyze_fast_batch2_20261011.py",
+      "origin": "scripts/analyze_fast_batch2_20261011.py",
+      "original_sha256": "1fa6bfcc22bca484b5b4aebb5a168f2c4b1dbcde9b098f32e0c72960cd02980d",
+      "release_sha256": "8f9ea289c7a113be5c854ecb6ad7ff057f3f1f13c5343103a9e7eb7a471b1f16",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/analyze_fast_supplements_20261011.py",
+      "origin": "scripts/analyze_fast_supplements_20261011.py",
+      "original_sha256": "4aa108338e4da773dcaf7d2a6b56abb5415fea77386aca4c6481afe3196848b8",
+      "release_sha256": "3841b4584f3c047500f0b55809b1935abd368d8bb37d63785524a4f8090ca81f",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/analyze_quick_diagnostics_20261011.py",
+      "origin": "scripts/analyze_quick_diagnostics_20261011.py",
+      "original_sha256": "f4809d584cd3725fa042860f2a50959c0e927b0d78f8424bc4b3f04208546bb7",
+      "release_sha256": "0a4e8b347740dddf8abef9918d7e719e3d9c5d3e7da66871a0d2b8678ab817d1",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/analyze_sen1_fpn_20261011.py",
+      "origin": "scripts/analyze_sen1_fpn_20261011.py",
+      "original_sha256": "588591c2f178a87641fd515f4d7509f194f1477d0f45c41f58320f2b126ff0e3",
+      "release_sha256": "de56e44e2f2e4476ae644b468d3a7467de5074f247001fd205660898d33008e3",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/analyze_val_test_events_20261011.py",
+      "origin": "scripts/analyze_val_test_events_20261011.py",
+      "original_sha256": "8b0dfdbf845e63c6f4ce4b5411e7227052dca77c1c3bd801929bca9b2a4749ea",
+      "release_sha256": "98009fd170c48711163766143333035296723c3202bf7bab150b9346e159abb7",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/benchmark.py",
+      "origin": "New release interface or preserved public numerical utility",
+      "original_sha256": null,
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "fceeb6c6205164952a6c324cbb25c5b430b70d4e5ebde5c03b7284e7ce483dda"
+    },
+    {
+      "path": "scripts/build_sen1_download_v3_20261004.py",
+      "origin": "scripts/build_sen1_download_v3_20261004.py",
+      "original_sha256": "955541fbbffe416b016fb68a6bb447afbc752d79e41e5eab7146be2bfbf3ba69",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "6dc46d6efc19478315e31ca7cb27313946085347ba3d9b52a2a480a83f24e3c0"
+    },
+    {
+      "path": "scripts/evaluate.py",
+      "origin": "New release interface or preserved public numerical utility",
+      "original_sha256": null,
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "fceeb6c6205164952a6c324cbb25c5b430b70d4e5ebde5c03b7284e7ce483dda"
+    },
+    {
+      "path": "scripts/fpn_reference_task_20261008.py",
+      "origin": "scripts/fpn_reference_task_20261008.py",
+      "original_sha256": "586dd6094a275cd274a8235882e28b0bf9f303e56a03da07410c82b818f7349f",
+      "release_sha256": "2332444eaa5fc372cdf1a576bc0bde879e5acdb250f5f1221247aa588e5bc65a",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/fpn_test_once_20261008.py",
+      "origin": "frozen followup source tar",
+      "original_sha256": "a17c0611322ba0f93f62a57fa74317c16e45142522ad61f164b46cb3d9663ecf",
+      "release_sha256": "7647ca7bb7b3a0409df50c75d59c70ce487a32ef9af1e942241e2cdbbbdda8d5",
+      "modification": "license notice only"
+    },
+    {
+      "path": "scripts/manuscript_existing_counts_audit_20261010.py",
+      "origin": "scripts/manuscript_existing_counts_audit_20261010.py",
+      "original_sha256": "bd2eca907cc53daaa52d8b1c48882eb3d748baaa2cd62ad0fba74f319b22e1c0",
+      "release_sha256": "28f6a43e67ac3d63c8061cb92b6a806a8400acf635678877574aef94fabe2d9c",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/prepare_data.py",
+      "origin": "New release interface or preserved public numerical utility",
+      "original_sha256": null,
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "e87eedf01635462cb7b5a4e2f7704116ac6023f3b6e4893d2b689116e502ead4"
+    },
+    {
+      "path": "scripts/prepare_sen1_fpn_20261011.py",
+      "origin": "scripts/prepare_sen1_fpn_20261011.py",
+      "original_sha256": "91a90efd85cb8be3f315095fef4b0f26da81e1b0c3af39d0b614cf7f43e6abf3",
+      "release_sha256": "f9c19b70d42f68918d981b61cd1450238add5b95b52fd3d3952b8c9e0d92b5e2",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/prepare_sen1_full_pool_20261004.py",
+      "origin": "scripts/prepare_sen1_full_pool_20261004.py",
+      "original_sha256": "7ace378f7b4760ae7e73469bf4da46c9740996f23b3a6e8f37ee2bcae46369a5",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "e32006a3703d84f51508cd9672c4d4fca3935fe453143fec7b1f24679cb06a26"
+    },
+    {
+      "path": "scripts/prepare_sen1_full_pool_v2_20261004.py",
+      "origin": "scripts/prepare_sen1_full_pool_v2_20261004.py",
+      "original_sha256": "e840df2b0415103107f4898c89f0c89bc7439c617687e7222950a0a9fbcfbb5e",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "3bf6acbba1d57d51d588b0a9b39dde6cd6949a40500ea4b2ca544338ff61c41b"
+    },
+    {
+      "path": "scripts/prepare_sen1_full_pool_v3_20261004.py",
+      "origin": "scripts/prepare_sen1_full_pool_v3_20261004.py",
+      "original_sha256": "b15145aac333169280a74054c30753f95910b22940581109fda9ac1e0a6580f9",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "d365eea22b46f0c991608e16158bc7640f48c6c8164523e67f309fdb60de6731"
+    },
+    {
+      "path": "scripts/prepare_sen1_training_diagnostic_v2_20261004.py",
+      "origin": "scripts/prepare_sen1_training_diagnostic_v2_20261004.py",
+      "original_sha256": "779e26b3641661e069017295bb0e83e34c16195da81fed54465a8f50e75d5bd0",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "aad5993a4bf2c62eaf5e0b580e746e98c53bb1d172ee002fbb34fdcb31a761db"
+    },
+    {
+      "path": "scripts/sen1_formal_assets_20261005.py",
+      "origin": "frozen followup source tar",
+      "original_sha256": "5bdcf5239e434f3e831e97c09708653938741e3f37ee2e650fb84d5dddfdd6a2",
+      "release_sha256": "b89a45a934fec1c0f3c2acbac5ae07c73b63831c650124a12bd1e6adb8c497c9",
+      "modification": "license notice only"
+    },
+    {
+      "path": "scripts/sen1_formal_task_20261005.py",
+      "origin": "scripts/sen1_formal_task_20261005.py",
+      "original_sha256": "71c8210623ded93c9e48860f6676774db25ac52d24a64a16eea6b414b285ca19",
+      "release_sha256": "4552becba3615f13d0774a9673ba4c807014a306f5313cdd12c29228a7d879dc",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/sen1_fpn_task_20261011.py",
+      "origin": "scripts/sen1_fpn_task_20261011.py",
+      "original_sha256": "848006e438cacdb5e49612ec2c11b160f90629d0c569a2f6c1fe07cc143b81bd",
+      "release_sha256": "9f06dbfd578f296175bfcd3d117b47e6b7a98d263139a0dddc29d113db1bab7b",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/sen1_full_pool_learning_20261004.py",
+      "origin": "scripts/sen1_full_pool_learning_20261004.py",
+      "original_sha256": "86eaac1fdcbeedfa531b15c10043e851c9479cb08e8e27cd81b801f6dc7a3b97",
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "505c017c5ff941a6654b1839d4465e6df44f35379f6466d3933ef3d864588ba3"
+    },
+    {
+      "path": "scripts/sen1_gpu_prevalidation_20261005.py",
+      "origin": "scripts/sen1_gpu_prevalidation_20261005.py",
+      "original_sha256": "20ee02e271f1a6a1482b53370ad293552ab14f2a3b82b86200aae175424802b1",
+      "release_sha256": "8a75562dcaf47bd9f2c43e2f3571aba0d58888187aafd8d9664572a5ce85eae6",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/sen1_same_bn_task_20261008.py",
+      "origin": "scripts/sen1_same_bn_task_20261008.py",
+      "original_sha256": "9249266f819a907a6767dc8c5051f03bdb693f573ede0d22e3eed318bbe68f27",
+      "release_sha256": "fe781c8202d0355cf5394e056717b9b554395ae552fbc1a13e944c96be697d40",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/sen1_same_bn_test_once_20261008.py",
+      "origin": "frozen followup source tar",
+      "original_sha256": "c3db2dcd028f2000b80f11b8232af3ad046525d355a1fd289916bd236f5c2dee",
+      "release_sha256": "b2d4b39b95b739636e5f6e05ed42dfaa604b1de10985c83daeae5e3c9100ff10",
+      "modification": "license notice only"
+    },
+    {
+      "path": "scripts/server_cpu_matched_repeat_20261011.py",
+      "origin": "scripts/server_cpu_matched_repeat_20261011.py",
+      "original_sha256": "5829b1f489ad9b15bdcb64b5ab1d586fc11133ee8303b4401ebbe6333657368b",
+      "release_sha256": "ed6385cfa5b3112c9b3c64fdaf97d2f3da313e27ed4554ad4b69328eefbc4000",
+      "modification": "AGPL notice and project-root binding only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/server_efficiency_same_output_adapter_v1.py",
+      "origin": "scripts/server_efficiency_same_output_adapter_v1.py",
+      "original_sha256": "cd2f92469ac0626ce6329a2fcaf03f4ad52d9c78dbd74c91142925ff6ef4ad59",
+      "release_sha256": "f0a728cf5511e4626c90fde6f2f30f16dc54322fc4e8606faf8345a3f77c5d47",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/server_extent_calibration_test_20261011.py",
+      "origin": "scripts/server_extent_calibration_test_20261011.py",
+      "original_sha256": "4a1267c25a92dedd6a1901e3df88c32cc9c7bd83a219ffc7cb530ba49a325073",
+      "release_sha256": "fc2a604a93c3ee07520234ea896340c92b6cc452f71b196a6dea9b977c272f26",
+      "modification": "AGPL notice and project-root binding only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/server_extent_calibration_val_20261011.py",
+      "origin": "scripts/server_extent_calibration_val_20261011.py",
+      "original_sha256": "6e1d6f928c28dd91db7c218c55bf5d4d534dda077cf21d451a23199d587c927f",
+      "release_sha256": "3ee32465f9968382350cfbb0c6bde09da9efd3ad4bc250ce9fd4a1e51b6efafe",
+      "modification": "AGPL notice and project-root binding only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/server_fp16_flops_20261011.py",
+      "origin": "scripts/server_fp16_flops_20261011.py",
+      "original_sha256": "04dd605e620d4ba32fafd84e6fcec9241252e3b65fd6f1b438da856d323a2267",
+      "release_sha256": "0b8f969988ace0178e5cf81ef4f1af790905ec0ddc871c69a24810f2e54661d4",
+      "modification": "AGPL notice and project-root binding only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/server_fp16_flops_continue_20261011.py",
+      "origin": "scripts/server_fp16_flops_continue_20261011.py",
+      "original_sha256": "2810faa2e221bf3e23893265290945f0171f01921990bd6f4dce290d0053d7fb",
+      "release_sha256": "b26f159c632fee7e496417973e2fac1e6c2d30f6aeefbd1efba94211e7569ab3",
+      "modification": "AGPL notice and project-root binding only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/server_main.py",
+      "origin": "scripts/server_main.py",
+      "original_sha256": "e25f3f94eff656cd3fe3d8245f9659172e388ab270c1063e5b64dab25046a1aa",
+      "release_sha256": "17d3e41e29bf567962a15c1d2c578c593b8a067bae650714dc34a4f761116cf8",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/server_otsu_reference_20261011.py",
+      "origin": "scripts/server_otsu_reference_20261011.py",
+      "original_sha256": "c58c27258cfda378983951a8f9aa65d89c970ce3f8a6171962c52b426a034042",
+      "release_sha256": "967613fc24e3f47ed989c9135c16842c61c4cdc54f1088ad6c8f982e01d31c5b",
+      "modification": "AGPL notice and project-root binding only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/server_output_path_followup_20261010.py",
+      "origin": "scripts/server_output_path_followup_20261010.py",
+      "original_sha256": "c0415d748d5b2172f1262520d0bce3258bde775125e1321b6ab93d64ac68ea7e",
+      "release_sha256": "35e40c146b5403fc7198636e206ae28154a152dfaf9a8db1574eaf4b9e5e899c",
+      "modification": "AGPL notice and project-root binding only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/server_quick_diagnostics_20261011.py",
+      "origin": "scripts/server_quick_diagnostics_20261011.py",
+      "original_sha256": "23949199b941660cb0a18e63f8b70d4b4c8e71e8e90d55a322362809d7ec39b2",
+      "release_sha256": "f0feb804a5e0fe49c5d5603540820a88bfee5e582c3ac9283c98f4b9053987bb",
+      "modification": "AGPL notice and project-root binding only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/server_runtime_matched_session_20261010.py",
+      "origin": "scripts/server_runtime_matched_session_20261010.py",
+      "original_sha256": "5eb24928675519a949f0d9d8a9a96d418d64d255bb9615dca903135fa9358fd5",
+      "release_sha256": "6da71573941a7dd1b75ea9b22928dba643b315b01efabfc51ff43b8563c5b293",
+      "modification": "AGPL notice and project-root binding only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/server_scene_demo_20261010.py",
+      "origin": "scripts/server_scene_demo_20261010.py",
+      "original_sha256": "c262addb614077144c704e6a7236cf99f7e43d7d40416c481ed7d918a907b3c7",
+      "release_sha256": "42c095d5d0a552e2a2e0d7ff7bea5f68875ec4279c7678427efb871e146acb4b",
+      "modification": "AGPL notice and project-root binding only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/server_scene_display_arrays_20261010.py",
+      "origin": "scripts/server_scene_display_arrays_20261010.py",
+      "original_sha256": "1781524f9fc03308d557bb844780e88c0d34df11ea32dcdbff37358a03cda92a",
+      "release_sha256": "5918ea7f9fcb25138c27c6acb49ab28cc4e1fa8f1fd41faff51dcc67a44acd8c",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/server_spatial_val_20261010.py",
+      "origin": "scripts/server_spatial_val_20261010.py",
+      "original_sha256": "a2e9e69f440e8cfca28955734e6ce5529691813e4086e7f099bb29c459fa92a3",
+      "release_sha256": "4303742e22fea0a8d303d7f3a1016d249160394b76a01577ac7f936ecf622e0b",
+      "modification": "AGPL notice and project-root binding only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/server_val_event_counts_20261010.py",
+      "origin": "scripts/server_val_event_counts_20261010.py",
+      "original_sha256": "61864d6ffd6968ad1cc37c292100c17ca8bfba2f25c26d5d1172034307693881",
+      "release_sha256": "3b1b13083f915e443909242a6e6d92093888db54a22ac51bddc17da378166810",
+      "modification": "AGPL notice and project-root binding only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/server_yolov12_light_formal_v3.py",
+      "origin": "scripts/server_yolov12_light_formal_v3.py",
+      "original_sha256": "68df621a7cbdebd6ed5a0de38cb659d08b95faa15ee2c8bdee8b619e2d91bf4c",
+      "release_sha256": "a4cda8a81aef65e516ab851bf7dbc3a909f4b6d5e88fdf3a24ba3dc88f8e29bf",
+      "modification": "AGPL notice and project-root binding only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/server_yolov12_light_test_v3.py",
+      "origin": "scripts/server_yolov12_light_test_v3.py",
+      "original_sha256": "4055390f29f84e2bccc8fc4b5d17f718f195968ce1db3e922166628581e520ae",
+      "release_sha256": "7943d64f546873b70ee1719b44406cff5d75f6c9ba9917b74982315b217f5130",
+      "modification": "AGPL notice and project-root binding only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "scripts/train.py",
+      "origin": "New release interface or preserved public numerical utility",
+      "original_sha256": null,
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "fceeb6c6205164952a6c324cbb25c5b430b70d4e5ebde5c03b7284e7ce483dda"
+    },
+    {
+      "path": "src/__init__.py",
+      "origin": "New release interface or preserved public numerical utility",
+      "original_sha256": null,
+      "modification": "AGPL notice; source packaging",
+      "release_sha256": "928a1006c0653cd0e8a6c4facfddae6623807cb298fdf148eb1be16b8e934844"
+    },
+    {
+      "path": "src/data_audit/audit_sturm.py",
+      "origin": "src/data_audit/audit_sturm.py",
+      "original_sha256": "edc0ed2db9e7f5da9cab25fef95d10ce6e8cc160f4ef537c54bb08695230d1c7",
+      "release_sha256": "c3fef202ac7e7a8eb9b44896671a79984924f952de3baa79fbc88d730458fdbc",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/data_audit/full_audit.py",
+      "origin": "src/data_audit/full_audit.py",
+      "original_sha256": "c9fc2d943f7b66ad375cdd8a2f69f1ef11a2619d8d1c8810e4e6aa23f90ef9ef",
+      "release_sha256": "f705004db8740972ffd281dfb4234f0d876e0f422e700fe55650442da0e7e085",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/data_audit/split_events.py",
+      "origin": "src/data_audit/split_events.py",
+      "original_sha256": "322a1a4f9d9817b8349ed7b90241b208144855db6f73ab853300a148e6ad8a4c",
+      "release_sha256": "93d5af4b9de0090dc2917647fb31d285a9259822c400d07b5b20c7f7bea78c93",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/data_audit/validate_outputs.py",
+      "origin": "src/data_audit/validate_outputs.py",
+      "original_sha256": "d18d5b2ed5010315cdc60790debe53917af3eaf5a975d07631c235b14eeadf09",
+      "release_sha256": "f1d88a8cafc04fdffe028010166dd3d1a4624b87a3629625e7fb6b7dc077899f",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/dataset/__init__.py",
+      "origin": "src/dataset/__init__.py",
+      "original_sha256": "8d5ea7e269472ba0001000eee7c46fe535e9b67a833c25b017c8d71c276fa259",
+      "release_sha256": "b60ac78fc902e7bfb4c419abb542a2ce0db62b1878fb647b70395d0e05e892ea",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/dataset/quality.py",
+      "origin": "src/dataset/quality.py",
+      "original_sha256": "ae7b8c91207ba89e17762958e5d7351e4ab0d77e670b9f57f11cd35c3faaf3af",
+      "release_sha256": "a1db28e136307fc1c6663595ec45cb803635c7ad61f4086fb508f8d8f79b8c81",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/dataset/sturm_flood.py",
+      "origin": "src/dataset/sturm_flood.py",
+      "original_sha256": "517c709b3cbf5be15539e02ca03fb0aa25b77eadd6d8ba2a7b3912c95c435eea",
+      "release_sha256": "aeb531b21b9533f383dab60d84b9a105b03e5802d1081230dd2717f96829caf9",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/evaluation/__init__.py",
+      "origin": "src/evaluation/__init__.py",
+      "original_sha256": "252d8b656ebb8b6c337792d2efa9a68dd9afd3297b08d0fbf926dd7e81efd635",
+      "release_sha256": "6a1ccd11f350d6a3e48e8208827ad1b66035cbf3e2681192e6abc6004faa48c3",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/evaluation/formal.py",
+      "origin": "src/evaluation/formal.py",
+      "original_sha256": "be2bf82729fa57d818210eef3e860e73a9ec655dac547d9fd8e61c5e73406dfb",
+      "release_sha256": "df71160933163f7a463dec51d7c5bd15c1311fdd89c8a00c035b531427271ff8",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/evaluation/s2_pixel_errors.py",
+      "origin": "src/evaluation/s2_pixel_errors.py",
+      "original_sha256": "14eb8fa51be94a45da0ac4dfcc78af89b9477896ffacab4b013345582fa4f424",
+      "release_sha256": "450cddbeb0b745c6a9a364b7acffb913edb94067135b14023fe26e327bf55764",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/models/__init__.py",
+      "origin": "src/models/__init__.py",
+      "original_sha256": "496a12e96ee62e203e38d6891bf6cb6a94dc512a9f4291983f92ab8ba0824d69",
+      "release_sha256": "821e1de0c26ec38441028c4db808eaaff25ce08f38761b8ab0c096fbe35ac108",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/models/decoder_attribution.py",
+      "origin": "src/models/decoder_attribution.py",
+      "original_sha256": "52821e37ecf39268ad78799b48c106ff9b10265a8f451a4cc0d88ad17d9b898a",
+      "release_sha256": "35e543a002e21d6595ee72457494f36a373a7752251d13581af3a54dbda9c2fc",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/models/decoder_no_p2_attribution.py",
+      "origin": "src/models/decoder_no_p2_attribution.py",
+      "original_sha256": "0349c2df109aa08e80e72b5dff251e6e577253c526651a868df3466f3c2ae104",
+      "release_sha256": "a142b9f4e4093de8f05559baa0eef88d60822cc6f6dd4592b816b914ba3b85a6",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/models/efficientvit_b0_comparator.py",
+      "origin": "src/models/efficientvit_b0_comparator.py",
+      "original_sha256": "65d18163ee49d36c4d0b468677d356af235e56915c9995078e6ff26eb55afb34",
+      "release_sha256": "c6c4b050687d2cce1e2cb42743a13bebbddf40e3f0f90c27f1025b13c2178134",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/models/eomt_prepared.py",
+      "origin": "src/models/eomt_prepared.py",
+      "original_sha256": "b186e703e4ac12308e5e9924dd7b054bf4eb02a51310393c4be4ce2b47d8bf33",
+      "release_sha256": "f71fd4f9776d8a7597d8c0891db111404ba67d5cf924b76f45dab3895240f050",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/models/eomt_s_comparator.py",
+      "origin": "src/models/eomt_s_comparator.py",
+      "original_sha256": "ee11665e0d5767be2d83282365c64dc0c2c61e1aefbbf45836df6ee3a6e36ae3",
+      "release_sha256": "a632906d9d74203da7c3a644055cab0892b6171fc5892dc4b20c15a12e86176b",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/models/lale_comparator.py",
+      "origin": "src/models/lale_comparator.py",
+      "original_sha256": "f2c2f1950cebccdfa9eecf1bf7d590d21e8089075905b13c18404b57882a8dd7",
+      "release_sha256": "89199aca56e9c400379ac846e8949c55884471e5cae05e31bcc7a2cfa78a9a20",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/models/local_multiscale_context_pretest.py",
+      "origin": "src/models/local_multiscale_context_pretest.py",
+      "original_sha256": "ec4ffde0a7f0ed14cbacbd1b7b8290ab411856fe035f48c70f555e4f59aac0a4",
+      "release_sha256": "7ea8a541ce2ed16805759a9ff7aac77a4dabba336d7b35b556b3b656253cc6e8",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/models/lwganet_comparator.py",
+      "origin": "src/models/lwganet_comparator.py",
+      "original_sha256": "188fd1bfc04f652501bc2268fba99bd1f95ba9fa083dfaeb3d90a76135cac410",
+      "release_sha256": "1cf3c5a931bf0c448771d39e896cfe761a83b65838539540627fc4bae32266f7",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/models/lwganet_deterministic.py",
+      "origin": "src/models/lwganet_deterministic.py",
+      "original_sha256": "ce13e31d7ce275b011b411e6895bbcfec7ebf2de83e2bb651020f854f67fc488",
+      "release_sha256": "1db62a8d3c25c35d54e5d1a74bf39d3cd9eaf42fe1d433e0814e1744c9eb833f",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/models/optional_comparison.py",
+      "origin": "src/models/optional_comparison.py",
+      "original_sha256": "7c0835f6d6d7e423df70360421be8830a8ff2feb340f1e5741f62b54f73835e1",
+      "release_sha256": "4a5c9f350089bb3befa81ca5e8609321e3275203e2a734f2b76d94967c9434ca",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/models/research_comparators.py",
+      "origin": "src/models/research_comparators.py",
+      "original_sha256": "ea3fd66579d647e353fa0107dbfdc7a032f22f07da4ce19ab872f2f175aaf9dc",
+      "release_sha256": "df3ba38368d6d5d1ce36328e6f5bc72cfca4da04ffd16e292eb582c4625911f3",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/models/skip_information_control.py",
+      "origin": "src/models/skip_information_control.py",
+      "original_sha256": "8beae7ad6aa32d0b47fb2ea26adc5d2bcce6bddab5a06719f10290c6874030b8",
+      "release_sha256": "c4a8c12e3b17a025c9965293153ba1904bd729ce40f65a4d5eb26a6bdf4f214f",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/models/unet_semantic.py",
+      "origin": "src/models/unet_semantic.py",
+      "original_sha256": "d047de3b8e33a2afc63750ee6236186ac6dccf8642a79017e315c90546f6c6b7",
+      "release_sha256": "fae4a2f9a26955932f9e0f046bed173623d596600cbfc780d362bda33611adeb",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/models/yolo11_semantic.py",
+      "origin": "src/models/yolo11_semantic.py",
+      "original_sha256": "1b626469d284287694e91b929d6293277884025477330a87550a3a926e5abef9",
+      "release_sha256": "7904f817cd6f2716ee1fd9ac75b05f58cec6ea62fc0ea86f4aad6d3b933b25ab",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/models/yolo26_control_pretest.py",
+      "origin": "src/models/yolo26_control_pretest.py",
+      "original_sha256": "fc1bff193470fbb7f0cd0fe78d8713b742c93d124344a10b06116fd604487c99",
+      "release_sha256": "fb521d7b5c5ffd2b87e3a95ac00cac3c35f57bea3bfaaab404d3e245dd439092",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/models/yolo26_fpn_reference.py",
+      "origin": "src/models/yolo26_fpn_reference.py",
+      "original_sha256": "7948b7966a38360e9cc527d69e9c2a2886e982571446562959b518ff7a87c57b",
+      "release_sha256": "3990540c70861d59ba433919847922c229f549d4d0d6de696fd4726e0c519cee",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/models/yolo26_main_only_control.py",
+      "origin": "src/models/yolo26_main_only_control.py",
+      "original_sha256": "bb22310671c4a845626041b0ac491e2d271c3fff531760d5cc8ca44ca2aa4fa5",
+      "release_sha256": "2e174bd98044d348c1d6ffb609d2cb0a400e21f2fc46752afd403953f71c9ec8",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/models/yolo26_semantic.py",
+      "origin": "src/models/yolo26_semantic.py",
+      "original_sha256": "8bfebb8f2d452f07c3155b453e0654c406c1f888badd1927f63d109152b68a7d",
+      "release_sha256": "5b1b9ceec1de47c9f122c7e723502ab5291d9f813d6dc0e10263fbd3880243cf",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/models/yolo26_sensor_p2_gate.py",
+      "origin": "src/models/yolo26_sensor_p2_gate.py",
+      "original_sha256": "62f26c152bca230167678b13214bfb383299e8c6950aabbee9b7318f25866695",
+      "release_sha256": "3f5fca4c331cfd508c151ccfca9adb2b1ef97b6a564bba90d23fbb6c1d458a2f",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/models/yolo26_unet_decoder.py",
+      "origin": "src/models/yolo26_unet_decoder.py",
+      "original_sha256": "5b81f1431152373057c46602e31e4372f3018a3bc1246bb0a44aa81e78def60c",
+      "release_sha256": "0978757b3640fe4bff1acbe23bb82155acb8da7849ca9c3dd3b1f3810c28cc38",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/models/yolov12_comparator.py",
+      "origin": "src/models/yolov12_comparator.py",
+      "original_sha256": "743fe1b71b7a79c8991585bb9970ca488d67d1a95f6f199eee6b0999fa17d3cb",
+      "release_sha256": "f6fbde1dacb8c52ee107dbfe36b825b423c25e76a41183fa20da73d396a30bea",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/models/yolov12_head_control_pretest.py",
+      "origin": "src/models/yolov12_head_control_pretest.py",
+      "original_sha256": "848522f732aae93df5d2ed8d3ebc65f8735c416220272ddfc316ed7fbde3bfd9",
+      "release_sha256": "7c108eb5ba50d6cc8c069ccd43fa0641b2b899595ae98e86392702f322b7d691",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/models/yolov8_ghost_semantic.py",
+      "origin": "src/models/yolov8_ghost_semantic.py",
+      "original_sha256": "64d8d77832f4b67c4f9fcba24e6ef16a5669f6f5dfcbaf9b4b267ee4316220ab",
+      "release_sha256": "2c2b82c0b389d00707aab54256b7238a71bfe0efd226741eb29f2d4c947bdc32",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/training/__init__.py",
+      "origin": "src/training/__init__.py",
+      "original_sha256": "1bd99a731c5a4baee8beebe001ff8c08856e9c1d103f913e983c1f64ad2e168d",
+      "release_sha256": "f3eb540d9b80c8986ad9ea0e15c839507d02bb922f6f9ec4ecba5a6fe3504c3b",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/training/dcl_losses.py",
+      "origin": "src/training/dcl_losses.py",
+      "original_sha256": "f250e4cbd163b4b47d86ad2d6f158c90741ae88c41d6b70e507ff258bd779066",
+      "release_sha256": "41afc9ee42c6fefa8c118367c54643e3d749334f52cb70db1cada07f144ce173",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/training/degradation.py",
+      "origin": "src/training/degradation.py",
+      "original_sha256": "150b5fca924a319447ebc78d13569d84ca3ed8a7bf2dc1fabda469391418e4f7",
+      "release_sha256": "520b6124199db9d87b92eca27b4f4379edbe7e1c4f42bfc64d0ba8a877fe5365",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/training/engine.py",
+      "origin": "src/training/engine.py",
+      "original_sha256": "3b442a31b054e2e98ec8ba45740195ec6839665601561098d60cca9c0382cc5b",
+      "release_sha256": "d0c4ca540b9254f3d9558142a7296a5dd764e84be0f9ba5ae0bd44ca92a2b08d",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/training/eomt_mask_classification.py",
+      "origin": "src/training/eomt_mask_classification.py",
+      "original_sha256": "cca9bda2da02baf57b1d585c3350b7315682a5cef164c60ef94a60b2535fd8ed",
+      "release_sha256": "4e43cea0fbad9d9a7a90b653cc561c4cd46a79dc01ac891d7953e7d637ff7cb1",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/training/eomt_protocol.py",
+      "origin": "src/training/eomt_protocol.py",
+      "original_sha256": "46175df0db300aae90d35d50ce65534a6dc0a8d5f2a0963da194f85468010d13",
+      "release_sha256": "4e77943e4f6801cb3aa8189b21ce952ad4f5fd9dcecc9d1fef8b18dc16c5c5bf",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/training/exposure_matched_decoder_control.py",
+      "origin": "src/training/exposure_matched_decoder_control.py",
+      "original_sha256": "1e34a5217546c770829903fe32e7736ad4b0f0e06b00d6b6bb71c61a7f8c9526",
+      "release_sha256": "8f427c00e35757d638beb7409ee059e6fdaae46d659453005d061417573e1991",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/training/independent_decoder_preflight.py",
+      "origin": "src/training/independent_decoder_preflight.py",
+      "original_sha256": "1af7ad966de5c9ba6a3ef3c4ee3db6fc706f5e106776b056f858777b5e54e02d",
+      "release_sha256": "c6d6f38851f6e627246c8f8ee0d958f64f70dc436e818afb3303a928a1c14506",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/training/masked_segmentation.py",
+      "origin": "src/training/masked_segmentation.py",
+      "original_sha256": "9c1e55045e5d0fed8ca1a09a90c21e3a31e352fe1e4d5dd3cf96ec5ee0aba52e",
+      "release_sha256": "fe313a485e9fa276e0497e3d0ed1cb1f8be2d3d357f6131563cb1d452792d075",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/training/optimization.py",
+      "origin": "src/training/optimization.py",
+      "original_sha256": "88bccdd0845780b61cb8b8cca3934b52ac31b73e57665743d2c0b28538956c89",
+      "release_sha256": "32d794d8908b7b6ace5e45786d51b60a482c8faacdc670b6a178452e8b32a811",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    },
+    {
+      "path": "src/training/single_sensor_decoder_control.py",
+      "origin": "src/training/single_sensor_decoder_control.py",
+      "original_sha256": "0af7b8da92630000f236e30b3360e73953d96270fd16d8b6c06870dbe8b23e7a",
+      "release_sha256": "f359ba1a6f6ddb959ab2b9059e3da8c778352de71f5e1e39b9d181fd4a9fcc4b",
+      "modification": "license notice only",
+      "upstream": "Ultralytics 8.4.152 dependency where imported; other upstreams retain their notices"
+    }
+  ],
+  "optional_missing_legacy_entry_names": [],
+  "upstream_config_reference": {
+    "path": "upstream_configs/ultralytics/yolo26-sem.yaml",
+    "origin": "recorded 8.4.152 local validation package cfg/models/26/yolo26-sem.yaml",
+    "sha256": "ad7de0daf064ed4f53ede8ed0a32d6aa339a5da3cd304791d815aada87b99d82",
+    "license": "original Ultralytics notice, unmodified"
+  }
+}

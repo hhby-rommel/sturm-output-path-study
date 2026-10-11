@@ -1,0 +1,8 @@
+{
+  "url": "https://github.com/sunsmarterjie/yolov12/releases/download/turbo/yolov12n.pt",
+  "path": "models\\pretrained\\research_comparators\\yolov12n_turbo_official.pt",
+  "size": 5515407,
+  "sha256": "37080c2891b94c62998f0bfb552dd70c32f9f2ee36618b9e7b3da49b49e150ac",
+  "pretraining": "official COCO detection",
+  "git_ignored": true
+}

@@ -1,0 +1,43 @@
+{
+  "status": "LOCAL_DIAGNOSTIC_CANDIDATE_NOT_FORMAL_APPROVED",
+  "data_scope": [
+    "train",
+    "val"
+  ],
+  "test_access_authorized": false,
+  "models": {
+    "yolov12_light": "official retained layers 0-14 + fresh stride-8 P3 head + bilinear resize; not native detector",
+    "yolov12_decoder": "same retained trunk, bridges, sensor adapters + P2/P1/input decoder",
+    "dcl_zero": "matched-initialized YOLO26 decoder, lambda=0",
+    "dcl_positive": "same YOLO26 decoder, constant lambda=0.1 from epoch1 diagnostic only"
+  },
+  "local_budget": {
+    "train_tiles_per_sensor": 64,
+    "val_panel_tiles_per_sensor": 32,
+    "epochs": 8,
+    "batch_size": 8,
+    "updates_per_case": 128,
+    "initialization_seed": 10110,
+    "sampling_seed": 10111,
+    "training_seed": 10112,
+    "learning_rate": 0.0003,
+    "bn": "frozen running statistics; affine parameters learn",
+    "optimizer": "AdamW",
+    "weight_decay": 0.0001,
+    "gradient_clip": 5,
+    "scheduler": "none"
+  },
+  "sensitivity": {
+    "model": "yolov12_light",
+    "only_changed_factor": "learning rate",
+    "learning_rate": 3e-05
+  },
+  "formal_gates_remaining": [
+    "Resolve light-head optimization health with bounded train/val evidence; do not select by test",
+    "Freeze optimization budget and DCL schedule before formal run; keep ordinary checkpoint selection",
+    "Isolated server CUDA health, complete validation, epoch-boundary sampler/model/optimizer/RNG restoration",
+    "Source/weights/data locks and new formal directories",
+    "Dedicated exclusive one-time test-access guard after formal completion"
+  ],
+  "efficiency_measurement_device": "same server device for all formal architecture timing; local pilot speed is not efficiency evidence"
+}

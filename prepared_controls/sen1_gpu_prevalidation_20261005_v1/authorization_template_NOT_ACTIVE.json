@@ -1,0 +1,9 @@
+{
+  "scope": "SEN1_GPU_PREVALIDATION_ONLY",
+  "protocol_sha256": "ddca08c9d31af22f1ad8fb9abcec23bf5554be5c6082a834fe37ca952e4427e3",
+  "launch_manifest_sha256": "15f4174632d8203ae0e32dd0375583a04134ac707a67a7f50c11af5d734cfc93",
+  "test_access": false,
+  "formal_training": false,
+  "human_authorization": "PENDING: populate only after explicit server prevalidation launch authorization",
+  "human_authorization_confirmed": false
+}

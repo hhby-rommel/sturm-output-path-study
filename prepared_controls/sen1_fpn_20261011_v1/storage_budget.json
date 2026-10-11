@@ -1,0 +1,32 @@
+{
+  "available_bytes_snapshot": 7694004224,
+  "measured_checkpoint_bytes": {
+    "decoder": {
+      "best": 7056778,
+      "last": 20086342
+    },
+    "main_only": {
+      "best": 6846994,
+      "last": 19766120
+    },
+    "unet": {
+      "best": 138069340,
+      "last": 414365486
+    }
+  },
+  "nine_best_last_bytes": 1818573180,
+  "largest_atomic_save_overlap_bytes": 552434826,
+  "checkpoint_overhead_factor": 1.15,
+  "test_cache_budget_bytes": 236978176,
+  "raw_test_estimate_from_largest_train_val_pair_bytes": 165309300,
+  "raw_test_safety_factor": 1.25,
+  "logs_manifests_predictions_budget_bytes": 1073741824,
+  "unallocated_disk_reserve_bytes": 2147483648,
+  "required_additional_free_bytes": 6391499479,
+  "snapshot_capacity_pass": true,
+  "pass_is_not_runtime_guarantee": true,
+  "no_historical_deletion": true,
+  "prelaunch_remeasure_required": true,
+  "test_raw_sizes_not_yet_acquired": true,
+  "retention": "All nine best model states and last full states retained; one rolling last per task; no per-epoch checkpoint archive; no automatic pruning of historical assets."
+}

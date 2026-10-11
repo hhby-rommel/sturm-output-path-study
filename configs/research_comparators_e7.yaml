@@ -1,0 +1,50 @@
+# Registered E7 modern-baseline configuration. Separate from the frozen main matrix.
+version: e7_pretrained_modern_baselines_v1
+status: frozen_for_e7_seed2026_gate
+manifest: data/manifests/manifest.csv
+manifest_rows_sha256: f2a67f6eebe3a3f8f644a4afc6b765fad7129cff1841f61484c47de3a6655915
+event_split: data/splits/event_split_v1.csv
+event_split_rows_sha256: 9be0dee563985431b17a78f4ad2620c72ad1349fa215ea9b2fcf9c3ba5d69a2b
+seeds: [2026, 2027, 2028]
+train_sensors: [S1, S2]
+image_size: 128
+batch_size: 16
+max_epochs: 50
+early_stopping_patience: 10
+training_variant: m1_degraded
+loss: masked_ce_plus_dice_v1
+input_normalization: none_v1
+fixed_degraded_tag: 1
+checkpoint_selection: pixel_pooled_degraded_f1_clean_tie_earlier_v1
+gradient_clip_norm: 5.0
+test_policy: once_per_seed_after_best_checkpoint
+optimizer_common:
+  optimizer: adamw
+  weight_decay: 0.0001
+  scheduler: warmup_cosine
+  warmup_fraction: 0.05
+  minimum_lr_ratio: 0.01
+  exclude_norm_and_bias_from_weight_decay: true
+  track_parameter_update: true
+models:
+  deeplabv3plus_mobilenetv3:
+    architecture: deeplabv3plus_mobilenet_v3_large_os16
+    initialization: imagenet1k_v2_backbone_only
+    weights_path: models/pretrained/research_comparators/mobilenet_v3_large-5c1a4163.pth
+    weights_sha256: 5c1a416349c4cf298f2a6a5e2600ed0ee55e604713578f5e74e6bc8bcaef7997
+    source_url: https://download.pytorch.org/models/mobilenet_v3_large-5c1a4163.pth
+    learning_rate: 0.0001
+    freeze_batchnorm_running_stats: true
+    decoder_initialization: random
+  segformer_b0:
+    architecture: segformer_b0_mit_b0
+    initialization: ade20k_encoder_and_decoder_except_classifier
+    weights_dir: models/pretrained/research_comparators/segformer_b0_ade20k_489d5cd
+    source_repo: nvidia/segformer-b0-finetuned-ade-512-512
+    source_commit: 489d5cd81a0b59fab9b7ea758d3548ebe99677da
+    model_safetensors_sha256: 6ae39addd01de6b1b8bde2cf677d43a5cd733424b8d186de3f95d1c51fee23f9
+    config_json_sha256: 209caa9091e4632f7c8883c11170cd08ad29af68b23c09590aa4a5befb1a2a7f
+    transformers_version: 4.44.2
+    learning_rate: 0.00006
+    freeze_batchnorm_running_stats: false
+    classifier_initialization: random_two_class

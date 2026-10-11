@@ -1,0 +1,18 @@
+{
+  "status": "MODEL_IMPLEMENTED_CPU_PROCESS_CHECKED_NOT_LAUNCHED",
+  "model": "src.models.yolo26_fpn_reference.Yolo26FPNReference",
+  "scientific_scope": "One additive FPN-style high-resolution output reference on the fixed common16 shared trunk",
+  "width": 34,
+  "width_rule": "Nearest integer to 47810 output parameters under 36w^2+174w+2; no validation accuracy search",
+  "head_parameters": 47534,
+  "total_parameters": 1713714,
+  "training_recipe": "Inherit STURM decoder registered Cityscapes compatible initialization, shared sampling, original degradation, main clean+degraded CE+Dice, all BN statistics frozen, affine trainable, AdamW lr0.0003 wd0.0001 no scheduler, batch16 clip5 max50 patience10, full-val degraded pooled then exact clean tie then earlier epoch",
+  "seeds_if_later_authorized": [2026, 2027, 2028],
+  "training_entry_admitted": false,
+  "training_authorized": false,
+  "test_access_authorized": false,
+  "test_plan": "Undefined; no access until a separate scope is agreed",
+  "GPU_admission": "Pending; verify common tensor initialization, training routing, source identity and capacity before any training",
+  "MAC_coverage": "Executed Conv2d only; not complete FLOPs or matched compute",
+  "historical_assets": "Preserved; no replacement or selective reporting"
+}

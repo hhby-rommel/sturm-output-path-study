@@ -1,0 +1,335 @@
+{
+  "status": "INDEPENDENT_WINDOWS_CPU_PACKAGE_CHAIN_VALIDATED",
+  "environment": "Python3.10/PyTorch2.1.0+cpu; separate venv with no system-site packages",
+  "source_lock_sha256": "2a640048f7e40397d39f709bb5b6376bb5a9d60b5bea7b67b6836ee144f5ff09",
+  "arms": [
+    {
+      "arm": "full",
+      "training_loss": 2.3754920959472656,
+      "gradient_norm": 1.40017569065094,
+      "optimizer_updates": 1,
+      "restore_probe_updates": 2,
+      "restore": {
+        "model_optimizer_tolerance_pass": true,
+        "sampler_generator_exact": true,
+        "atol": 1e-06,
+        "rtol": 1e-05,
+        "scope": "next small fixture epoch from saved sampler/RNG; no unrestricted resume claim",
+        "extra_updates": 2
+      },
+      "clean_val_f1": 0.0,
+      "degraded_val_f1": 0.0,
+      "parameter_update_l2": "not measured in original runner"
+    },
+    {
+      "arm": "no_skip_capacity",
+      "training_loss": 2.4056544303894043,
+      "gradient_norm": 1.364487648010254,
+      "optimizer_updates": 1,
+      "restore_probe_updates": 2,
+      "restore": {
+        "model_optimizer_tolerance_pass": true,
+        "sampler_generator_exact": true,
+        "atol": 1e-06,
+        "rtol": 1e-05,
+        "scope": "next small fixture epoch from saved sampler/RNG; no unrestricted resume claim",
+        "extra_updates": 2
+      },
+      "clean_val_f1": 0.0,
+      "degraded_val_f1": 0.0,
+      "parameter_update_l2": "not measured in original runner"
+    },
+    {
+      "arm": "no_input",
+      "training_loss": 2.405057907104492,
+      "gradient_norm": 1.3891438245773315,
+      "optimizer_updates": 1,
+      "restore_probe_updates": 2,
+      "restore": {
+        "model_optimizer_tolerance_pass": true,
+        "sampler_generator_exact": true,
+        "atol": 1e-06,
+        "rtol": 1e-05,
+        "scope": "next small fixture epoch from saved sampler/RNG; no unrestricted resume claim",
+        "extra_updates": 2
+      },
+      "clean_val_f1": 0.0,
+      "degraded_val_f1": 0.0,
+      "parameter_update_l2": "not measured in original runner"
+    },
+    {
+      "arm": "no_p1",
+      "training_loss": 2.3749852180480957,
+      "gradient_norm": 1.39389169216156,
+      "optimizer_updates": 1,
+      "restore_probe_updates": 2,
+      "restore": {
+        "model_optimizer_tolerance_pass": true,
+        "sampler_generator_exact": true,
+        "atol": 1e-06,
+        "rtol": 1e-05,
+        "scope": "next small fixture epoch from saved sampler/RNG; no unrestricted resume claim",
+        "extra_updates": 2
+      },
+      "clean_val_f1": 0.0,
+      "degraded_val_f1": 0.0,
+      "parameter_update_l2": "not measured in original runner"
+    }
+  ],
+  "strict_formal_best_loads": [
+    {
+      "arm": "full",
+      "seed": 2026,
+      "checkpoint_sha256": "03e422d80e059a3d4a04ef02f169caba4353d03a74ce5d671520e8b34192ff63",
+      "strict_state_match": true,
+      "outputs": {
+        "S1": {
+          "shape": [
+            1,
+            2,
+            128,
+            128
+          ],
+          "finite": true,
+          "split": "val",
+          "tile_id": "EMSR279_04TUDELA_01_04_2_2.tif"
+        },
+        "S2": {
+          "shape": [
+            1,
+            2,
+            128,
+            128
+          ],
+          "finite": true,
+          "split": "val",
+          "tile_id": "EMSR279_03ALFARO_17_16_1_1.tif"
+        }
+      }
+    },
+    {
+      "arm": "no_skip_capacity",
+      "seed": 2026,
+      "checkpoint_sha256": "146e840d58c4a05de34b9184243e5d6d83a9fe4220d44bce0524720769e4a78d",
+      "strict_state_match": true,
+      "outputs": {
+        "S1": {
+          "shape": [
+            1,
+            2,
+            128,
+            128
+          ],
+          "finite": true,
+          "split": "val",
+          "tile_id": "EMSR279_04TUDELA_01_04_2_2.tif"
+        },
+        "S2": {
+          "shape": [
+            1,
+            2,
+            128,
+            128
+          ],
+          "finite": true,
+          "split": "val",
+          "tile_id": "EMSR279_03ALFARO_17_16_1_1.tif"
+        }
+      }
+    },
+    {
+      "arm": "no_input",
+      "seed": 2026,
+      "checkpoint_sha256": "d4a0ce924120173f825c5769ae11e92e7436f84d89e3e8c10a2680c48e81e5f1",
+      "strict_state_match": true,
+      "outputs": {
+        "S1": {
+          "shape": [
+            1,
+            2,
+            128,
+            128
+          ],
+          "finite": true,
+          "split": "val",
+          "tile_id": "EMSR279_04TUDELA_01_04_2_2.tif"
+        },
+        "S2": {
+          "shape": [
+            1,
+            2,
+            128,
+            128
+          ],
+          "finite": true,
+          "split": "val",
+          "tile_id": "EMSR279_03ALFARO_17_16_1_1.tif"
+        }
+      }
+    },
+    {
+      "arm": "no_p1",
+      "seed": 2026,
+      "checkpoint_sha256": "ae30a1788b54dfeb91f863075c96ba15ef67def8db2664eb0890bf0dc04320f6",
+      "strict_state_match": true,
+      "outputs": {
+        "S1": {
+          "shape": [
+            1,
+            2,
+            128,
+            128
+          ],
+          "finite": true,
+          "split": "val",
+          "tile_id": "EMSR279_04TUDELA_01_04_2_2.tif"
+        },
+        "S2": {
+          "shape": [
+            1,
+            2,
+            128,
+            128
+          ],
+          "finite": true,
+          "split": "val",
+          "tile_id": "EMSR279_03ALFARO_17_16_1_1.tif"
+        }
+      }
+    }
+  ],
+  "guards": [
+    {
+      "check": "disabled_test_scope_rejected_before_dataset",
+      "passed": true,
+      "returncode": 1
+    },
+    {
+      "check": "existing_output_rejected",
+      "passed": true,
+      "returncode": 1
+    }
+  ],
+  "train_tiles": 16,
+  "val_tiles": 16,
+  "diagnostic_seed": 10501,
+  "new_local_optimizer_updates": 12,
+  "new_formal_training": false,
+  "test_access": false,
+  "server_connected": false,
+  "full_convergence_verified": false,
+  "formal_metrics_reproduced": false,
+  "GPU_admission": false,
+  "sanitized_path_validation": {
+    "receipt": {
+      "status": "INDEPENDENT_LOCAL_CPU_ALL_FOUR_ARM_HEALTH_PASSED",
+      "lock_sha256": "2a640048f7e40397d39f709bb5b6376bb5a9d60b5bea7b67b6836ee144f5ff09",
+      "arms": [
+        {
+          "status": "LOCAL_INDEPENDENT_CPU_FIXTURE_HEALTH_PASSED",
+          "arm": "full",
+          "seed": 10501,
+          "lock_sha256": "2a640048f7e40397d39f709bb5b6376bb5a9d60b5bea7b67b6836ee144f5ff09",
+          "epochs": 1,
+          "best": {
+            "epoch": 1,
+            "clean_flood_f1": 0.0,
+            "degraded_flood_f1": 0.0
+          },
+          "stale": 0,
+          "elapsed_seconds": 3.688000000001921,
+          "optimizer_updates": 1,
+          "exposure_budget": 16,
+          "best_sha256": "edad7416011cb188f9c927ce5c75b44f3ddbeea61e3fc1d5bdf8aecaabf91d53",
+          "last_sha256": "0b394997793c3dfd471bf27100482d9a0c75a45d7c29158a60aeeb41b64e47d0",
+          "test_enabled": false,
+          "automatic_resume": false,
+          "device": "cpu",
+          "GPU": null,
+          "torch": "2.1.0+cpu",
+          "cuda": null
+        },
+        {
+          "status": "LOCAL_INDEPENDENT_CPU_FIXTURE_HEALTH_PASSED",
+          "arm": "no_skip_capacity",
+          "seed": 10501,
+          "lock_sha256": "2a640048f7e40397d39f709bb5b6376bb5a9d60b5bea7b67b6836ee144f5ff09",
+          "epochs": 1,
+          "best": {
+            "epoch": 1,
+            "clean_flood_f1": 0.0,
+            "degraded_flood_f1": 0.0
+          },
+          "stale": 0,
+          "elapsed_seconds": 3.5310000000026776,
+          "optimizer_updates": 1,
+          "exposure_budget": 16,
+          "best_sha256": "e54eb4cd994f998cab839801f0ffb4bc8943e953c07f6c8d05c1c52e9e95ffb8",
+          "last_sha256": "93770afc7f2bf8cd458360109c0eff498a262a679c7508329ac0981cf328af8c",
+          "test_enabled": false,
+          "automatic_resume": false,
+          "device": "cpu",
+          "GPU": null,
+          "torch": "2.1.0+cpu",
+          "cuda": null
+        },
+        {
+          "status": "LOCAL_INDEPENDENT_CPU_FIXTURE_HEALTH_PASSED",
+          "arm": "no_input",
+          "seed": 10501,
+          "lock_sha256": "2a640048f7e40397d39f709bb5b6376bb5a9d60b5bea7b67b6836ee144f5ff09",
+          "epochs": 1,
+          "best": {
+            "epoch": 1,
+            "clean_flood_f1": 0.0,
+            "degraded_flood_f1": 0.0
+          },
+          "stale": 0,
+          "elapsed_seconds": 3.5160000000032596,
+          "optimizer_updates": 1,
+          "exposure_budget": 16,
+          "best_sha256": "51fa2f6ef58d8e685ae27fa2b0b94e95a776847da42d922591facd76bfbf7b67",
+          "last_sha256": "6c315b38ed1e23ba6afb7037f904816ccc4c2297c75433d8d13c707f5dc4c132",
+          "test_enabled": false,
+          "automatic_resume": false,
+          "device": "cpu",
+          "GPU": null,
+          "torch": "2.1.0+cpu",
+          "cuda": null
+        },
+        {
+          "status": "LOCAL_INDEPENDENT_CPU_FIXTURE_HEALTH_PASSED",
+          "arm": "no_p1",
+          "seed": 10501,
+          "lock_sha256": "2a640048f7e40397d39f709bb5b6376bb5a9d60b5bea7b67b6836ee144f5ff09",
+          "epochs": 1,
+          "best": {
+            "epoch": 1,
+            "clean_flood_f1": 0.0,
+            "degraded_flood_f1": 0.0
+          },
+          "stale": 0,
+          "elapsed_seconds": 3.5309999999954016,
+          "optimizer_updates": 1,
+          "exposure_budget": 16,
+          "best_sha256": "d22cebd2f1cfd1b74fde3d6d7b1ccead65024cf41600f41c749a231c6ae32c75",
+          "last_sha256": "75cb8a54bfb79178904e156f0434a74951c6741c8a4d8dc5d2181788d9ab3c39",
+          "test_enabled": false,
+          "automatic_resume": false,
+          "device": "cpu",
+          "GPU": null,
+          "torch": "2.1.0+cpu",
+          "cuda": null
+        }
+      ],
+      "paired_input_streams": true,
+      "fixture_only": true,
+      "full_val": false,
+      "test_enabled": false,
+      "formal_training_started": false
+    },
+    "status": "ALL_FOUR_ARMS_MATCH_ORIGINAL_CPU_TRAINING_VALIDATION_AND_SELECTION",
+    "numeric_config_unchanged": true,
+    "original_strict_best_loads_reused": "Same49sourcehashes and unchanged initialization; no new formal checkpoint inference"
+  }
+}
