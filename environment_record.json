@@ -1,0 +1,20 @@
+{
+  "python": "3.10.20",
+  "torch": "2.1.0+cu121",
+  "cudnn_version": 8902,
+  "backend_source": "saved runtime_matched_environment.json",
+  "project_constraints": {
+    "numpy": "1.26.4",
+    "rasterio": "1.4.4",
+    "opencv-python": "4.11.0.86",
+    "ultralytics": "8.4.152"
+  },
+  "constraints_source": "archived requirements-pytorch-env.txt; not a complete runtime pip freeze",
+  "fvcore": "0.1.5.post20221221",
+  "torchvision_historical_version": null,
+  "torchvision_reconstruction_pin": "0.16.0+cu121",
+  "torchvision_pair_source": "https://docs.pytorch.org/get-started/previous-versions/",
+  "GDAL_runtime_version": null,
+  "GDAL_note": "Rasterio wheels supply GDAL-dependent components; runtime GDAL version was not captured",
+  "environment_reinstall_test": false
+}
