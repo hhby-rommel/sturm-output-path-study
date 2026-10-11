@@ -1,0 +1,17 @@
+# Recorded project dependency constraints; torch/torchvision installed by environment.yml.
+# Install into a project-level environment that already provides PyTorch.
+# NumPy/OpenCV are capped for compatibility with the server's PyTorch 2.1
+# binary; NumPy 2.x produced an _ARRAY_API warning during the GPU preflight.
+ultralytics==8.4.152
+pandas
+numpy==1.26.4
+pyyaml
+rasterio==1.4.4
+opencv-python==4.11.0.86
+scikit-learn
+scipy
+tqdm
+matplotlib
+Pillow
+
+fvcore==0.1.5.post20221221
