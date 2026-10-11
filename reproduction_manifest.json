@@ -1,5 +1,5 @@
 {
-  "version": "existing-counts-20261010",
+  "version": "v18-20261011",
   "evaluation_seed": 12026,
   "public_repository": "https://github.com/hhby-rommel/sturm-output-path-study",
   "checkpoint_SHA256": [
@@ -49,35 +49,64 @@
       "checkpoint_sha256": "076e59035bcef8a380469761e41dc55039c4495e948b8eb5d519d036a934e6ed"
     }
   ],
-  "val_event_inference": "prepared; not executed; old val sensor totals available",
+  "val_event_inference": "completed; nine frozen-model saved val event-count reports in val_event_counts_20261011.json; validation participated in checkpoint selection",
   "test_reports": "saved fixed-input reevaluation; no new test access in current analysis",
   "weights_included": false,
   "dataset_pixels_included": false,
-  "project_license": "not selected; dependency notices provided",
+  "project_license": "MIT for independently authored code; third-party and derivative materials retain their original terms",
   "source_files": [
     {
       "path": "src/dataset/sturm_flood.py",
-      "sha256": "517c709b3cbf5be15539e02ca03fb0aa25b77eadd6d8ba2a7b3912c95c435eea"
+      "sha256": "517c709b3cbf5be15539e02ca03fb0aa25b77eadd6d8ba2a7b3912c95c435eea",
+      "container": "reproducibility_materials_20261010.zip"
     },
     {
       "path": "src/models/yolo26_fpn_reference.py",
-      "sha256": "7948b7966a38360e9cc527d69e9c2a2886e982571446562959b518ff7a87c57b"
+      "sha256": "7948b7966a38360e9cc527d69e9c2a2886e982571446562959b518ff7a87c57b",
+      "container": "reproducibility_materials_20261010.zip"
     },
     {
       "path": "src/models/yolo26_main_only_control.py",
-      "sha256": "bb22310671c4a845626041b0ac491e2d271c3fff531760d5cc8ca44ca2aa4fa5"
+      "sha256": "bb22310671c4a845626041b0ac491e2d271c3fff531760d5cc8ca44ca2aa4fa5",
+      "container": "reproducibility_materials_20261010.zip"
     },
     {
       "path": "src/models/yolo26_semantic.py",
-      "sha256": "8bfebb8f2d452f07c3155b453e0654c406c1f888badd1927f63d109152b68a7d"
+      "sha256": "8bfebb8f2d452f07c3155b453e0654c406c1f888badd1927f63d109152b68a7d",
+      "container": "reproducibility_materials_20261010.zip"
     },
     {
       "path": "src/models/yolo26_unet_decoder.py",
-      "sha256": "5b81f1431152373057c46602e31e4372f3018a3bc1246bb0a44aa81e78def60c"
+      "sha256": "5b81f1431152373057c46602e31e4372f3018a3bc1246bb0a44aa81e78def60c",
+      "container": "reproducibility_materials_20261010.zip"
     },
     {
       "path": "src/training/masked_segmentation.py",
-      "sha256": "9c1e55045e5d0fed8ca1a09a90c21e3a31e352fe1e4d5dd3cf96ec5ee0aba52e"
+      "sha256": "9c1e55045e5d0fed8ca1a09a90c21e3a31e352fe1e4d5dd3cf96ec5ee0aba52e",
+      "container": "reproducibility_materials_20261010.zip"
     }
-  ]
+  ],
+  "evidence_files": {
+    "historical_archive": "reproducibility_materials_20261010.zip",
+    "latest_numeric_sources": "evidence_20261011_v17.json",
+    "raw_val_event_counts": "val_event_counts_20261011.json",
+    "saved_count_recompute": "recompute_public_evidence_20261011.py",
+    "archive_inventory": "archive_inventory.json"
+  },
+  "coverage": {
+    "core_STURM_checkpoints": "nine SHA256 identities retained",
+    "STURM_test": "saved fixed-input evaluation only",
+    "event_pairing": "direct FPN-decoder saved-count pairing; val/24-event descriptive",
+    "Sen1_FPN": "three trained seeds; one frozen test each; BN system evidence",
+    "Otsu": "four predeclared val schemes; frozen AND test once",
+    "threshold_transfer": "val selections frozen before one-time test",
+    "runtime_arithmetic": "same-session costs, main-operator scope and numerical failures",
+    "source_location": "selected src tree and third-party notices are inside historical ZIP; additional source records embedded in evidence JSON"
+  },
+  "environment": {
+    "record": "environment_record.json",
+    "reconstruction": "environment.yml",
+    "dependencies": "requirements.txt",
+    "scope": "recorded key versions/constraints plus explicitly identified reconstruction pins; no complete historical pip freeze or reinstall certification"
+  }
 }
