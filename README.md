@@ -1,48 +1,40 @@
 # STURM output-path study
 
-Reproducibility materials for native output, progressive decoder and parameter-matched FPN paths on a shared lightweight YOLO26n body, with single-sensor S1 or S2 inputs.
+Numerical and code evidence for controlled comparison of the native output and parameter-matched decoder/FPN paths on a common lightweight YOLO26n body.
 
-## Recompute saved-count analysis
+## Current evidence and recomputation
 
-Download and extract `reproducibility_materials_20261010.zip` into a working directory. Install Python and NumPy, then run from that extracted directory:
+The current index is `reproduction_manifest.json` (v18-20261011).
+- `evidence_20261011_v17.json`: Sen1-FPN, BN controls, direct event pairing, Otsu, threshold transfer, cost and precision reports; source records are embedded under `source_records`.
+- `val_event_counts_20261011.json`: nine frozen-model validation event-count reports, already evaluated. Validation was used for checkpoint selection.
+- `recompute_public_evidence_20261011.py`: recomputes seed means, sample SD and direct event pairing using saved JSON only.
+
+For numerical recomputation, install NumPy and run:
 
 ```bash
-python scripts/manuscript_existing_counts_audit_20261010.py
+python recompute_public_evidence_20261011.py
 ```
 
-This command reads saved JSON reports only. It performs no training, model inference or test-dataset loading. It writes per-event foreground-extent counts, test-event paired differences and combined validation/test pooled diagnostics to `results/manuscript_existing_counts_audit_20261010_v1/`. The command was executed in the portable review packet and the outputs were compared with the project summaries.
+This command performs no training, inference or dataset/test access. Combined val/test event statistics are descriptive; they are not an independent 24-event test. Water-extent counts refer to valid tile domains and include permanent water, not deduplicated flood-only km².
 
-## Recorded scope
+## Archived selected source and notices
 
-- Nine frozen best checkpoints; training seeds 2026, 2027 and 2028; evaluation seed 12026.
-- Core test reports use one sample-specific perturbation stream for all systems.
-- Validation sensor and event counts are archived. Validation participated in checkpoint selection; combined val/test event statistics remain descriptive.
-- Combined validation/test pooled statistics contain validation data used for checkpoint selection. They are diagnostics, not an independent 24-event test.
-- Foreground extent errors count water pixels in evaluation tile domains. They are not deduplicated flood-only geographic areas in km².
-- GPU runtime: four systems, three weights, two sensors and five batch sizes in one GPU session; 120 units and 36,000 raw timings. No I/O or H2D timing.
+`reproducibility_materials_20261010.zip` contains the archived selected `src/` tree (six model/data/loss files) and `third_party_notices/`; these directories are inside the ZIP, not root directories of this repository. Its content hashes are indexed by `archive_inventory.json`. It also contains the earlier saved-count analysis and its source. Historical snapshots remain unchanged; the root manifest and license files describe the current status.
 
-## Model and GPU inference code
+Additional server-source records are embedded in the evidence JSON. They retain original experiment paths and require matching data, dependencies and frozen weights. The selected source archive is not a complete turnkey retraining project.
 
-`src/` contains the selected model, data and loss implementations. Server scripts preserve the original experiment paths and require the matching experiment environment, dataset and frozen weights. They are source records, not turnkey independent retraining commands. The raw imagery and checkpoint files are not redistributed. Checkpoint SHA256 identities are in `reproduction_manifest.json`.
+## Environment
 
-The dataset is available from [STURM-Flood](https://github.com/STURM-WEO/STURM-Flood), and the external S1 dataset from [Sen1Floods11](https://github.com/cloudtostreet/Sen1Floods11). Follow their respective data and asset terms. The complete manuscript remains a local review draft; this repository publishes numerical/code materials.
+`environment_record.json` distinguishes recorded runtime values, archived project constraints and reconstruction choices. `environment.yml` and `requirements.txt` provide a reconstruction scaffold for Python 3.10.20 and PyTorch 2.1.0+cu121. The torchvision 0.16.0+cu121 pin follows the official PyTorch compatibility pair; its historical installed version was not recorded. Runtime GDAL version and a complete historical pip freeze are unavailable. This scaffold has not been reinstall-tested and is not claimed to reproduce historical training bitwise.
 
-## License status
+From a checkout containing both files:
 
-The author selected MIT for independently authored code; see LICENSE.author-code and LICENSE_SCOPE.md. Upstream dependency notices are preserved under `third_party_notices/`; in particular Ultralytics is distributed under its recorded AGPL license. Publishing this repository does not replace upstream terms or assert that dataset or weight redistribution is permitted.
-
-## Evidence update: 11 October 2026
-
-`evidence_20261011_v17.json` contains saved Sen1-FPN and all-BN-frozen decoder results, direct FPN-decoder event pairing, all predeclared Otsu validation schemes and the frozen one-time test result, threshold-transfer statistics, cost and numerical checks, and source records. It includes all archived directions and failures. It contains no manuscript, raw imagery or checkpoint binaries.
-
-Read this UTF-8 JSON with Python:
-
-```python
-import json
-with open("evidence_20261011_v17.json", encoding="utf-8") as f:
-    bundle = json.load(f)
-print(bundle["reports"].keys())
-print(bundle["source_records"].keys())
+```bash
+conda env create -f environment.yml
 ```
 
-Source records retain their original environment paths and require the recorded data, weights and dependencies; they are not turnkey retraining instructions. Existing historical archives remain unchanged. Checkpoint SHA identities are supplied; weight download links have not been established. Independently authored code uses MIT; third-party and derivative-code terms remain applicable.
+## Data, weights and license
+
+Data sources: [STURM-Flood](https://github.com/STURM-WEO/STURM-Flood) and [Sen1Floods11](https://github.com/cloudtostreet/Sen1Floods11). Raw imagery and checkpoint binaries are not redistributed. Checkpoint SHA identities are recorded, but hashes do not provide weight-download access.
+
+Independently authored code uses MIT (`LICENSE.author-code`); third-party and derivative code retains its applicable terms (`LICENSE_SCOPE.md`). Upstream notices, including the recorded Ultralytics license, are inside the ZIP. This repository publishes numerical/code evidence, not the manuscript. `CITATION.cff` identifies the artifact by its public account handle; no paper-author names or paper DOI are inferred.
