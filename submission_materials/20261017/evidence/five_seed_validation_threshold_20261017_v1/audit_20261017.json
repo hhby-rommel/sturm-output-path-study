@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "time_utc": "2026-10-17T03:37:20.293196+00:00",
+  "checks": {
+    "val_same_input_stream": true,
+    "val_same_numerical_environment": true,
+    "test_same_input_stream": true,
+    "test_same_numerical_environment": true,
+    "same_threshold_selection_protocol": true,
+    "validation_360_unique_event_rows": true,
+    "validation_all_12_events_defined": true,
+    "transfer_180_unique_summaries": true,
+    "all_transfer_summaries_12_defined_events": true
+  },
+  "training": false,
+  "inference": false,
+  "new_test_access": false,
+  "server_needed": false
+}

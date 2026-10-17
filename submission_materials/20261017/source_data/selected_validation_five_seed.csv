@@ -1,0 +1,16 @@
+﻿system,seed,selected_epoch,clean_pooled_F1,perturbed_pooled_F1,source_file
+main_only,2026,6,0.8700736776062882,0.8717228149727309,results\decoder_main_only_control_20261002_v1\server_completed\2026\result.json
+main_only,2027,6,0.862835539790176,0.8656777240418816,results\decoder_main_only_control_20261002_v1\server_completed\2027\result.json
+main_only,2028,7,0.8702601993503852,0.8693822683317906,results\decoder_main_only_control_20261002_v1\server_completed\2028\result.json
+main_only,2029,6,0.8638039714010437,0.8635432862776884,results\eval12026_extension_20261015_v1\original_run_records\main_only_2029\result.json
+main_only,2030,16,0.86583967198241,0.8660699040220522,results\eval12026_extension_20261015_v1\original_run_records\main_only_2030\result.json
+decoder,2026,6,0.8662299109852953,0.8641129193066553,results\core_server_assets_20261003_v1\files\results\formal\yolo26n_decoder\2026\formal\result.json
+decoder,2027,1,0.7766438810586623,0.8439577734709931,results\core_server_assets_20261003_v1\files\results\yolo2027_second_20260927\yolo26n_decoder\2027\formal\result.json
+decoder,2028,23,0.8654945783759024,0.8618206683774283,results\core_server_assets_20261003_v1\files\results\formal\yolo26n_decoder\2028\formal\result.json
+decoder,2029,13,0.8684369184101658,0.8703811671887142,results\eval12026_extension_20261015_v1\original_run_records\decoder_2029\result.json
+decoder,2030,14,0.853948495569643,0.8535640924254779,results\eval12026_extension_20261015_v1\original_run_records\decoder_2030\result.json
+fpn,2026,6,0.8699812477421714,0.8642574585091766,results\fpn_formal_collection_20261010_v1\seed2026\completion.json
+fpn,2027,6,0.866693171643401,0.8569926246888174,results\fpn_formal_collection_20261010_v1\seed2027\completion.json
+fpn,2028,7,0.8633513239611077,0.8692675228421699,results\fpn_formal_collection_20261010_v1\records\seed2028\completion.json
+fpn,2029,7,0.8692484404957488,0.8619928126571439,results\eval12026_extension_20261015_v1\original_run_records\fpn_2029\completion.json
+fpn,2030,14,0.8600765826348564,0.857624997285619,results\eval12026_extension_20261015_v1\original_run_records\fpn_2030\completion.json

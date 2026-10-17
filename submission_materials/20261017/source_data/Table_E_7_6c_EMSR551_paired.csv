@@ -1,0 +1,5 @@
+﻿Condition / comparison,ΔFP,ΔFN,Δ(FP−FN),Δabs. error (pp),Improved seeds
+clean / Decoder-Native,-302.0,-285.4,-16.6,0.20,3/5
+clean / FPN-Native,2760.2,-993.6,3753.8,-23.42,5/5
+perturbed / Decoder-Native,2148.0,-695.2,2843.2,-25.68,4/5
+perturbed / FPN-Native,4445.6,-1036.6,5482.2,0.78,4/5

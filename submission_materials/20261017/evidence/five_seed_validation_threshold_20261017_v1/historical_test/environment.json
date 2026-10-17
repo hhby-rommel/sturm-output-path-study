@@ -1,0 +1,10 @@
+{
+  "torch": "2.1.0+cu121",
+  "GPU": "NVIDIA GeForce RTX 4090 D",
+  "cudnn_tf32": true,
+  "matmul_tf32": false,
+  "benchmark": false,
+  "deterministic": false,
+  "threads": 4,
+  "script_sha256": "4a1267c25a92dedd6a1901e3df88c32cc9c7bd83a219ffc7cb530ba49a325073"
+}

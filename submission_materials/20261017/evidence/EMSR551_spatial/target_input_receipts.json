@@ -1,0 +1,56 @@
+[
+  {
+    "tile_id": "EMSR551_AOI01_1_1_2_2.tif",
+    "identifier": "S1/EMSR551/EMSR551_AOI01_1_1_2_2.tif/Sentinel1/S1/EMSR551_AOI01_1_1_2_2.tif",
+    "original_batch": 192,
+    "degraded_input_valid_sha256": "aecc59b6f652c5ea3ad821512f29d0c67919441bbdd758eec367d9e6f55a2182"
+  },
+  {
+    "tile_id": "EMSR551_AOI01_1_2_2_1.tif",
+    "identifier": "S1/EMSR551/EMSR551_AOI01_1_2_2_1.tif/Sentinel1/S1/EMSR551_AOI01_1_2_2_1.tif",
+    "original_batch": 192,
+    "degraded_input_valid_sha256": "ef1af2abff05b14e0a614a4921df6acfcf3cc1c67d3b24645f0b87d8981a430f"
+  },
+  {
+    "tile_id": "EMSR551_AOI01_1_2_2_2.tif",
+    "identifier": "S1/EMSR551/EMSR551_AOI01_1_2_2_2.tif/Sentinel1/S1/EMSR551_AOI01_1_2_2_2.tif",
+    "original_batch": 192,
+    "degraded_input_valid_sha256": "61f87f9c363657504c6c137d65c7e37e0dc2614e4f55f5a281ea3022c565f871"
+  },
+  {
+    "tile_id": "EMSR551_AOI01_2_1_1_2.tif",
+    "identifier": "S1/EMSR551/EMSR551_AOI01_2_1_1_2.tif/Sentinel1/S1/EMSR551_AOI01_2_1_1_2.tif",
+    "original_batch": 192,
+    "degraded_input_valid_sha256": "01734c6d9b78db47613d00e330711b0048755b0be07aa6ef5a9f5fde82d41a17"
+  },
+  {
+    "tile_id": "EMSR551_AOI01_2_2_1_1.tif",
+    "identifier": "S1/EMSR551/EMSR551_AOI01_2_2_1_1.tif/Sentinel1/S1/EMSR551_AOI01_2_2_1_1.tif",
+    "original_batch": 193,
+    "degraded_input_valid_sha256": "78b0b0114daae020288f107e10700208fc5113b6fe80699d027704af9f987ef4"
+  },
+  {
+    "tile_id": "EMSR551_AOI01_2_2_2_1.tif",
+    "identifier": "S1/EMSR551/EMSR551_AOI01_2_2_2_1.tif/Sentinel1/S1/EMSR551_AOI01_2_2_2_1.tif",
+    "original_batch": 193,
+    "degraded_input_valid_sha256": "e3999728e7bd8c70f7403f3e6397fc2fb8a592421b7dfe8528e1f37f14b43c1e"
+  },
+  {
+    "tile_id": "EMSR551_AOI01_2_2_2_2.tif",
+    "identifier": "S1/EMSR551/EMSR551_AOI01_2_2_2_2.tif/Sentinel1/S1/EMSR551_AOI01_2_2_2_2.tif",
+    "original_batch": 193,
+    "degraded_input_valid_sha256": "d78326ac7ddc5139f68faef89b50b73b39847c2aa702cdaaeeedfe5a6a0b61c5"
+  },
+  {
+    "tile_id": "EMSR551_AOI01_2_3_2_1.tif",
+    "identifier": "S1/EMSR551/EMSR551_AOI01_2_3_2_1.tif/Sentinel1/S1/EMSR551_AOI01_2_3_2_1.tif",
+    "original_batch": 193,
+    "degraded_input_valid_sha256": "684f981d8c0169b5ef1355d41f98610356632ba4b7499111beeb6b516e1125d8"
+  },
+  {
+    "tile_id": "EMSR551_AOI01_2_3_2_2.tif",
+    "identifier": "S1/EMSR551/EMSR551_AOI01_2_3_2_2.tif/Sentinel1/S1/EMSR551_AOI01_2_3_2_2.tif",
+    "original_batch": 193,
+    "degraded_input_valid_sha256": "28805eec778ae1d3f35a69fd70767ed321068d7cd2b7de5c00e573f21c5c9870"
+  }
+]

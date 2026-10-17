@@ -1,0 +1,21 @@
+﻿Condition,Filename group,decodermean F1,Native mean F1,U-Netmean F1,decoder–native(pp),decoder−U-Net(pp)
+clean,Ghana,0.6795,0.6968,0.4911,-1.724,+18.845
+clean,India,0.8380,0.8363,0.7715,+0.168,+6.645
+clean,Mekong,0.9214,0.9112,0.9137,+1.024,+0.779
+clean,Nigeria,0.9365,0.9340,0.9228,+0.251,+1.366
+clean,Pakistan,0.3390,0.3259,0.1926,+1.314,+14.642
+clean,Paraguay,0.7319,0.6931,0.7431,+3.882,-1.120
+clean,Somalia,0.6219,0.6345,0.5064,-1.261,+11.557
+clean,Spain,0.8269,0.8109,0.7698,+1.601,+5.709
+clean,Sri-Lanka,0.9246,0.9197,0.7495,+0.496,+17.512
+clean,USA,0.6681,0.6822,0.6856,-1.402,-1.744
+perturbed,Ghana,0.6642,0.6864,0.2827,-2.219,+38.150
+perturbed,India,0.8320,0.8334,0.7608,-0.141,+7.119
+perturbed,Mekong,0.9179,0.9113,0.9144,+0.663,+0.350
+perturbed,Nigeria,0.9314,0.9335,0.8847,-0.207,+4.674
+perturbed,Pakistan,0.3277,0.3219,0.1388,+0.575,+18.888
+perturbed,Paraguay,0.7558,0.6823,0.7360,+7.349,+1.981
+perturbed,Somalia,0.5790,0.6181,0.4754,-3.915,+10.359
+perturbed,Spain,0.8316,0.8139,0.7711,+1.772,+6.048
+perturbed,Sri-Lanka,0.9205,0.9222,0.7877,-0.169,+13.277
+perturbed,USA,0.6833,0.6781,0.6249,+0.524,+5.835

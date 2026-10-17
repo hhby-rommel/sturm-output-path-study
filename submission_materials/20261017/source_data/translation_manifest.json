@@ -1,0 +1,64 @@
+[
+  {
+    "file": "source_data/gpu_all_batches.csv",
+    "original_sha256": "3d17a8baa4b12eb7efe22722f5d4bbf9841439701aa2b1d5dd5541ef1a44b6b3",
+    "english_sha256": "b124ad93a91ff1a15733bf7e7f367ea83b7a037ccdbaa520b8e8d836e9e25fec",
+    "numeric_cells_unchanged": true,
+    "v2_english_sha256": "8c5e2b9ec1000ce7c31010b1bac71533e1d74df7bde852140ae3428fa088e308",
+    "minor_candidate_change": "Standard CSV header quoting only; parsed data strings, order and precision preserved."
+  },
+  {
+    "file": "source_data/runtime_size_batch_full.csv",
+    "original_sha256": "d68a698dbdd7716850f10904b6b7023155ed35b559748c20536612eb0ade6473",
+    "english_sha256": "796c97f110428e09740fe86fb0740f88df8c384eee4cf489887f0c7ac8abc4ff",
+    "numeric_cells_unchanged": true,
+    "v2_english_sha256": "14a954a070769fbd741876be84f9857b3709c0561c06782fc2eb82bb1b597674",
+    "minor_candidate_change": "Standard CSV header quoting only; parsed data strings, order and precision preserved."
+  },
+  {
+    "file": "source_data/sen1_fpn_checkpoint_identity.csv",
+    "original_sha256": "e36f42375a9db5a4f825f07599c29cc8169898710a75556ce961c66bd1da99d1",
+    "english_sha256": "2fb6f5aed9c8db0c466902a6682e89dab9a9943fb1da9bdbe075a2819dd2e16c",
+    "numeric_cells_unchanged": true
+  },
+  {
+    "file": "source_data/sen1_prefix_fpn.csv",
+    "original_sha256": "933810aa4063d92a84b461fce9e87bf4a492bad7464422e2a5e38c6808c2992d",
+    "english_sha256": "13f56a448f69d642abc9a75db1a7ae3b4462f8d227d5dea0e2f95121869da57d",
+    "numeric_cells_unchanged": true
+  },
+  {
+    "file": "source_data/sen1_prefix_native_decoder_unet.csv",
+    "original_sha256": "d6ab0e7c06706fb389626e21e979855b42e9325503f2654b60c25fe2fa0f7d83",
+    "english_sha256": "69332f717b586daa4d191c80e3286e16ce4e0160c95f2cd349846202645701b2",
+    "numeric_cells_unchanged": true
+  },
+  {
+    "file": "source_data/spatial_clean.csv",
+    "original_sha256": "9b9e92f6147500c81148fcc86d9fa08008ab7db3356c1a2170ba87cfb233797b",
+    "english_sha256": "7c434b4c0283e6e7c013c5bb4702930e8425213d71bc525677c60e5832a2a54f",
+    "numeric_cells_unchanged": true,
+    "v2_english_sha256": "dea3db864379b0e2502fdd3f6b2a8ffe69e6ef24535221817667c80909222341",
+    "minor_candidate_change": "Standard CSV header quoting only; parsed data strings, order and precision preserved."
+  },
+  {
+    "file": "source_data/spatial_perturbed.csv",
+    "original_sha256": "422e3700789561ef97498422a64ff34a8b5dc927a59cdad74daa0646fd4ca904",
+    "english_sha256": "a38b387f707ef384aea54283bce537819940c3ea491be3046c21352a3aef73da",
+    "numeric_cells_unchanged": true,
+    "v2_english_sha256": "9906792d80f3ac5beb4ba9590230bb83070081315bd06d5e0c161c7bb9c95293",
+    "minor_candidate_change": "Standard CSV header quoting only; parsed data strings, order and precision preserved."
+  },
+  {
+    "file": "source_data/test_event_extent_bias_full.csv",
+    "original_sha256": "e03fedbb0f1d08a796aec9aea51bd8788b6a5adaeb1ad1cd1d2b5e817edc0a0f",
+    "english_sha256": "877320e90b6d919cb0ee06272debcd4c25277ee830751d21cb44290f031d5e79",
+    "numeric_cells_unchanged": true
+  },
+  {
+    "file": "source_data/val_pooled_by_seed.csv",
+    "original_sha256": "a87137c7075e79a59790892a01002944e73ee30cff89f9ece85e991ccce50d7a",
+    "english_sha256": "e9dd4270a8d177a4ebe8deb64c314498a8f136477034812e980face9206c4cdf",
+    "numeric_cells_unchanged": true
+  }
+]

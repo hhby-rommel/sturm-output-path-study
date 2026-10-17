@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "checkpoints": {
+    "/root/autodl-tmp/sturm_codex_20260919/results/native_seed_extension_20261015_v1/yolo26n_native_c16_main_only/2029/formal/best.pt": {
+      "sha256": "51ba95b124695497172ff86d3eb7f8a02230cc530ede19fa50b380f5c8c44b46",
+      "size": 19770114,
+      "mtime_ns": 1791998480100296270,
+      "purpose": "Frozen checkpoint handoff to new val/test inference scope",
+      "time_utc": "2026-10-17T03:22:03.319553+00:00",
+      "conclusion": "MATCH"
+    },
+    "/root/autodl-tmp/sturm_codex_20260919/results/decoder2029_repeat_20261015_v1/yolo26n_decoder/2029/formal/best.pt": {
+      "sha256": "aee69946080ad8fbb78d0fd55a63ae0ec9cb33329e3b3f661c858dd67f601270",
+      "size": 20091815,
+      "mtime_ns": 1792055178513782235,
+      "purpose": "Frozen checkpoint handoff to new val/test inference scope",
+      "time_utc": "2026-10-17T03:22:03.402402+00:00",
+      "conclusion": "MATCH"
+    },
+    "/root/autodl-tmp/sturm_codex_20260919/experiments/followup_server_20261008_v1/workspace/results/decoder_fpn_seed_extension_20261015_v1/fpn/seed2029_resume_20261015_v1/best.pt": {
+      "sha256": "e0f817b77e3845e421139e06ce94213e61cda51cbcb2be4547104fa878c79ffc",
+      "size": 20138589,
+      "mtime_ns": 1792032605089508162,
+      "purpose": "Frozen checkpoint handoff to new val/test inference scope",
+      "time_utc": "2026-10-17T03:22:03.449382+00:00",
+      "conclusion": "MATCH"
+    },
+    "/root/autodl-tmp/sturm_codex_20260919/results/native_seed_extension_20261015_v1/yolo26n_native_c16_main_only/2030/formal/best.pt": {
+      "sha256": "6971df816e412d61db5d0cc96f4c4fb8ae7519f8d253c5309746e5f5922ac60d",
+      "size": 19773698,
+      "mtime_ns": 1792008620795418567,
+      "purpose": "Frozen checkpoint handoff to new val/test inference scope",
+      "time_utc": "2026-10-17T03:22:03.489005+00:00",
+      "conclusion": "MATCH"
+    },
+    "/root/autodl-tmp/sturm_codex_20260919/results/decoder_fpn_seed_extension_20261015_v1/yolo26n_decoder/2030/formal/best.pt": {
+      "sha256": "4b300987ccd62164a040c8021a6d5016f064a0d0876b8f19141159067a80841e",
+      "size": 20092199,
+      "mtime_ns": 1792026076468210154,
+      "purpose": "Frozen checkpoint handoff to new val/test inference scope",
+      "time_utc": "2026-10-17T03:22:03.530865+00:00",
+      "conclusion": "MATCH"
+    },
+    "/root/autodl-tmp/sturm_codex_20260919/experiments/followup_server_20261008_v1/workspace/results/decoder_fpn_seed_extension_20261015_v1/fpn/seed2030/best.pt": {
+      "sha256": "6d86119621cbdfa852d43eb0d255eda1fdeceb6034054b79930749572c944b4d",
+      "size": 20208605,
+      "mtime_ns": 1792046643231075971,
+      "purpose": "Frozen checkpoint handoff to new val/test inference scope",
+      "time_utc": "2026-10-17T03:22:03.604398+00:00",
+      "conclusion": "MATCH"
+    }
+  },
+  "torch": "2.1.0+cu121",
+  "GPU": "NVIDIA GeForce RTX 4090 D",
+  "new_source_identity": "/root/autodl-tmp/sturm_codex_20260919/experiments/checkpoint_threshold_validation_20261016_v1/deployment_identity.json",
+  "data_identity": "Reuse unchanged historical data/split receipts; no raw-data hashing"
+}

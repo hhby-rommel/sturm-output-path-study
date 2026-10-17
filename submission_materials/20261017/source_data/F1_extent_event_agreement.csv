@@ -1,0 +1,5 @@
+﻿condition,system,f1_improved_events,among_f1_improved_extent_lower,among_f1_improved_extent_higher,among_f1_improved_extent_unchanged,lower_event_ids,higher_event_ids
+perturbed,decoder,8,5,3,0,"EMSR293,EMSR422,EMSR460,EMSR551,EMSR629","EMSR424,EMSR471,EMSR518"
+perturbed,fpn,10,7,3,0,"EMSR292,EMSR422,EMSR460,EMSR471,EMSR502,EMSR518,EMSR629","EMSR293,EMSR424,EMSR551"
+clean,decoder,6,3,3,0,"EMSR422,EMSR460,EMSR629","EMSR424,EMSR551,EMSR554"
+clean,fpn,10,4,6,0,"EMSR422,EMSR460,EMSR551,EMSR629","EMSR292,EMSR293,EMSR424,EMSR471,EMSR502,EMSR554"

@@ -52,3 +52,8 @@ python recompute_public_evidence_20261011.py
 This reads the saved JSON only; it does not load images or weights. See source_release_validation.json for exactly what was checked locally. Historical MIT permissions remain available at their earlier commit and are not retroactively withdrawn. No license statement promises full historical numerical reproduction on another platform.
 
 Metadata correction **v1.0.1-paper-release** supersedes v1.0-paper-release for current manifest and citation metadata. The previous source tag remains fixed. No experimental results, source computation, weights or test access changed.
+
+
+## Five-seed paper-submission evidence (v1.1.0)
+
+See [submission_materials/20261017](submission_materials/20261017/) for the 15-checkpoint identity registry, five-seed source tables, completed validation/threshold-transfer outputs and EMSR551 case-level FP/FN analysis. Historical release tags are preserved. This release adds saved evidence and scripts; it does not run experiments.

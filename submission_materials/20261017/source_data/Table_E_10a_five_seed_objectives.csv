@@ -1,0 +1,19 @@
+﻿Condition/System/Objective,test MARE %,test pooled F1,test event-macro F1
+clean/main_only/baseline,35.32±2.37,0.7525,0.5953
+clean/main_only/extent_selected,35.05±3.34,0.7446,0.5795
+clean/main_only/F1_selected,34.57±1.10,0.7490,0.5840
+clean/decoder/baseline,38.47±6.73,0.7636,0.5952
+clean/decoder/extent_selected,36.07±3.39,0.7600,0.5838
+clean/decoder/F1_selected,33.86±4.80,0.7714,0.5941
+clean/fpn/baseline,34.71±3.72,0.7665,0.6104
+clean/fpn/extent_selected,35.03±1.77,0.7542,0.5950
+clean/fpn/F1_selected,33.02±3.39,0.7638,0.6015
+perturbed/main_only/baseline,34.51±2.23,0.7592,0.5960
+perturbed/main_only/extent_selected,35.18±2.44,0.7475,0.5777
+perturbed/main_only/F1_selected,35.42±1.39,0.7493,0.5802
+perturbed/decoder/baseline,31.44±3.90,0.7801,0.6074
+perturbed/decoder/extent_selected,34.91±2.70,0.7570,0.5830
+perturbed/decoder/F1_selected,32.79±2.67,0.7679,0.5932
+perturbed/fpn/baseline,33.33±4.32,0.7706,0.6124
+perturbed/fpn/extent_selected,36.57±3.35,0.7392,0.5870
+perturbed/fpn/F1_selected,34.48±3.12,0.7508,0.5942

@@ -1,0 +1,7 @@
+﻿Condition,Region,Valid-domain share (%),Reference-water share (%)
+clean,Boundary,9.03,78.52
+clean,Off-boundary,81.82,11.52
+clean,Excluded neighbourhood,9.16,9.96
+perturbed,Boundary,9.02,78.21
+perturbed,Off-boundary,81.86,11.77
+perturbed,Excluded neighbourhood,9.12,10.02

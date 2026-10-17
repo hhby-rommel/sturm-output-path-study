@@ -1,0 +1,9 @@
+{
+  "human_authorized": true,
+  "source": "User20261016 checkpoint-only extension; local preparation now, server execution after GPU availability",
+  "split": "val",
+  "training": false,
+  "test_access": false,
+  "checkpoint_reselection": false,
+  "evaluation_seed": 12026
+}

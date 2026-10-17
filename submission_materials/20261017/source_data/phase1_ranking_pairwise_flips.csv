@@ -1,0 +1,361 @@
+﻿view,CPU_sensor,type,seed_pair_or_seed,criterion_pair_or_criterion,path_pair,flip,tie_involved
+degraded,S1,cross_metric,2026,pooled_F1 / event_macro_F1,main_only / decoder,1,0
+degraded,S1,cross_metric,2026,pooled_F1 / event_macro_F1,main_only / fpn,0,0
+degraded,S1,cross_metric,2026,pooled_F1 / event_macro_F1,decoder / fpn,0,0
+degraded,S1,cross_metric,2026,pooled_F1 / MARE_percent,main_only / decoder,1,0
+degraded,S1,cross_metric,2026,pooled_F1 / MARE_percent,main_only / fpn,1,0
+degraded,S1,cross_metric,2026,pooled_F1 / MARE_percent,decoder / fpn,1,0
+degraded,S1,cross_metric,2026,pooled_F1 / CPU_ms,main_only / decoder,0,0
+degraded,S1,cross_metric,2026,pooled_F1 / CPU_ms,main_only / fpn,1,0
+degraded,S1,cross_metric,2026,pooled_F1 / CPU_ms,decoder / fpn,1,0
+degraded,S1,cross_metric,2026,event_macro_F1 / MARE_percent,main_only / decoder,0,0
+degraded,S1,cross_metric,2026,event_macro_F1 / MARE_percent,main_only / fpn,1,0
+degraded,S1,cross_metric,2026,event_macro_F1 / MARE_percent,decoder / fpn,1,0
+degraded,S1,cross_metric,2026,event_macro_F1 / CPU_ms,main_only / decoder,1,0
+degraded,S1,cross_metric,2026,event_macro_F1 / CPU_ms,main_only / fpn,1,0
+degraded,S1,cross_metric,2026,event_macro_F1 / CPU_ms,decoder / fpn,1,0
+degraded,S1,cross_metric,2026,MARE_percent / CPU_ms,main_only / decoder,1,0
+degraded,S1,cross_metric,2026,MARE_percent / CPU_ms,main_only / fpn,0,0
+degraded,S1,cross_metric,2026,MARE_percent / CPU_ms,decoder / fpn,0,0
+degraded,S1,cross_metric,2027,pooled_F1 / event_macro_F1,main_only / decoder,0,0
+degraded,S1,cross_metric,2027,pooled_F1 / event_macro_F1,main_only / fpn,0,0
+degraded,S1,cross_metric,2027,pooled_F1 / event_macro_F1,decoder / fpn,1,0
+degraded,S1,cross_metric,2027,pooled_F1 / MARE_percent,main_only / decoder,1,0
+degraded,S1,cross_metric,2027,pooled_F1 / MARE_percent,main_only / fpn,0,0
+degraded,S1,cross_metric,2027,pooled_F1 / MARE_percent,decoder / fpn,1,0
+degraded,S1,cross_metric,2027,pooled_F1 / CPU_ms,main_only / decoder,1,0
+degraded,S1,cross_metric,2027,pooled_F1 / CPU_ms,main_only / fpn,1,0
+degraded,S1,cross_metric,2027,pooled_F1 / CPU_ms,decoder / fpn,0,0
+degraded,S1,cross_metric,2027,event_macro_F1 / MARE_percent,main_only / decoder,1,0
+degraded,S1,cross_metric,2027,event_macro_F1 / MARE_percent,main_only / fpn,0,0
+degraded,S1,cross_metric,2027,event_macro_F1 / MARE_percent,decoder / fpn,0,0
+degraded,S1,cross_metric,2027,event_macro_F1 / CPU_ms,main_only / decoder,1,0
+degraded,S1,cross_metric,2027,event_macro_F1 / CPU_ms,main_only / fpn,1,0
+degraded,S1,cross_metric,2027,event_macro_F1 / CPU_ms,decoder / fpn,1,0
+degraded,S1,cross_metric,2027,MARE_percent / CPU_ms,main_only / decoder,0,0
+degraded,S1,cross_metric,2027,MARE_percent / CPU_ms,main_only / fpn,1,0
+degraded,S1,cross_metric,2027,MARE_percent / CPU_ms,decoder / fpn,1,0
+degraded,S1,cross_metric,2028,pooled_F1 / event_macro_F1,main_only / decoder,0,0
+degraded,S1,cross_metric,2028,pooled_F1 / event_macro_F1,main_only / fpn,0,0
+degraded,S1,cross_metric,2028,pooled_F1 / event_macro_F1,decoder / fpn,1,0
+degraded,S1,cross_metric,2028,pooled_F1 / MARE_percent,main_only / decoder,0,0
+degraded,S1,cross_metric,2028,pooled_F1 / MARE_percent,main_only / fpn,1,0
+degraded,S1,cross_metric,2028,pooled_F1 / MARE_percent,decoder / fpn,0,0
+degraded,S1,cross_metric,2028,pooled_F1 / CPU_ms,main_only / decoder,1,0
+degraded,S1,cross_metric,2028,pooled_F1 / CPU_ms,main_only / fpn,1,0
+degraded,S1,cross_metric,2028,pooled_F1 / CPU_ms,decoder / fpn,0,0
+degraded,S1,cross_metric,2028,event_macro_F1 / MARE_percent,main_only / decoder,0,0
+degraded,S1,cross_metric,2028,event_macro_F1 / MARE_percent,main_only / fpn,1,0
+degraded,S1,cross_metric,2028,event_macro_F1 / MARE_percent,decoder / fpn,1,0
+degraded,S1,cross_metric,2028,event_macro_F1 / CPU_ms,main_only / decoder,1,0
+degraded,S1,cross_metric,2028,event_macro_F1 / CPU_ms,main_only / fpn,1,0
+degraded,S1,cross_metric,2028,event_macro_F1 / CPU_ms,decoder / fpn,1,0
+degraded,S1,cross_metric,2028,MARE_percent / CPU_ms,main_only / decoder,1,0
+degraded,S1,cross_metric,2028,MARE_percent / CPU_ms,main_only / fpn,0,0
+degraded,S1,cross_metric,2028,MARE_percent / CPU_ms,decoder / fpn,0,0
+degraded,S1,cross_seed,2026/2027,pooled_F1,main_only / decoder,1,0
+degraded,S1,cross_seed,2026/2027,pooled_F1,main_only / fpn,0,0
+degraded,S1,cross_seed,2026/2027,pooled_F1,decoder / fpn,1,0
+degraded,S1,cross_seed,2026/2027,event_macro_F1,main_only / decoder,0,0
+degraded,S1,cross_seed,2026/2027,event_macro_F1,main_only / fpn,0,0
+degraded,S1,cross_seed,2026/2027,event_macro_F1,decoder / fpn,0,0
+degraded,S1,cross_seed,2026/2027,MARE_percent,main_only / decoder,1,0
+degraded,S1,cross_seed,2026/2027,MARE_percent,main_only / fpn,1,0
+degraded,S1,cross_seed,2026/2027,MARE_percent,decoder / fpn,1,0
+degraded,S1,cross_seed,2026/2027,CPU_ms,main_only / decoder,0,0
+degraded,S1,cross_seed,2026/2027,CPU_ms,main_only / fpn,0,0
+degraded,S1,cross_seed,2026/2027,CPU_ms,decoder / fpn,0,0
+degraded,S1,cross_seed,2026/2028,pooled_F1,main_only / decoder,1,0
+degraded,S1,cross_seed,2026/2028,pooled_F1,main_only / fpn,0,0
+degraded,S1,cross_seed,2026/2028,pooled_F1,decoder / fpn,1,0
+degraded,S1,cross_seed,2026/2028,event_macro_F1,main_only / decoder,0,0
+degraded,S1,cross_seed,2026/2028,event_macro_F1,main_only / fpn,0,0
+degraded,S1,cross_seed,2026/2028,event_macro_F1,decoder / fpn,0,0
+degraded,S1,cross_seed,2026/2028,MARE_percent,main_only / decoder,0,0
+degraded,S1,cross_seed,2026/2028,MARE_percent,main_only / fpn,0,0
+degraded,S1,cross_seed,2026/2028,MARE_percent,decoder / fpn,0,0
+degraded,S1,cross_seed,2026/2028,CPU_ms,main_only / decoder,0,0
+degraded,S1,cross_seed,2026/2028,CPU_ms,main_only / fpn,0,0
+degraded,S1,cross_seed,2026/2028,CPU_ms,decoder / fpn,0,0
+degraded,S1,cross_seed,2027/2028,pooled_F1,main_only / decoder,0,0
+degraded,S1,cross_seed,2027/2028,pooled_F1,main_only / fpn,0,0
+degraded,S1,cross_seed,2027/2028,pooled_F1,decoder / fpn,0,0
+degraded,S1,cross_seed,2027/2028,event_macro_F1,main_only / decoder,0,0
+degraded,S1,cross_seed,2027/2028,event_macro_F1,main_only / fpn,0,0
+degraded,S1,cross_seed,2027/2028,event_macro_F1,decoder / fpn,0,0
+degraded,S1,cross_seed,2027/2028,MARE_percent,main_only / decoder,1,0
+degraded,S1,cross_seed,2027/2028,MARE_percent,main_only / fpn,1,0
+degraded,S1,cross_seed,2027/2028,MARE_percent,decoder / fpn,1,0
+degraded,S1,cross_seed,2027/2028,CPU_ms,main_only / decoder,0,0
+degraded,S1,cross_seed,2027/2028,CPU_ms,main_only / fpn,0,0
+degraded,S1,cross_seed,2027/2028,CPU_ms,decoder / fpn,0,0
+degraded,S2,cross_metric,2026,pooled_F1 / event_macro_F1,main_only / decoder,1,0
+degraded,S2,cross_metric,2026,pooled_F1 / event_macro_F1,main_only / fpn,0,0
+degraded,S2,cross_metric,2026,pooled_F1 / event_macro_F1,decoder / fpn,0,0
+degraded,S2,cross_metric,2026,pooled_F1 / MARE_percent,main_only / decoder,1,0
+degraded,S2,cross_metric,2026,pooled_F1 / MARE_percent,main_only / fpn,1,0
+degraded,S2,cross_metric,2026,pooled_F1 / MARE_percent,decoder / fpn,1,0
+degraded,S2,cross_metric,2026,pooled_F1 / CPU_ms,main_only / decoder,0,0
+degraded,S2,cross_metric,2026,pooled_F1 / CPU_ms,main_only / fpn,1,0
+degraded,S2,cross_metric,2026,pooled_F1 / CPU_ms,decoder / fpn,1,0
+degraded,S2,cross_metric,2026,event_macro_F1 / MARE_percent,main_only / decoder,0,0
+degraded,S2,cross_metric,2026,event_macro_F1 / MARE_percent,main_only / fpn,1,0
+degraded,S2,cross_metric,2026,event_macro_F1 / MARE_percent,decoder / fpn,1,0
+degraded,S2,cross_metric,2026,event_macro_F1 / CPU_ms,main_only / decoder,1,0
+degraded,S2,cross_metric,2026,event_macro_F1 / CPU_ms,main_only / fpn,1,0
+degraded,S2,cross_metric,2026,event_macro_F1 / CPU_ms,decoder / fpn,1,0
+degraded,S2,cross_metric,2026,MARE_percent / CPU_ms,main_only / decoder,1,0
+degraded,S2,cross_metric,2026,MARE_percent / CPU_ms,main_only / fpn,0,0
+degraded,S2,cross_metric,2026,MARE_percent / CPU_ms,decoder / fpn,0,0
+degraded,S2,cross_metric,2027,pooled_F1 / event_macro_F1,main_only / decoder,0,0
+degraded,S2,cross_metric,2027,pooled_F1 / event_macro_F1,main_only / fpn,0,0
+degraded,S2,cross_metric,2027,pooled_F1 / event_macro_F1,decoder / fpn,1,0
+degraded,S2,cross_metric,2027,pooled_F1 / MARE_percent,main_only / decoder,1,0
+degraded,S2,cross_metric,2027,pooled_F1 / MARE_percent,main_only / fpn,0,0
+degraded,S2,cross_metric,2027,pooled_F1 / MARE_percent,decoder / fpn,1,0
+degraded,S2,cross_metric,2027,pooled_F1 / CPU_ms,main_only / decoder,1,0
+degraded,S2,cross_metric,2027,pooled_F1 / CPU_ms,main_only / fpn,1,0
+degraded,S2,cross_metric,2027,pooled_F1 / CPU_ms,decoder / fpn,0,0
+degraded,S2,cross_metric,2027,event_macro_F1 / MARE_percent,main_only / decoder,1,0
+degraded,S2,cross_metric,2027,event_macro_F1 / MARE_percent,main_only / fpn,0,0
+degraded,S2,cross_metric,2027,event_macro_F1 / MARE_percent,decoder / fpn,0,0
+degraded,S2,cross_metric,2027,event_macro_F1 / CPU_ms,main_only / decoder,1,0
+degraded,S2,cross_metric,2027,event_macro_F1 / CPU_ms,main_only / fpn,1,0
+degraded,S2,cross_metric,2027,event_macro_F1 / CPU_ms,decoder / fpn,1,0
+degraded,S2,cross_metric,2027,MARE_percent / CPU_ms,main_only / decoder,0,0
+degraded,S2,cross_metric,2027,MARE_percent / CPU_ms,main_only / fpn,1,0
+degraded,S2,cross_metric,2027,MARE_percent / CPU_ms,decoder / fpn,1,0
+degraded,S2,cross_metric,2028,pooled_F1 / event_macro_F1,main_only / decoder,0,0
+degraded,S2,cross_metric,2028,pooled_F1 / event_macro_F1,main_only / fpn,0,0
+degraded,S2,cross_metric,2028,pooled_F1 / event_macro_F1,decoder / fpn,1,0
+degraded,S2,cross_metric,2028,pooled_F1 / MARE_percent,main_only / decoder,0,0
+degraded,S2,cross_metric,2028,pooled_F1 / MARE_percent,main_only / fpn,1,0
+degraded,S2,cross_metric,2028,pooled_F1 / MARE_percent,decoder / fpn,0,0
+degraded,S2,cross_metric,2028,pooled_F1 / CPU_ms,main_only / decoder,1,0
+degraded,S2,cross_metric,2028,pooled_F1 / CPU_ms,main_only / fpn,1,0
+degraded,S2,cross_metric,2028,pooled_F1 / CPU_ms,decoder / fpn,0,0
+degraded,S2,cross_metric,2028,event_macro_F1 / MARE_percent,main_only / decoder,0,0
+degraded,S2,cross_metric,2028,event_macro_F1 / MARE_percent,main_only / fpn,1,0
+degraded,S2,cross_metric,2028,event_macro_F1 / MARE_percent,decoder / fpn,1,0
+degraded,S2,cross_metric,2028,event_macro_F1 / CPU_ms,main_only / decoder,1,0
+degraded,S2,cross_metric,2028,event_macro_F1 / CPU_ms,main_only / fpn,1,0
+degraded,S2,cross_metric,2028,event_macro_F1 / CPU_ms,decoder / fpn,1,0
+degraded,S2,cross_metric,2028,MARE_percent / CPU_ms,main_only / decoder,1,0
+degraded,S2,cross_metric,2028,MARE_percent / CPU_ms,main_only / fpn,0,0
+degraded,S2,cross_metric,2028,MARE_percent / CPU_ms,decoder / fpn,0,0
+degraded,S2,cross_seed,2026/2027,pooled_F1,main_only / decoder,1,0
+degraded,S2,cross_seed,2026/2027,pooled_F1,main_only / fpn,0,0
+degraded,S2,cross_seed,2026/2027,pooled_F1,decoder / fpn,1,0
+degraded,S2,cross_seed,2026/2027,event_macro_F1,main_only / decoder,0,0
+degraded,S2,cross_seed,2026/2027,event_macro_F1,main_only / fpn,0,0
+degraded,S2,cross_seed,2026/2027,event_macro_F1,decoder / fpn,0,0
+degraded,S2,cross_seed,2026/2027,MARE_percent,main_only / decoder,1,0
+degraded,S2,cross_seed,2026/2027,MARE_percent,main_only / fpn,1,0
+degraded,S2,cross_seed,2026/2027,MARE_percent,decoder / fpn,1,0
+degraded,S2,cross_seed,2026/2027,CPU_ms,main_only / decoder,0,0
+degraded,S2,cross_seed,2026/2027,CPU_ms,main_only / fpn,0,0
+degraded,S2,cross_seed,2026/2027,CPU_ms,decoder / fpn,0,0
+degraded,S2,cross_seed,2026/2028,pooled_F1,main_only / decoder,1,0
+degraded,S2,cross_seed,2026/2028,pooled_F1,main_only / fpn,0,0
+degraded,S2,cross_seed,2026/2028,pooled_F1,decoder / fpn,1,0
+degraded,S2,cross_seed,2026/2028,event_macro_F1,main_only / decoder,0,0
+degraded,S2,cross_seed,2026/2028,event_macro_F1,main_only / fpn,0,0
+degraded,S2,cross_seed,2026/2028,event_macro_F1,decoder / fpn,0,0
+degraded,S2,cross_seed,2026/2028,MARE_percent,main_only / decoder,0,0
+degraded,S2,cross_seed,2026/2028,MARE_percent,main_only / fpn,0,0
+degraded,S2,cross_seed,2026/2028,MARE_percent,decoder / fpn,0,0
+degraded,S2,cross_seed,2026/2028,CPU_ms,main_only / decoder,0,0
+degraded,S2,cross_seed,2026/2028,CPU_ms,main_only / fpn,0,0
+degraded,S2,cross_seed,2026/2028,CPU_ms,decoder / fpn,0,0
+degraded,S2,cross_seed,2027/2028,pooled_F1,main_only / decoder,0,0
+degraded,S2,cross_seed,2027/2028,pooled_F1,main_only / fpn,0,0
+degraded,S2,cross_seed,2027/2028,pooled_F1,decoder / fpn,0,0
+degraded,S2,cross_seed,2027/2028,event_macro_F1,main_only / decoder,0,0
+degraded,S2,cross_seed,2027/2028,event_macro_F1,main_only / fpn,0,0
+degraded,S2,cross_seed,2027/2028,event_macro_F1,decoder / fpn,0,0
+degraded,S2,cross_seed,2027/2028,MARE_percent,main_only / decoder,1,0
+degraded,S2,cross_seed,2027/2028,MARE_percent,main_only / fpn,1,0
+degraded,S2,cross_seed,2027/2028,MARE_percent,decoder / fpn,1,0
+degraded,S2,cross_seed,2027/2028,CPU_ms,main_only / decoder,0,0
+degraded,S2,cross_seed,2027/2028,CPU_ms,main_only / fpn,0,0
+degraded,S2,cross_seed,2027/2028,CPU_ms,decoder / fpn,0,0
+clean,S1,cross_metric,2026,pooled_F1 / event_macro_F1,main_only / decoder,1,0
+clean,S1,cross_metric,2026,pooled_F1 / event_macro_F1,main_only / fpn,0,0
+clean,S1,cross_metric,2026,pooled_F1 / event_macro_F1,decoder / fpn,0,0
+clean,S1,cross_metric,2026,pooled_F1 / MARE_percent,main_only / decoder,1,0
+clean,S1,cross_metric,2026,pooled_F1 / MARE_percent,main_only / fpn,1,0
+clean,S1,cross_metric,2026,pooled_F1 / MARE_percent,decoder / fpn,0,0
+clean,S1,cross_metric,2026,pooled_F1 / CPU_ms,main_only / decoder,1,0
+clean,S1,cross_metric,2026,pooled_F1 / CPU_ms,main_only / fpn,1,0
+clean,S1,cross_metric,2026,pooled_F1 / CPU_ms,decoder / fpn,1,0
+clean,S1,cross_metric,2026,event_macro_F1 / MARE_percent,main_only / decoder,0,0
+clean,S1,cross_metric,2026,event_macro_F1 / MARE_percent,main_only / fpn,1,0
+clean,S1,cross_metric,2026,event_macro_F1 / MARE_percent,decoder / fpn,0,0
+clean,S1,cross_metric,2026,event_macro_F1 / CPU_ms,main_only / decoder,0,0
+clean,S1,cross_metric,2026,event_macro_F1 / CPU_ms,main_only / fpn,1,0
+clean,S1,cross_metric,2026,event_macro_F1 / CPU_ms,decoder / fpn,1,0
+clean,S1,cross_metric,2026,MARE_percent / CPU_ms,main_only / decoder,0,0
+clean,S1,cross_metric,2026,MARE_percent / CPU_ms,main_only / fpn,0,0
+clean,S1,cross_metric,2026,MARE_percent / CPU_ms,decoder / fpn,1,0
+clean,S1,cross_metric,2027,pooled_F1 / event_macro_F1,main_only / decoder,0,0
+clean,S1,cross_metric,2027,pooled_F1 / event_macro_F1,main_only / fpn,0,0
+clean,S1,cross_metric,2027,pooled_F1 / event_macro_F1,decoder / fpn,0,0
+clean,S1,cross_metric,2027,pooled_F1 / MARE_percent,main_only / decoder,0,0
+clean,S1,cross_metric,2027,pooled_F1 / MARE_percent,main_only / fpn,0,0
+clean,S1,cross_metric,2027,pooled_F1 / MARE_percent,decoder / fpn,0,0
+clean,S1,cross_metric,2027,pooled_F1 / CPU_ms,main_only / decoder,0,0
+clean,S1,cross_metric,2027,pooled_F1 / CPU_ms,main_only / fpn,1,0
+clean,S1,cross_metric,2027,pooled_F1 / CPU_ms,decoder / fpn,1,0
+clean,S1,cross_metric,2027,event_macro_F1 / MARE_percent,main_only / decoder,0,0
+clean,S1,cross_metric,2027,event_macro_F1 / MARE_percent,main_only / fpn,0,0
+clean,S1,cross_metric,2027,event_macro_F1 / MARE_percent,decoder / fpn,0,0
+clean,S1,cross_metric,2027,event_macro_F1 / CPU_ms,main_only / decoder,0,0
+clean,S1,cross_metric,2027,event_macro_F1 / CPU_ms,main_only / fpn,1,0
+clean,S1,cross_metric,2027,event_macro_F1 / CPU_ms,decoder / fpn,1,0
+clean,S1,cross_metric,2027,MARE_percent / CPU_ms,main_only / decoder,0,0
+clean,S1,cross_metric,2027,MARE_percent / CPU_ms,main_only / fpn,1,0
+clean,S1,cross_metric,2027,MARE_percent / CPU_ms,decoder / fpn,1,0
+clean,S1,cross_metric,2028,pooled_F1 / event_macro_F1,main_only / decoder,0,0
+clean,S1,cross_metric,2028,pooled_F1 / event_macro_F1,main_only / fpn,0,0
+clean,S1,cross_metric,2028,pooled_F1 / event_macro_F1,decoder / fpn,0,0
+clean,S1,cross_metric,2028,pooled_F1 / MARE_percent,main_only / decoder,0,0
+clean,S1,cross_metric,2028,pooled_F1 / MARE_percent,main_only / fpn,1,0
+clean,S1,cross_metric,2028,pooled_F1 / MARE_percent,decoder / fpn,0,0
+clean,S1,cross_metric,2028,pooled_F1 / CPU_ms,main_only / decoder,1,0
+clean,S1,cross_metric,2028,pooled_F1 / CPU_ms,main_only / fpn,1,0
+clean,S1,cross_metric,2028,pooled_F1 / CPU_ms,decoder / fpn,0,0
+clean,S1,cross_metric,2028,event_macro_F1 / MARE_percent,main_only / decoder,0,0
+clean,S1,cross_metric,2028,event_macro_F1 / MARE_percent,main_only / fpn,1,0
+clean,S1,cross_metric,2028,event_macro_F1 / MARE_percent,decoder / fpn,0,0
+clean,S1,cross_metric,2028,event_macro_F1 / CPU_ms,main_only / decoder,1,0
+clean,S1,cross_metric,2028,event_macro_F1 / CPU_ms,main_only / fpn,1,0
+clean,S1,cross_metric,2028,event_macro_F1 / CPU_ms,decoder / fpn,0,0
+clean,S1,cross_metric,2028,MARE_percent / CPU_ms,main_only / decoder,1,0
+clean,S1,cross_metric,2028,MARE_percent / CPU_ms,main_only / fpn,0,0
+clean,S1,cross_metric,2028,MARE_percent / CPU_ms,decoder / fpn,0,0
+clean,S1,cross_seed,2026/2027,pooled_F1,main_only / decoder,1,0
+clean,S1,cross_seed,2026/2027,pooled_F1,main_only / fpn,0,0
+clean,S1,cross_seed,2026/2027,pooled_F1,decoder / fpn,0,0
+clean,S1,cross_seed,2026/2027,event_macro_F1,main_only / decoder,0,0
+clean,S1,cross_seed,2026/2027,event_macro_F1,main_only / fpn,0,0
+clean,S1,cross_seed,2026/2027,event_macro_F1,decoder / fpn,0,0
+clean,S1,cross_seed,2026/2027,MARE_percent,main_only / decoder,0,0
+clean,S1,cross_seed,2026/2027,MARE_percent,main_only / fpn,1,0
+clean,S1,cross_seed,2026/2027,MARE_percent,decoder / fpn,0,0
+clean,S1,cross_seed,2026/2027,CPU_ms,main_only / decoder,0,0
+clean,S1,cross_seed,2026/2027,CPU_ms,main_only / fpn,0,0
+clean,S1,cross_seed,2026/2027,CPU_ms,decoder / fpn,0,0
+clean,S1,cross_seed,2026/2028,pooled_F1,main_only / decoder,0,0
+clean,S1,cross_seed,2026/2028,pooled_F1,main_only / fpn,0,0
+clean,S1,cross_seed,2026/2028,pooled_F1,decoder / fpn,1,0
+clean,S1,cross_seed,2026/2028,event_macro_F1,main_only / decoder,1,0
+clean,S1,cross_seed,2026/2028,event_macro_F1,main_only / fpn,0,0
+clean,S1,cross_seed,2026/2028,event_macro_F1,decoder / fpn,1,0
+clean,S1,cross_seed,2026/2028,MARE_percent,main_only / decoder,1,0
+clean,S1,cross_seed,2026/2028,MARE_percent,main_only / fpn,0,0
+clean,S1,cross_seed,2026/2028,MARE_percent,decoder / fpn,1,0
+clean,S1,cross_seed,2026/2028,CPU_ms,main_only / decoder,0,0
+clean,S1,cross_seed,2026/2028,CPU_ms,main_only / fpn,0,0
+clean,S1,cross_seed,2026/2028,CPU_ms,decoder / fpn,0,0
+clean,S1,cross_seed,2027/2028,pooled_F1,main_only / decoder,1,0
+clean,S1,cross_seed,2027/2028,pooled_F1,main_only / fpn,0,0
+clean,S1,cross_seed,2027/2028,pooled_F1,decoder / fpn,1,0
+clean,S1,cross_seed,2027/2028,event_macro_F1,main_only / decoder,1,0
+clean,S1,cross_seed,2027/2028,event_macro_F1,main_only / fpn,0,0
+clean,S1,cross_seed,2027/2028,event_macro_F1,decoder / fpn,1,0
+clean,S1,cross_seed,2027/2028,MARE_percent,main_only / decoder,1,0
+clean,S1,cross_seed,2027/2028,MARE_percent,main_only / fpn,1,0
+clean,S1,cross_seed,2027/2028,MARE_percent,decoder / fpn,1,0
+clean,S1,cross_seed,2027/2028,CPU_ms,main_only / decoder,0,0
+clean,S1,cross_seed,2027/2028,CPU_ms,main_only / fpn,0,0
+clean,S1,cross_seed,2027/2028,CPU_ms,decoder / fpn,0,0
+clean,S2,cross_metric,2026,pooled_F1 / event_macro_F1,main_only / decoder,1,0
+clean,S2,cross_metric,2026,pooled_F1 / event_macro_F1,main_only / fpn,0,0
+clean,S2,cross_metric,2026,pooled_F1 / event_macro_F1,decoder / fpn,0,0
+clean,S2,cross_metric,2026,pooled_F1 / MARE_percent,main_only / decoder,1,0
+clean,S2,cross_metric,2026,pooled_F1 / MARE_percent,main_only / fpn,1,0
+clean,S2,cross_metric,2026,pooled_F1 / MARE_percent,decoder / fpn,0,0
+clean,S2,cross_metric,2026,pooled_F1 / CPU_ms,main_only / decoder,1,0
+clean,S2,cross_metric,2026,pooled_F1 / CPU_ms,main_only / fpn,1,0
+clean,S2,cross_metric,2026,pooled_F1 / CPU_ms,decoder / fpn,1,0
+clean,S2,cross_metric,2026,event_macro_F1 / MARE_percent,main_only / decoder,0,0
+clean,S2,cross_metric,2026,event_macro_F1 / MARE_percent,main_only / fpn,1,0
+clean,S2,cross_metric,2026,event_macro_F1 / MARE_percent,decoder / fpn,0,0
+clean,S2,cross_metric,2026,event_macro_F1 / CPU_ms,main_only / decoder,0,0
+clean,S2,cross_metric,2026,event_macro_F1 / CPU_ms,main_only / fpn,1,0
+clean,S2,cross_metric,2026,event_macro_F1 / CPU_ms,decoder / fpn,1,0
+clean,S2,cross_metric,2026,MARE_percent / CPU_ms,main_only / decoder,0,0
+clean,S2,cross_metric,2026,MARE_percent / CPU_ms,main_only / fpn,0,0
+clean,S2,cross_metric,2026,MARE_percent / CPU_ms,decoder / fpn,1,0
+clean,S2,cross_metric,2027,pooled_F1 / event_macro_F1,main_only / decoder,0,0
+clean,S2,cross_metric,2027,pooled_F1 / event_macro_F1,main_only / fpn,0,0
+clean,S2,cross_metric,2027,pooled_F1 / event_macro_F1,decoder / fpn,0,0
+clean,S2,cross_metric,2027,pooled_F1 / MARE_percent,main_only / decoder,0,0
+clean,S2,cross_metric,2027,pooled_F1 / MARE_percent,main_only / fpn,0,0
+clean,S2,cross_metric,2027,pooled_F1 / MARE_percent,decoder / fpn,0,0
+clean,S2,cross_metric,2027,pooled_F1 / CPU_ms,main_only / decoder,0,0
+clean,S2,cross_metric,2027,pooled_F1 / CPU_ms,main_only / fpn,1,0
+clean,S2,cross_metric,2027,pooled_F1 / CPU_ms,decoder / fpn,1,0
+clean,S2,cross_metric,2027,event_macro_F1 / MARE_percent,main_only / decoder,0,0
+clean,S2,cross_metric,2027,event_macro_F1 / MARE_percent,main_only / fpn,0,0
+clean,S2,cross_metric,2027,event_macro_F1 / MARE_percent,decoder / fpn,0,0
+clean,S2,cross_metric,2027,event_macro_F1 / CPU_ms,main_only / decoder,0,0
+clean,S2,cross_metric,2027,event_macro_F1 / CPU_ms,main_only / fpn,1,0
+clean,S2,cross_metric,2027,event_macro_F1 / CPU_ms,decoder / fpn,1,0
+clean,S2,cross_metric,2027,MARE_percent / CPU_ms,main_only / decoder,0,0
+clean,S2,cross_metric,2027,MARE_percent / CPU_ms,main_only / fpn,1,0
+clean,S2,cross_metric,2027,MARE_percent / CPU_ms,decoder / fpn,1,0
+clean,S2,cross_metric,2028,pooled_F1 / event_macro_F1,main_only / decoder,0,0
+clean,S2,cross_metric,2028,pooled_F1 / event_macro_F1,main_only / fpn,0,0
+clean,S2,cross_metric,2028,pooled_F1 / event_macro_F1,decoder / fpn,0,0
+clean,S2,cross_metric,2028,pooled_F1 / MARE_percent,main_only / decoder,0,0
+clean,S2,cross_metric,2028,pooled_F1 / MARE_percent,main_only / fpn,1,0
+clean,S2,cross_metric,2028,pooled_F1 / MARE_percent,decoder / fpn,0,0
+clean,S2,cross_metric,2028,pooled_F1 / CPU_ms,main_only / decoder,1,0
+clean,S2,cross_metric,2028,pooled_F1 / CPU_ms,main_only / fpn,1,0
+clean,S2,cross_metric,2028,pooled_F1 / CPU_ms,decoder / fpn,0,0
+clean,S2,cross_metric,2028,event_macro_F1 / MARE_percent,main_only / decoder,0,0
+clean,S2,cross_metric,2028,event_macro_F1 / MARE_percent,main_only / fpn,1,0
+clean,S2,cross_metric,2028,event_macro_F1 / MARE_percent,decoder / fpn,0,0
+clean,S2,cross_metric,2028,event_macro_F1 / CPU_ms,main_only / decoder,1,0
+clean,S2,cross_metric,2028,event_macro_F1 / CPU_ms,main_only / fpn,1,0
+clean,S2,cross_metric,2028,event_macro_F1 / CPU_ms,decoder / fpn,0,0
+clean,S2,cross_metric,2028,MARE_percent / CPU_ms,main_only / decoder,1,0
+clean,S2,cross_metric,2028,MARE_percent / CPU_ms,main_only / fpn,0,0
+clean,S2,cross_metric,2028,MARE_percent / CPU_ms,decoder / fpn,0,0
+clean,S2,cross_seed,2026/2027,pooled_F1,main_only / decoder,1,0
+clean,S2,cross_seed,2026/2027,pooled_F1,main_only / fpn,0,0
+clean,S2,cross_seed,2026/2027,pooled_F1,decoder / fpn,0,0
+clean,S2,cross_seed,2026/2027,event_macro_F1,main_only / decoder,0,0
+clean,S2,cross_seed,2026/2027,event_macro_F1,main_only / fpn,0,0
+clean,S2,cross_seed,2026/2027,event_macro_F1,decoder / fpn,0,0
+clean,S2,cross_seed,2026/2027,MARE_percent,main_only / decoder,0,0
+clean,S2,cross_seed,2026/2027,MARE_percent,main_only / fpn,1,0
+clean,S2,cross_seed,2026/2027,MARE_percent,decoder / fpn,0,0
+clean,S2,cross_seed,2026/2027,CPU_ms,main_only / decoder,0,0
+clean,S2,cross_seed,2026/2027,CPU_ms,main_only / fpn,0,0
+clean,S2,cross_seed,2026/2027,CPU_ms,decoder / fpn,0,0
+clean,S2,cross_seed,2026/2028,pooled_F1,main_only / decoder,0,0
+clean,S2,cross_seed,2026/2028,pooled_F1,main_only / fpn,0,0
+clean,S2,cross_seed,2026/2028,pooled_F1,decoder / fpn,1,0
+clean,S2,cross_seed,2026/2028,event_macro_F1,main_only / decoder,1,0
+clean,S2,cross_seed,2026/2028,event_macro_F1,main_only / fpn,0,0
+clean,S2,cross_seed,2026/2028,event_macro_F1,decoder / fpn,1,0
+clean,S2,cross_seed,2026/2028,MARE_percent,main_only / decoder,1,0
+clean,S2,cross_seed,2026/2028,MARE_percent,main_only / fpn,0,0
+clean,S2,cross_seed,2026/2028,MARE_percent,decoder / fpn,1,0
+clean,S2,cross_seed,2026/2028,CPU_ms,main_only / decoder,0,0
+clean,S2,cross_seed,2026/2028,CPU_ms,main_only / fpn,0,0
+clean,S2,cross_seed,2026/2028,CPU_ms,decoder / fpn,0,0
+clean,S2,cross_seed,2027/2028,pooled_F1,main_only / decoder,1,0
+clean,S2,cross_seed,2027/2028,pooled_F1,main_only / fpn,0,0
+clean,S2,cross_seed,2027/2028,pooled_F1,decoder / fpn,1,0
+clean,S2,cross_seed,2027/2028,event_macro_F1,main_only / decoder,1,0
+clean,S2,cross_seed,2027/2028,event_macro_F1,main_only / fpn,0,0
+clean,S2,cross_seed,2027/2028,event_macro_F1,decoder / fpn,1,0
+clean,S2,cross_seed,2027/2028,MARE_percent,main_only / decoder,1,0
+clean,S2,cross_seed,2027/2028,MARE_percent,main_only / fpn,1,0
+clean,S2,cross_seed,2027/2028,MARE_percent,decoder / fpn,1,0
+clean,S2,cross_seed,2027/2028,CPU_ms,main_only / decoder,0,0
+clean,S2,cross_seed,2027/2028,CPU_ms,main_only / fpn,0,0
+clean,S2,cross_seed,2027/2028,CPU_ms,decoder / fpn,0,0

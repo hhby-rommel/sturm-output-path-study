@@ -1,0 +1,17 @@
+﻿view,CPU_sensor,criterion,ordering,best_value
+degraded,S1,pooled_F1,decoder > fpn > main_only,0.7799708677966816
+degraded,S1,event_macro_F1,fpn > decoder > main_only,0.6159625495065323
+degraded,S1,MARE_percent,main_only > decoder > fpn,33.21186929037509
+degraded,S1,CPU_ms,main_only > decoder > fpn,9.836093674103418
+degraded,S2,pooled_F1,decoder > fpn > main_only,0.7799708677966816
+degraded,S2,event_macro_F1,fpn > decoder > main_only,0.6159625495065323
+degraded,S2,MARE_percent,main_only > decoder > fpn,33.21186929037509
+degraded,S2,CPU_ms,main_only > decoder > fpn,10.230174620946249
+clean,S1,pooled_F1,fpn > decoder > main_only,0.7757255184076118
+clean,S1,event_macro_F1,fpn > main_only > decoder,0.6138527971763176
+clean,S1,MARE_percent,main_only > fpn > decoder,34.13822562198701
+clean,S1,CPU_ms,main_only > decoder > fpn,9.836093674103418
+clean,S2,pooled_F1,fpn > decoder > main_only,0.7757255184076118
+clean,S2,event_macro_F1,fpn > main_only > decoder,0.6138527971763176
+clean,S2,MARE_percent,main_only > fpn > decoder,34.13822562198701
+clean,S2,CPU_ms,main_only > decoder > fpn,10.230174620946249

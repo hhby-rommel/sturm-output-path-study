@@ -1,0 +1,10 @@
+{
+  "status": "SAVED_COUNT_MERGE_COMPLETE",
+  "models": 15,
+  "training": false,
+  "inference": false,
+  "new_test_access": false,
+  "evaluation_seed": 12026,
+  "aggregation": "sum sensor counts within event; paired seed mean within event; event equal",
+  "new_source": "results\\checkpoint_threshold_validation_20261016_v1"
+}

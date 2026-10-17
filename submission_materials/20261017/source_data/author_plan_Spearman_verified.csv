@@ -1,0 +1,7 @@
+﻿analysis,condition,excluded,n,rho
+native absolute bias vs reference foreground,perturbed,none,12,-0.4405594405594406
+native absolute bias vs reference foreground,perturbed,EMSR422,11,-0.6636363636363637
+decoder delta F1 vs delta absolute extent error,perturbed,none,12,-0.42657342657342656
+decoder delta F1 vs delta absolute extent error,perturbed,EMSR551,11,-0.2545454545454545
+fpn delta F1 vs delta absolute extent error,perturbed,none,12,-0.23776223776223776
+fpn delta F1 vs delta absolute extent error,perturbed,EMSR551,11,-0.35454545454545455

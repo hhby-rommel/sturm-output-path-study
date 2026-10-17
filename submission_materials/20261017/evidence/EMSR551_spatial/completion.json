@@ -1,0 +1,13 @@
+{
+  "status": "EMSR551_SPATIAL_COMPLETE",
+  "models": 15,
+  "conditions": 2,
+  "target_tiles": 9,
+  "target_tile_forwards": 270,
+  "context_preserving_tile_forwards": 960,
+  "baseline_counts_equal": true,
+  "training": false,
+  "checkpoint_reselection": false,
+  "other_event_analysis": false,
+  "elapsed_seconds": 6.351509094238281
+}

@@ -1,0 +1,30 @@
+{
+  "status": "CLAIMED_ONCE",
+  "attempt": 1,
+  "models": [
+    "decoder_2029",
+    "decoder_2030",
+    "fpn_2029",
+    "fpn_2030",
+    "main_only_2029",
+    "main_only_2030"
+  ],
+  "selection_sha256": "262422542a7d0f4adcb44afbe2e8077190e44862bd84960164562c6a51bc3037",
+  "validation_completion": {
+    "status": "COMPLETE",
+    "elapsed_seconds": 107.48341202735901,
+    "input_stream_sha256": "75adf804be99a3694e30c5ebb9c09c5514ac2d94fde7a824555a370e3e98fce6",
+    "models": 6,
+    "tiles": 4853,
+    "split": "val",
+    "old_spatial_counts_equal": null,
+    "threshold_count": 19,
+    "frozen_threshold_units": 24,
+    "baseline_val_event_counts_equal": true,
+    "training": false,
+    "test_access": false,
+    "checkpoint_reselection": false
+  },
+  "scope": "One new test traversal at frozen selected thresholds only",
+  "time_unix": 1792207435.7473795
+}

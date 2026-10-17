@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "relative_path": "controller.py",
+      "sha256": "5f568f0db29150dc2b4a5a4729a4ba3dec993df4c5c0d73dea70958ebff2d8b9",
+      "purpose": "New val-test inference source deployment freeze",
+      "time_utc": "2026-10-16T04:28:17.724569+00:00",
+      "conclusion": "Frozen locally; server admission remains pending"
+    },
+    {
+      "relative_path": "frozen_assets.json",
+      "sha256": "4c7afcd2e66f44543c99f77177ee3dee41f25947df46e8113fe56cbfcbcce77e",
+      "purpose": "New val-test inference source deployment freeze",
+      "time_utc": "2026-10-16T04:28:17.736478+00:00",
+      "conclusion": "Frozen locally; server admission remains pending"
+    },
+    {
+      "relative_path": "protocol.json",
+      "sha256": "66e73245612b676788ab74d09a79c8da9b1299b95226212612a3869e1e09fe5b",
+      "purpose": "New val-test inference source deployment freeze",
+      "time_utc": "2026-10-16T04:28:17.749652+00:00",
+      "conclusion": "Frozen locally; server admission remains pending"
+    },
+    {
+      "relative_path": "test_frozen_thresholds.py",
+      "sha256": "98d7dfa5dcb7033a69fc7a513382cbca4d43a29573b9334b3499f22af0afad73",
+      "purpose": "New val-test inference source deployment freeze",
+      "time_utc": "2026-10-16T04:28:17.750024+00:00",
+      "conclusion": "Frozen locally; server admission remains pending"
+    },
+    {
+      "relative_path": "validation.py",
+      "sha256": "ff94148cad6346edf3011889034bb601ff1cdfa680fd679eb0e3679958913bd9",
+      "purpose": "New val-test inference source deployment freeze",
+      "time_utc": "2026-10-16T04:28:17.750308+00:00",
+      "conclusion": "Frozen locally; server admission remains pending"
+    }
+  ]
+}

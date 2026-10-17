@@ -1,0 +1,7 @@
+﻿Condition,Comparison,Median extent change,ΔF1 ≥ 0.5 pp
+clean,Decoder-Native,+3.67,6/12
+clean,FPN-Native,+1.41,8/12
+clean,FPN-Decoder,-1.43,6/12
+perturbed,Decoder-Native,-0.15,5/12
+perturbed,FPN-Native,-2.28,8/12
+perturbed,FPN-Decoder,+0.13,7/12

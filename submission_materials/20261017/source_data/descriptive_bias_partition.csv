@@ -1,0 +1,3 @@
+﻿condition,definition,event_pct,path_pct,interaction_pct
+clean,Descriptive SS partition of 12event x3path matrix after averaging five signed seed biases within each cell,96.73282698171853,0.4403436406504441,2.8268293776310034
+perturbed,Descriptive SS partition of 12event x3path matrix after averaging five signed seed biases within each cell,93.77193567443247,0.6915434257260052,5.536520899841516

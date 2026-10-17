@@ -1,0 +1,9 @@
+{
+  "human_authorized": true,
+  "source": "User 2026-10-11: server opened, perform quick supplemental experiments; this job val only",
+  "split": "val",
+  "training": false,
+  "test_access": false,
+  "checkpoint_reselection": false,
+  "evaluation_seed": 12026
+}

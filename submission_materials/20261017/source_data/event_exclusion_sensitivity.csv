@@ -1,0 +1,13 @@
+﻿comparison,condition,subset,n_events,f1_delta_mean_pp,extent_error_delta_mean_pp
+decoder-main_only,clean,remove_EMSR629,11,-0.17482775619738014,3.540067030419469
+decoder-main_only,clean,remove_three_extremes,9,0.26693021373373127,3.8423724982390337
+fpn-main_only,clean,remove_EMSR629,11,1.4835501916365226,-0.49064250601360465
+fpn-main_only,clean,remove_three_extremes,9,2.114394166117711,-1.156179153031513
+fpn-decoder,clean,remove_EMSR629,11,1.6583779478339031,-4.030709536433074
+fpn-decoder,clean,remove_three_extremes,9,1.8474639523839802,-4.998551651270548
+decoder-main_only,perturbed,remove_EMSR629,11,0.8817428194200407,-2.773659834906925
+decoder-main_only,perturbed,remove_three_extremes,9,1.431084838831855,-3.5225109089247195
+fpn-main_only,perturbed,remove_EMSR629,11,1.6394472235822126,-1.0483272590596613
+fpn-main_only,perturbed,remove_three_extremes,9,1.9115335445057633,-0.9244159941861269
+fpn-decoder,perturbed,remove_EMSR629,11,0.7577044041621721,1.725332575847264
+fpn-decoder,perturbed,remove_three_extremes,9,0.48044870567390835,2.598094914738593

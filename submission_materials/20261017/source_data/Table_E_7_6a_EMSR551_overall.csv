@@ -1,0 +1,7 @@
+﻿Condition / path,FP,FN,FP−FN,Abs. extent error (%)
+clean / Native,3080.4,7673.4,-4593.0,56.63
+clean / Decoder,2778.4,7388.0,-4609.6,56.84
+clean / FPN,5840.6,6679.8,-839.2,33.22
+perturbed / Native,2861.6,6711.6,-3850.0,54.26
+perturbed / Decoder,5009.6,6016.4,-1006.8,28.57
+perturbed / FPN,7307.2,5675.0,1632.2,55.03

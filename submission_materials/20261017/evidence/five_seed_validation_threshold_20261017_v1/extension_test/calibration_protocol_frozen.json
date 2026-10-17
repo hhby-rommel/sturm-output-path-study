@@ -1,0 +1,10 @@
+{
+  "selection_sha256": "262422542a7d0f4adcb44afbe2e8077190e44862bd84960164562c6a51bc3037",
+  "thresholds_source": "/root/autodl-tmp/sturm_codex_20260919/results/checkpoint_threshold_validation_20261016_v1/val/selected_thresholds_frozen.json",
+  "test_passes": 1,
+  "selection_on_test": false,
+  "test_grid_search": false,
+  "test_best_threshold": false,
+  "threshold_rule": "margin > log(tau/(1-tau)); ties background",
+  "training": false
+}

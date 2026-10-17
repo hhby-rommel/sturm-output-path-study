@@ -1,0 +1,7 @@
+﻿condition,criterion,order,values
+clean,pooled_f1,fpn > decoder > main_only,"{""main_only"": 0.752475402267689, ""decoder"": 0.763619393020717, ""fpn"": 0.766548928320062}"
+clean,event_macro_f1,fpn > main_only > decoder,"{""main_only"": 0.5953039534765197, ""decoder"": 0.5952270838265982, ""fpn"": 0.6103555455725546}"
+clean,extent_error_pct,fpn > main_only > decoder,"{""main_only"": 35.32167942413759, ""decoder"": 38.46644119054402, ""fpn"": 34.708850687489715}"
+perturbed,pooled_f1,decoder > fpn > main_only,"{""main_only"": 0.7592180153939495, ""decoder"": 0.7801058621551413, ""fpn"": 0.7705966508010085}"
+perturbed,event_macro_f1,fpn > decoder > main_only,"{""main_only"": 0.596043391829412, ""decoder"": 0.6073722475997132, ""fpn"": 0.61237103377436}"
+perturbed,extent_error_pct,decoder > fpn > main_only,"{""main_only"": 34.511804512812326, ""decoder"": 31.442177236388602, ""fpn"": 33.32608438333765}"

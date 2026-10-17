@@ -1,0 +1,7 @@
+﻿Condition/Path,Validation MARE: baseline → selected,Test MARE: baseline → selected,Test paired change (pp),Improved seeds
+clean/main_only,46.03 → 27.87,35.32 → 35.05,-0.27 ± 5.15,3/5
+clean/decoder,48.98 → 30.93,38.47 → 36.07,-2.40 ± 4.25,3/5
+clean/fpn,48.04 → 36.76,34.71 → 35.03,+0.32 ± 4.46,3/5
+perturbed/main_only,45.64 → 27.83,34.51 → 35.18,+0.67 ± 3.67,3/5
+perturbed/decoder,45.86 → 31.11,31.44 → 34.91,+3.47 ± 2.27,0/5
+perturbed/fpn,47.52 → 34.42,33.33 → 36.57,+3.24 ± 7.04,2/5

@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETE",
+  "elapsed_seconds": 132.36477327346802,
+  "input_stream_sha256": "75adf804be99a3694e30c5ebb9c09c5514ac2d94fde7a824555a370e3e98fce6",
+  "models": 9,
+  "tiles": 4853,
+  "split": "val",
+  "old_spatial_counts_equal": true,
+  "threshold_count": 19,
+  "frozen_threshold_units": 36,
+  "baseline_val_event_counts_equal": true,
+  "training": false,
+  "test_access": false,
+  "checkpoint_reselection": false
+}

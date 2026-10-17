@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETE",
+  "elapsed_seconds": 115.7287974357605,
+  "input_stream_sha256": "e1ee0e8dfd44a1e7ca47dbbefc00decdb30712fe34456a7df0bccc01c396f1ec",
+  "models": 6,
+  "tiles": 4863,
+  "split": "test",
+  "baseline_fixed_test_counts_equal": true,
+  "selection_sha256": "262422542a7d0f4adcb44afbe2e8077190e44862bd84960164562c6a51bc3037",
+  "training": false,
+  "test_access": true,
+  "checkpoint_reselection": false
+}

@@ -1,0 +1,16 @@
+{
+  "global_evaluation_seed": 12026,
+  "identifier": "sensor/event_id/tile_id/image_path",
+  "sample_seed_rule": "little-endian first8 SHA256 bytes of 12026|identifier|stream, modulo 2**63-1",
+  "streams": [
+    "severity",
+    "gaussian",
+    "deletion"
+  ],
+  "RNG": "torch CPU Generator; float32",
+  "batch": 16,
+  "order": "sensor,event_id,tile_id,image_path",
+  "degradation_coefficients_unchanged": true,
+  "shared_transformed_tensors": true,
+  "loss_not_recomputed": true
+}

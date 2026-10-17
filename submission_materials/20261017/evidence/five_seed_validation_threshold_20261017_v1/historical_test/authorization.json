@@ -1,0 +1,9 @@
+{
+  "human_authorized": true,
+  "source": "User20261011: perform remaining calibration and quick experiments; fixed val thresholds only; once test traversal",
+  "split": "test",
+  "training": false,
+  "test_access": true,
+  "checkpoint_reselection": false,
+  "evaluation_seed": 12026
+}

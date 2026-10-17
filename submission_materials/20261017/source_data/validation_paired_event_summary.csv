@@ -1,0 +1,7 @@
+﻿condition,comparison,seeds,events,event_equal_delta_F1_pp,event_median_delta_F1_pp,positive_events,negative_events,zero_events,at_least_0_5pp_events
+clean,decoder-main_only,5,12,-1.164044318308557,-1.7684935203659982,3,9,0,2
+clean,fpn-main_only,5,12,0.34497678001777,0.2091210299446522,7,5,0,4
+clean,fpn-decoder,5,12,1.5090210983263268,2.3564865546838067,9,3,0,9
+perturbed,decoder-main_only,5,12,-0.05280217619347669,0.0683832609611304,6,6,0,3
+perturbed,fpn-main_only,5,12,0.533942494166016,0.1647099868910551,8,4,0,5
+perturbed,fpn-decoder,5,12,0.5867446703594927,0.6502836832769021,8,4,0,7

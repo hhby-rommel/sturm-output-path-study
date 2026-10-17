@@ -1,0 +1,360 @@
+{
+  "status": "HANDOFF_VERIFIED_LOCAL",
+  "time_utc": "2026-10-17T03:36:17.065212+00:00",
+  "files": [
+    {
+      "source": "experiments/checkpoint_threshold_validation_20261016_v1/checkpoint_admission.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\server_control\\checkpoint_admission.json",
+      "size": 3107,
+      "sha256": "b2ba6355b6732aab1e975823944d8fc40c4b968add2a51f6f0d475c801a70eca",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "experiments/checkpoint_threshold_validation_20261016_v1/completion.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\server_control\\completion.json",
+      "size": 381,
+      "sha256": "f057bde4436ff280bce967cabe7aefaae451d560c1077933fba0025c55a3cdd0",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "experiments/checkpoint_threshold_validation_20261016_v1/controller.log",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\server_control\\controller.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "experiments/checkpoint_threshold_validation_20261016_v1/controller.py",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\server_control\\controller.py",
+      "size": 6147,
+      "sha256": "5f568f0db29150dc2b4a5a4729a4ba3dec993df4c5c0d73dea70958ebff2d8b9",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "experiments/checkpoint_threshold_validation_20261016_v1/deployment_identity.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\server_control\\deployment_identity.json",
+      "size": 1724,
+      "sha256": "1b0fc79a2715cb1fd8224050a5b5511ffd9bd1a150ad44dbd67ebe6d757d795d",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "experiments/checkpoint_threshold_validation_20261016_v1/frozen_assets.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\server_control\\frozen_assets.json",
+      "size": 65466,
+      "sha256": "4c7afcd2e66f44543c99f77177ee3dee41f25947df46e8113fe56cbfcbcce77e",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "experiments/checkpoint_threshold_validation_20261016_v1/launch.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\server_control\\launch.json",
+      "size": 197,
+      "sha256": "254f9992f9ebac058a18f39ac14f008388bc39d80abddf446ede04302b8b9088",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "experiments/checkpoint_threshold_validation_20261016_v1/protocol.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\server_control\\protocol.json",
+      "size": 3288,
+      "sha256": "66e73245612b676788ab74d09a79c8da9b1299b95226212612a3869e1e09fe5b",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "experiments/checkpoint_threshold_validation_20261016_v1/status.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\server_control\\status.json",
+      "size": 47,
+      "sha256": "79ebf4a0301e153a2407577ddccdea05ea104cd37f30683f25af573174c6abcb",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "experiments/checkpoint_threshold_validation_20261016_v1/test.log",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\server_control\\test.log",
+      "size": 405,
+      "sha256": "e7d69962babe146440c2190bced35ef4a36ecab739f71a4a9f58a252f131a082",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "experiments/checkpoint_threshold_validation_20261016_v1/test_access_claim.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\server_control\\test_access_claim.json",
+      "size": 860,
+      "sha256": "7faf59ab9dd3ad40216a60197f6ebf763f44b46f0ac05bf61777e6a3eb98f1a2",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "experiments/checkpoint_threshold_validation_20261016_v1/test_frozen_thresholds.py",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\server_control\\test_frozen_thresholds.py",
+      "size": 10520,
+      "sha256": "98d7dfa5dcb7033a69fc7a513382cbca4d43a29573b9334b3499f22af0afad73",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "experiments/checkpoint_threshold_validation_20261016_v1/val.log",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\server_control\\val.log",
+      "size": 392,
+      "sha256": "beaa2c65e0718f6d64c433b51f8a62eb21e27e9b1416d8de532e2235088c88cc",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "experiments/checkpoint_threshold_validation_20261016_v1/validation.py",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\server_control\\validation.py",
+      "size": 12499,
+      "sha256": "ff94148cad6346edf3011889034bb601ff1cdfa680fd679eb0e3679958913bd9",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/test/authorization.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\test\\authorization.json",
+      "size": 286,
+      "sha256": "11f33251312af44acf8df22e421a5549bc21978c2542a0edf53943a35816ce9f",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/test/calibrated_counts.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\test\\calibrated_counts.json",
+      "size": 54927,
+      "sha256": "9608ad0d12227a1baee4987f67813770f4c138b69ae1f9e896d0fa209d9f0018",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/test/calibration_protocol_frozen.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\test\\calibration_protocol_frozen.json",
+      "size": 443,
+      "sha256": "3a1292bc14c90376d1b76fd3e261930d18ebbaf92b7d687214a42590210ba731",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/test/decoder_2029_reevaluation.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\test\\decoder_2029_reevaluation.json",
+      "size": 32647,
+      "sha256": "c87c7d26480ff3224c502d9b4e79213fb7955781d92f0ee5442987c81f4109fa",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/test/decoder_2030_reevaluation.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\test\\decoder_2030_reevaluation.json",
+      "size": 32668,
+      "sha256": "02bc5e891b0bf2059a7e164ffd9b7f56907db23a8939c5e776502a8b1fb7d42a",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/test/environment.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\test\\environment.json",
+      "size": 264,
+      "sha256": "ad57191415afcfcb726dbb32f70fe58629e4a5c1ea0bc25901607045ff69fa6a",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/test/evaluation_protocol.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\test\\evaluation_protocol.json",
+      "size": 481,
+      "sha256": "2b6b4297848bbc68ff7968e220b6166562d808f9b93719989f0a380fe8e32ba1",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/test/fpn_2029_reevaluation.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\test\\fpn_2029_reevaluation.json",
+      "size": 32658,
+      "sha256": "68966da56717743f3b3c416a50463ac342ac89f575d33a26ab136c928b9c73fb",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/test/fpn_2030_reevaluation.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\test\\fpn_2030_reevaluation.json",
+      "size": 32662,
+      "sha256": "fcd866b1fbd1fec1c7adfdf3a90e8a44ab8f810f9d167e95296c169896d0bf0d",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/test/frozen_assets.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\test\\frozen_assets.json",
+      "size": 64778,
+      "sha256": "76527740c92e1dc5fb5e7dafe610e581b829f33df5011e693fd424edcfc127fe",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/test/main_only_2029_reevaluation.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\test\\main_only_2029_reevaluation.json",
+      "size": 32664,
+      "sha256": "8076915898743ebf329d599d6a9cc2d483fe4745f9a01082d32b3b01658a1438",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/test/main_only_2030_reevaluation.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\test\\main_only_2030_reevaluation.json",
+      "size": 32684,
+      "sha256": "e4d9299c91c26ab7073f3c73259877f540c6d19699609e7eab66bcf36ae6d3be",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/test/progress.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\test\\progress.json",
+      "size": 129,
+      "sha256": "38b3cd6f2c3236dc1f48affd8c75dfd92da9f8ea5848571a2ffd739c23cfecd6",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/test/reevaluation_complete.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\test\\reevaluation_complete.json",
+      "size": 424,
+      "sha256": "2134b48cdc555484b3ea7cb5f2380aa23718bd8153c62a699f80f2d5c5a9f364",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/val/authorization.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\val\\authorization.json",
+      "size": 275,
+      "sha256": "5c40b2199aa3da3e8ba8e00e69b2deb8415b27ec6b67671fba0d0715e8d12152",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/val/decoder_2029_reevaluation.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\val\\decoder_2029_reevaluation.json",
+      "size": 32637,
+      "sha256": "a48af54f1d12925e88a2ba8e86668ad65e56c97e8e6d266cbb990f3254a5d3a9",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/val/decoder_2030_reevaluation.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\val\\decoder_2030_reevaluation.json",
+      "size": 32677,
+      "sha256": "9724cb45d5a6d22bffbda5a9356a18114f5afbf5f44c9a78ad974a23130b30eb",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/val/environment.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\val\\environment.json",
+      "size": 264,
+      "sha256": "28dd694cabd6a8336bda752d0085ce7580db41408f6569a9701b67e441cfcb61",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/val/evaluation_protocol.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\val\\evaluation_protocol.json",
+      "size": 481,
+      "sha256": "2b6b4297848bbc68ff7968e220b6166562d808f9b93719989f0a380fe8e32ba1",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/val/event_threshold_counts.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\val\\event_threshold_counts.json",
+      "size": 432781,
+      "sha256": "fe279ddb856876188e9dc8d4fb35e85f31ef13c02764e2f9b5b730f7c193d4eb",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/val/fpn_2029_reevaluation.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\val\\fpn_2029_reevaluation.json",
+      "size": 32658,
+      "sha256": "95b640e6a68d6161bed1999bf0f618c50408cd9150e202905eef2b866669ba00",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/val/fpn_2030_reevaluation.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\val\\fpn_2030_reevaluation.json",
+      "size": 32679,
+      "sha256": "0347745827d51bcd2e00a6b4c33df7657058fc2dfd05535e6ea72eb3324226ec",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/val/frozen_assets.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\val\\frozen_assets.json",
+      "size": 64778,
+      "sha256": "76527740c92e1dc5fb5e7dafe610e581b829f33df5011e693fd424edcfc127fe",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/val/main_only_2029_reevaluation.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\val\\main_only_2029_reevaluation.json",
+      "size": 32649,
+      "sha256": "1eacd8e52fa597a9c0581b6f46475fdb4211eb3f2f74f4b77ad6823a1a2a45e0",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/val/main_only_2030_reevaluation.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\val\\main_only_2030_reevaluation.json",
+      "size": 32663,
+      "sha256": "b73e57916ee34de0e2155d0386c7372720fd581933e34393ba62d9fe82aa0c9f",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/val/progress.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\val\\progress.json",
+      "size": 130,
+      "sha256": "d8fb350197e0f8760025e2296ee299152989d8018d4cf6099c34218c0fdc3bde",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/val/reevaluation_complete.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\val\\reevaluation_complete.json",
+      "size": 427,
+      "sha256": "b547a99c391cc8b0f7726fb940069490095f1d0931278eb1063b72e966214d7c",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/val/selected_thresholds_frozen.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\val\\selected_thresholds_frozen.json",
+      "size": 104112,
+      "sha256": "262422542a7d0f4adcb44afbe2e8077190e44862bd84960164562c6a51bc3037",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/val/selection_protocol_frozen.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\val\\selection_protocol_frozen.json",
+      "size": 901,
+      "sha256": "3231bcc169447ab5d698036f4c073f4616ddaee69e439360844eb9f43ff64592",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    },
+    {
+      "source": "results/checkpoint_threshold_validation_20261016_v1/val/threshold_freeze_receipt.json",
+      "destination": "C:\\Users\\hhby\\Desktop\\SA_YOLO26_STURM_Flood\\results\\checkpoint_threshold_validation_20261016_v1\\val\\threshold_freeze_receipt.json",
+      "size": 414,
+      "sha256": "6aa39ed0c25ac6e17096d7eaafdfc4631234b82df5e0c88f409cbd340bec36e2",
+      "conclusion": "MATCH",
+      "purpose": "Server-to-local result handoff integrity"
+    }
+  ],
+  "server_no_longer_needed": true,
+  "scope": "Completed six-checkpoint validation and frozen-threshold test results"
+}

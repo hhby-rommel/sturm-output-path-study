@@ -1,0 +1,10 @@
+{
+  "selection_sha256": "a59656118c5aa7c92360d28edf7e96d094ae25db52cf056d6ec3e0ad42ef7a1f",
+  "thresholds_source": "/root/autodl-tmp/sturm_codex_20260919/results/extent_calibration_val_20261011_v1/selected_thresholds_frozen.json",
+  "test_passes": 1,
+  "selection_on_test": false,
+  "test_grid_search": false,
+  "test_best_threshold": false,
+  "threshold_rule": "margin > log(tau/(1-tau)); ties background",
+  "training": false
+}

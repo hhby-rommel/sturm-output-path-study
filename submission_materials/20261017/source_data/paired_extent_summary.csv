@@ -1,0 +1,7 @@
+﻿condition,comparison,n_seeds,mean_difference_pp,paired_sample_sd_pp,improved_seeds,worsened_seeds,unchanged_seeds
+perturbed,decoder-main_only,5,-3.0696272764237214,5.71349111174824,4,1,0
+perturbed,fpn-main_only,5,-1.1857201294746682,4.616704099222001,3,2,0
+perturbed,fpn-decoder,5,1.8839071469490534,7.427062962191391,1,4,0
+clean,decoder-main_only,5,3.144761766406427,9.009183595042263,3,2,0
+clean,fpn-main_only,5,-0.6128287366478787,3.7678985954896556,2,3,0
+clean,fpn-decoder,5,-3.757590503054306,9.35223776780976,3,2,0

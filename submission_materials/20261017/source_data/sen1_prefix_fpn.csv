@@ -1,0 +1,21 @@
+﻿Condition/group,FPN F1,FPN−Nativepp,FPN−decoder pp
+clean/Ghana,0.6970,+0.029,+1.753
+clean/India,0.8354,-0.088,-0.256
+clean/Mekong,0.9174,+0.619,-0.405
+clean/Nigeria,0.9384,+0.446,+0.195
+clean/Pakistan,0.3356,+0.972,-0.342
+clean/Paraguay,0.7493,+5.617,+1.735
+clean/Somalia,0.6867,+5.219,+6.481
+clean/Spain,0.8184,+0.752,-0.849
+clean/Sri-Lanka,0.8942,-2.548,-3.044
+clean/USA,0.6822,+0.005,+1.407
+Perturbed/Ghana,0.6886,+0.224,+2.443
+Perturbed/India,0.8379,+0.451,+0.591
+Perturbed/Mekong,0.9183,+0.705,+0.042
+Perturbed/Nigeria,0.9366,+0.308,+0.515
+Perturbed/Pakistan,0.3285,+0.655,+0.080
+Perturbed/Paraguay,0.7592,+7.682,+0.334
+Perturbed/Somalia,0.6553,+3.713,+7.628
+Perturbed/Spain,0.8152,+0.139,-1.633
+Perturbed/Sri-Lanka,0.8999,-2.224,-2.055
+Perturbed/USA,0.6746,-0.345,-0.869

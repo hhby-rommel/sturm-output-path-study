@@ -1,5 +1,5 @@
 {
-  "version": "v1.0.1-paper-release",
+  "version": "v1.1.0-paper-submission",
   "evaluation_seed": 12026,
   "public_repository": "https://github.com/hhby-rommel/sturm-output-path-study",
   "checkpoint_SHA256": [
@@ -47,9 +47,39 @@
       "system": "fpn",
       "seed": 2028,
       "checkpoint_sha256": "076e59035bcef8a380469761e41dc55039c4495e948b8eb5d519d036a934e6ed"
+    },
+    {
+      "system": "main_only",
+      "seed": 2029,
+      "checkpoint_sha256": "51ba95b124695497172ff86d3eb7f8a02230cc530ede19fa50b380f5c8c44b46"
+    },
+    {
+      "system": "decoder",
+      "seed": 2029,
+      "checkpoint_sha256": "aee69946080ad8fbb78d0fd55a63ae0ec9cb33329e3b3f661c858dd67f601270"
+    },
+    {
+      "system": "fpn",
+      "seed": 2029,
+      "checkpoint_sha256": "e0f817b77e3845e421139e06ce94213e61cda51cbcb2be4547104fa878c79ffc"
+    },
+    {
+      "system": "main_only",
+      "seed": 2030,
+      "checkpoint_sha256": "6971df816e412d61db5d0cc96f4c4fb8ae7519f8d253c5309746e5f5922ac60d"
+    },
+    {
+      "system": "decoder",
+      "seed": 2030,
+      "checkpoint_sha256": "4b300987ccd62164a040c8021a6d5016f064a0d0876b8f19141159067a80841e"
+    },
+    {
+      "system": "fpn",
+      "seed": 2030,
+      "checkpoint_sha256": "6d86119621cbdfa852d43eb0d255eda1fdeceb6034054b79930749572c944b4d"
     }
   ],
-  "val_event_inference": "completed; nine frozen-model saved val event-count reports in val_event_counts_20261011.json; validation participated in checkpoint selection",
+  "val_event_inference": "Five-seed fixed-input validation event diagnostics; validation participated in checkpoint selection",
   "test_reports": "saved fixed-input reevaluation; no new test access in current analysis",
   "weights_included": false,
   "dataset_pixels_included": false,
@@ -91,17 +121,20 @@
     "latest_numeric_sources": "evidence_20261011_v17.json",
     "raw_val_event_counts": "val_event_counts_20261011.json",
     "saved_count_recompute": "recompute_public_evidence_20261011.py",
-    "archive_inventory": "archive_inventory.json"
+    "archive_inventory": "archive_inventory.json",
+    "five_seed_submission": "submission_materials/20261017/source_data",
+    "checkpoint_identities": "submission_materials/20261017/checkpoint_identities.json"
   },
   "coverage": {
-    "core_STURM_checkpoints": "nine SHA256 identities retained",
+    "core_STURM_checkpoints": "15 SHA256 identities retained for seeds 2026\u20132030",
     "STURM_test": "saved fixed-input evaluation only",
     "event_pairing": "direct FPN-decoder saved-count pairing; val/24-event descriptive",
     "Sen1_FPN": "three trained seeds; one frozen test each; BN system evidence",
     "Otsu": "four predeclared val schemes; frozen AND test once",
-    "threshold_transfer": "val selections frozen before one-time test",
+    "threshold_transfer": "Five-seed completed fixed12026 validation selection and frozen-threshold test; legacy records retained",
     "runtime_arithmetic": "same-session costs, main-operator scope and numerical failures",
-    "source_location": "Normal repository src/, scripts/, configs/ and data/splits/ tree; historical selected-source ZIP retained as immutable archive"
+    "source_location": "Normal repository src/, scripts/, configs/ and data/splits/ tree; historical selected-source ZIP retained as immutable archive",
+    "EMSR551_spatial": "15 checkpoints \u00d7 2 input conditions; 270 retained targets; 60 batch calls / 960 context tile instances; saved-count reconciliation in all 30 groups"
   },
   "environment": {
     "record": "environment_record.json",
@@ -109,9 +142,9 @@
     "dependencies": "requirements.txt",
     "scope": "recorded key versions/constraints plus explicitly identified reconstruction pins; no complete historical pip freeze or reinstall certification"
   },
-  "release_tag": "v1.0.1-paper-release",
+  "release_tag": "v1.1.0-paper-submission",
   "source_release_commit": "68c54fa655e4ff2656b968a5f9c8ffeb2aa76a93",
-  "release_commit_resolution": "Resolve refs/tags/v1.0.1-paper-release^{commit}; this file does not contain its own commit SHA",
+  "release_commit_resolution": "Resolve refs/tags/v1.1.0-paper-submission^{commit}; this file does not contain its own commit SHA",
   "source_location": "Normal repository src/, scripts/, configs/ and data/splits/ tree; historical selected-source ZIP retained as immutable archive",
   "source_files_role": "Historical ZIP source identities; current source hashes and origin mapping are in SOURCE_PROVENANCE.json",
   "current_source_manifest": "SOURCE_PROVENANCE.json",
@@ -119,5 +152,7 @@
     "LICENSE",
     "LICENSE_SCOPE.md",
     "THIRD_PARTY_NOTICES.md"
-  ]
+  ],
+  "submission_evidence": "submission_materials/20261017",
+  "submission_evidence_manifest": "submission_materials/20261017/FILE_MANIFEST.json"
 }

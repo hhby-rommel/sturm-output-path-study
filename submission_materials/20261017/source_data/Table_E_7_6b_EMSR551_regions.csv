@@ -1,0 +1,19 @@
+﻿Condition / path,Region,FP,FN,FP share (%),FN share (%)
+clean / Native,Boundary,193.2,6096.2,6.44,79.47
+clean / Native,Off-boundary,2679.4,816.4,86.71,10.61
+clean / Native,Excluded neighbourhood,207.8,760.8,6.85,9.92
+clean / Decoder,Boundary,223.2,5922.2,8.74,80.23
+clean / Decoder,Off-boundary,2368.2,676.0,84.60,9.06
+clean / Decoder,Excluded neighbourhood,187.0,789.8,6.67,10.72
+clean / FPN,Boundary,520.6,5443.0,9.04,81.52
+clean / FPN,Off-boundary,4974.4,472.8,85.58,7.01
+clean / FPN,Excluded neighbourhood,345.6,764.0,5.39,11.47
+perturbed / Native,Boundary,175.4,5302.8,6.30,79.03
+perturbed / Native,Off-boundary,2439.2,733.6,85.10,10.90
+perturbed / Native,Excluded neighbourhood,247.0,675.2,8.60,10.07
+perturbed / Decoder,Boundary,408.0,4862.6,7.89,80.88
+perturbed / Decoder,Off-boundary,4136.4,478.4,82.31,7.85
+perturbed / Decoder,Excluded neighbourhood,465.2,675.4,9.79,11.27
+perturbed / FPN,Boundary,613.0,4554.0,8.82,80.38
+perturbed / FPN,Off-boundary,6133.4,467.8,84.12,8.02
+perturbed / FPN,Excluded neighbourhood,560.8,653.2,7.05,11.60

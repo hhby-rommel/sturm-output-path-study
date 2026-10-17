@@ -1,0 +1,10 @@
+{
+  "checkpoint_condition_groups": 30,
+  "batches_per_group": 2,
+  "tiles_per_batch": 16,
+  "batch_forward_calls": 60,
+  "tile_instances": 960,
+  "retained_target_predictions": 270,
+  "evidence": "Executed source loop and passed 16-tile assertions; thirty completed log groups; saved completion and count reconciliation. Calls are inferred from the executed loop, not separately timed log entries.",
+  "new_model_calls_this_turn": 0
+}

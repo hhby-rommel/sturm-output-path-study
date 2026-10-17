@@ -1,0 +1,11 @@
+﻿item,old,new,action
+Pooled F1 gain,"Decoder+1.85pp; FPN+1.72pp, three seeds",Decoder+2.09pp (4/5 positive); FPN+1.14pp (5/5 positive),Update Abstract/Results/Conclusion and corresponding tables/figures only when authorized
+Event-level improvement,"FPN+1.61pp, Decoder+0.69pp","FPN+1.63pp, Decoder+1.13pp; both5/5 seed-positive, event coverage10/12 vs8/12",Update seed/event summaries and descriptive event intervals
+FPN stability,Unqualified FPN more stable,FPN paired event gain SD0.38pp vs Decoder0.96pp; Decoder absolute pooled F1 SD0.0079 < FPN0.0137,Define which stability quantity is meant; do not conflate metrics
+FPN vs Decoder event ranking,FPN event-macro F1 above Decoder in3/3 seeds,"FPN above Decoder in4/5 seeds, mean+0.50pp",Use mean ranking; update seed sign count
+Extent means,"33.21/33.36/33.63%, no extent improvement","Native34.51%, Decoder31.44%, FPN33.33%; paired changes-3.07pp and-1.19pp",Replace no-improvement statement with measured magnitude and seed/event dependence
+Bias SS partition,"Event92.4%, path0.8%, interaction6.8%","Event93.77%, path0.69%, interaction5.54%",Update as descriptive partition of five-seed-averaged signed bias; no causal interpretation
+EMSR551 hook,FPN+8.19pp; extent48.97% to53.20%,FPN+9.85pp; extent54.26% to55.03%; Decoder extent28.57%,Update case numerals and seed details; retain classification-versus-extent contrast with its actual small0.78pp extent rise
+Metric ranking,Extent Native > Decoder > FPN,Perturbed pooled: Decoder > FPN > Native; event-macro: FPN > Decoder > Native; extent lower-is-better: Decoder > FPN > Native,"Update ranking table, Table6 choices and Discussion; hardware ranking remains separate existing evidence"
+Validation reversal,Three-seed fixed-evaluation reversal,No new five-seed matched12026 validation evaluation in this work,Keep explicitly as three-seed evidence unless separately evaluated; do not relabel as five-seed
+Hardware / threshold checks / second source,Previously measured cohorts and checkpoints,Not newly measured by seed extension,Preserve original sample size and provenance; no automatic rerun

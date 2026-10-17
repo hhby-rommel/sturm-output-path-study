@@ -1,0 +1,7 @@
+﻿Condition,Path,Relative error,Bounded error
+clean,Native,35.32,47.85
+clean,Decoder,38.47,54.13
+clean,FPN,34.71,46.96
+perturbed,Native,34.51,46.74
+perturbed,Decoder,31.44,42.26
+perturbed,FPN,33.33,42.85

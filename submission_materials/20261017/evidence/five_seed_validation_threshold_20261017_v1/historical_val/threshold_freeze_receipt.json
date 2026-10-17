@@ -1,0 +1,7 @@
+{
+  "selection_sha256": "a59656118c5aa7c92360d28edf7e96d094ae25db52cf056d6ec3e0ad42ef7a1f",
+  "counts_sha256": "8f25c0fe59dc6fd73a7f6a03510af9dec06b52aa21c4f6034edd9c56f87d26f1",
+  "protocol_sha256": "3231bcc169447ab5d698036f4c073f4616ddaee69e439360844eb9f43ff64592",
+  "baseline_val_event_counts_equal": true,
+  "expected_input_stream_sha256": "75adf804be99a3694e30c5ebb9c09c5514ac2d94fde7a824555a370e3e98fce6"
+}

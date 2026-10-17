@@ -1,0 +1,12 @@
+{
+  "status": "SIX_CHECKPOINT_THRESHOLD_AND_VAL_EXTENSION_COMPLETE",
+  "training": false,
+  "validation_models": 6,
+  "threshold_units": 24,
+  "test_traversals": 1,
+  "checkpoint_reselection": false,
+  "selection_sha256": "262422542a7d0f4adcb44afbe2e8077190e44862bd84960164562c6a51bc3037",
+  "time_unix": 1792207555.1854372,
+  "paper_changed": false,
+  "release_published": false
+}

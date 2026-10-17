@@ -1,0 +1,5 @@
+﻿Criterion,Perturbed,Clean
+Pooled F1,Decoder 0.7801 (+0.95 pp vs FPN; 4/5 seeds),FPN 0.7665 (+0.29 pp vs decoder)
+Event-equal F1 gain over native,FPN +1.63 pp (10/12 events); decoder +1.13 pp (8/12),FPN +1.51 pp (10/12); decoder −0.01 pp (6/12)
+Extent error,Decoder 31.44% (FPN lowest without EMSR551),FPN 34.71% (native lowest without EMSR551; decoder highest)
+"CPU time (S1, four threads)",Native 9.84 ms,Native 9.84 ms

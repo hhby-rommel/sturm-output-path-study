@@ -1,0 +1,91 @@
+{
+  "status": "PREPARED_NOT_EXECUTED",
+  "created_utc": "2026-10-16T04:27:00.904506+00:00",
+  "current_authorization": "User: server later; complete local preparation now. Do not connect/power on/launch during this turn.",
+  "scope": "Only original Native/Decoder/FPN checkpoints for seeds2029,2030; no deterministic recovery checkpoints",
+  "stages": [
+    "one fixed12026 val traversal, simultaneously event counts and19 threshold histogram",
+    "freeze per-model/per-view/per-sensor thresholds under unchanged prior rules",
+    "one fixed12026 test traversal, evaluate only the two frozen threshold objectives; no test grid"
+  ],
+  "models": 6,
+  "seeds": [
+    2029,
+    2030
+  ],
+  "paths": [
+    "main_only",
+    "decoder",
+    "fpn"
+  ],
+  "views": [
+    "clean",
+    "degraded"
+  ],
+  "initialization": "Strict load frozen existing model states; eval/inference_mode; no updates",
+  "validation": {
+    "tiles": 4853,
+    "events": 12,
+    "thresholds": [
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95
+    ],
+    "extent_rule": "within minimum MARE+1pp then closest0.5, then larger tau",
+    "F1_rule": "highest pooled F1 then closest0.5 then larger tau",
+    "granularity": "model,seed,sensor,condition",
+    "new_threshold_units": 24,
+    "zero_reference": "Relative objective uses defined events with zero-reference counts retained",
+    "stream_reference": "/root/autodl-tmp/sturm_codex_20260919/results/val_event_counts_20261010_v1/reevaluation_complete.json"
+  },
+  "test": {
+    "tiles": 4863,
+    "events": 12,
+    "traversals": 1,
+    "threshold_search": false,
+    "exclusive_claim": "C/test_access_claim.json, created with exclusive x before any test images are read",
+    "baseline": "All overall/per-sensor/per-event confusion counts must match saved six-checkpoint fixed12026 evaluation exactly",
+    "stream_reference": "/root/autodl-tmp/sturm_codex_20260919/results/eval12026_extension_20261015_v1"
+  },
+  "evaluation_seed": 12026,
+  "original_forward_backend": {
+    "torch": "2.1.0+cu121",
+    "GPU": "NVIDIA GeForce RTX 4090 D",
+    "threads": 4,
+    "cudnn_tf32": true,
+    "matmul_tf32": false,
+    "benchmark": false,
+    "deterministic": false,
+    "deterministic_algorithms": false
+  },
+  "after_success": "Local merge with existing nine-model validation and threshold-transfer records; event-paired seed averaging then equal event weights",
+  "success": "Six val completions,24 frozen threshold units, six one-pass calibrated test reports, exact stream and baseline counts match",
+  "stop": "First identity/count/stream mismatch or process error; no automatic retry/test repetition or protocol relaxation",
+  "forbidden": [
+    "training",
+    "checkpoint reselection",
+    "new seed/model/backbone",
+    "five-fold",
+    "paper edits before results",
+    "overwrite historical outputs",
+    "release old tag rewrite"
+  ],
+  "optional_spatial": "Not queued; no half-day budget started",
+  "release": "Local candidate only until new inference succeeds and final result/source checks complete"
+}

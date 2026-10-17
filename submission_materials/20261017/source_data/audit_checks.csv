@@ -1,0 +1,200 @@
+﻿check,status,detail
+15_unique_assets,PASS,Three paths x five seeds; current Decoder2029 chosen by user
+historical_new_input_stream,PASS,Reuse existing stream receipts; no new hashes
+prior_decoder_engine_compatibility,PASS,Reuse prior recorded compatibility check; not rerun here
+main_only_2026_budget,PASS,Requested max50
+main_only_2026_optimizer,PASS,Result metadata explicitly records optimizer and frozen BN
+main_only_2026_selection,PASS,Reconstructed from every saved validation epoch with original tie rule
+main_only_2026_history_and_stop,PASS,"History complete; patience10 stopping, budget includes resumed epochs"
+main_only_2026_initialization,PASS,Registered compatible initialization record
+main_only_2026_frozen_epoch,PASS,Historical frozen checkpoint registration matches saved selection
+main_only_2027_budget,PASS,Requested max50
+main_only_2027_optimizer,PASS,Result metadata explicitly records optimizer and frozen BN
+main_only_2027_selection,PASS,Reconstructed from every saved validation epoch with original tie rule
+main_only_2027_history_and_stop,PASS,"History complete; patience10 stopping, budget includes resumed epochs"
+main_only_2027_initialization,PASS,Registered compatible initialization record
+main_only_2027_frozen_epoch,PASS,Historical frozen checkpoint registration matches saved selection
+main_only_2028_budget,PASS,Requested max50
+main_only_2028_optimizer,PASS,Result metadata explicitly records optimizer and frozen BN
+main_only_2028_selection,PASS,Reconstructed from every saved validation epoch with original tie rule
+main_only_2028_history_and_stop,PASS,"History complete; patience10 stopping, budget includes resumed epochs"
+main_only_2028_initialization,PASS,Registered compatible initialization record
+main_only_2028_frozen_epoch,PASS,Historical frozen checkpoint registration matches saved selection
+main_only_2029_budget,PASS,Requested max50
+main_only_2029_optimizer,PASS,Result metadata explicitly records optimizer and frozen BN
+main_only_2029_selection,PASS,Reconstructed from every saved validation epoch with original tie rule
+main_only_2029_history_and_stop,PASS,"History complete; patience10 stopping, budget includes resumed epochs"
+main_only_2029_initialization,PASS,Registered compatible initialization record
+main_only_2029_frozen_epoch,PASS,Supplementary frozen asset matches completed training selection
+main_only_2030_budget,PASS,Requested max50
+main_only_2030_optimizer,PASS,Result metadata explicitly records optimizer and frozen BN
+main_only_2030_selection,PASS,Reconstructed from every saved validation epoch with original tie rule
+main_only_2030_history_and_stop,PASS,"History complete; patience10 stopping, budget includes resumed epochs"
+main_only_2030_initialization,PASS,Registered compatible initialization record
+main_only_2030_frozen_epoch,PASS,Supplementary frozen asset matches completed training selection
+decoder_2026_budget,PASS,Requested max50
+decoder_2026_historical_optimizer,PASS,Missing newer JSON fields resolved by existing checkpoint audit and archived historical source
+decoder_2026_selection,PASS,Reconstructed from every saved validation epoch with original tie rule
+decoder_2026_history_and_stop,PASS,"History complete; patience10 stopping, budget includes resumed epochs"
+decoder_2026_initialization,PASS,Registered compatible initialization record
+decoder_2026_frozen_epoch,PASS,Historical frozen checkpoint registration matches saved selection
+decoder_2027_budget,PASS,Requested max50
+decoder_2027_historical_optimizer,PASS,Missing newer JSON fields resolved by existing checkpoint audit and archived historical source
+decoder_2027_selection,PASS,Reconstructed from every saved validation epoch with original tie rule
+decoder_2027_history_and_stop,PASS,"History complete; patience10 stopping, budget includes resumed epochs"
+decoder_2027_initialization,PASS,Registered compatible initialization record
+decoder_2027_frozen_epoch,PASS,Historical frozen checkpoint registration matches saved selection
+decoder_2028_budget,PASS,Requested max50
+decoder_2028_historical_optimizer,PASS,Missing newer JSON fields resolved by existing checkpoint audit and archived historical source
+decoder_2028_selection,PASS,Reconstructed from every saved validation epoch with original tie rule
+decoder_2028_history_and_stop,PASS,"History complete; patience10 stopping, budget includes resumed epochs"
+decoder_2028_initialization,PASS,Registered compatible initialization record
+decoder_2028_frozen_epoch,PASS,Historical frozen checkpoint registration matches saved selection
+decoder_2029_budget,PASS,Requested max50
+decoder_2029_optimizer,PASS,Result metadata explicitly records optimizer and frozen BN
+decoder_2029_selection,PASS,Reconstructed from every saved validation epoch with original tie rule
+decoder_2029_history_and_stop,PASS,"History complete; patience10 stopping, budget includes resumed epochs"
+decoder_2029_initialization,PASS,Registered compatible initialization record
+decoder_2029_frozen_epoch,PASS,Supplementary frozen asset matches completed training selection
+decoder_2030_budget,PASS,Requested max50
+decoder_2030_optimizer,PASS,Result metadata explicitly records optimizer and frozen BN
+decoder_2030_selection,PASS,Reconstructed from every saved validation epoch with original tie rule
+decoder_2030_history_and_stop,PASS,"History complete; patience10 stopping, budget includes resumed epochs"
+decoder_2030_initialization,PASS,Registered compatible initialization record
+decoder_2030_frozen_epoch,PASS,Supplementary frozen asset matches completed training selection
+fpn_2026_checkpoint_identity,PASS,Existing frozen best digest equals training completion; not recomputed
+fpn_2026_selection,PASS,Reconstructed from every saved validation epoch with original tie rule
+fpn_2026_history_and_stop,PASS,"History complete; patience10 stopping, budget includes resumed epochs"
+fpn_2026_initialization,PASS,Registered compatible initialization record
+fpn_2027_checkpoint_identity,PASS,Existing frozen best digest equals training completion; not recomputed
+fpn_2027_selection,PASS,Reconstructed from every saved validation epoch with original tie rule
+fpn_2027_history_and_stop,PASS,"History complete; patience10 stopping, budget includes resumed epochs"
+fpn_2027_initialization,PASS,Registered compatible initialization record
+fpn_2028_checkpoint_identity,PASS,Existing frozen best digest equals training completion; not recomputed
+fpn_2028_selection,PASS,Reconstructed from every saved validation epoch with original tie rule
+fpn_2028_history_and_stop,PASS,"History complete; patience10 stopping, budget includes resumed epochs"
+fpn_2028_initialization,PASS,Registered compatible initialization record
+fpn_2029_checkpoint_identity,PASS,Existing frozen best digest equals training completion; not recomputed
+fpn2029_restored_state,PASS,Resume receipt: model/optimizer/RNG/sampler/history/selection/patience; no future bitwise trajectory claim
+fpn_2029_selection,PASS,Reconstructed from every saved validation epoch with original tie rule
+fpn_2029_history_and_stop,PASS,"History complete; patience10 stopping, budget includes resumed epochs"
+fpn_2029_initialization,PASS,Registered compatible initialization record
+fpn_2029_frozen_epoch,PASS,Supplementary frozen asset matches completed training selection
+fpn_2030_checkpoint_identity,PASS,Existing frozen best digest equals training completion; not recomputed
+fpn_2030_selection,PASS,Reconstructed from every saved validation epoch with original tie rule
+fpn_2030_history_and_stop,PASS,"History complete; patience10 stopping, budget includes resumed epochs"
+fpn_2030_initialization,PASS,Registered compatible initialization record
+fpn_2030_frozen_epoch,PASS,Supplementary frozen asset matches completed training selection
+fpn_five_seed_protocol_lock,PASS,All five run identities share protocol and execution lock; only seed/resume entry differs
+native_five_seed_config_sources,PASS,Existing provenance maps identical across all five Native runs
+root_workspace_split_equivalence,PASS,"Compare parsed rows, not relocation-dependent path hashes"
+event_disjoint_36_12_12,PASS,"One original split, no new split"
+main_only_2026_evaluation_stream,PASS,Uniform paper sample-identity stream
+main_only_2026_clean_events,PASS,"All12 held-out events, no duplicate event IDs"
+main_only_2026_clean_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+main_only_2026_clean_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+main_only_2026_perturbed_events,PASS,"All12 held-out events, no duplicate event IDs"
+main_only_2026_perturbed_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+main_only_2026_perturbed_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+main_only_2027_evaluation_stream,PASS,Uniform paper sample-identity stream
+main_only_2027_clean_events,PASS,"All12 held-out events, no duplicate event IDs"
+main_only_2027_clean_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+main_only_2027_clean_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+main_only_2027_perturbed_events,PASS,"All12 held-out events, no duplicate event IDs"
+main_only_2027_perturbed_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+main_only_2027_perturbed_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+main_only_2028_evaluation_stream,PASS,Uniform paper sample-identity stream
+main_only_2028_clean_events,PASS,"All12 held-out events, no duplicate event IDs"
+main_only_2028_clean_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+main_only_2028_clean_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+main_only_2028_perturbed_events,PASS,"All12 held-out events, no duplicate event IDs"
+main_only_2028_perturbed_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+main_only_2028_perturbed_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+main_only_2029_evaluation_stream,PASS,Uniform paper sample-identity stream
+main_only_2029_clean_events,PASS,"All12 held-out events, no duplicate event IDs"
+main_only_2029_clean_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+main_only_2029_clean_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+main_only_2029_perturbed_events,PASS,"All12 held-out events, no duplicate event IDs"
+main_only_2029_perturbed_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+main_only_2029_perturbed_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+main_only_2030_evaluation_stream,PASS,Uniform paper sample-identity stream
+main_only_2030_clean_events,PASS,"All12 held-out events, no duplicate event IDs"
+main_only_2030_clean_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+main_only_2030_clean_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+main_only_2030_perturbed_events,PASS,"All12 held-out events, no duplicate event IDs"
+main_only_2030_perturbed_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+main_only_2030_perturbed_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+decoder_2026_evaluation_stream,PASS,Uniform paper sample-identity stream
+decoder_2026_clean_events,PASS,"All12 held-out events, no duplicate event IDs"
+decoder_2026_clean_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+decoder_2026_clean_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+decoder_2026_perturbed_events,PASS,"All12 held-out events, no duplicate event IDs"
+decoder_2026_perturbed_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+decoder_2026_perturbed_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+decoder_2027_evaluation_stream,PASS,Uniform paper sample-identity stream
+decoder_2027_clean_events,PASS,"All12 held-out events, no duplicate event IDs"
+decoder_2027_clean_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+decoder_2027_clean_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+decoder_2027_perturbed_events,PASS,"All12 held-out events, no duplicate event IDs"
+decoder_2027_perturbed_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+decoder_2027_perturbed_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+decoder_2028_evaluation_stream,PASS,Uniform paper sample-identity stream
+decoder_2028_clean_events,PASS,"All12 held-out events, no duplicate event IDs"
+decoder_2028_clean_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+decoder_2028_clean_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+decoder_2028_perturbed_events,PASS,"All12 held-out events, no duplicate event IDs"
+decoder_2028_perturbed_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+decoder_2028_perturbed_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+decoder_2029_evaluation_stream,PASS,Uniform paper sample-identity stream
+decoder_2029_clean_events,PASS,"All12 held-out events, no duplicate event IDs"
+decoder_2029_clean_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+decoder_2029_clean_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+decoder_2029_perturbed_events,PASS,"All12 held-out events, no duplicate event IDs"
+decoder_2029_perturbed_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+decoder_2029_perturbed_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+decoder_2030_evaluation_stream,PASS,Uniform paper sample-identity stream
+decoder_2030_clean_events,PASS,"All12 held-out events, no duplicate event IDs"
+decoder_2030_clean_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+decoder_2030_clean_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+decoder_2030_perturbed_events,PASS,"All12 held-out events, no duplicate event IDs"
+decoder_2030_perturbed_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+decoder_2030_perturbed_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+fpn_2026_evaluation_stream,PASS,Uniform paper sample-identity stream
+fpn_2026_clean_events,PASS,"All12 held-out events, no duplicate event IDs"
+fpn_2026_clean_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+fpn_2026_clean_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+fpn_2026_perturbed_events,PASS,"All12 held-out events, no duplicate event IDs"
+fpn_2026_perturbed_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+fpn_2026_perturbed_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+fpn_2027_evaluation_stream,PASS,Uniform paper sample-identity stream
+fpn_2027_clean_events,PASS,"All12 held-out events, no duplicate event IDs"
+fpn_2027_clean_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+fpn_2027_clean_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+fpn_2027_perturbed_events,PASS,"All12 held-out events, no duplicate event IDs"
+fpn_2027_perturbed_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+fpn_2027_perturbed_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+fpn_2028_evaluation_stream,PASS,Uniform paper sample-identity stream
+fpn_2028_clean_events,PASS,"All12 held-out events, no duplicate event IDs"
+fpn_2028_clean_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+fpn_2028_clean_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+fpn_2028_perturbed_events,PASS,"All12 held-out events, no duplicate event IDs"
+fpn_2028_perturbed_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+fpn_2028_perturbed_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+fpn_2029_evaluation_stream,PASS,Uniform paper sample-identity stream
+fpn_2029_clean_events,PASS,"All12 held-out events, no duplicate event IDs"
+fpn_2029_clean_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+fpn_2029_clean_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+fpn_2029_perturbed_events,PASS,"All12 held-out events, no duplicate event IDs"
+fpn_2029_perturbed_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+fpn_2029_perturbed_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+fpn_2030_evaluation_stream,PASS,Uniform paper sample-identity stream
+fpn_2030_clean_events,PASS,"All12 held-out events, no duplicate event IDs"
+fpn_2030_clean_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+fpn_2030_clean_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+fpn_2030_perturbed_events,PASS,"All12 held-out events, no duplicate event IDs"
+fpn_2030_perturbed_per_event_conservation,PASS,Disjoint group counts sum to overall counts
+fpn_2030_perturbed_per_sensor_conservation,PASS,Disjoint group counts sum to overall counts
+all_domains_and_count_derived_f1,PASS,All15 reference foreground counts and valid-pixel counts agree; F1 reconstructed from integer counts. Spatial input identity is supported separately by existing stream receipts.
+exported_per_run_statistics,PASS,Independent count-based recomputation agrees with all30 exported rows
+exported_mean_and_ddof1_sd,PASS,All18 mean/sample-SD combinations agree with independent recomputation
+native_decoder_actual_batch16_commands,PASS,Explicit batch16 or archived parser default16 in Native/Decoder provenance; FPN source recipe batch16

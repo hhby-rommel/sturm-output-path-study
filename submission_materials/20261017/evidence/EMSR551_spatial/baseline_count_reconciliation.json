@@ -1,0 +1,272 @@
+[
+  {
+    "model": "main_only_2026",
+    "condition": "clean",
+    "tiles": 9,
+    "TP": 350,
+    "FP": 2896,
+    "FN": 7760,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "main_only_2026",
+    "condition": "degraded",
+    "tiles": 9,
+    "TP": 338,
+    "FP": 3236,
+    "FN": 6758,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "decoder_2026",
+    "condition": "clean",
+    "tiles": 9,
+    "TP": 792,
+    "FP": 1762,
+    "FN": 7318,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "decoder_2026",
+    "condition": "degraded",
+    "tiles": 9,
+    "TP": 1084,
+    "FP": 4404,
+    "FN": 6012,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "fpn_2026",
+    "condition": "clean",
+    "tiles": 9,
+    "TP": 2216,
+    "FP": 9318,
+    "FN": 5894,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "fpn_2026",
+    "condition": "degraded",
+    "tiles": 9,
+    "TP": 2334,
+    "FP": 13218,
+    "FN": 4762,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "main_only_2027",
+    "condition": "clean",
+    "tiles": 9,
+    "TP": 491,
+    "FP": 4994,
+    "FN": 7619,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "main_only_2027",
+    "condition": "degraded",
+    "tiles": 9,
+    "TP": 399,
+    "FP": 4196,
+    "FN": 6697,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "decoder_2027",
+    "condition": "clean",
+    "tiles": 9,
+    "TP": 19,
+    "FP": 210,
+    "FN": 8091,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "decoder_2027",
+    "condition": "degraded",
+    "tiles": 9,
+    "TP": 297,
+    "FP": 2227,
+    "FN": 6799,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "fpn_2027",
+    "condition": "clean",
+    "tiles": 9,
+    "TP": 1078,
+    "FP": 5736,
+    "FN": 7032,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "fpn_2027",
+    "condition": "degraded",
+    "tiles": 9,
+    "TP": 1008,
+    "FP": 6746,
+    "FN": 6088,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "main_only_2028",
+    "condition": "clean",
+    "tiles": 9,
+    "TP": 753,
+    "FP": 2382,
+    "FN": 7357,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "main_only_2028",
+    "condition": "degraded",
+    "tiles": 9,
+    "TP": 664,
+    "FP": 2030,
+    "FN": 6432,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "decoder_2028",
+    "condition": "clean",
+    "tiles": 9,
+    "TP": 1094,
+    "FP": 3813,
+    "FN": 7016,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "decoder_2028",
+    "condition": "degraded",
+    "tiles": 9,
+    "TP": 1226,
+    "FP": 4902,
+    "FN": 5870,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "fpn_2028",
+    "condition": "clean",
+    "tiles": 9,
+    "TP": 1130,
+    "FP": 3506,
+    "FN": 6980,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "fpn_2028",
+    "condition": "degraded",
+    "tiles": 9,
+    "TP": 1024,
+    "FP": 3860,
+    "FN": 6072,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "main_only_2029",
+    "condition": "clean",
+    "tiles": 9,
+    "TP": 320,
+    "FP": 2158,
+    "FN": 7790,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "main_only_2029",
+    "condition": "degraded",
+    "tiles": 9,
+    "TP": 187,
+    "FP": 1707,
+    "FN": 6909,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "decoder_2029",
+    "condition": "clean",
+    "tiles": 9,
+    "TP": 1135,
+    "FP": 4282,
+    "FN": 6975,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "decoder_2029",
+    "condition": "degraded",
+    "tiles": 9,
+    "TP": 1236,
+    "FP": 5422,
+    "FN": 5860,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "fpn_2029",
+    "condition": "clean",
+    "tiles": 9,
+    "TP": 1705,
+    "FP": 7618,
+    "FN": 6405,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "fpn_2029",
+    "condition": "degraded",
+    "tiles": 9,
+    "TP": 1969,
+    "FP": 9856,
+    "FN": 5127,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "main_only_2030",
+    "condition": "clean",
+    "tiles": 9,
+    "TP": 269,
+    "FP": 2972,
+    "FN": 7841,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "main_only_2030",
+    "condition": "degraded",
+    "tiles": 9,
+    "TP": 334,
+    "FP": 3139,
+    "FN": 6762,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "decoder_2030",
+    "condition": "clean",
+    "tiles": 9,
+    "TP": 570,
+    "FP": 3825,
+    "FN": 7540,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "decoder_2030",
+    "condition": "degraded",
+    "tiles": 9,
+    "TP": 1555,
+    "FP": 8093,
+    "FN": 5541,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "fpn_2030",
+    "condition": "clean",
+    "tiles": 9,
+    "TP": 1022,
+    "FP": 3025,
+    "FN": 7088,
+    "baseline_counts_equal": true
+  },
+  {
+    "model": "fpn_2030",
+    "condition": "degraded",
+    "tiles": 9,
+    "TP": 770,
+    "FP": 2856,
+    "FN": 6326,
+    "baseline_counts_equal": true
+  }
+]

@@ -1,0 +1,4 @@
+﻿system,sensor,batch,threads,measured_latency_ms,sequential_tiles,calculated_forward_seconds,provenance
+Native,S1,1,4,9.836,1000,9.836,Main Table5; three-checkpoint measured mean; excludes I/O and other scene processing
+Decoder,S1,1,4,14.063,1000,14.063,Main Table5; three-checkpoint measured mean; excludes I/O and other scene processing
+FPN,S1,1,4,18.9,1000,18.9,Main Table5; three-checkpoint measured mean; excludes I/O and other scene processing

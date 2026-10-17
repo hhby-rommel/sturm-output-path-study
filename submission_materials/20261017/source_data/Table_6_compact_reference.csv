@@ -1,0 +1,8 @@
+﻿System,Parameters (M),Perturbed F1,"GPU B1 (ms, S1)","CPU B1 (ms, S1)",F1_training_seed_count,hardware_scope
+Native carrier,1.666,0.7592±0.0121,5.782±0.455,9.836±0.587,5,original measurements; unchanged
+Decoder,1.714,0.7801±0.0079,6.933±0.394,14.063±0.255,5,original measurements; unchanged
+FPN,1.714,0.7706±0.0137,6.587±0.362,18.900±1.210,5,original measurements; unchanged
+U-Net-v2 dual experts,69.030,0.7417±0.0164,1.641,96.8,3,original measurements; unchanged
+YOLOv12 lightweight semantic output,1.505,0.7514±0.0346,9.492±0.081,—,3,original measurements; unchanged
+DeepLabV3+-style/MobileNetV3 adaptation,11.723,0.6990±0.0288,—,—,3,original measurements; unchanged
+SegFormer-B0,3.715,0.7176±0.0302,—,—,3,original measurements; unchanged

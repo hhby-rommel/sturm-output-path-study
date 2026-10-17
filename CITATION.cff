@@ -3,8 +3,8 @@ message: "Please cite this research source and numerical evidence artifact when 
 title: "STURM output-path study: research source and numerical evidence"
 authors:
   - name: "hhby-rommel"
-version: "v1.0.1-paper-release"
-date-released: "2026-10-11"
+version: v1.1.0-paper-submission
+date-released: "2026-10-17"
 license: "AGPL-3.0-or-later"
 url: "https://github.com/hhby-rommel/sturm-output-path-study"
 repository-code: "https://github.com/hhby-rommel/sturm-output-path-study"
