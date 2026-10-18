@@ -1,0 +1,40 @@
+{
+  "model_id": "yolo26n_native_c16_main_only",
+  "status": "CODE_PREPARED_NOT_TRAINING",
+  "pretraining": {
+    "matched_keys": 359,
+    "skipped_shape_keys": 5,
+    "skipped_name_keys": 0,
+    "target_keys": 364,
+    "control": "native_main_only_no_high_resolution_decoder",
+    "supervision": "main_only",
+    "auxiliary_logits_used_in_loss": false,
+    "historical_native_metrics_reusable": false
+  },
+  "training_variant": "m1_degraded",
+  "max_epochs": 50,
+  "patience": 10,
+  "optimizer": {
+    "version": "optimizer_v1",
+    "optimizer": "adamw",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0001,
+    "scheduler": "none",
+    "warmup_fraction": 0.0,
+    "minimum_lr_ratio": 1.0,
+    "exclude_norm_and_bias_from_weight_decay": false,
+    "track_parameter_update": false
+  },
+  "freeze_bn_running_stats": true,
+  "parameters": 1666180,
+  "formal_training_started": false,
+  "test_inference_started": false,
+  "source_sha256": {
+    "scripts/server_main.py": "e25f3f94eff656cd3fe3d8245f9659172e388ab270c1063e5b64dab25046a1aa",
+    "src/models/yolo26_main_only_control.py": "bb22310671c4a845626041b0ac491e2d271c3fff531760d5cc8ca44ca2aa4fa5",
+    "src/models/yolo26_unet_decoder.py": "5b81f1431152373057c46602e31e4372f3018a3bc1246bb0a44aa81e78def60c",
+    "src/training/engine.py": "71b3dc8e7f43ce63ae46e0266e5a2f72bdca8753b3128116e902faf15b82e824",
+    "src/training/masked_segmentation.py": "9c1e55045e5d0fed8ca1a09a90c21e3a31e352fe1e4d5dd3cf96ec5ee0aba52e",
+    "configs/project.yaml": "2cd2b12f4765fb8bc478cca6779ba59f9cd0ddad790ee096833879a642d283ad"
+  }
+}

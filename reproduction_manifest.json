@@ -1,5 +1,5 @@
 {
-  "version": "v1.1.0-paper-submission",
+  "version": "v1.1.1-aoi-area",
   "evaluation_seed": 12026,
   "public_repository": "https://github.com/hhby-rommel/sturm-output-path-study",
   "checkpoint_SHA256": [
@@ -142,9 +142,9 @@
     "dependencies": "requirements.txt",
     "scope": "recorded key versions/constraints plus explicitly identified reconstruction pins; no complete historical pip freeze or reinstall certification"
   },
-  "release_tag": "v1.1.0-paper-submission",
+  "release_tag": "v1.1.1-aoi-area",
   "source_release_commit": "68c54fa655e4ff2656b968a5f9c8ffeb2aa76a93",
-  "release_commit_resolution": "Resolve refs/tags/v1.1.0-paper-submission^{commit}; this file does not contain its own commit SHA",
+  "release_commit_resolution": "Resolve refs/tags/v1.1.1-aoi-area^{commit}; this file does not contain its own commit SHA",
   "source_location": "Normal repository src/, scripts/, configs/ and data/splits/ tree; historical selected-source ZIP retained as immutable archive",
   "source_files_role": "Historical ZIP source identities; current source hashes and origin mapping are in SOURCE_PROVENANCE.json",
   "current_source_manifest": "SOURCE_PROVENANCE.json",
@@ -154,5 +154,17 @@
     "THIRD_PARTY_NOTICES.md"
   ],
   "submission_evidence": "submission_materials/20261017",
-  "submission_evidence_manifest": "submission_materials/20261017/FILE_MANIFEST.json"
+  "submission_evidence_manifest": "submission_materials/20261017/FILE_MANIFEST.json",
+  "previous_fixed_release": {
+    "tag": "v1.1.0-paper-submission",
+    "commit": "ee8672abf3ad032144248ecb0abf573af9dd60bd"
+  },
+  "AOI_area": {
+    "source_data": "source_data/fixed_AOI_area",
+    "script": "reproducibility/AOI_area/recompute_AOI_area.py",
+    "execution_record": "source_data/fixed_AOI_area/execution_record.json",
+    "manifest": "AOI_area_release_manifest.json",
+    "rows": 6
+  },
+  "initialization_and_input_evidence": "evidence/initialization_and_inputs"
 }

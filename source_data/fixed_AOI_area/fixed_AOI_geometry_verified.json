@@ -1,0 +1,32 @@
+{
+  "S1": {
+    "tiles": 304,
+    "CRS": "EPSG:32635",
+    "projected_unit": "metre",
+    "pixel_width_m": 10.0,
+    "pixel_height_m": 10.0,
+    "projected_pixel_area_m2": 100.0,
+    "valid_tile_pixels": 4980735,
+    "unique_valid_pixels": 4980735,
+    "overlap_valid_pixels": 0,
+    "max_overlap": 1,
+    "reference_foreground_tile_pixels": 1587100,
+    "canvas_width": 3456,
+    "canvas_height": 2560
+  },
+  "S2": {
+    "tiles": 122,
+    "CRS": "EPSG:32635",
+    "projected_unit": "metre",
+    "pixel_width_m": 10.0,
+    "pixel_height_m": 10.0,
+    "projected_pixel_area_m2": 100.0,
+    "valid_tile_pixels": 1998720,
+    "unique_valid_pixels": 1998720,
+    "overlap_valid_pixels": 0,
+    "max_overlap": 1,
+    "reference_foreground_tile_pixels": 377911,
+    "canvas_width": 2944,
+    "canvas_height": 2560
+  }
+}

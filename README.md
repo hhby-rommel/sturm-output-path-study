@@ -57,3 +57,7 @@ Metadata correction **v1.0.1-paper-release** supersedes v1.0-paper-release for c
 ## Five-seed paper-submission evidence (v1.1.0)
 
 See [submission_materials/20261017](submission_materials/20261017/) for the 15-checkpoint identity registry, five-seed source tables, completed validation/threshold-transfer outputs and EMSR551 case-level FP/FN analysis. Historical release tags are preserved. This release adds saved evidence and scripts; it does not run experiments.
+
+## AOI area archive v1.1.1-aoi-area
+
+Adds the six-row fixed AOI mapped-water area evaluation used in Supplement Table G.4. Raw scene counts, geometry, selection and checkpoint records, calculated results and execution record are in [source_data/fixed_AOI_area/](source_data/fixed_AOI_area/). Run the [standard-library recomputation script](reproducibility/AOI_area/README.md) from a checkout. The new files and their integrity hashes are listed in [AOI_area_release_manifest.json](AOI_area_release_manifest.json); earlier inventories describe their historical snapshots. Initialisation and stored-input audit evidence is in [evidence/initialization_and_inputs/](evidence/initialization_and_inputs/). Earlier fixed tags are unchanged.

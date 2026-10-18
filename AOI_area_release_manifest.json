@@ -1,0 +1,96 @@
+{
+  "tag": "v1.1.1-aoi-area",
+  "created_at": "2026-10-18T10:29:48.823108+00:00",
+  "purpose": "Identity and integrity boundary for the new fixed AOI archive payload",
+  "previous_tag": "v1.1.0-paper-submission",
+  "files": [
+    {
+      "path": "evidence/initialization_and_inputs/input_value_range_training.csv",
+      "bytes": 1900,
+      "sha256": "c3f3b31731e5ce282c40886cfdf41b8e4e18d0dab669036dcc27a654c87863a7"
+    },
+    {
+      "path": "evidence/initialization_and_inputs/input_value_range_training_audit.json",
+      "bytes": 5621,
+      "sha256": "b8605cf619fb6893d2b5f2124a43e86680f587883c55288f0d480952c7d918cd"
+    },
+    {
+      "path": "evidence/initialization_and_inputs/native_contract.json",
+      "bytes": 1610,
+      "sha256": "6e3dd7900f6dbde74786820db77c94110875a2b02d52ecf5a69940abd34a984e"
+    },
+    {
+      "path": "evidence/initialization_and_inputs/native_server_cuda_check.json",
+      "bytes": 541,
+      "sha256": "d8c34d1047e7e7e6c5f8d2db08018b5d357e4ff09b7a373945f2288ad22cc8fd"
+    },
+    {
+      "path": "evidence/initialization_and_inputs/README.md",
+      "bytes": 565,
+      "sha256": "acba3cc04e6a9fe97b121fb81fdb736c75804ff8ad4a0ab03cd57958862662b9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6321,
+      "sha256": "fe7c7794f6f626502c553c3cb6b0eda4881aa67cc74a8060568462b769406f79"
+    },
+    {
+      "path": "reproducibility/AOI_area/README.md",
+      "bytes": 689,
+      "sha256": "4421342d63475a8d33191cd86a59ca3c228a3e49c22ec56579b42a9a73aabafd"
+    },
+    {
+      "path": "reproducibility/AOI_area/recompute_AOI_area.py",
+      "bytes": 4012,
+      "sha256": "c7f76568aaa76ab9ff6f2746449c5aebc9c05581f147d7c434752f293afbf1c8"
+    },
+    {
+      "path": "reproduction_manifest.json",
+      "bytes": 7403,
+      "sha256": "42fc0b5857d7d7d0d51050031fd0d8e06e5e596fad6a3d4aa521bf12f48a7ae0"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/AOI_area_evaluation.csv",
+      "bytes": 1575,
+      "sha256": "9ac407f52eee0c9a3e0586be2855db563e400ccf74430511870e2f75b4632920"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_record.json",
+      "bytes": 546,
+      "sha256": "5605dfed8ca829e7e8592bfb800ebbaf863c9a8a304e95a8044d4fd83b0f2aca"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/fixed_AOI_existing_workflow_results.csv",
+      "bytes": 1430,
+      "sha256": "ab6c4362ca446065d4bdb2a2ee5c86cc9e0682c50b37810304272ecfe3ff7471"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/fixed_AOI_geometry_verified.json",
+      "bytes": 846,
+      "sha256": "f7d74a5cc33ccac0d4a3802006329e604f0388f8ff3cd8b5b2e44a9fafb479ff"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/frozen_assets.json",
+      "bytes": 30838,
+      "sha256": "3d4d3737ad56e94c37f4b7b2954cf3361a6dfce2bbc0970788c87774d90c4166"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/S1_scene_report.json",
+      "bytes": 6022,
+      "sha256": "0109b998e224f4053e95758fc22cf9486463c6e0c32f63ffc115296497c9cf79"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/S2_scene_report.json",
+      "bytes": 3355,
+      "sha256": "814eccb91371f9aa96bf9f835d9789e7d3ddd1946d89fac0ddb67b83feac3053"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/selection_frozen.json",
+      "bytes": 6080,
+      "sha256": "a51e0a4c9e392685fae7fe2dd5d3e3fd06143901683d49e964b33d645f7947b2"
+    }
+  ],
+  "recomputation": "PASS; all six rows reproduced; source_data/fixed_AOI_area/execution_record.json",
+  "training": false,
+  "inference": false
+}

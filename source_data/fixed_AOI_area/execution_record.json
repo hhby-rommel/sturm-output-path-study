@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "rows": 6,
+  "table": "Supplement Table G.4",
+  "checks": [
+    "Pixel area and metre-based CRS",
+    "Unique valid coverage and zero overlap",
+    "Three-way TP/FP/FN reconciliation",
+    "Reference/predicted area and signed/absolute error",
+    "Common per-sensor coverage across three paths",
+    "All archived result columns reproduced"
+  ],
+  "python": "3.12.14",
+  "executed_at": "2026-10-18T10:04:38.185255+00:00",
+  "training": false,
+  "inference": false,
+  "raw_image_or_label_access": false
+}
