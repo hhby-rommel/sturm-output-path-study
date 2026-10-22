@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "rows": 30,
+  "groups": 6,
+  "source": "Original-grid prediction GeoTIFFs and reference masks; pixel counts reconciled with each scene report",
+  "seed2027": "Reused, no new inference",
+  "same_coverage_across_paths_and_seeds": true
+}

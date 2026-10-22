@@ -1,0 +1,349 @@
+{
+  "tag": "v1.1.2-aoi-five-seed",
+  "base_commit": "b965f66e0c5267f9d91be451eba5f641522c6ae6",
+  "files": [
+    {
+      "path": "README.md",
+      "size": 7129,
+      "sha256": "c65b33f2682ed7a9550b7aa68529d510d36a530b40f2d5836a4bfd94db1bb025",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "reproducibility/AOI_area/README.md",
+      "size": 1633,
+      "sha256": "28e7e72c6cb2a848a3ca70f24079ed5cdadc769a9ecc0375787615e9186c4e7b",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "reproducibility/AOI_area/recompute_AOI_area.py",
+      "size": 4892,
+      "sha256": "4b4678169e92f65729cf18cbd8bfa833984e4fbda243a3b7660c708b64ec4b82",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "reproducibility/AOI_area/execution_source/original_server_scene_demo_20261010.py",
+      "size": 8198,
+      "sha256": "c262addb614077144c704e6a7236cf99f7e43d7d40416c481ed7d918a907b3c7",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "reproducibility/AOI_area/execution_source/seed2026.py",
+      "size": 8444,
+      "sha256": "c0598ffb3190b24390f6c68bec1bf0bab34eaf03080e852882c17d47bf4c7293",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "reproducibility/AOI_area/execution_source/seed2028.py",
+      "size": 8444,
+      "sha256": "839ae335c3c533ce4cca21a7d44737dc2c0836d511c64ab24d56b522b8e7a472",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "reproducibility/AOI_area/execution_source/seed2029.py",
+      "size": 8444,
+      "sha256": "c744a0324e47bde24a266ac7ce533971ff56f6b71c1437b9cc98c8e97c38872b",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "reproducibility/AOI_area/execution_source/seed2030.py",
+      "size": 8444,
+      "sha256": "8b8dee50c2500024db27ec11176cc82e0e34e4189aef1db4d6c621e49a3157f5",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "reproducibility/AOI_area/execution_source/server_AOI_five_seed_20261021.py",
+      "size": 6978,
+      "sha256": "8b82e148101936500bd38677321eb89853d06b1add7abd9dcdff17e3a42a76c0",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "reproducibility/AOI_area/recompute_single_seed_legacy.py",
+      "size": 4012,
+      "sha256": "c7f76568aaa76ab9ff6f2746449c5aebc9c05581f147d7c434752f293afbf1c8",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/AOI_area_all_five_seeds.csv",
+      "size": 7213,
+      "sha256": "f69e7062b6cca235772d75c3908a7b65ceffc127b11715f5df0e529d0ae46181",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/AOI_area_five_seed_summary.csv",
+      "size": 1960,
+      "sha256": "612e453cc331849c5770f61720bd673c60690b201511f94f5aad2017dc009e97",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/area_verification.json",
+      "size": 259,
+      "sha256": "8e706a97bb12ea7df9ece14d4d1f8f9617b6b3e5e2ee537748c1ae4000f1d01e",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/completion.json",
+      "size": 298,
+      "sha256": "f362003a9bfe24e19b33b51d41dd3d48a7b2e8d94f2a89aad75e79ad7de10b8f",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/preflight.json",
+      "size": 7687,
+      "sha256": "71feaa535ee30083798f66b7eaa2747e5ed4f83cc05f74c9a539f981274215ce",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/progress.json",
+      "size": 112,
+      "sha256": "cd36eba8395475ec49a773363ce468700acacd24f189e4af3727c40fbe286df9",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/protocol.json",
+      "size": 1664,
+      "sha256": "c5df0e8897134929b8e3eb2a290c5ef835857406165296d957c04876e6293644",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2026/S1/scene_report.json",
+      "size": 6028,
+      "sha256": "25f3c6802668e6fb1e80df3b698e82539bfcf945bb7c69b5ac99567eca6d63e1",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2026/S2/scene_report.json",
+      "size": 3355,
+      "sha256": "e1d99db8f95c6c54c1102b82a10c2a69ac95aa12aefe5ce79935f6d11e088ce3",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2026/completion.json",
+      "size": 6059,
+      "sha256": "2df82337104c6ec2fedb8bea4b7badab28a9928f79f299bb4426ddf6c24d75c5",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2026/frozen_assets.json",
+      "size": 31147,
+      "sha256": "f4d35ee12d2f91550a3ecbfd0aef613a57cde0d90fbe43b7a1a3d747c7b3d5f3",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2026/progress.json",
+      "size": 135,
+      "sha256": "7b611f3d8fb6bc9b3962e7974a9ac5eaa9523e99415f14589bd043e0597a4db9",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2026/protocol_frozen_before_predictions.json",
+      "size": 686,
+      "sha256": "222fc6cce7735ca04613e90578e0b191461dd51d670bbca955fc51488b231394",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2026/selection_frozen.json",
+      "size": 6080,
+      "sha256": "a51e0a4c9e392685fae7fe2dd5d3e3fd06143901683d49e964b33d645f7947b2",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2027/S1/scene_report.json",
+      "size": 6022,
+      "sha256": "0109b998e224f4053e95758fc22cf9486463c6e0c32f63ffc115296497c9cf79",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2027/S2/scene_report.json",
+      "size": 3355,
+      "sha256": "814eccb91371f9aa96bf9f835d9789e7d3ddd1946d89fac0ddb67b83feac3053",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2028/S1/scene_report.json",
+      "size": 6026,
+      "sha256": "ec3f1e3633ad5f62b6986863296cfbd5b79b8855ea16097a1f842860771e5120",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2028/S2/scene_report.json",
+      "size": 3357,
+      "sha256": "033a830f825953ef11b4507d3d5de1c1cfd0aeb31089d63a2e035f9939bd4354",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2028/completion.json",
+      "size": 6057,
+      "sha256": "890a2d8c3440680bce1d697f9506395dd55101b86287cc20546473297bbc2bce",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2028/frozen_assets.json",
+      "size": 31151,
+      "sha256": "1ce17f688fcf663dee06c05fc36f5733b91fb5e123282b51e1af0ffa58f74c67",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2028/progress.json",
+      "size": 135,
+      "sha256": "7b611f3d8fb6bc9b3962e7974a9ac5eaa9523e99415f14589bd043e0597a4db9",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2028/protocol_frozen_before_predictions.json",
+      "size": 686,
+      "sha256": "9d872c1e4e2493280c891203bdbd5f916ca7021dd76eddd39b2a337043ac6f6a",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2028/selection_frozen.json",
+      "size": 6080,
+      "sha256": "a51e0a4c9e392685fae7fe2dd5d3e3fd06143901683d49e964b33d645f7947b2",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2029/S1/scene_report.json",
+      "size": 6029,
+      "sha256": "e917f56100e0f234413cc24ffb885d038c107bab0632a2077992dbf5afc47b29",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2029/S2/scene_report.json",
+      "size": 3360,
+      "sha256": "58ffa3a0fbcaaa75eb31ccd868a1476f85c5693dba559059c967554458dea644",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2029/completion.json",
+      "size": 6058,
+      "sha256": "e6642b9e1b6184899d4f77e65e152f19c97c45164f9a983ace939332fb559dd2",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2029/frozen_assets.json",
+      "size": 32397,
+      "sha256": "a134a1370eb4284bf36acd5ac7b79b9bbd8d3cd25c3074ac47fa2e571062ab01",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2029/progress.json",
+      "size": 135,
+      "sha256": "7b611f3d8fb6bc9b3962e7974a9ac5eaa9523e99415f14589bd043e0597a4db9",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2029/protocol_frozen_before_predictions.json",
+      "size": 686,
+      "sha256": "ccac22dc29b7a2853c7b0bbc1db74eb7e45a3e5ef1d0670d3371777286b6601e",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2029/selection_frozen.json",
+      "size": 6080,
+      "sha256": "a51e0a4c9e392685fae7fe2dd5d3e3fd06143901683d49e964b33d645f7947b2",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2030/S1/scene_report.json",
+      "size": 6031,
+      "sha256": "870734330089cad06ed1d79f34fef72a39a2453e3db97afed05129cecb02b20e",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2030/S2/scene_report.json",
+      "size": 3359,
+      "sha256": "bbdf2aaa704757406d3ec62ceaf702ed824be382f432f9615c560c049ee6110e",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2030/completion.json",
+      "size": 6059,
+      "sha256": "6257b62a2e03e4712070b5b390622adfcde43a3cd5c8e36788b9ad81203b01f6",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2030/frozen_assets.json",
+      "size": 32384,
+      "sha256": "1bbb0dd01fa5c913f14f9e797e580b82049bfae4a41a7c2bb577229b7c5bf48b",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2030/progress.json",
+      "size": 135,
+      "sha256": "7b611f3d8fb6bc9b3962e7974a9ac5eaa9523e99415f14589bd043e0597a4db9",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2030/protocol_frozen_before_predictions.json",
+      "size": 686,
+      "sha256": "91a06a3049a89cb585404ef9e4dfc7853fa0fcd8be7cd29e48db7163b5aae61a",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/execution_records/seed2030/selection_frozen.json",
+      "size": 6080,
+      "sha256": "a51e0a4c9e392685fae7fe2dd5d3e3fd06143901683d49e964b33d645f7947b2",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/five_seed_checkpoint_identities.json",
+      "size": 4505,
+      "sha256": "7d3147efa339e88a1c8129b2a053ef3aa819e8b4bdb75baa65539d6e4f13cbec",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    },
+    {
+      "path": "source_data/fixed_AOI_area/five_seed_local_handoff_receipt.json",
+      "size": 630,
+      "sha256": "71f301ec5743237af2f5cb6a6f9a95edbb941e5ed898fb608323a454b85811f9",
+      "purpose": "Five-seed AOI publication payload handoff",
+      "time_utc": "2026-10-22T09:21:09.073364+00:00"
+    }
+  ]
+}

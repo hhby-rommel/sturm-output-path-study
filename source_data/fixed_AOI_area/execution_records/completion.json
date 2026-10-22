@@ -1,0 +1,16 @@
+{
+  "status": "FIVE_SEED_AOI_AREA_COMPLETE",
+  "new_seeds": [
+    2026,
+    2028,
+    2029,
+    2030
+  ],
+  "reused_seed": 2027,
+  "new_model_sensor_rows": 24,
+  "final_rows": 30,
+  "summary_rows": 6,
+  "training": false,
+  "checkpoint_reselection": false,
+  "elapsed_seconds": 62.82864475250244
+}

@@ -1,0 +1,160 @@
+{
+  "status": "PREFLIGHT_PASS",
+  "time_utc": "2026-10-21T15:48:04.113295+00:00",
+  "torch": "2.1.0+cu121",
+  "rasterio": "1.4.4",
+  "GPU": "NVIDIA GeForce RTX 4090 D",
+  "checkpoint_admission": [
+    {
+      "system": "main_only",
+      "seed": 2026,
+      "path": "/root/autodl-tmp/sturm_codex_20260919/results/decoder_main_only_control_20261002_v1/yolo26n_native_c16_main_only/2026/formal/best.pt",
+      "sha256": "72568a1f8fa587e1b6e190518fd27a5dbe983c50fc1d6b545fd443bb8bf20eca",
+      "purpose": "Formal checkpoint identity at new AOI inference handoff",
+      "time_utc": "2026-10-21T15:48:03.374744+00:00",
+      "conclusion": "MATCH"
+    },
+    {
+      "system": "decoder",
+      "seed": 2026,
+      "path": "/root/autodl-tmp/sturm_codex_20260919/results/formal/yolo26n_decoder/2026/formal/best.pt",
+      "sha256": "03e422d80e059a3d4a04ef02f169caba4353d03a74ce5d671520e8b34192ff63",
+      "purpose": "Formal checkpoint identity at new AOI inference handoff",
+      "time_utc": "2026-10-21T15:48:03.413535+00:00",
+      "conclusion": "MATCH"
+    },
+    {
+      "system": "fpn",
+      "seed": 2026,
+      "path": "/root/autodl-tmp/sturm_codex_20260919/experiments/followup_server_20261008_v1/workspace/results/fpn_reference_formal_20261008_v1/seed2026/best.pt",
+      "sha256": "da1e06f3772e2ec9895db3213cde65c750f11a1d789d2fe914db6c0fa413e6d3",
+      "purpose": "Formal checkpoint identity at new AOI inference handoff",
+      "time_utc": "2026-10-21T15:48:03.457081+00:00",
+      "conclusion": "MATCH"
+    },
+    {
+      "system": "main_only",
+      "seed": 2027,
+      "path": "/root/autodl-tmp/sturm_codex_20260919/results/decoder_main_only_control_20261002_v1/yolo26n_native_c16_main_only/2027/formal/best.pt",
+      "sha256": "21748e6d447d2e817a3a008184222f53615e21bd68e2e73b62d3fbd4b22bf69d",
+      "purpose": "Formal checkpoint identity at new AOI inference handoff",
+      "time_utc": "2026-10-21T15:48:03.538723+00:00",
+      "conclusion": "MATCH"
+    },
+    {
+      "system": "decoder",
+      "seed": 2027,
+      "path": "/root/autodl-tmp/sturm_codex_20260919/results/yolo2027_second_20260927/yolo26n_decoder/2027/formal/best.pt",
+      "sha256": "0ddaa2423ebfbcad9d2e296de55e834d75f30664c48c23e9a0237aae8b39c063",
+      "purpose": "Formal checkpoint identity at new AOI inference handoff",
+      "time_utc": "2026-10-21T15:48:03.577431+00:00",
+      "conclusion": "MATCH"
+    },
+    {
+      "system": "fpn",
+      "seed": 2027,
+      "path": "/root/autodl-tmp/sturm_codex_20260919/experiments/followup_server_20261008_v1/workspace/results/fpn_reference_formal_20261008_v1/seed2027/best.pt",
+      "sha256": "95d810b6ee6cac8a82c233e9c421842e008db6d9a17539c8d8ccc49f33d365ed",
+      "purpose": "Formal checkpoint identity at new AOI inference handoff",
+      "time_utc": "2026-10-21T15:48:03.653279+00:00",
+      "conclusion": "MATCH"
+    },
+    {
+      "system": "main_only",
+      "seed": 2028,
+      "path": "/root/autodl-tmp/sturm_codex_20260919/results/decoder_main_only_control_20261002_v1/yolo26n_native_c16_main_only/2028/formal/best.pt",
+      "sha256": "784a041d6eab1d82c0be07a844bf56a141ec409c91712845991d6c6cd02f38a8",
+      "purpose": "Formal checkpoint identity at new AOI inference handoff",
+      "time_utc": "2026-10-21T15:48:03.693006+00:00",
+      "conclusion": "MATCH"
+    },
+    {
+      "system": "decoder",
+      "seed": 2028,
+      "path": "/root/autodl-tmp/sturm_codex_20260919/results/formal/yolo26n_decoder/2028/formal/best.pt",
+      "sha256": "5f3b1f720784946a7f1671a0551fea23875d2fab4f647eb9aea4bccf1bd8bae2",
+      "purpose": "Formal checkpoint identity at new AOI inference handoff",
+      "time_utc": "2026-10-21T15:48:03.744187+00:00",
+      "conclusion": "MATCH"
+    },
+    {
+      "system": "fpn",
+      "seed": 2028,
+      "path": "/root/autodl-tmp/sturm_codex_20260919/experiments/followup_server_20261008_v1/workspace/results/fpn_reference_formal_20261008_v1/seed2028/best.pt",
+      "sha256": "076e59035bcef8a380469761e41dc55039c4495e948b8eb5d519d036a934e6ed",
+      "purpose": "Formal checkpoint identity at new AOI inference handoff",
+      "time_utc": "2026-10-21T15:48:03.783767+00:00",
+      "conclusion": "MATCH"
+    },
+    {
+      "system": "main_only",
+      "seed": 2029,
+      "path": "/root/autodl-tmp/sturm_codex_20260919/results/native_seed_extension_20261015_v1/yolo26n_native_c16_main_only/2029/formal/best.pt",
+      "sha256": "51ba95b124695497172ff86d3eb7f8a02230cc530ede19fa50b380f5c8c44b46",
+      "purpose": "Formal checkpoint identity at new AOI inference handoff",
+      "time_utc": "2026-10-21T15:48:03.822467+00:00",
+      "conclusion": "MATCH"
+    },
+    {
+      "system": "decoder",
+      "seed": 2029,
+      "path": "/root/autodl-tmp/sturm_codex_20260919/results/decoder2029_repeat_20261015_v1/yolo26n_decoder/2029/formal/best.pt",
+      "sha256": "aee69946080ad8fbb78d0fd55a63ae0ec9cb33329e3b3f661c858dd67f601270",
+      "purpose": "Formal checkpoint identity at new AOI inference handoff",
+      "time_utc": "2026-10-21T15:48:03.903158+00:00",
+      "conclusion": "MATCH"
+    },
+    {
+      "system": "fpn",
+      "seed": 2029,
+      "path": "/root/autodl-tmp/sturm_codex_20260919/experiments/followup_server_20261008_v1/workspace/results/decoder_fpn_seed_extension_20261015_v1/fpn/seed2029_resume_20261015_v1/best.pt",
+      "sha256": "e0f817b77e3845e421139e06ce94213e61cda51cbcb2be4547104fa878c79ffc",
+      "purpose": "Formal checkpoint identity at new AOI inference handoff",
+      "time_utc": "2026-10-21T15:48:03.969882+00:00",
+      "conclusion": "MATCH"
+    },
+    {
+      "system": "main_only",
+      "seed": 2030,
+      "path": "/root/autodl-tmp/sturm_codex_20260919/results/native_seed_extension_20261015_v1/yolo26n_native_c16_main_only/2030/formal/best.pt",
+      "sha256": "6971df816e412d61db5d0cc96f4c4fb8ae7519f8d253c5309746e5f5922ac60d",
+      "purpose": "Formal checkpoint identity at new AOI inference handoff",
+      "time_utc": "2026-10-21T15:48:04.010112+00:00",
+      "conclusion": "MATCH"
+    },
+    {
+      "system": "decoder",
+      "seed": 2030,
+      "path": "/root/autodl-tmp/sturm_codex_20260919/results/decoder_fpn_seed_extension_20261015_v1/yolo26n_decoder/2030/formal/best.pt",
+      "sha256": "4b300987ccd62164a040c8021a6d5016f064a0d0876b8f19141159067a80841e",
+      "purpose": "Formal checkpoint identity at new AOI inference handoff",
+      "time_utc": "2026-10-21T15:48:04.046603+00:00",
+      "conclusion": "MATCH"
+    },
+    {
+      "system": "fpn",
+      "seed": 2030,
+      "path": "/root/autodl-tmp/sturm_codex_20260919/experiments/followup_server_20261008_v1/workspace/results/decoder_fpn_seed_extension_20261015_v1/fpn/seed2030/best.pt",
+      "sha256": "6d86119621cbdfa852d43eb0d255eda1fdeceb6034054b79930749572c944b4d",
+      "purpose": "Formal checkpoint identity at new AOI inference handoff",
+      "time_utc": "2026-10-21T15:48:04.112349+00:00",
+      "conclusion": "MATCH"
+    }
+  ],
+  "original_source_admission": [
+    {
+      "path": "/root/autodl-tmp/sturm_codex_20260919/scripts/server_scene_demo_20261010.py",
+      "sha256": "c262addb614077144c704e6a7236cf99f7e43d7d40416c481ed7d918a907b3c7",
+      "purpose": "Original AOI implementation compatibility at new inference handoff",
+      "time_utc": "2026-10-21T15:46:30.377141+00:00",
+      "conclusion": "MATCH"
+    },
+    {
+      "path": "/root/autodl-tmp/sturm_codex_20260919/scripts/server_output_path_followup_20261010.py",
+      "sha256": "c0415d748d5b2172f1262520d0bce3258bde775125e1321b6ab93d64ac68ea7e",
+      "purpose": "Original AOI implementation compatibility at new inference handoff",
+      "time_utc": "2026-10-21T15:46:30.377141+00:00",
+      "conclusion": "MATCH"
+    }
+  ]
+}

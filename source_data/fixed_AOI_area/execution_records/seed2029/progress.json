@@ -1,0 +1,8 @@
+{
+  "stage": "scene_inference",
+  "sensor": "S2",
+  "event": "EMSR292",
+  "system": "fpn",
+  "tiles_done": 122,
+  "tiles_total": 122
+}

@@ -1,0 +1,19 @@
+{
+  "scope": "one S1 and one S2 available event/AOI tile mosaic; workflow illustration, not new generalization evidence",
+  "selection": "per sensor choose lexicographically first test event; then AOI/CRS group with most tiles, lexicographic tie break",
+  "seed": 2029,
+  "systems": [
+    "main_only",
+    "decoder",
+    "fpn"
+  ],
+  "condition": "clean",
+  "overlap": "arithmetic mean of two-class logits over valid contributions",
+  "GT_overlap": "reject conflicting valid labels",
+  "outside_coverage": "nodata255",
+  "training": false,
+  "checkpoint_reselection": false,
+  "test_access": true,
+  "scene_identity_frozen_before_inference": true,
+  "maximum_canvas_pixels": 40000000
+}

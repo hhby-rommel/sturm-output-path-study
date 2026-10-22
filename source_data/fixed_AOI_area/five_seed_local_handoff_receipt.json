@@ -1,0 +1,18 @@
+{
+  "status": "FIVE_SEED_AOI_COMPLETE_LOCAL",
+  "time_utc": "2026-10-21T15:53:03.104720+00:00",
+  "archive": {
+    "path": "/root/autodl-tmp/sturm_codex_20260919/experiments/AOI_five_seed_20261021_v1/result_handoff.tar.gz",
+    "size": 100955688,
+    "sha256": "4dbbf096caa61796a14e4d0d08cb4d67c95f62f019ea281fceb81876d389b11e",
+    "files": 132,
+    "purpose": "Transfer archive integrity",
+    "time_utc": "2026-10-21T15:50:32.425460+00:00"
+  },
+  "files_verified": 132,
+  "baseline_2027_counts_equal": true,
+  "summary_recomputed": true,
+  "rows": 30,
+  "summary_rows": 6,
+  "server_no_longer_needed": true
+}

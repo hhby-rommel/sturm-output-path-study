@@ -1,0 +1,54 @@
+{
+  "human_authorized": true,
+  "authorization": "User opened server and explicitly asked to calculate remaining AOI seeds",
+  "time_utc": "2026-10-21T15:46:30.377141+00:00",
+  "event": "EMSR292",
+  "AOI": "01CHRISOUPOLI",
+  "new_seeds": [
+    2026,
+    2028,
+    2029,
+    2030
+  ],
+  "reused_seed": 2027,
+  "systems": [
+    "main_only",
+    "decoder",
+    "fpn"
+  ],
+  "sensors": [
+    "S1",
+    "S2"
+  ],
+  "condition": "clean",
+  "new_prediction_rows": 24,
+  "final_rows": 30,
+  "target_forwards": 5112,
+  "tiles": {
+    "S1": 304,
+    "S2": 122
+  },
+  "batch": 16,
+  "input_dtype": "float32",
+  "output_rule": "Bilinear native 16x16 to 128x128, align_corners=False; valid-weight mean logits; argmax",
+  "reference_rule": "Existing dataset loader and frozen selection; original grid, 100 m2 pixels; separate sensor footprints",
+  "success": [
+    "Identical selection to original frozen AOI",
+    "All checkpoint identities match saved formal assets",
+    "Strict full-state loading, original constructors",
+    "24 new model/sensor/seed reports complete",
+    "Seed 2027 archived rasters reproduce original counts",
+    "All paths within each sensor share coverage and reference counts",
+    "30 rows and six sample-mean/SD summaries"
+  ],
+  "stop": [
+    "First source, checkpoint, environment or selection mismatch",
+    "First nonfinite prediction or runtime error",
+    "No alternative seed or checkpoint; no automatic retries"
+  ],
+  "training": false,
+  "checkpoint_reselection": false,
+  "other_events": false,
+  "publication_or_manuscript_update": false,
+  "existing_results_overwritten": false
+}
